@@ -57,6 +57,23 @@ module.exports = function Cosplayer(dispatch) {
 	// ### Magic ### //
 	// ############# //
 
+	// apply appearance to character selection
+	dispatch.hook('S_GET_USER_LIST', 2, event => {
+		// for every character on log-in
+		for (let index in event.characters) {
+			// if character is in config, update appearance
+			player = event.characters[index].name
+			if (presets[player] && presets[player].id != 0) {
+				external = presets[player]
+				// for each appearance slot, update cosmetics to preset
+				for (let appearance_type of ['hairAdornment', 'mask', 'back', 'weaponSkin', 'weaponEnchant', 'costume', 'costumeDye']) {
+					event.characters[index][appearance_type] = presets[player][appearance_type]
+				}
+			}
+		}
+		return true
+	})
+
 	dispatch.hook('S_LOGIN', 1, event => {
 		({cid} = event)
 		player = event.name
