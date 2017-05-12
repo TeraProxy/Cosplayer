@@ -21,10 +21,6 @@ The following commands are supported:
 * pantsu - switch between innerwear and costume
 * enchant [0-15] - change weapon enchant glow, e.g. enchant 13
 * undress - goes back to your actual look
-* head - switch between big and normal head
-* height [x] - changes your height to x, default is 0, e.g. height -3
-* thighs [x] - changes your thighs to x, default is 0, e.g. thighs -3
-* chest [x] - changes your chest to x, default is 0, e.g. chest -3
   
 Any other input returns a summary of above commands in the game.
   
