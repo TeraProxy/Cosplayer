@@ -1,10 +1,6 @@
 // based on elin-magic by Pinkie Pie and cosplay-ex by Bernkastel
 
-const CONTRACT_DRESSING_ROOM = 76,
-	HEAD_ID = 7000001,
-	GROW_ID = 7000005,
-	THIGH_ID = 7000014,
-	CHEST_ID = 7000012
+const CONTRACT_DRESSING_ROOM = 76
 
 module.exports = function Cosplayer(dispatch) {
 	const Scanner = require('./scanner')
@@ -18,9 +14,7 @@ module.exports = function Cosplayer(dispatch) {
 		inDressup = false,
 		inDye = false,
 		lastTooltip = 0,
-		lastTooltipTime = 0,
-		stack,
-		headstate = false
+		lastTooltipTime = 0
 		
 	// ################## //
 	// ### Save Stuff ### //
@@ -67,6 +61,22 @@ module.exports = function Cosplayer(dispatch) {
 			external.id = cid
 		}
 	})
+	
+	dispatch.hook('S_GET_USER_LIST', 2, event => {
+        for (let index in event.characters) {
+            if(presets[event.characters[index].name] && presets[event.characters[index].name].id != 0){
+                event.characters[index].face = presets[event.characters[index].name].face;
+				event.characters[index].hairAdornment = presets[event.characters[index].name].hairAdornment;
+				event.characters[index].mask = presets[event.characters[index].name].mask;
+				event.characters[index].back = presets[event.characters[index].name].back;
+				event.characters[index].weaponSkin = presets[event.characters[index].name].weaponSkin;
+				event.characters[index].weaponEnchant = presets[event.characters[index].name].weaponEnchant;
+				event.characters[index].costume = presets[event.characters[index].name].costume;
+				event.characters[index].unk35 = presets[event.characters[index].name].costumeDye;
+            }
+        }
+		return true
+    })
 
 	dispatch.hook('S_USER_EXTERNAL_CHANGE', 1, event => {
 		if(event.id.equals(cid)) {
@@ -109,12 +119,12 @@ module.exports = function Cosplayer(dispatch) {
 	})
 	
 	dispatch.hook('C_ITEM_COLORING_SET_COLOR', 1, (event) => {
-		var color = Number('0x'+event.alpha.toString(16)+event.red.toString(16)+event.green.toString(16)+event.blue.toString(16));
-		external.costumeDye = color;
-		presets[player] = external;
-		presetUpdate();
-		inDye = true;
-	});
+		let color = Number('0x'+event.alpha.toString(16)+event.red.toString(16)+event.green.toString(16)+event.blue.toString(16))
+		external.costumeDye = color
+		presets[player] = external
+		presetUpdate()
+		inDye = true
+	})
 	
 	dispatch.hook('S_REQUEST_CONTRACT', 1, event => {
 		if(event.type == CONTRACT_DRESSING_ROOM) {
@@ -170,6 +180,16 @@ module.exports = function Cosplayer(dispatch) {
 			return false
 		}
 	})
+	
+    dispatch.hook('S_UNICAST_TRANSFORM_DATA', 'raw', (code, data) => {
+        setTimeout(function() {
+			if(presets[player] && presets[player].id != 0) {
+				external = presets[player]
+				external.id = cid
+				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			}
+		}, 19000)
+    })
 	
 	// ######################## //
 	// ### Helper Functions ### //
@@ -236,35 +256,7 @@ module.exports = function Cosplayer(dispatch) {
 			presetUpdate()
 		}
 	}
-	
-	function applyAppearanceChange(cid, shapeid, stack) {
-		dispatch.toClient('S_ABNORMALITY_BEGIN', 2, {
-			target: cid,
-			source: cid,
-			id: shapeid,
-			duration: 864000000,
-			unk: 0,
-			stacks: stack,
-			unk2: 0,
-		})
-	}
-	
-	function removeAppearanceChange(cid, shapeid, stack) {
-		dispatch.toClient('S_ABNORMALITY_BEGIN', 2, {
-			target: cid,
-			source: cid,
-			id: shapeid,
-			duration: 864000000,
-			unk: 0,
-			stacks: stack,
-			unk2: 0,
-		})
-		dispatch.toClient('S_ABNORMALITY_END', 1, {
-			target: cid,
-			id: shapeid,
-		})
-	}
-	
+
 	// ################# //
 	// ### Chat Hook ### //
 	// ################# //
@@ -334,67 +326,18 @@ module.exports = function Cosplayer(dispatch) {
 				presets[player].id = 0
 				presetUpdate()
 			}
-			else if (/^<FONT>head?<\/FONT>$/i.test(event.message)) {
-				shapeid = HEAD_ID
-				if(headstate === false) {
-					headstate = true
-					stack = 1
-					applyAppearanceChange(cid, shapeid, stack)
-				}	
-				else {
-					headstate = false
-					stack = 1
-					removeAppearanceChange(cid, shapeid, stack)
-				}
-			}
-			else if (cmd = /^<FONT>height (.+?)<\/FONT>$/i.exec(event.message)) {
-				shapeid = GROW_ID
-				stack = Number(cmd[1]) + 4
-				console.log('stack: ' + stack)
-				if (stack == 4){
-					removeAppearanceChange(cid, shapeid, stack)
-				}
-				else {
-					applyAppearanceChange(cid, shapeid, stack)
-				}
-			}
-			else if (cmd = /^<FONT>thighs (.+?)<\/FONT>$/i.exec(event.message)) {
-				shapeid = THIGH_ID
-				stack = Number(cmd[1]) + 4
-				console.log('stack: ' + stack)
-				if (stack == 4){
-					removeAppearanceChange(cid, shapeid, stack)
-				}
-				else {
-					applyAppearanceChange(cid, shapeid, stack)
-				}
-			}
-			else if (cmd = /^<FONT>chest (.+?)<\/FONT>$/i.exec(event.message)) {
-				shapeid = CHEST_ID
-				stack = Number(cmd[1]) + 4
-				console.log('stack: ' + stack)
-				if (stack == 4){
-					removeAppearanceChange(cid, shapeid, stack)
-				}
-				else {
-					applyAppearanceChange(cid, shapeid, stack)
-				}
-			}
-			else message('Commands: "dye" (change dye with the ingame slider tool),'
-								+ ' "dyergb [0-255 0-255 0-255]" (change dye to rgb value, e.g. dyergb 214 153 204),'
-								+ ' "weapon [id]" (change your weapon skin to id, e.g. weapon 99272),'
-								+ ' "costume [id]" (change your costume skin to id, e.g. costume 180722),'
-								+ ' "back [id]" (change your back skin to id, e.g. back 180081),'
-								+ ' "mask [id]" (change your mask skin to id, e.g. mask 181563),'
-								+ ' "hair [id]" (change your hair adornment to id, e.g. hair 252972),'
-								+ ' "innerwear [id]" (change your innerwear skin to id, e.g. innerwear 97936),'
-								+ ' "pantsu" (switch between innerwear and costume),'
-								+ ' "enchant [0-15]" (change weapon enchant glow, e.g. enchant 13),'
-								+ ' "undress" (goes back to your actual look),'
-								+ ' "head" (switch between big and normal head),'
-								+ ' "height [x]" (changes your height to x, default is 0, e.g. height -3),'
-								+ ' "thighs [x]" (changes your thighs to x, default is 0, e.g. thighs -3),'
-								+ ' "chest [x]" (changes your chest to x, default is 0, e.g. chest -3)'
+			else message('Commands:<br>' 
+								+ ' "dye" (change dye with the ingame slider tool),<br>'
+								+ ' "dyergb [0-255 0-255 0-255]" (change dye to rgb value, e.g. dyergb 214 153 204),<br>'
+								+ ' "weapon [id]" (change your weapon skin to id, e.g. weapon 99272),<br>'
+								+ ' "costume [id]" (change your costume skin to id, e.g. costume 180722),<br>'
+								+ ' "back [id]" (change your back skin to id, e.g. back 180081),<br>'
+								+ ' "mask [id]" (change your mask skin to id, e.g. mask 181563),<br>'
+								+ ' "hair [id]" (change your hair adornment to id, e.g. hair 252972),<br>'
+								+ ' "innerwear [id]" (change your innerwear skin to id, e.g. innerwear 97936),<br>'
+								+ ' "pantsu" (switch between innerwear and costume),<br>'
+								+ ' "enchant [0-15]" (change weapon enchant glow, e.g. enchant 13),<br>'
+								+ ' "undress" (goes back to your actual look)'
 						)
 			return false
 		}
