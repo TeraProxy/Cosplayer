@@ -27,3 +27,7 @@ Any other input returns a summary of above commands in the game.
 ## Safety
 Whatever you send to "!Cosplayer" ingame is intercepted client-side. The chat is NOT sent to the server.  
 Your changed appearance is only visible for yourself. Other players keep seeing your real appearance stored on the server.  
+  
+## Credits  
+Contains code from elin-magic by Pinkie Pie https://github.com/pinkipi  
+Contains code from from elin-magic's extension cosplay-ex by Bernkastel https://github.com/Bernkastel-0

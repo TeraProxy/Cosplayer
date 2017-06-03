@@ -1,4 +1,5 @@
-// based on elin-magic by Pinkie Pie and cosplay-ex by Bernkastel
+// Contains code from elin-magic by Pinkie Pie https://github.com/pinkipi  
+// Contains code from from elin-magic's extension cosplay-ex by Bernkastel https://github.com/Bernkastel-0
 
 const CONTRACT_DRESSING_ROOM = 76
 
