@@ -31,3 +31,4 @@ Your changed appearance is only visible for yourself. Other players keep seeing 
 ## Credits  
 Contains code from elin-magic by Pinkie Pie https://github.com/pinkipi  
 Contains code from from elin-magic's extension cosplay-ex by Bernkastel https://github.com/Bernkastel-0
+Thanks to Pentagon for the default costume database
