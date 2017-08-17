@@ -1,10 +1,11 @@
 // Contains code from elin-magic by Pinkie Pie https://github.com/pinkipi  
 // Contains code from from elin-magic's extension cosplay-ex by Bernkastel https://github.com/Bernkastel-0
 
-const CONTRACT_DRESSING_ROOM = 76
+const Command = require('command'),
+	Scanner = require('./scanner'),
+	CONTRACT_DRESSING_ROOM = 76
 
 module.exports = function Cosplayer(dispatch) {
-	const Scanner = require('./scanner')
 	Scanner(dispatch)
 
 	let db = Scanner.db,
@@ -24,9 +25,9 @@ module.exports = function Cosplayer(dispatch) {
 	const path = require('path')
 	fs = require('fs')
 
-	let presets = {}
-	let presetTimeout = null
-	let presetLock = false
+	let presets = {},
+		presetTimeout = null,
+		presetLock = false
 
 	try { presets = require('./presets.json') }
 	catch(e) { presets = {} }
@@ -65,15 +66,15 @@ module.exports = function Cosplayer(dispatch) {
 	
 	dispatch.hook('S_GET_USER_LIST', 2, event => {
         for (let index in event.characters) {
-            if(presets[event.characters[index].name] && presets[event.characters[index].name].id != 0){
-                event.characters[index].face = presets[event.characters[index].name].face;
-				event.characters[index].hairAdornment = presets[event.characters[index].name].hairAdornment;
-				event.characters[index].mask = presets[event.characters[index].name].mask;
-				event.characters[index].back = presets[event.characters[index].name].back;
-				event.characters[index].weaponSkin = presets[event.characters[index].name].weaponSkin;
-				event.characters[index].weaponEnchant = presets[event.characters[index].name].weaponEnchant;
-				event.characters[index].costume = presets[event.characters[index].name].costume;
-				event.characters[index].unk35 = presets[event.characters[index].name].costumeDye;
+            if(presets[event.characters[index].name] && presets[event.characters[index].name].id != 0) {
+                event.characters[index].face = presets[event.characters[index].name].face
+				event.characters[index].hairAdornment = presets[event.characters[index].name].hairAdornment
+				event.characters[index].mask = presets[event.characters[index].name].mask
+				event.characters[index].back = presets[event.characters[index].name].back
+				event.characters[index].weaponSkin = presets[event.characters[index].name].weaponSkin
+				event.characters[index].weaponEnchant = presets[event.characters[index].name].weaponEnchant
+				event.characters[index].costume = presets[event.characters[index].name].costume
+				event.characters[index].unk35 = presets[event.characters[index].name].costumeDye
             }
         }
 		return true
@@ -162,7 +163,7 @@ module.exports = function Cosplayer(dispatch) {
 		}
 	})
 
-	dispatch.hook('S_REQUEST_INGAMESTORE_MARK_PRODUCTLIST', 1, function(){ return false })
+	dispatch.hook('S_REQUEST_INGAMESTORE_MARK_PRODUCTLIST', 1, () => { return false })
 
 	dispatch.hook('C_REQUEST_NONDB_ITEM_INFO', 1, event => {
 		if(inDressup) {
@@ -262,97 +263,82 @@ module.exports = function Cosplayer(dispatch) {
 	// ### Chat Hook ### //
 	// ################# //
 	
-	dispatch.hook('C_WHISPER', 1, (event) => {
-		let cmd = null
-		if(event.target.toUpperCase() === "!cosplayer".toUpperCase()) {
-			if (/^<FONT>dye?<\/FONT>$/i.test(event.message)) {
-				colorThatShit()
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (cmd = /^<FONT>dyergb (.+?)<\/FONT>$/i.exec(event.message)) {
-				external.costumeDye = parseInt(cmd[1], 16)
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (cmd = /^<FONT>weapon (.+?)<\/FONT>$/i.exec(event.message)) {
-				external.weaponSkin = Number(cmd[1])
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (cmd = /^<FONT>costume (.+?)<\/FONT>$/i.exec(event.message)) {
-				external.costume = Number(cmd[1])
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (cmd = /^<FONT>back (.+?)<\/FONT>$/i.exec(event.message)) {
-				external.back = Number(cmd[1])
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (cmd = /^<FONT>mask (.+?)<\/FONT>$/i.exec(event.message)) {
-				external.mask = Number(cmd[1])
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (cmd = /^<FONT>hair (.+?)<\/FONT>$/i.exec(event.message)) {
-				external.hairAdornment = Number(cmd[1])
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (cmd = /^<FONT>innerwear (.+?)<\/FONT>$/i.exec(event.message)) {
-				external.innerwear = Number(cmd[1])
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (cmd = /^<FONT>enchant (.+?)<\/FONT>$/i.exec(event.message)) {
-				external.weaponEnchant = Number(cmd[1])
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-				presets[player] = external
-				presetUpdate()
-			}
-			else if (/^<FONT>pantsu?<\/FONT>$/i.test(event.message)) {
-				changePantsu()
-			}
-			else if (/^<FONT>undress?<\/FONT>$/i.test(event.message)) {
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, userDefaultAppearance)
-				external = Object.assign({}, userDefaultAppearance)
-				presets[player].id = 0
-				presetUpdate()
-			}
-			else message('Commands:<br>' 
-								+ ' "dye" (change dye with the ingame slider tool),<br>'
-								+ ' "dyergb [0-255 0-255 0-255]" (change dye to rgb value, e.g. dyergb 214 153 204),<br>'
-								+ ' "weapon [id]" (change your weapon skin to id, e.g. weapon 99272),<br>'
-								+ ' "costume [id]" (change your costume skin to id, e.g. costume 180722),<br>'
-								+ ' "back [id]" (change your back skin to id, e.g. back 180081),<br>'
-								+ ' "mask [id]" (change your mask skin to id, e.g. mask 181563),<br>'
-								+ ' "hair [id]" (change your hair adornment to id, e.g. hair 252972),<br>'
-								+ ' "innerwear [id]" (change your innerwear skin to id, e.g. innerwear 97936),<br>'
-								+ ' "pantsu" (switch between innerwear and costume),<br>'
-								+ ' "enchant [0-15]" (change weapon enchant glow, e.g. enchant 13),<br>'
-								+ ' "undress" (goes back to your actual look)'
-						)
-			return false
+	const command = Command(dispatch)
+	command.add('cosplay', (param, number) => {
+		if (param == 'dye') {
+			colorThatShit()
+			presets[player] = external
+			presetUpdate()
 		}
+		else if (param == 'dyergb' && number != null) {
+			external.costumeDye = parseInt(number, 16)
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			presets[player] = external
+			presetUpdate()
+		}
+		else if (param == 'weapon' && number != null) {
+			external.weaponSkin = Number(number)
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			presets[player] = external
+			presetUpdate()
+		}
+		else if (param == 'costume' && number != null) {
+			external.costume = Number(number)
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			presets[player] = external
+			presetUpdate()
+		}
+		else if (param == 'back' && number != null) {
+			external.back = Number(number)
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			presets[player] = external
+			presetUpdate()
+		}
+		else if (param == 'mask' && number != null) {
+			external.mask = Number(number)
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			presets[player] = external
+			presetUpdate()
+		}
+		else if (param == 'hair' && number != null) {
+			external.hairAdornment = Number(number)
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			presets[player] = external
+			presetUpdate()
+		}
+		else if (param == 'innerwear' && number != null) {
+			external.innerwear = Number(number)
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			presets[player] = external
+			presetUpdate()
+		}
+		else if (param == 'pantsu') {
+			changePantsu()
+		}
+		else if (param == 'enchant' && number != null) {
+			external.weaponEnchant = Number(number)
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			presets[player] = external
+			presetUpdate()
+		}
+		else if (param == 'undress') {
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, userDefaultAppearance)
+			external = Object.assign({}, userDefaultAppearance)
+			presets[player].id = 0
+			presetUpdate()
+		}
+		else command.message('Commands:<br>' 
+								+ ' "cosplay dye" (change dye with the ingame slider tool),<br>'
+								+ ' "cosplay dyergb \'[0-255 0-255 0-255]\'" (change dye to rgb value, e.g. "cosplay dyergb \'214 153 204\'"),<br>'
+								+ ' "cosplay weapon [id]" (change your weapon skin to id, e.g. "cosplay weapon 99272"),<br>'
+								+ ' "cosplay costume [id]" (change your costume skin to id, e.g. "cosplay costume 180722"),<br>'
+								+ ' "cosplay back [id]" (change your back skin to id, e.g. "cosplay back 180081"),<br>'
+								+ ' "cosplay mask [id]" (change your mask skin to id, e.g. "cosplay mask 181563"),<br>'
+								+ ' "cosplay hair [id]" (change your hair adornment to id, e.g. "cosplay hair 252972"),<br>'
+								+ ' "cosplay innerwear [id]" (change your innerwear skin to id, e.g. "cosplay innerwear 97936"),<br>'
+								+ ' "cosplay pantsu" (switch between innerwear and costume),<br>'
+								+ ' "cosplay enchant [0-15]" (change weapon enchant glow, e.g. "cosplay enchant 13"),<br>'
+								+ ' "cosplay undress" (goes back to your actual look)'
+			)
 	})
-	
-	function message(msg) {
-		dispatch.toClient('S_WHISPER', 1, {
-			player: cid,
-			unk1: 0,
-			gm: 0,
-			unk2: 0,
-			author: '!Cosplayer',
-			recipient: player,
-			message: msg
-		})
-	}
 }
