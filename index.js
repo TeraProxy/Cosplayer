@@ -16,7 +16,9 @@ module.exports = function Cosplayer(dispatch) {
 		inDressup = false,
 		inDye = false,
 		lastTooltip = 0,
-		lastTooltipTime = 0
+		lastTooltipTime = 0,
+		reapplyTimeout = null,
+		marrow = false
 		
 	// ################## //
 	// ### Save Stuff ### //
@@ -183,15 +185,16 @@ module.exports = function Cosplayer(dispatch) {
 		}
 	})
 	
-    dispatch.hook('S_UNICAST_TRANSFORM_DATA', 'raw', (code, data) => {
-        setTimeout(function() {
-			if(presets[player] && presets[player].id != 0) {
-				external = presets[player]
-				external.id = cid
-				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
-			}
-		}, 19000)
-    })
+	dispatch.hook('S_UNICAST_TRANSFORM_DATA', 'raw', (code, data) => {
+		marrow = true
+		reapplyTimeout = setTimeout(reapplyPreset, 19000)
+	})
+	
+	dispatch.hook('S_CREATURE_LIFE', 1, event => {
+		if(marrow && event.target.equals(cid) && event.alive == false) {
+			reapplyTimeout = setTimeout(reapplyPreset, 1000)
+		}
+	})
 	
 	// ######################## //
 	// ### Helper Functions ### //
@@ -256,6 +259,16 @@ module.exports = function Cosplayer(dispatch) {
 			external.enable = 1
 			presets[player] = external
 			presetUpdate()
+		}
+	}
+	
+	function reapplyPreset() {
+		clearTimeout(reapplyTimeout)
+		if(presets[player] && presets[player].id != 0) {
+			external = presets[player]
+			external.id = cid
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			marrow = false
 		}
 	}
 

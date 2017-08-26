@@ -34,6 +34,8 @@ Contains code from from elin-magic's extension cosplay-ex by Bernkastel https://
 Thanks to Pentagon for the default costume database  
   
 ## Changelog
+### 1.2.1
+* [*] Fixed outfit not immediately reapplying while dying under the effect of Marrow Brooch
 ### 1.2.0
 * [*] Some code cleanup
 * [*] Full conversion to Pinkie Pie's command module
