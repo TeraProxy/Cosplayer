@@ -1,3 +1,6 @@
+## Current State (Octobre 14th 2017)
+As of the newest Patch, BHS changed the packet for receiving the Dressing Room's item list. Due to this, any module that allows you to use the Dressing Room to change your costume is currently not working. Cosplayer is still able to load and use the preset that you set and all commands that use direct item IDs (e.g. /8 cosplay costume 100722) work just like before. **Changing your costume via Dressing Room does currently not work**. We are working on defining the new packet as quickly as possible. Sorry!
+
 # Cosplayer
 A tera-proxy module able to change your client-side appearance.  
 Automatically updates dressing room with missing items upon seeing them ingame.  
