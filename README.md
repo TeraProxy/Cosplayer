@@ -20,7 +20,7 @@ The following commands are supported:
 * cosplay innerwear [id] - change your innerwear skin to id, e.g. "cosplay innerwear 97936"
 * cosplay pantsu - switch between innerwear and costume
 * cosplay enchant [0-15] - change weapon enchant glow, e.g. "cosplay enchant 13"
-* cosplay tag [name] - 
+* cosplay tag [name] - change name tag on costume, e.g. "cosplay tag 'I love Spacecats'"
 * cosplay undress - goes back to your actual look
   
 Any other input, starting with "cosplay", will return a summary of above commands in the chat.  
