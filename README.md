@@ -1,6 +1,3 @@
-## Current State (Octobre 14th 2017)
-As of the newest Patch, BHS changed the packet for receiving the Dressing Room's item list. Due to this, any module that allows you to use the Dressing Room to change your costume is currently not working. Cosplayer is still able to load and use the preset that you set and all commands that use direct item IDs (e.g. /8 cosplay costume 100722) work just like before. **Changing your costume via Dressing Room does currently not work**. We are working on defining the new packet as quickly as possible. Sorry!
-
 # Cosplayer
 A tera-proxy module able to change your client-side appearance.  
 Automatically updates dressing room with missing items upon seeing them ingame.  
@@ -23,9 +20,11 @@ The following commands are supported:
 * cosplay innerwear [id] - change your innerwear skin to id, e.g. "cosplay innerwear 97936"
 * cosplay pantsu - switch between innerwear and costume
 * cosplay enchant [0-15] - change weapon enchant glow, e.g. "cosplay enchant 13"
+* cosplay tag [name] - 
 * cosplay undress - goes back to your actual look
   
 Any other input, starting with "cosplay", will return a summary of above commands in the chat.  
+If you want to disable scanning for new costumes change "DISABLE" in scanner.js to "true".  
   
 ## Safety
 Whatever you send to the proxy chat in game is intercepted client-side. The chat is NOT sent to the server.  
@@ -37,6 +36,11 @@ Contains code from from elin-magic's extension cosplay-ex by Bernkastel https://
 Thanks to Pentagon for the default costume database  
   
 ## Changelog
+### 1.3.0
+* [*] Updated for Arsenal Patch
+* [+] Added "tag" command
+* [+] Added Ragnarok fix
+* [+] Added option to disable scanning for new costumes in scanner.js
 ### 1.2.1
 * [*] Fixed outfit not immediately reapplying while dying under the effect of Marrow Brooch
 ### 1.2.0

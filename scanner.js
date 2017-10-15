@@ -1,3 +1,5 @@
+const DISABLE = false // set to true if you want to disable scanning for new costumes
+
 const path = require('path'),
 	fs = require('fs')
 
@@ -32,22 +34,24 @@ const SPAWN_SLOTS = ['inner', 'hairAdornment', 'mask', 'back', 'weaponSkin', 'co
 	EXTERNAL_SLOTS = ['innerwear', 'hairAdornment', 'mask', 'back', 'weaponSkin', 'costume']
 
 module.exports = function ElinMagicScanner(dispatch) {
-	dispatch.hook('S_SPAWN_USER', 2, event => {
-		let found = false
+	if(!DISABLE) {
+		dispatch.hook('S_SPAWN_USER', 2, event => {
+			let found = false
 
-		for(let i in EXTERNAL_SLOTS) found |= checkSlot(EXTERNAL_SLOTS[i], event[SPAWN_SLOTS[i]])
+			for(let i in EXTERNAL_SLOTS) found |= checkSlot(EXTERNAL_SLOTS[i], event[SPAWN_SLOTS[i]])
 
-		if(found) dbUpdate()
-	})
+			if(found) dbUpdate()
+		})
 
-	dispatch.hook('S_USER_EXTERNAL_CHANGE', 1, event => {
-		let found = false
+		dispatch.hook('S_USER_EXTERNAL_CHANGE', 1, event => {
+			let found = false
 
-		for(let slot of EXTERNAL_SLOTS) found |= checkSlot(slot, event[slot])
+			for(let slot of EXTERNAL_SLOTS) found |= checkSlot(slot, event[slot])
 
-		if(found) dbUpdate()
-	})
-
+			if(found) dbUpdate()
+		})
+	}
+	
 	function checkSlot(slot, item) {
 		if(item && !(db[slot] || (db[slot] = [])).includes(item)) {
 			console.log('Found new ' + slot + ' ' + item)

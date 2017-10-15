@@ -27,16 +27,23 @@ module.exports = function Cosplayer(dispatch) {
 	const path = require('path')
 	fs = require('fs')
 
-	let presets = {},
-		presetTimeout = null,
-		presetLock = false
+	let presets = nametags = {},
+		presetTimeout = nametagTimeout = null,
+		presetLock = nametagLock = false
 
 	try { presets = require('./presets.json') }
 	catch(e) { presets = {} }
+	try { nametags = require('./nametags.json') }
+	catch(e) { nametags = {} }
 
 	function presetUpdate() {
 		clearTimeout(presetTimeout)
 		presetTimeout = setTimeout(presetSave, 1000)
+	}
+	
+	function presetUpdate() {
+		clearTimeout(nametagTimeout)
+		nametagTimeout = setTimeout(nametagSave, 1000)
 	}
 
 	function presetSave() {
@@ -48,6 +55,18 @@ module.exports = function Cosplayer(dispatch) {
 		presetLock = true
 		fs.writeFile(path.join(__dirname, 'presets.json'), JSON.stringify(presets, null, 4), err => {
 			presetLock = false
+		})
+	}
+	
+	function nametagSave() {
+		if(nametagLock) {
+			nametagUpdate()
+			return
+		}
+
+		nametagLock = true
+		fs.writeFile(path.join(__dirname, 'nametags.json'), JSON.stringify(nametags, null, 4), err => {
+			nametagLock = false
 		})
 	}
 
@@ -87,6 +106,7 @@ module.exports = function Cosplayer(dispatch) {
 			userDefaultAppearance = Object.assign({}, event)
 			if(presets[player] && (presets[player].id != 0)) {
 				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+				if(nametags[player] && (nametags[player].length != 0)) updateNametag(nametags[player])
 				presets[player] = external
 				presetUpdate()
 				if(external.enable == 0) {
@@ -120,6 +140,19 @@ module.exports = function Cosplayer(dispatch) {
 				})
 			}, 1000)
 		}
+		if(event.target == cid && event.id == 10155130) { // Ragnarok
+			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external);
+			if(nametags[player] && (nametags[player].length != 0)) updateNametag(nametags[player])
+		}
+	})
+	
+	dispatch.hook('S_ABNORMALITY_END', 1, (event) =>{
+		if(event.target == cid) {
+			if(event.id == 10155130) { // Ragnarok
+				dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external);
+				if(nametags[player] && (nametags[player].length != 0)) updateNametag(nametags[player])
+			}
+		}
 	})
 	
 	dispatch.hook('C_ITEM_COLORING_SET_COLOR', 1, (event) => {
@@ -143,7 +176,7 @@ module.exports = function Cosplayer(dispatch) {
 						item
 					})
 
-			dispatch.toClient('S_REQUEST_INGAMESTORE_MARK_PRODUCTLIST', 1, {items})
+			dispatch.toClient('S_REQUEST_INGAMESTORE_PRODUCT_DETAIL', 1, {items})
 		}
 	})
 	
@@ -151,6 +184,7 @@ module.exports = function Cosplayer(dispatch) {
 		if(inDye) {
 			inDye = false
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			if(nametags[player] && (nametags[player].length != 0)) updateNametag(nametags[player])
 			presets[player] = external
 			presetUpdate()
 		}
@@ -160,12 +194,11 @@ module.exports = function Cosplayer(dispatch) {
 		if(inDressup) {
 			inDressup = false
 			process.nextTick(() => { dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external) })
+			if(nametags[player] && (nametags[player].length != 0)) updateNametag(nametags[player])
 			presets[player] = external
 			presetUpdate()
 		}
 	})
-
-	dispatch.hook('S_REQUEST_INGAMESTORE_MARK_PRODUCTLIST', 1, () => { return false })
 
 	dispatch.hook('C_REQUEST_NONDB_ITEM_INFO', 1, event => {
 		if(inDressup) {
@@ -268,8 +301,15 @@ module.exports = function Cosplayer(dispatch) {
 			external = presets[player]
 			external.id = cid
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
+			if(nametags[player] && (nametags[player].length != 0)) updateNametag(nametags[player])
 			marrow = false
 		}
+	}
+	
+	function updateNametag(nametag) {
+		dispatch.toClient('S_ITEM_CUSTOM_STRING', 1, {owner: cid, items: [{item: external.costume, text: nametag}]})
+		if(nametag == player) nametags[player] = ""
+		else nametags[player] = nametag
 	}
 
 	// ################# //
@@ -277,50 +317,50 @@ module.exports = function Cosplayer(dispatch) {
 	// ################# //
 	
 	const command = Command(dispatch)
-	command.add('cosplay', (param, number) => {
+	command.add('cosplay', (param, value) => {
 		if (param == 'dye') {
 			colorThatShit()
 			presets[player] = external
 			presetUpdate()
 		}
-		else if (param == 'dyergb' && number != null) {
-			external.costumeDye = parseInt(number, 16)
+		else if (param == 'dyergb' && value != null) {
+			external.costumeDye = parseInt(value, 16)
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
 			presets[player] = external
 			presetUpdate()
 		}
-		else if (param == 'weapon' && number != null) {
-			external.weaponSkin = Number(number)
+		else if (param == 'weapon' && value != null) {
+			external.weaponSkin = Number(value)
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
 			presets[player] = external
 			presetUpdate()
 		}
-		else if (param == 'costume' && number != null) {
-			external.costume = Number(number)
+		else if (param == 'costume' && value != null) {
+			external.costume = Number(value)
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
 			presets[player] = external
 			presetUpdate()
 		}
-		else if (param == 'back' && number != null) {
-			external.back = Number(number)
+		else if (param == 'back' && value != null) {
+			external.back = Number(value)
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
 			presets[player] = external
 			presetUpdate()
 		}
-		else if (param == 'mask' && number != null) {
-			external.mask = Number(number)
+		else if (param == 'mask' && value != null) {
+			external.mask = Number(value)
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
 			presets[player] = external
 			presetUpdate()
 		}
-		else if (param == 'hair' && number != null) {
-			external.hairAdornment = Number(number)
+		else if (param == 'hair' && value != null) {
+			external.hairAdornment = Number(value)
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
 			presets[player] = external
 			presetUpdate()
 		}
-		else if (param == 'innerwear' && number != null) {
-			external.innerwear = Number(number)
+		else if (param == 'innerwear' && value != null) {
+			external.innerwear = Number(value)
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
 			presets[player] = external
 			presetUpdate()
@@ -328,11 +368,14 @@ module.exports = function Cosplayer(dispatch) {
 		else if (param == 'pantsu') {
 			changePantsu()
 		}
-		else if (param == 'enchant' && number != null) {
-			external.weaponEnchant = Number(number)
+		else if (param == 'enchant' && value != null) {
+			external.weaponEnchant = Number(value)
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, external)
 			presets[player] = external
 			presetUpdate()
+		}
+		else if (param == 'tag' && value != null) {
+			updateNametag(value)
 		}
 		else if (param == 'undress') {
 			dispatch.toClient('S_USER_EXTERNAL_CHANGE', 1, userDefaultAppearance)
@@ -351,6 +394,7 @@ module.exports = function Cosplayer(dispatch) {
 								+ ' "cosplay innerwear [id]" (change your innerwear skin to id, e.g. "cosplay innerwear 97936"),<br>'
 								+ ' "cosplay pantsu" (switch between innerwear and costume),<br>'
 								+ ' "cosplay enchant [0-15]" (change weapon enchant glow, e.g. "cosplay enchant 13"),<br>'
+								+ ' "cosplay tag [name]" (change name tag on costume, e.g. "cosplay tag \'I love Spacecats\'"),<br>'
 								+ ' "cosplay undress" (goes back to your actual look)'
 			)
 	})
