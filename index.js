@@ -1,5 +1,6 @@
 // Contains code from elin-magic by Pinkie Pie https://github.com/pinkipi  
 // Contains code from from elin-magic's extension cosplay-ex by Bernkastel https://github.com/Bernkastel-0
+// Version 1.3.0
 
 const Command = require('command'),
 	Scanner = require('./scanner'),
@@ -27,9 +28,12 @@ module.exports = function Cosplayer(dispatch) {
 	const path = require('path')
 	fs = require('fs')
 
-	let presets = nametags = {},
-		presetTimeout = nametagTimeout = null,
-		presetLock = nametagLock = false
+	let presets = {},
+		nametags = {},
+		presetTimeout = null,
+		nametagTimeout = null,
+		presetLock = false,
+		nametagLock = false
 
 	try { presets = require('./presets.json') }
 	catch(e) { presets = {} }
@@ -41,7 +45,7 @@ module.exports = function Cosplayer(dispatch) {
 		presetTimeout = setTimeout(presetSave, 1000)
 	}
 	
-	function presetUpdate() {
+	function nametagUpdate() {
 		clearTimeout(nametagTimeout)
 		nametagTimeout = setTimeout(nametagSave, 1000)
 	}
@@ -310,6 +314,7 @@ module.exports = function Cosplayer(dispatch) {
 		dispatch.toClient('S_ITEM_CUSTOM_STRING', 1, {owner: cid, items: [{item: external.costume, text: nametag}]})
 		if(nametag == player) nametags[player] = ""
 		else nametags[player] = nametag
+		nametagUpdate()
 	}
 
 	// ################# //
