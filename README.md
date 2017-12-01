@@ -1,6 +1,8 @@
 ##### :heavy_exclamation_mark: Elin Gunner Patch Info :heavy_exclamation_mark:
-Starting with this patch only a limited number of opcodes are mapped by default and most mods will not work when the update hits. This was necessary to prevent people from using exploits. Please be patient while the required opcodes for this module will be added.
-
+I got the opcodes for Cosplayer on NA but decided against releasing them yet.  
+Please support Pinkie Pie (Discord: Pinkie Pie#7969) by buying his new Elin-Magic costume module. He will send you the necessary opcodes and definition files.  
+Even if I released the opcodes right now, Cosplayer still needs a rewrite since the old way of applying costumes from the Dressing Room no longer works. Thank you for understanding.  
+  
 # Cosplayer
 A tera-proxy module able to change your client-side appearance.  
 Automatically updates dressing room with missing items upon seeing them ingame.  
