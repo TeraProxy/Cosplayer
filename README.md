@@ -1,10 +1,6 @@
-##### :heavy_exclamation_mark: Elin Gunner Patch Info :heavy_exclamation_mark:
-Please support Pinkie Pie (Discord: Pinkie Pie#7969) by buying his new Elin-Magic costume module. He will send you the necessary opcodes that I'm currently not uploading to tera-data because I want him to get some money for all the work he has done for the community.  
-
-The Cosplayer revamp for the Elin Gunner patch is 95% done. Most of the base code has been rewritten and all old features (except filling the Dressing Room with custom items) are already fully working on live servers. New interesting features have been added as well. I'm sure that at least one of them will find a lot of fans.  
-
-For the time being the module will stay private to help Pinkie's sales. However, I will not let those of you down that absolutely do not want to pay money for modules. Patience will be rewarded and I love hearing how much fun players had with Cosplayer so far.  
-But for now, you will have to wait a bit longer. Thank you for understanding.  
+##### Thank you for your patience
+Cosplayer 2.0.0 will release on January 11th.  
+It will be just as convenient as before and feature a few new interesting additions as well as a major code overhaul with many bug fixes.  
   
 # Cosplayer
 A tera-proxy module able to change your client-side appearance.  
