@@ -80,7 +80,7 @@ module.exports = function Cosplayer(dispatch) {
 		inDressup = false
 		inDye = false
 		mypreset = presets[player]
-		mynametag = mypreset.nametag
+		mynametag = mypreset.nametag || ''
 
 		if(mypreset && mypreset.gameId != 0) {
 			external = mypreset
