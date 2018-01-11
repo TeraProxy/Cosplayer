@@ -1,0 +1,1409 @@
+{
+	"20": {
+		"id": "20",
+		"name": "Riding Skill: Bay Gelding",
+		"toolTip": "Use this manual to learn how to summon a Brown Horse with a Movement Speed of 240.",
+		"skill": 111111,
+		"vehicleId": "1"
+	},
+	"21": {
+		"id": "21",
+		"name": "Riding Skill: Fast Bay Gelding",
+		"toolTip": "Use this manual to learn how to summon a Brown Horse with a Movement Speed of 270.",
+		"skill": 111112,
+		"vehicleId": "2"
+	},
+	"41": {
+		"id": "41",
+		"name": "Riding Skill: Fast White Stallion",
+		"toolTip": "Use this manual to learn how to summon a fast white stallion with a Movement Speed of 270.",
+		"skill": 111114,
+		"vehicleId": "3"
+	},
+	"161": {
+		"id": "161",
+		"name": "Personal Riding Skill: Arcadian Dapple",
+		"toolTip": "Use this manual to learn how to summon an Arcadian Dapple with a Movement Speed of 240.",
+		"skill": 111115,
+		"vehicleId": "5"
+	},
+	"162": {
+		"id": "162",
+		"name": "Personal Riding Skill: Chestnut Gelding",
+		"toolTip": "Use this manual to learn how to summon a Yellow Horse with a Movement Speed of 240.",
+		"skill": 111116,
+		"vehicleId": "6"
+	},
+	"163": {
+		"id": "163",
+		"name": "Personal Riding Skill: Velikan Gray",
+		"toolTip": "Use this manual to learn how to summon a Gray Horse with a Movement Speed of 240.",
+		"skill": 111117,
+		"vehicleId": "7"
+	},
+	"164": {
+		"id": "164",
+		"name": "Personal Riding Skill: Pinto",
+		"toolTip": "Use this manual to learn how to summon a Pinto with a Movement Speed of 240.",
+		"skill": 111118,
+		"vehicleId": "8"
+	},
+	"165": {
+		"id": "165",
+		"name": "Personal Riding Skill: Blue Roan",
+		"toolTip": "Use this manual to learn how to summon a Blue Roan with a Movement Speed of 240.",
+		"skill": 111119,
+		"vehicleId": "9"
+	},
+	"304": {
+		"id": "304",
+		"name": "Riding Skill: Battle Charger",
+		"toolTip": "Use this manual to learn how to summon a battle charger with a Movement Speed of 290. To ride the battle charger, you must stay in the top 30 in the Fraywind Canyon rankings.",
+		"skill": 111120,
+		"vehicleId": "10"
+	},
+	"306": {
+		"id": "306",
+		"name": "Riding Skill: Fast Arcadian Dapple",
+		"toolTip": "Use this manual to learn how to summon a fast Arcadian Dapple with a Movement Speed of 280.",
+		"skill": 111121,
+		"vehicleId": "51"
+	},
+	"307": {
+		"id": "307",
+		"name": "Riding Skill: Fast Pinto",
+		"toolTip": "Use this manual to learn how to summon a fast Pinto with a Movement Speed of 270.",
+		"skill": 111122,
+		"vehicleId": "81"
+	},
+	"316": {
+		"id": "316",
+		"name": "Riding Skill: Night Mare",
+		"toolTip": "Use this manual to learn how to summon a Night Mare with a Movement Speed of 280.",
+		"skill": 111123,
+		"vehicleId": "12"
+	},
+	"336": {
+		"id": "336",
+		"name": "Riding Skill: Fast Velikan Gray",
+		"toolTip": "Use this manual to learn how to summon a Gray Horse with a Movement Speed of 270.",
+		"skill": 111190,
+		"vehicleId": "71"
+	},
+	"351": {
+		"id": "351",
+		"name": "Riding Skill: Quick-Start Charger",
+		"toolTip": "Use this manual to learn how to summon a warhorse with 270 Movement Speed.",
+		"skill": 111125,
+		"vehicleId": "13"
+	},
+	"378": {
+		"id": "378",
+		"name": "Riding Skill: Shadow Steed",
+		"toolTip": "Use this manual to learn how to summon a Shadow Steed with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
+		"skill": 111191,
+		"vehicleId": "14"
+	},
+	"379": {
+		"id": "379",
+		"name": "Riding Skill: Electrum Wind",
+		"toolTip": "Use this manual to learn how to summon a horse with a Movement Speed of 280.",
+		"skill": 111192,
+		"vehicleId": "15"
+	},
+	"380": {
+		"id": "380",
+		"name": "Riding Skill: Nexus Warhorse",
+		"toolTip": "Use this manual to learn how to summon an Agnitor warhorse with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
+		"skill": 111193,
+		"vehicleId": "16"
+	},
+	"381": {
+		"id": "381",
+		"name": "Riding Skill: Razormane",
+		"toolTip": "Use this manual to learn how to summon Razormane with a Movement Speed of 280.",
+		"skill": 111194,
+		"vehicleId": "17"
+	},
+	"382": {
+		"id": "382",
+		"name": "Riding Skill: Aeolian Zebra",
+		"toolTip": "Use this manual to learn how to summon a zebra with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
+		"skill": 111195,
+		"vehicleId": "18"
+	},
+	"383": {
+		"id": "383",
+		"name": "Riding Skill: Death Charger",
+		"toolTip": "This manual enables a nexus champion to summon a Death Charger with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
+		"skill": 111196,
+		"vehicleId": "19"
+	},
+	"384": {
+		"id": "384",
+		"name": "Riding Skill: Jeweled Lion",
+		"toolTip": "Use this manual to learn how to summon a lion with a Movement Speed of 280.",
+		"skill": 111197,
+		"vehicleId": "20"
+	},
+	"385": {
+		"id": "385",
+		"name": "Riding Skill: Tawny Huntress",
+		"toolTip": "Use this manual to learn how to summon a lioness with a Movement Speed of 280.",
+		"skill": 111198,
+		"vehicleId": "21"
+	},
+	"406": {
+		"id": "406",
+		"name": "Riding Skill: Black Leopard",
+		"toolTip": "Use this manual to learn how to summon a black leopard with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
+		"skill": 111199,
+		"vehicleId": "22"
+	},
+	"412": {
+		"id": "412",
+		"name": "Riding Skill: White Stallion",
+		"toolTip": "Use this manual to learn how to summon a white stallion with a Movement Speed of 255.",
+		"skill": 111126,
+		"vehicleId": "23"
+	},
+	"413": {
+		"id": "413",
+		"name": "Riding Skill: Arcadian Dapple",
+		"toolTip": "Use this manual to learn how to summon an Arcadian Dapple with a Movement Speed of 255.",
+		"skill": 111127,
+		"vehicleId": "24"
+	},
+	"414": {
+		"id": "414",
+		"name": "Riding Skill: Blue Roan",
+		"toolTip": "Use this manual to learn how to summon a Blue Roan with a Movement Speed of 255.",
+		"skill": 111128,
+		"vehicleId": "25"
+	},
+	"415": {
+		"id": "415",
+		"name": "Riding Skill: Velikan Gray",
+		"toolTip": "Use this manual to learn how to summon a Velikan Gray with a Movement Speed of 255.",
+		"skill": 111129,
+		"vehicleId": "26"
+	},
+	"416": {
+		"id": "416",
+		"name": "Riding Skill: Pinto",
+		"toolTip": "Use this manual to learn how to summon a Pinto with a Movement Speed of 255.",
+		"skill": 111130,
+		"vehicleId": "27"
+	},
+	"417": {
+		"id": "417",
+		"name": "Riding Skill: Chestnut Gelding",
+		"toolTip": "Use this manual to learn how to summon a Chestnut Gelding with a Movement Speed of 255.",
+		"skill": 111131,
+		"vehicleId": "28"
+	},
+	"418": {
+		"id": "418",
+		"name": "Riding Skill: Regal Frostlion",
+		"toolTip": "Use this manual to learn how to summon a Regal Frostlion with a Movement Speed of 280.",
+		"skill": 111132,
+		"vehicleId": "29"
+	},
+	"450": {
+		"id": "450",
+		"name": "Riding Skill: Sleipnir",
+		"toolTip": "Use this manual to learn how to summon Sleipnir, the celestial warhorse with a Movement Speed of 280.",
+		"skill": 111133,
+		"vehicleId": "30"
+	},
+	"451": {
+		"id": "451",
+		"name": "Riding Skill: Smolder",
+		"toolTip": "Use this manual to learn how to summon Smolder, the black lion with a Movement Speed of 280.",
+		"skill": 111135,
+		"vehicleId": "32"
+	},
+	"452": {
+		"id": "452",
+		"name": "Riding Skill: Boneshaker",
+		"toolTip": "Use this manual to learn how to summon Boneshaker, a skeletal warhorse with a Movement Speed of 280.",
+		"skill": 111136,
+		"vehicleId": "37"
+	},
+	"453": {
+		"id": "453",
+		"name": "Riding Skill: Munchhausen",
+		"toolTip": "Use this manual to learn how to summon Munchhausen, the mendacious traveler with a Movement Speed of 280 that replenishes 0.5% of your max MP every second.",
+		"skill": 111137,
+		"vehicleId": "341"
+	},
+	"454": {
+		"id": "454",
+		"name": "Riding Skill: Gourmando",
+		"toolTip": "Use this manual to learn how to summon Gourmando, the infernal glutton with a Movement Speed of 280 that recovers 0.5% of your max HP every second.",
+		"skill": 111138,
+		"vehicleId": "351"
+	},
+	"455": {
+		"id": "455",
+		"name": "Riding Skill: Sheldon",
+		"toolTip": "Use this manual to learn how to summon Sheldon, a giant kamara after which the Unified Theory Institute's bots were modeled, with a Movement Speed of 280.",
+		"skill": 111139,
+		"vehicleId": "33"
+	},
+	"456": {
+		"id": "456",
+		"name": "Riding Skill: EX-TRM",
+		"toolTip": "Use this manual to learn how to summon EX-TRM, Unified Theory Institute's prototype construct mount, with a Movement Speed of 280.",
+		"skill": 111151,
+		"vehicleId": "31"
+	},
+	"457": {
+		"id": "457",
+		"name": "Riding Skill: Regulus",
+		"toolTip": "Use this manual to learn how to summon Regulus with a Movement Speed of 280.",
+		"skill": 11117100,
+		"vehicleId": "36"
+	},
+	"481": {
+		"id": "481",
+		"name": "Riding Skill: Summon Rainbow",
+		"toolTip": "As pure and beautiful as rain on a sunny day. Learn how to summon Rainbow the unicorn with a Movement Speed of 280.",
+		"skill": 111141,
+		"vehicleId": "41"
+	},
+	"482": {
+		"id": "482",
+		"name": "Riding Skill: Summon Terminus",
+		"toolTip": "Trophy for champions. Use this manual to learn how to summon Terminus, an argon hybrid horse, with a Movement Speed of 280.",
+		"skill": 111142,
+		"vehicleId": "42"
+	},
+	"650": {
+		"id": "650",
+		"name": "A Week of Night Mares",
+		"toolTip": "Use this book to learn how to summon Night Mare for 7 days in real time.",
+		"skill": 111202,
+		"vehicleId": "80"
+	},
+	"5175": {
+		"id": "5175",
+		"name": "Riding Skill: Black Pearl",
+		"toolTip": "Use this manual to learn how to summon Black Pearl, the pirate horse with a Movement Speed of 275.",
+		"skill": 116001,
+		"vehicleId": "140"
+	},
+	"9307": {
+		"id": "9307",
+		"name": "Riding Skill: Topthorn",
+		"toolTip": "Use this manual to learn how to summon a black war horse with a Movement Speed of 270, which can be ridden in Civil Unrest zones.",
+		"skill": 15210001,
+		"vehicleId": "15201"
+	},
+	"9308": {
+		"id": "9308",
+		"name": "Riding Skill: Tanner",
+		"toolTip": "Awarded to members of a Civil Unrest winning guild. Use this manual to learn how to summon a battle lion with a Movement Speed of 280, which can be ridden in normal and Civil Unrest zones.",
+		"skill": 15210002,
+		"vehicleId": "15202"
+	},
+	"45478": {
+		"id": "45478",
+		"name": "Flying Skill: Iron Dragon",
+		"toolTip": "Use this manual to learn how to summon an iron dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Iron Dragon is the last mount you used.",
+		"skill": 12200001,
+		"vehicleId": "232"
+	},
+	"45479": {
+		"id": "45479",
+		"name": "Flying Skill: Crimson Dragon",
+		"toolTip": "Use this manual to learn how to summon a red dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Crimson Dragon is the last mount you used.",
+		"skill": 12200002,
+		"vehicleId": "233"
+	},
+	"70050": {
+		"id": "70050",
+		"name": "Festive Carpet",
+		"toolTip": "Use the Manual to learn how to summon a Festive Carpet with Movement Speed of 280.",
+		"skill": 1111513,
+		"vehicleId": "48"
+	},
+	"71001": {
+		"id": "71001",
+		"name": "Flying Skill: Skydancer",
+		"toolTip": "Summon a horse you can fly in free-flight zones.",
+		"skill": 17000001,
+		"vehicleId": "204"
+	},
+	"71002": {
+		"id": "71002",
+		"name": "Flying Skill: Tulpar",
+		"toolTip": "Summon a horse you can fly in free-flight zones.",
+		"skill": 117003,
+		"vehicleId": "206"
+	},
+	"81204": {
+		"id": "81204",
+		"name": "Riding Skill: Jade",
+		"toolTip": "Use this manual to learn how to summon Jade, an oriental dragon with a Movement Speed of 270.",
+		"skill": 1111573,
+		"vehicleId": "158"
+	},
+	"90098": {
+		"id": "90098",
+		"name": "Riding Skill: Carmine",
+		"toolTip": "Use this manual to learn how to summon a blood-red dracoraptor with a Movement Speed of 280.",
+		"skill": 1111521,
+		"vehicleId": "60"
+	},
+	"90099": {
+		"id": "90099",
+		"name": "Riding Skill: Carmine",
+		"toolTip": "Use this manual to learn how to summon a temporary blood-red dracoraptor with a Movement Speed of 275.",
+		"skill": 1111522,
+		"vehicleId": "55"
+	},
+	"90100": {
+		"id": "90100",
+		"name": "Riding Skill: Sparky",
+		"toolTip": "Use this manual to learn how to summon a dracoraptor with a Movement Speed of 275.",
+		"skill": 1111523,
+		"vehicleId": "53"
+	},
+	"99102": {
+		"id": "99102",
+		"name": "Flying Skill: Ghost Dragon",
+		"toolTip": "Use this manual to learn how to summon a ghost dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ghost Dragon is the last mount you used.",
+		"skill": 12200003,
+		"vehicleId": "234"
+	},
+	"99103": {
+		"id": "99103",
+		"name": "Flying Skill: Diamond Dragon",
+		"toolTip": "Use this manual to learn how to summon a diamond dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Diamond Dragon is the last mount you used.",
+		"skill": 12200004,
+		"vehicleId": "235"
+	},
+	"99104": {
+		"id": "99104",
+		"name": "Flying Skill: Royal Iron Dragon",
+		"toolTip": "Use this manual to learn how to summon a royal iron dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Iron Dragon is the last mount you used.",
+		"skill": 12200005,
+		"vehicleId": "236"
+	},
+	"99105": {
+		"id": "99105",
+		"name": "Flying Skill: Royal Crimson Dragon",
+		"toolTip": "Use this manual to learn how to summon a royal crimson dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Crimson Dragon is the last mount you used.",
+		"skill": 12200006,
+		"vehicleId": "237"
+	},
+	"99106": {
+		"id": "99106",
+		"name": "Flying Skill: Royal Ghost Dragon",
+		"toolTip": "Use this manual to learn how to summon a royal ghost dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Ghost Dragon is the last mount you used.",
+		"skill": 12200007,
+		"vehicleId": "238"
+	},
+	"99107": {
+		"id": "99107",
+		"name": "Flying Skill: Royal Diamond Dragon",
+		"toolTip": "Use this manual to learn how to summon a royal diamond dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Diamond Dragon is the last mount you used.",
+		"skill": 12200008,
+		"vehicleId": "239"
+	},
+	"99283": {
+		"id": "99283",
+		"name": "Flying Skill: Bone Dragon",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Bone Dragon is the last mount you used.",
+		"skill": 12200035,
+		"vehicleId": "244"
+	},
+	"99284": {
+		"id": "99284",
+		"name": "Flying Skill: Night Dragon",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Night Dragon is the last mount you used.",
+		"skill": 12200043,
+		"vehicleId": "245"
+	},
+	"99285": {
+		"id": "99285",
+		"name": "Flying Skill: Ultra Dragon",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ultra Dragon is the last mount you used.",
+		"skill": 12200051,
+		"vehicleId": "246"
+	},
+	"99286": {
+		"id": "99286",
+		"name": "Flying Skill: Astra Dragon",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Astra Dragon is the last mount you used.",
+		"skill": 12200059,
+		"vehicleId": "247"
+	},
+	"99287": {
+		"id": "99287",
+		"name": "Flying Skill: Ash Dragon",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ash Dragon is the last mount you used.",
+		"skill": 12200067,
+		"vehicleId": "248"
+	},
+	"99288": {
+		"id": "99288",
+		"name": "Flying Skill: Bonefury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Bonefury is the last mount you used.",
+		"skill": 12200036,
+		"vehicleId": "249"
+	},
+	"99289": {
+		"id": "99289",
+		"name": "Flying Skill: Nightfury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Nightfury is the last mount you used.",
+		"skill": 12200044,
+		"vehicleId": "250"
+	},
+	"99290": {
+		"id": "99290",
+		"name": "Flying Skill: Ultrafury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Ultrafury is the last mount you used.",
+		"skill": 12200052,
+		"vehicleId": "251"
+	},
+	"99291": {
+		"id": "99291",
+		"name": "Flying Skill: Astrafury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Astrafury is the last mount you used.",
+		"skill": 12200060,
+		"vehicleId": "252"
+	},
+	"99292": {
+		"id": "99292",
+		"name": "Flying Skill: Ashfury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Ashfury is the last mount you used.",
+		"skill": 12200068,
+		"vehicleId": "253"
+	},
+	"99531": {
+		"id": "99531",
+		"name": "Flying Skill: Azure Phoenix",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours). Blazing Aura I does not stack with passive skills gained from other mounts, and only grants a bonus if Azure Phoenix is the last mount you used.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200075,
+		"vehicleId": "258"
+	},
+	"99532": {
+		"id": "99532",
+		"name": "Flying Skill: Urvog",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second Learning this flying skill also grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour). Blazing Aura II does not stack with passive skills gained from other mounts, and only grants a bonus if Urvog is the last mount you used.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200076,
+		"vehicleId": "260"
+	},
+	"99555": {
+		"id": "99555",
+		"name": "Flying Skill: Blazing Phoenix",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours). Blazing Aura I does not stack with passive skills gained from other mounts, and only grants a bonus if Blazing Phoenix is the last mount you used.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200083,
+		"vehicleId": "257"
+	},
+	"99556": {
+		"id": "99556",
+		"name": "Flying Skill: Pteryx",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour). Blazing Aura II does not stack with passive skills gained from other mounts, and only grants a bonus if Pteryx is the last mount you used.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200084,
+		"vehicleId": "259"
+	},
+	"100974": {
+		"id": "100974",
+		"name": "Riding Skill: Ookami",
+		"toolTip": "Use this manual to learn how to summon the Ookami with a Movement Speed of 280.",
+		"skill": 1701270,
+		"vehicleId": "93"
+	},
+	"137008": {
+		"id": "137008",
+		"name": "Riding Skill: Aeolian Zebra",
+		"toolTip": "Use this manual to learn how to summon a zebra with a movement speed of 275.",
+		"skill": 111147,
+		"vehicleId": "180"
+	},
+	"137010": {
+		"id": "137010",
+		"name": "Riding Skill: Black Leopard",
+		"toolTip": "Use this manual to learn how to summon a black leopard with a movement speed of 275.",
+		"skill": 111148,
+		"vehicleId": "220"
+	},
+	"137012": {
+		"id": "137012",
+		"name": "Riding Skill: Snowdrift",
+		"toolTip": "Use this manual to learn how to summon Snowdrift the snow leopard with a movement speed of 280.",
+		"skill": 111150,
+		"vehicleId": "43"
+	},
+	"137016": {
+		"id": "137016",
+		"name": "Riding Skill: Sheldon",
+		"toolTip": "Use this manual to learn how to summon Sheldon, a giant kamara after which the Unified Theory Institute's bots were modeled, with a movement speed of 275.",
+		"skill": 111152,
+		"vehicleId": "330"
+	},
+	"137023": {
+		"id": "137023",
+		"name": "Riding Skill: Ostrich",
+		"toolTip": "Use this manual to learn how to summon a Ostrich with a movement speed of 280.",
+		"skill": 111155,
+		"vehicleId": "44"
+	},
+	"137024": {
+		"id": "137024",
+		"name": "Riding Skill: Fire Ostrich",
+		"toolTip": "Use this manual to learn how to summon a Firey Ostrich with a movement speed of 280.",
+		"skill": 111156,
+		"vehicleId": "47"
+	},
+	"137035": {
+		"id": "137035",
+		"name": "Riding Skill: Pig (New)",
+		"toolTip": "Use this manual to learn how to summon a pig with a movement speed of 280.",
+		"skill": 1111514,
+		"vehicleId": "49"
+	},
+	"137036": {
+		"id": "137036",
+		"name": "Riding Skill: Spotted Pig (New)",
+		"toolTip": "Use this manual to learn how to summon a spotted pig with a movement speed of 280.",
+		"skill": 1111515,
+		"vehicleId": "50"
+	},
+	"137037": {
+		"id": "137037",
+		"name": "Riding Skill: Black Pig (New)",
+		"toolTip": "Use this manual to learn how to summon a black pig with a movement speed of 280.",
+		"skill": 1111516,
+		"vehicleId": "59"
+	},
+	"137038": {
+		"id": "137038",
+		"name": "Riding Skill: Pretty Pig (New)",
+		"toolTip": "Use this manual to learn how to summon a pretty-looking pig with a movement speed of 280.",
+		"skill": 1111517,
+		"vehicleId": "52"
+	},
+	"137040": {
+		"id": "137040",
+		"name": "Riding Skill: Beanine Duck",
+		"toolTip": "Use this manual to learn how to summon a Beanine Duck with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 1111518,
+		"vehicleId": "45"
+	},
+	"137041": {
+		"id": "137041",
+		"name": "Riding Skill: Cap Duck",
+		"toolTip": "Use this manual to learn how to summon a Cap Duck with a movement speed of 280.",
+		"skill": 1111519,
+		"vehicleId": "46"
+	},
+	"137042": {
+		"id": "137042",
+		"name": "Riding Skill: Duck (Punk) (New)",
+		"toolTip": "Currently not used",
+		"skill": 1111520,
+		"vehicleId": "54"
+	},
+	"137043": {
+		"id": "137043",
+		"name": "Riding Skill: White Afro Duck",
+		"toolTip": "Use this manual to learn how to summon a White Afro Duck with a movement speed of 280.",
+		"skill": 1111525,
+		"vehicleId": "56"
+	},
+	"137044": {
+		"id": "137044",
+		"name": "Riding Skill: Black Afro Duck",
+		"toolTip": "Use this manual to learn how to summon a Black Afro Duck with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 1111526,
+		"vehicleId": "57"
+	},
+	"137045": {
+		"id": "137045",
+		"name": "Riding Skill: Mayhem Pig (New)",
+		"toolTip": "Use this manual to learn how to summon a Mayhem Pig with a movement speed of 280.",
+		"skill": 1111531,
+		"vehicleId": "58"
+	},
+	"137054": {
+		"id": "137054",
+		"name": "Riding Skill: Wolf (New)",
+		"toolTip": "Use this manual to learn how to summon a Wolf with a movement speed of 280.",
+		"skill": 1111532,
+		"vehicleId": "61"
+	},
+	"137055": {
+		"id": "137055",
+		"name": "Riding Skill: White Tiger",
+		"toolTip": "Use this manual to learn how to summon a White Tiger with a movement speed of 280. Restores your HP.",
+		"skill": 1111543,
+		"vehicleId": "62"
+	},
+	"137056": {
+		"id": "137056",
+		"name": "Riding Skill: Roaring Armored White Tiger",
+		"toolTip": "Use this manual to learn how to summon a Roaring Armored White Tiger with a movement speed of 280. Restores your HP.",
+		"skill": 1111544,
+		"vehicleId": "63"
+	},
+	"137057": {
+		"id": "137057",
+		"name": "Riding Skill: Fierce Tiger",
+		"toolTip": "Use this manual to learn how to summon a Fierce Tiger with a movement speed of 280. Restores your HP.",
+		"skill": 1111545,
+		"vehicleId": "64"
+	},
+	"137058": {
+		"id": "137058",
+		"name": "Riding Skill: Roaring Armored Fierce Tiger",
+		"toolTip": "Use this manual to learn how to summon a Roaring Armored Fierce Tiger with a movement speed of 280. Restores your HP.",
+		"skill": 1111546,
+		"vehicleId": "65"
+	},
+	"137059": {
+		"id": "137059",
+		"name": "[Event] Riding Skill: Death Charger (30 Days)",
+		"toolTip": "Use this manual to learn how to summon a Death Charger with a movement speed of 275 (for 30 days).",
+		"skill": 211145,
+		"vehicleId": "190"
+	},
+	"147029": {
+		"id": "147029",
+		"name": "[Event] Riding Skill: Police Car(10days)",
+		"toolTip": "Use this manual to learn how to summon a Police Car with a movement speed of 280 that restores 0.5% HP and MP every second.<br>Item expires in 10 days.",
+		"skill": 12000014,
+		"vehicleId": "95"
+	},
+	"147030": {
+		"id": "147030",
+		"name": "[Event] Riding Skill: Silver Giraffe(30days)",
+		"toolTip": "Use this manual to learn how to summon a Silver Giraffe with a movement speed of 280 that restores 0.5% HP and MP every second.<br>Item expires in 30 days.",
+		"skill": 12000015,
+		"vehicleId": "160"
+	},
+	"147031": {
+		"id": "147031",
+		"name": "Riding Skill: Buzzer(Rare)",
+		"toolTip": "Use this manual to learn how to summon a Buzzer (Rare) with a movement speed of 280 that restores 1% HP and MP every second.",
+		"skill": 12000016,
+		"vehicleId": "172"
+	},
+	"147032": {
+		"id": "147032",
+		"name": "Riding Skill: Tweedle(Rare)",
+		"toolTip": "Use this manual to learn how to summon a Tweedle (Rare) with a movement speed of 280 that restores 1% HP and MP every second.",
+		"skill": 12000017,
+		"vehicleId": "173"
+	},
+	"147033": {
+		"id": "147033",
+		"name": "Riding Skill: Cutter(Rare)",
+		"toolTip": "Use this manual to learn how to summon a Cutter (Rare) with a movement speed of 280 that restores 1% HP and MP every second.",
+		"skill": 12000018,
+		"vehicleId": "174"
+	},
+	"147034": {
+		"id": "147034",
+		"name": "Riding Skill: Buzzer",
+		"toolTip": "Use this manual to learn how to summon a Buzzer with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000019,
+		"vehicleId": "169"
+	},
+	"147035": {
+		"id": "147035",
+		"name": "Riding Skill: Tweedle",
+		"toolTip": "Use this manual to learn how to summon a Tweedle with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000020,
+		"vehicleId": "170"
+	},
+	"147036": {
+		"id": "147036",
+		"name": "Riding Skill: Cutter",
+		"toolTip": "Use this manual to learn how to summon a Cutter with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000021,
+		"vehicleId": "171"
+	},
+	"147037": {
+		"id": "147037",
+		"name": "[Buddy Up Event] Riding Skill: Glimmer (30days)",
+		"toolTip": "Use this manual to learn how to summon a Glimmer with a movement speed of 280 that restores 0.5% HP and MP every second.<br>Item expires in 30 days.",
+		"skill": 12000022,
+		"vehicleId": "66"
+	},
+	"147038": {
+		"id": "147038",
+		"name": "Riding Skill: Noble Socks(Rare_Flower Effects)",
+		"toolTip": "Use this manual to learn how to summon Noble Socks(Rare_Flower Effects), a black egg- and sushi-loving cat with a movement speed of 280 that restores 1% HP and MP every second.",
+		"skill": 12000023,
+		"vehicleId": "183"
+	},
+	"147039": {
+		"id": "147039",
+		"name": "Riding Skill: Saltyheart(Rare_Flower Effects)",
+		"toolTip": "Use this manual to learn how to summon Saltyheart, a tawny salmon- and sushi-loving cat with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000024,
+		"vehicleId": "184"
+	},
+	"147040": {
+		"id": "147040",
+		"name": "Riding Skill: Sushi Cat Grey (Rare_Flower Effects)",
+		"toolTip": "Use this manual to learn how to summon Sushi Cat Grey(Rare_Flower Effects), a grey salmon- and sushi-loving cat with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000025,
+		"vehicleId": "186"
+	},
+	"147041": {
+		"id": "147041",
+		"name": "Riding Skill: Socko",
+		"toolTip": "Use this manual to learn how to summon Socko, a black egg- and sushi-loving cat with a movement speed of 280. Restores your HP and MP.",
+		"skill": 12000026,
+		"vehicleId": "178"
+	},
+	"147042": {
+		"id": "147042",
+		"name": "Riding Skill: Saltyko",
+		"toolTip": "Use this manual to learn how to summon Saltyko, a tawny salmon- and sushi-loving cat with a movement speed of 280 that restores 0.5% of your max HP and MP every second.",
+		"skill": 12000027,
+		"vehicleId": "179"
+	},
+	"147043": {
+		"id": "147043",
+		"name": "Riding Skill: Suchi Cat Grey",
+		"toolTip": "Use this manual to learn how to summon Sushi Cat Grey, a grey salmon- and sushi-loving cat with a movement speed of 280 that restores 0.5% of your max HP and MP every second.",
+		"skill": 12000028,
+		"vehicleId": "185"
+	},
+	"147044": {
+		"id": "147044",
+		"name": "Riding Skill: Black Ookami",
+		"toolTip": "Use this manual to learn how to summon a Black Ookami with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000029,
+		"vehicleId": "176"
+	},
+	"147045": {
+		"id": "147045",
+		"name": "Riding Skill: Green Ookami",
+		"toolTip": "Use this manual to learn how to summon a Green Ookami with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000030,
+		"vehicleId": "177"
+	},
+	"147046": {
+		"id": "147046",
+		"name": "Riding Skill: Friendship",
+		"toolTip": "Use this manual to learn how to summon Friendship with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000031,
+		"vehicleId": "175"
+	},
+	"147047": {
+		"id": "147047",
+		"name": "Riding Skill: Ghost Horse Black",
+		"toolTip": "Use this manual to learn how to summon a Ghost Horse with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000032,
+		"vehicleId": "181"
+	},
+	"147048": {
+		"id": "147048",
+		"name": "Riding Skill: Ghost Horse Gold",
+		"toolTip": "Use this manual to learn how to summon a Ghost Horse with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000033,
+		"vehicleId": "182"
+	},
+	"147049": {
+		"id": "147049",
+		"name": "Riding Skill: Ghost Horse White",
+		"toolTip": "Use this manual to learn how to summon a Ghost Horse with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000034,
+		"vehicleId": "187"
+	},
+	"147050": {
+		"id": "147050",
+		"name": "Riding Skill: Ghost Horse Red",
+		"toolTip": "Use this manual to learn how to summon a Ghost Horse with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000035,
+		"vehicleId": "188"
+	},
+	"147051": {
+		"id": "147051",
+		"name": "Riding Skill: Ghost Horse Luminous",
+		"toolTip": "Use this manual to learn how to summon a Ghost Horse with a movement speed of 280 that restores 0.5% HP and MP every second.",
+		"skill": 12000036,
+		"vehicleId": "189"
+	},
+	"150520": {
+		"id": "150520",
+		"name": "Riding Skill: Fyrewing",
+		"toolTip": "Use this manual to learn how to summon Fyrewing with a Movement Speed of 280.",
+		"skill": 2222649,
+		"vehicleId": "70"
+	},
+	"150632": {
+		"id": "150632",
+		"name": "Riding Skill: Trekking Kumas",
+		"toolTip": "Use this manual to learn how to summon a Trekking Kumas with a Movement Speed of 280.",
+		"skill": 2222657,
+		"vehicleId": "152"
+	},
+	"150644": {
+		"id": "150644",
+		"name": "Riding Skill: Wintera Christmas Kumas",
+		"toolTip": "Use this manual to learn how to summon a Wintera Christmas Kumas with a Movement Speed of 280.",
+		"skill": 2222665,
+		"vehicleId": "151"
+	},
+	"150656": {
+		"id": "150656",
+		"name": "Riding Skill: Wintera Snowbite",
+		"toolTip": "Use this manual to learn how to summon a Wintera Snowbite with a Movement Speed of 280.",
+		"skill": 2222673,
+		"vehicleId": "153"
+	},
+	"150668": {
+		"id": "150668",
+		"name": "Riding Skill: Christmas Kumas",
+		"toolTip": "Use this manual to learn how to summon a Christmas Kumas with a Movement Speed of 280.",
+		"skill": 2222681,
+		"vehicleId": "154"
+	},
+	"150680": {
+		"id": "150680",
+		"name": "Riding Skill: Snowbite",
+		"toolTip": "Use this manual to learn how to summon a Snowbite with a Movement Speed of 280.",
+		"skill": 2222689,
+		"vehicleId": "155"
+	},
+	"150692": {
+		"id": "150692",
+		"name": "Riding Skill: Aurum",
+		"toolTip": "Use this manual to learn how to summon Aurum, a golden dragon with a Movement Speed of 280.",
+		"skill": 2222697,
+		"vehicleId": "156"
+	},
+	"150910": {
+		"id": "150910",
+		"name": "Mount: Lucky Pig",
+		"toolTip": "Use this manual to learn how to summon a Lucky Pig with a Movement Speed of 280.",
+		"skill": 2222705,
+		"vehicleId": "581"
+	},
+	"151408": {
+		"id": "151408",
+		"name": "Riding Skill: Jadewing",
+		"toolTip": "Use this manual to learn how to summon Jadewing with a Movement Speed of 280.",
+		"skill": 14100002,
+		"vehicleId": "157"
+	},
+	"151573": {
+		"id": "151573",
+		"name": "Riding Skill: Ebonwing",
+		"toolTip": "Use this manual to learn how to summon Ebonwing with a Movement Speed of 280.",
+		"skill": 14100010,
+		"vehicleId": "159"
+	},
+	"151631": {
+		"id": "151631",
+		"name": "Riding Skill: Lupus Argentum",
+		"toolTip": "Use this manual to learn how to summon a Lupus Argentum with a Movement Speed of 280 that replenishes 0.5% of your max MP every second.",
+		"skill": 14100025,
+		"vehicleId": "69"
+	},
+	"151635": {
+		"id": "151635",
+		"name": "Riding Skill: Lupus Noctus",
+		"toolTip": "Use this manual to learn how to summon a Lupus Noctus with a Movement Speed of 280 that replenishes 0.5% of your max MP every second.",
+		"skill": 14100029,
+		"vehicleId": "68"
+	},
+	"151637": {
+		"id": "151637",
+		"name": "Riding Skill: Lupus Aeris",
+		"toolTip": "Use this manual to learn how to summon a Lupus Aeris with a Movement Speed of 280 that replenishes 0.5% of your max MP every second.",
+		"skill": 14100031,
+		"vehicleId": "67"
+	},
+	"151766": {
+		"id": "151766",
+		"name": "Riding Skill: Polar Bear",
+		"toolTip": "Use this manual to learn how to summon a Polar Bear with a Movement Speed of 280.",
+		"skill": 14100038,
+		"vehicleId": "161"
+	},
+	"151778": {
+		"id": "151778",
+		"name": "Riding Skill: Grizzly Bear",
+		"toolTip": "Use this manual to learn how to summon a Grizzly Bear with a Movement Speed of 280.",
+		"skill": 14100046,
+		"vehicleId": "162"
+	},
+	"151790": {
+		"id": "151790",
+		"name": "Riding Skill: Panda",
+		"toolTip": "Use this manual to learn how to summon a Panda with a Movement Speed of 280.",
+		"skill": 14100054,
+		"vehicleId": "163"
+	},
+	"151820": {
+		"id": "151820",
+		"name": "Riding Skill: Almighty Ember Tail",
+		"toolTip": "Use this manual to learn how to summon the Almighty Ember Tail with a Movement Speed of 280 that restores 1% of your max HP and MP every second.",
+		"skill": 14100073,
+		"vehicleId": "94"
+	},
+	"151924": {
+		"id": "151924",
+		"name": "Riding Skill: Mythical Gourmando",
+		"toolTip": "Use this manual to learn how to summon the Mythical Gourmando with a Movement Speed of 280 that replenishes 0.5% of your max MP every second.",
+		"skill": 14100074,
+		"vehicleId": "35"
+	},
+	"151930": {
+		"id": "151930",
+		"name": "Riding Skill: Fabled Munchhausen",
+		"toolTip": "Use this manual to learn how to summon the Fabled Munchhausen with a Movement Speed of 280 that recovers 0.5% of your max HP every second.",
+		"skill": 14100076,
+		"vehicleId": "34"
+	},
+	"151945": {
+		"id": "151945",
+		"name": "Riding Skill: Sport GX800",
+		"toolTip": "Use this manual to learn how to summon a Sport GX800 with a Movement Speed of 280.",
+		"skill": 14100082,
+		"vehicleId": "164"
+	},
+	"151957": {
+		"id": "151957",
+		"name": "Riding Skill: Sport SX800",
+		"toolTip": "Use this manual to learn how to summon a Sport SX800 with a Movement Speed of 280.",
+		"skill": 14100090,
+		"vehicleId": "165"
+	},
+	"151969": {
+		"id": "151969",
+		"name": "Riding Skill: Sport RX800",
+		"toolTip": "Use this manual to learn how to summon a Sport RX800 with a Movement Speed of 280.",
+		"skill": 14100098,
+		"vehicleId": "166"
+	},
+	"151981": {
+		"id": "151981",
+		"name": "Riding Skill: Sport GX800 Turbo",
+		"toolTip": "Use this manual to learn how to summon a Sport GX800 Turbo with a Movement Speed of 285 that restores 1% of your max HP and MP every second.",
+		"skill": 14100105,
+		"vehicleId": "167"
+	},
+	"151984": {
+		"id": "151984",
+		"name": "Riding Skill: Supercharged Police Car",
+		"toolTip": "Use this manual to learn how to summon a Supercharged Police Car with a Movement Speed of 280 that restores 1% of your max HP and MP every second.",
+		"skill": 14100106,
+		"vehicleId": "168"
+	},
+	"155442": {
+		"id": "155442",
+		"name": "Riding Skill: Noble Specter",
+		"toolTip": "[TERA Rewards Exclusive] Use this manual to learn how to summon a ghostly wolf mount with a Movement Speed of 280 that restores 1% of your max HP and MP every second.",
+		"skill": 14100628,
+		"vehicleId": "1191"
+	},
+	"155443": {
+		"id": "155443",
+		"name": "Riding Skill: Noble Aether",
+		"toolTip": "[TERA Rewards Exclusive] Use this manual to learn how to summon a ghostly dragon mount with a Movement Speed of 280 that restores 1% of your max HP and MP every second.",
+		"skill": 14100629,
+		"vehicleId": "1192"
+	},
+	"155444": {
+		"id": "155444",
+		"name": "Riding Skill: Noble Ghost",
+		"toolTip": "[TERA Rewards Exclusive] Use this manual to learn how to summon a ghostly spirit wolf mount with a Movement Speed of 280 that restores 1% of your max HP and MP every second.",
+		"skill": 14100630,
+		"vehicleId": "1193"
+	},
+	"179667": {
+		"id": "179667",
+		"name": "Riding Skill: Saolo",
+		"toolTip": "Use this manual to learn how to summon Saolo with a Movement Speed of 280.",
+		"skill": 111234,
+		"vehicleId": "76"
+	},
+	"179679": {
+		"id": "179679",
+		"name": "Riding Skill: Paolo",
+		"toolTip": "Use this manual to learn how to summon Paolo with a Movement Speed of 280.",
+		"skill": 111238,
+		"vehicleId": "77"
+	},
+	"179691": {
+		"id": "179691",
+		"name": "Riding Skill: Tigerinho",
+		"toolTip": "Use this manual to learn how to summon Tigerinho with a Movement Speed of 280.",
+		"skill": 111242,
+		"vehicleId": "78"
+	},
+	"179703": {
+		"id": "179703",
+		"name": "Riding Skill: Tigeraldo",
+		"toolTip": "Use this manual to learn how to summon Tigeraldo with a Movement Speed of 280.",
+		"skill": 111246,
+		"vehicleId": "79"
+	},
+	"181120": {
+		"id": "181120",
+		"name": "Riding Skill: Nexus Warhorse",
+		"toolTip": "Use this manual to learn how to summon a Nexus warhorse with a Movement Speed of 275. You can obtain this mount from the federation bill store and ride like a real nexus champion.",
+		"skill": 2222560,
+		"vehicleId": "2216"
+	},
+	"181121": {
+		"id": "181121",
+		"name": "Riding Skill: Aeolian Zebra",
+		"toolTip": "Use this manual to learn how to summon a zebra with a Movement Speed of 275. You can obtain this mount from the federation bill store.",
+		"skill": 2222561,
+		"vehicleId": "2218"
+	},
+	"181122": {
+		"id": "181122",
+		"name": "Riding Skill: Death Charger",
+		"toolTip": "Use this manual to learn how to a death charger with a Movement Speed of 275. You can obtain this mount from the federation bill store and ride like a real nexus champion.",
+		"skill": 2222562,
+		"vehicleId": "2219"
+	},
+	"185442": {
+		"id": "185442",
+		"name": "Riding Skill: Hello Kitty Squealer",
+		"toolTip": "Use this manual to learn how to summon Squealer, a Hello Kitty mount with a Movement Speed of 280.",
+		"skill": 14100481,
+		"vehicleId": "213"
+	},
+	"185868": {
+		"id": "185868",
+		"name": "Riding Skill: Training Go-Kart",
+		"toolTip": "Use this manual to learn how to summon a Training Go-Kart mount with a Movement Speed of 280.",
+		"skill": 14100489,
+		"vehicleId": "1910"
+	},
+	"185871": {
+		"id": "185871",
+		"name": "Riding Skill: Red Go-Kart",
+		"toolTip": "Use this manual to learn how to summon a Red Training Kart mount with a Movement Speed of 280.",
+		"skill": 14100490,
+		"vehicleId": "1920"
+	},
+	"185874": {
+		"id": "185874",
+		"name": "Riding Skill: Green Go-Kart",
+		"toolTip": "Use this manual to learn how to summon a Green Go-Kart mount with a Movement Speed of 280.",
+		"skill": 14100491,
+		"vehicleId": "1930"
+	},
+	"185877": {
+		"id": "185877",
+		"name": "Riding Skill: Yellow Go-Kart",
+		"toolTip": "Use this manual to learn how to summon a Yellow Go-Kart mount with a Movement Speed of 280.",
+		"skill": 14100492,
+		"vehicleId": "1940"
+	},
+	"185880": {
+		"id": "185880",
+		"name": "Riding Skill: Original Ridge Racer",
+		"toolTip": "Use this manual to learn how to summon an Original Ridge Racer, a mount with a Movement Speed of 280.",
+		"skill": 14100493,
+		"vehicleId": "1990"
+	},
+	"185883": {
+		"id": "185883",
+		"name": "Riding Skill: Pink Ridge Racer",
+		"toolTip": "Use this manual to learn how to summon a Pink Ridge Racer, a mount with a Movement Speed of 280.",
+		"skill": 14100494,
+		"vehicleId": "2010"
+	},
+	"185886": {
+		"id": "185886",
+		"name": "Riding Skill: Yellow Ridge Racer",
+		"toolTip": "Use this manual to learn how to summon a Yellow Ridge Racer, a mount with a Movement Speed of 280.",
+		"skill": 14100495,
+		"vehicleId": "2020"
+	},
+	"185889": {
+		"id": "185889",
+		"name": "Riding Skill: Mint Ridge Racer",
+		"toolTip": "Use this manual to learn how to summon a Mint Ridge Racer, a mount with a Movement Speed of 280.",
+		"skill": 14100496,
+		"vehicleId": "2030"
+	},
+	"185892": {
+		"id": "185892",
+		"name": "Riding Skill: Original Formula T",
+		"toolTip": "Use this manual to learn how to summon an Original Formula T, a mount with a Movement Speed of 280.",
+		"skill": 14100497,
+		"vehicleId": "1950"
+	},
+	"185895": {
+		"id": "185895",
+		"name": "Riding Skill: Red Formula T",
+		"toolTip": "Use this manual to learn how to summon a Red Formula T, a mount with a Movement Speed of 280.",
+		"skill": 14100498,
+		"vehicleId": "1960"
+	},
+	"185898": {
+		"id": "185898",
+		"name": "Riding Skill: Black Formula T",
+		"toolTip": "Use this manual to learn how to summon a Black Formula T, a mount with a Movement Speed of 280.",
+		"skill": 14100499,
+		"vehicleId": "1970"
+	},
+	"185901": {
+		"id": "185901",
+		"name": "Riding Skill: Purple Formula T",
+		"toolTip": "Use this manual to learn how to summon a Purple Formula T, a mount with a Movement Speed of 280.",
+		"skill": 14100500,
+		"vehicleId": "1980"
+	},
+	"185904": {
+		"id": "185904",
+		"name": "Flying Skill: Argo",
+		"toolTip": "Use this manual to learn how to summon Argo, a winged lion mount with a Flight and Movement Speed of 280.",
+		"skill": 14100501,
+		"vehicleId": "207"
+	},
+	"185908": {
+		"id": "185908",
+		"name": "Flying Skill: Sirocco",
+		"toolTip": "Use this manual to learn how to summon Sirocco, a winged lion mount with a Flight and Movement Speed of 280.",
+		"skill": 14100503,
+		"vehicleId": "208"
+	},
+	"185912": {
+		"id": "185912",
+		"name": "Flying Skill: Hellwing",
+		"toolTip": "Use this manual to learn how to summon Hellwing, a winged lion mount with a Flight and Movement Speed of 280.",
+		"skill": 14100505,
+		"vehicleId": "209"
+	},
+	"185916": {
+		"id": "185916",
+		"name": "Flying Skill: Boreas",
+		"toolTip": "Use this manual to learn how to summon Boreas, a bronze, winged lion mount with a Flight and Movement Speed of 280.",
+		"skill": 14100507,
+		"vehicleId": "210"
+	},
+	"185920": {
+		"id": "185920",
+		"name": "Flying Skill: Lenox",
+		"toolTip": "Use this manual to learn how to summon Lenox, a golden, winged lion mount with a Flight and Movement Speed of 280.",
+		"skill": 14100509,
+		"vehicleId": "211"
+	},
+	"185924": {
+		"id": "185924",
+		"name": "Flying Skill: Astor",
+		"toolTip": "Use this manual to learn how to summon Astor, a silvery, winged lion mount with a Flight and Movement Speed of 280.",
+		"skill": 14100511,
+		"vehicleId": "212"
+	},
+	"185928": {
+		"id": "185928",
+		"name": "Flying Skill: Pegasus",
+		"toolTip": "Use this manual to learn how to summon Pegasus, a winged mount with a Flight and Movement Speed of 270.",
+		"skill": 14100513,
+		"vehicleId": "204001"
+	},
+	"185931": {
+		"id": "185931",
+		"name": "Flying Skill: Summerwing",
+		"toolTip": "Use this manual to learn how to summon Summerwing, a flying mount with a Flight and Movement Speed of 270.",
+		"skill": 14100514,
+		"vehicleId": "206001"
+	},
+	"185934": {
+		"id": "185934",
+		"name": "Flying Skill: Pitch",
+		"toolTip": "Use this manual to learn how to summon Pitch, a winged mount with a Flight and Movement Speed of 270.",
+		"skill": 14100515,
+		"vehicleId": "205001"
+	},
+	"185937": {
+		"id": "185937",
+		"name": "Flying Skill: Winterwing",
+		"toolTip": "Use this manual to learn how to summon Winterwing, a winged white stallion with a Flight and Movement Speed of 280.",
+		"skill": 14100516,
+		"vehicleId": "204000"
+	},
+	"185941": {
+		"id": "185941",
+		"name": "Flying Skill: Zephyr",
+		"toolTip": "Use this manual to learn how to summon Zephyr, a winged mount with a Flight and Movement Speed of 280.",
+		"skill": 14100518,
+		"vehicleId": "206000"
+	},
+	"185945": {
+		"id": "185945",
+		"name": "Flying Skill: Eclipse",
+		"toolTip": "Use this manual to learn how to summon Eclipse, a winged black stallion with a Flight and Movement Speed of 280.",
+		"skill": 14100520,
+		"vehicleId": "205000"
+	},
+	"186035": {
+		"id": "186035",
+		"name": "Flying Skill: Waddlewing",
+		"toolTip": "Use this manual to learn how to summon Waddlewing, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100549,
+		"vehicleId": "216"
+	},
+	"186047": {
+		"id": "186047",
+		"name": "Flying Skill: Airy Porker",
+		"toolTip": "Use this manual to learn how to summon Airy Porker, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100553,
+		"vehicleId": "218"
+	},
+	"186059": {
+		"id": "186059",
+		"name": "Flying Skill: Airboss",
+		"toolTip": "Use this manual to learn how to summon Airboss, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100557,
+		"vehicleId": "221"
+	},
+	"186071": {
+		"id": "186071",
+		"name": "Flying Skill: Amelia",
+		"toolTip": "Use this manual to learn how to summon Amelia, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100561,
+		"vehicleId": "223"
+	},
+	"186083": {
+		"id": "186083",
+		"name": "Flying Skill: Orville",
+		"toolTip": "Use this manual to learn how to summon Orville, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100565,
+		"vehicleId": "225"
+	},
+	"186095": {
+		"id": "186095",
+		"name": "Flying Skill: Cuddles",
+		"toolTip": "Use this manual to learn how to summon Cuddles, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100569,
+		"vehicleId": "217"
+	},
+	"186107": {
+		"id": "186107",
+		"name": "Flying Skill: Nimbus",
+		"toolTip": "Use this manual to learn how to summon Nimbus, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100573,
+		"vehicleId": "219"
+	},
+	"186119": {
+		"id": "186119",
+		"name": "Flying Skill: Blazer",
+		"toolTip": "Use this manual to learn how to summon Blazer, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100577,
+		"vehicleId": "222"
+	},
+	"186131": {
+		"id": "186131",
+		"name": "Flying Skill: Spamela",
+		"toolTip": "Use this manual to learn how to summon Spamela, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100581,
+		"vehicleId": "224"
+	},
+	"186143": {
+		"id": "186143",
+		"name": "Flying Skill: Ace",
+		"toolTip": "Use this manual to learn how to summon Ace, a winged pig mount with a Flight and Movement Speed of 280.",
+		"skill": 14100585,
+		"vehicleId": "226"
+	},
+	"186555": {
+		"id": "186555",
+		"name": "Flying Skill: Baby",
+		"toolTip": "Use this manual to learn how to summon Baby, a belled white flying llama mount with a Flight and Movement Speed of 280.",
+		"skill": 14100594,
+		"vehicleId": "228"
+	},
+	"186571": {
+		"id": "186571",
+		"name": "Flying Skill: Andy",
+		"toolTip": "Use this manual to learn how to summon Andy, a formal white flying llama mount with a Flight and Movement Speed of 280.",
+		"skill": 14100598,
+		"vehicleId": "229"
+	},
+	"186587": {
+		"id": "186587",
+		"name": "Flying Skill: Prue",
+		"toolTip": "Use this manual to learn how to summon Prue, a belled brown flying llama mount with a Flight and Movement Speed of 280.",
+		"skill": 14100602,
+		"vehicleId": "230"
+	},
+	"186603": {
+		"id": "186603",
+		"name": "Flying Skill: Clive",
+		"toolTip": "Use this manual to learn how to summon Clive, a formal brown flying llama mount with a Flight and Movement Speed of 280.",
+		"skill": 14100606,
+		"vehicleId": "231"
+	},
+	"251344": {
+		"id": "251344",
+		"name": "Riding Skill: TERA Car",
+		"toolTip": "Use this manual to learn how to summon TERA Car with a movement speed of 280.",
+		"skill": 23000000,
+		"vehicleId": "1166"
+	},
+	"252360": {
+		"id": "252360",
+		"name": "Flying Skill: Skycycle",
+		"toolTip": "Use this manual to learn how to summon a Skycycle mount with a Flight and Movement Speed of 290.",
+		"skill": 23000027,
+		"vehicleId": "240"
+	},
+	"252404": {
+		"id": "252404",
+		"name": "Flying Skill: Jetcycle",
+		"toolTip": "Use this manual to learn how to summon a Jetcycle mount with a Flight and Movement Speed of 290.",
+		"skill": 23000054,
+		"vehicleId": "241"
+	},
+	"254960": {
+		"id": "254960",
+		"name": "Riding Skill: Lady",
+		"toolTip": "Use this manual to learn how to summon a spirit wolf with a movement speed of 280.",
+		"skill": 23000141,
+		"vehicleId": "254"
+	},
+	"255328": {
+		"id": "255328",
+		"name": "Flying Skill: Flopsy",
+		"toolTip": "Use this manual to learn how to summon Flopsy, a flying bunny mount with a flight and movement speed of 290.",
+		"skill": 23000153,
+		"vehicleId": "255"
+	},
+	"255372": {
+		"id": "255372",
+		"name": "Flying Skill: Mopsy",
+		"toolTip": "Use this manual to learn how to summon Mopsy, a flying bunny mount with a flight and movement speed of 290.",
+		"skill": 23000165,
+		"vehicleId": "256"
+	},
+	"256448": {
+		"id": "256448",
+		"name": "Flying Skill: Midnight",
+		"toolTip": "Use this manual to learn how to summon Midnight, a flying wolf mount with a flight and movement speed of 290.",
+		"skill": 23000177,
+		"vehicleId": "17600"
+	},
+	"256492": {
+		"id": "256492",
+		"name": "Flying Skill: Hertz",
+		"toolTip": "Use this manual to learn how to summon Hertz, a flying wolf mount with a flight and movement speed of 290.",
+		"skill": 23000189,
+		"vehicleId": "11930"
+	},
+	"256536": {
+		"id": "256536",
+		"name": "Flying Skill: Pink",
+		"toolTip": "Use this manual to learn how to summon Pink, a flying wolf mount with a flight and movement speed of 290.",
+		"skill": 23000201,
+		"vehicleId": "2540"
+	}
+}
