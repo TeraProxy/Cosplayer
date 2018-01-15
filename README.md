@@ -1,3 +1,8 @@
+##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
+1) Update your tera-data https://github.com/meishuu/tera-data
+2) Unzip the contents of the "node_modules" folder into "\tera-proxy\node_modules"
+3) Unzip the rest into "\tera-proxy\bin\node_modules"
+
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ&lc=US&item_name=TeraProxy&curency_code=USD&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 
 ## New in version 2.0.0
