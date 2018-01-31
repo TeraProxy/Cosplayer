@@ -1,8 +1,9 @@
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
-1) Update your tera-data https://github.com/meishuu/tera-data
-2) Unzip the contents of the "node_modules" folder into "\tera-proxy\node_modules"
-3) Unzip the rest into "\tera-proxy\bin\node_modules\Cosplayer"
-4) If you get a "is not a valid Win32 application" error, you will have to compile win-mouse yourself by typing "npm install win-mouse" in a Windows Command Prompt window
+1) Make sure you have Node.JS 9.3.0 x64 or newer installed: https://nodejs.org/dist/v9.4.0/node-v9.4.0-x64.msi
+2) Update your tera-data: https://github.com/meishuu/tera-data
+3) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
+4) Extract the contents of the zip file into "\tera-proxy\bin\node_modules\"
+5) Cosplay!
 
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ&lc=US&item_name=TeraProxy&curency_code=USD&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 
@@ -64,6 +65,9 @@ Based on elin-magic by Pinkie Pie https://github.com/pinkipi
 Thanks to Kourin for a better way to generate the Dressing Room https://github.com/Mister-Kay  
   
 ## Changelog
+### 2.0.1
+* [*] Fixed a bug for preset-less characters
+* [+] Added checks for Node.JS version
 ### 2.0.0
 * [*] Major code overhaul
 * [*] Some bug fixes
