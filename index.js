@@ -1,6 +1,22 @@
-// Version 2.0
+// Version 2.0.1
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
+
+try {
+	const ver = process.versions.node.split('.')
+	if(ver[0] < 9 || (ver[0] >= 9 && ver[1] < 3)) throw Error()
+}
+catch(e) {
+	console.error('Your version of Node.JS is unable to run Cosplayer properly. Version 9.3.0 or higher is required.')
+	return
+}
+try {
+	if(process.arch != 'x64') throw Error()
+}
+catch(e) {
+	console.error('You are not using the x64 version of Node.JS. Cosplayer only runs properly on 64 bit versions.')
+	return
+}
 
 const Command = require('command'),
 	path = require('path'),
@@ -79,8 +95,10 @@ module.exports = function Cosplayer(dispatch) {
 		player = event.name
 		inDressup = false
 		inDye = false
-		mypreset = presets[player]
-		mynametag = mypreset.nametag || ''
+		if(presets[player]) {
+			mypreset = presets[player]
+			mynametag = mypreset.nametag || ''
+		}
 
 		if(mypreset && mypreset.gameId != 0) {
 			external = mypreset
