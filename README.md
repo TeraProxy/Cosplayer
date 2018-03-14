@@ -1,3 +1,6 @@
+##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
+Updated for NA Counterpunch patch. If your character is missing its head, use "/8 cosplay undress" and redo your outfit via the Dressing Room.  
+  
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
 1) Make sure you have Node.JS 9.3.0 x64 or newer installed: https://nodejs.org/dist/v9.4.0/node-v9.4.0-x64.msi
 2) Update your tera-data: https://github.com/meishuu/tera-data
@@ -68,6 +71,7 @@ Thanks to Kourin for a better way to generate the Dressing Room https://github.c
 ### 2.0.1
 * [*] Fixed a bug for preset-less characters
 * [+] Added checks for Node.JS version
+* [~] Updated installation guide (tested on different machine successfully)
 ### 2.0.0
 * [*] Major code overhaul
 * [*] Some bug fixes
