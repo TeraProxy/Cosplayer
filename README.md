@@ -1,5 +1,8 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Updated for NA Counterpunch patch. If your character is missing its head, use "/8 cosplay undress" and redo your outfit via the Dressing Room.  
+If your character is missing its head, use "/8 cosplay undress" and redo your outfit via the Dressing Room.  
+Updated for NA Counterpunch patch with the latest https://github.com/meishuu/tera-data.  
+Please always keep your tera-data up-to-date.  
+Other regions will work if the opcodes are mapped but I personally only test modules on NA.  
   
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
 1) Make sure you have Node.JS 9.3.0 x64 or newer installed: https://nodejs.org/dist/v9.4.0/node-v9.4.0-x64.msi
