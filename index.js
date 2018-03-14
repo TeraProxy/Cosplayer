@@ -1,4 +1,4 @@
-// Version 2.0.1
+// Version 2.0.2
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
 
@@ -79,7 +79,7 @@ module.exports = function Cosplayer(dispatch) {
 	// ### Hooks ### //
 	// ############# //
 
-	dispatch.hook('S_GET_USER_LIST', 11, event => {
+	dispatch.hook('S_GET_USER_LIST', 12, event => {
 		for (let i in event.characters) {
 			let charpreset = presets[event.characters[i].name]
 
@@ -140,7 +140,7 @@ module.exports = function Cosplayer(dispatch) {
 		dressingRoom = convertList(dressingRoom)
 	})
 
-	dispatch.hook('S_USER_EXTERNAL_CHANGE', 4, event => {
+	dispatch.hook('S_USER_EXTERNAL_CHANGE', 5, event => {
 		if(event.gameId.equals(gameId)) {
 			userDefaultAppearance = Object.assign({}, event)
 
@@ -226,7 +226,7 @@ module.exports = function Cosplayer(dispatch) {
 		}
 	})
 
-	dispatch.hook('C_REQUEST_NONDB_ITEM_INFO', 1, event => {
+	dispatch.hook('C_REQUEST_NONDB_ITEM_INFO', 2, event => {
 		if(inDressup) {
 			hoveredItem = event.item
 
@@ -245,7 +245,7 @@ module.exports = function Cosplayer(dispatch) {
 		}
 	})
 
-	dispatch.hook('S_UNICAST_TRANSFORM_DATA', 1, event => { // Reapply look after Marrow Brooch / Clone Jutsu
+	dispatch.hook('S_UNICAST_TRANSFORM_DATA', 2, event => { // Reapply look after Marrow Brooch / Clone Jutsu
 		if(event.gameId.equals(gameId) && event.unk2 == false) setTimeout(reapplyPreset, 100)
 	})
 
@@ -349,13 +349,13 @@ module.exports = function Cosplayer(dispatch) {
 	}
 
 	function changeNametag(newnametag) {
-		dispatch.toClient('S_ITEM_CUSTOM_STRING', 1, {owner: gameId, items: [{item: external.styleBody, text: newnametag}]})
+		dispatch.toClient('S_ITEM_CUSTOM_STRING', 2, {gameId: gameId, customStrings: [{dbid: external.styleBody, string: newnametag}]})
 		mynametag = (newnametag == player) ? "" : newnametag
 		presetUpdate(true)
 	}
 
 	function changeAppearance() {
-		dispatch.toClient('S_USER_EXTERNAL_CHANGE', 4, external)
+		dispatch.toClient('S_USER_EXTERNAL_CHANGE', 5, external)
 		if(mynametag && (mynametag.length > 0)) changeNametag(mynametag)
 	}
 
