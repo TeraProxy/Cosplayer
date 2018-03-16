@@ -1,4 +1,4 @@
-// Version 2.0.2
+// Version 2.0.3
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
 
@@ -8,6 +8,7 @@ try {
 }
 catch(e) {
 	console.error('Your version of Node.JS is unable to run Cosplayer properly. Version 9.3.0 or higher is required.')
+	console.log('You are currently running Node.JS version ' + process.versions.node)
 	return
 }
 try {
