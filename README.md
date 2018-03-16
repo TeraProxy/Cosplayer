@@ -1,8 +1,5 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-If your character is missing its head, use "/8 cosplay undress" and redo your outfit via the Dressing Room.  
-Updated for NA Counterpunch patch with the latest https://github.com/meishuu/tera-data.  
-Please always keep your tera-data up-to-date.  
-Other regions will work if the opcodes are mapped but I personally only test modules on NA.  
+Updated for NA Counterpunch patch. If your character is missing its head, use "/8 cosplay undress" and redo your outfit via the Dressing Room.  
   
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
 1) Make sure you have Node.JS 9.3.0 x64 or newer installed: https://nodejs.org/dist/v9.4.0/node-v9.4.0-x64.msi
@@ -71,6 +68,11 @@ Based on elin-magic by Pinkie Pie https://github.com/pinkipi
 Thanks to Kourin for a better way to generate the Dressing Room https://github.com/Mister-Kay  
   
 ## Changelog
+### 2.0.3
+* [+] Added current version output for Node.JS version check
+* [~] Item update: Mechanical weapon skins
+### 2.0.2
+* [~] Updated for NA Counterpunch patch
 ### 2.0.1
 * [*] Fixed a bug for preset-less characters
 * [+] Added checks for Node.JS version
