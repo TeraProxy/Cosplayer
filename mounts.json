@@ -1553,6 +1553,13 @@
 		"skill": 2222562,
 		"vehicleId": "2219"
 	},
+	"201531": {
+		"id": "201531",
+		"name": "Riding Skill: Elephant",
+		"toolTip": "Use this manual to learn how to summon an elephant ground mount with a movement speed of 290.",
+		"skill": 12200103,
+		"vehicleId": "263"
+	},
 	"214185": {
 		"id": "214185",
 		"name": "",
