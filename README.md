@@ -68,6 +68,8 @@ Based on elin-magic by Pinkie Pie https://github.com/pinkipi
 Thanks to Kourin for a better way to generate the Dressing Room https://github.com/Mister-Kay  
   
 ## Changelog
+### 2.0.4
+* [*] Updated hook versions
 ### 2.0.3
 * [+] Added current version output for Node.JS version check
 * [~] Item update: Mechanical weapon skins

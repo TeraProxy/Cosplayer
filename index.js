@@ -1,8 +1,8 @@
-// Version 2.0.3
+// Version 2.0.4
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
 
-try {
+try { // Make sure the player can use the compiled win-mouse library
 	const ver = process.versions.node.split('.')
 	if(ver[0] < 9 || (ver[0] >= 9 && ver[1] < 3)) throw Error()
 }
@@ -80,7 +80,7 @@ module.exports = function Cosplayer(dispatch) {
 	// ### Hooks ### //
 	// ############# //
 
-	dispatch.hook('S_GET_USER_LIST', 12, event => {
+	dispatch.hook('S_GET_USER_LIST', 14, event => {
 		for (let i in event.characters) {
 			let charpreset = presets[event.characters[i].name]
 
@@ -91,7 +91,7 @@ module.exports = function Cosplayer(dispatch) {
 		return true
 	})
 
-	dispatch.hook('S_LOGIN', 9, event => {
+	dispatch.hook('S_LOGIN', 10, event => {
 		gameId = event.gameId
 		player = event.name
 		inDressup = false
@@ -141,7 +141,7 @@ module.exports = function Cosplayer(dispatch) {
 		dressingRoom = convertList(dressingRoom)
 	})
 
-	dispatch.hook('S_USER_EXTERNAL_CHANGE', 5, event => {
+	dispatch.hook('S_USER_EXTERNAL_CHANGE', 6, event => {
 		if(event.gameId.equals(gameId)) {
 			userDefaultAppearance = Object.assign({}, event)
 
@@ -246,7 +246,7 @@ module.exports = function Cosplayer(dispatch) {
 		}
 	})
 
-	dispatch.hook('S_UNICAST_TRANSFORM_DATA', 2, event => { // Reapply look after Marrow Brooch / Clone Jutsu
+	dispatch.hook('S_UNICAST_TRANSFORM_DATA', 3, event => { // Reapply look after Marrow Brooch / Clone Jutsu
 		if(event.gameId.equals(gameId) && event.unk2 == false) setTimeout(reapplyPreset, 100)
 	})
 
@@ -356,7 +356,7 @@ module.exports = function Cosplayer(dispatch) {
 	}
 
 	function changeAppearance() {
-		dispatch.toClient('S_USER_EXTERNAL_CHANGE', 5, external)
+		dispatch.toClient('S_USER_EXTERNAL_CHANGE', 6, external)
 		if(mynametag && (mynametag.length > 0)) changeNametag(mynametag)
 	}
 
