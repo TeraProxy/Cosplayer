@@ -1,5 +1,8 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Updated for NA Counterpunch patch. If your character is missing its head, use "/8 cosplay undress" and redo your outfit via the Dressing Room.  
+Working on NA Godsfall patch with the latest https://github.com/meishuu/tera-data.  
+Please always keep your tera-data up-to-date.  
+Other regions will work if the opcodes are mapped but I personally only test modules on NA.  
+Due to a compatibility problem with the module caching feature of newer Tera-Proxy software, you will have to restart your proxy if you disconnect from the game.  
   
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
 1) Make sure you have Node.JS 9.3.0 x64 or newer installed: https://nodejs.org/dist/v9.4.0/node-v9.4.0-x64.msi
@@ -68,6 +71,9 @@ Based on elin-magic by Pinkie Pie https://github.com/pinkipi
 Thanks to Kourin for a better way to generate the Dressing Room https://github.com/Mister-Kay  
   
 ## Changelog
+### 2.0.5
+* [-] Removed version check (kept architecture check)
+* [~] Item update
 ### 2.0.4
 * [*] Updated hook versions
 ### 2.0.3
