@@ -1,17 +1,10 @@
-// Version 2.0.4
+// Version 2.0.5
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
 
+'use strict'
+
 try { // Make sure the player can use the compiled win-mouse library
-	const ver = process.versions.node.split('.')
-	if(ver[0] < 9 || (ver[0] >= 9 && ver[1] < 3)) throw Error()
-}
-catch(e) {
-	console.error('Your version of Node.JS is unable to run Cosplayer properly. Version 9.3.0 or higher is required.')
-	console.log('You are currently running Node.JS version ' + process.versions.node)
-	return
-}
-try {
 	if(process.arch != 'x64') throw Error()
 }
 catch(e) {
