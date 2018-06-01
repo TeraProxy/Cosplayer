@@ -83,6 +83,21 @@ module.exports = function Cosplayer(dispatch) {
 		}
 		return true
 	})
+	
+	dispatch.hook('S_RETURN_TO_LOBBY' , 1, event => {
+		gameId = null;
+		player = '';
+		job = -1;
+		external = null;
+		userDefaultAppearance = null;
+		inDressup = false;
+		inDye = false;
+		lastTooltip = 0;
+		mypreset = null;
+		mynametag = '';
+		gettingAppearance = false;
+		currentColorItem = null;
+	});
 
 	dispatch.hook('S_LOGIN', 10, event => {
 		gameId = event.gameId
