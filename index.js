@@ -39,7 +39,6 @@ module.exports = function Cosplayer(dispatch) {
 		dressingRoom = [],
 		mouse = Mouse(),
 		hoveredItem = -1
-		
 
 	// ################### //
 	// ### Save & Load ### //
@@ -423,7 +422,6 @@ module.exports = function Cosplayer(dispatch) {
 	
 	// Mount functions
 	function saveMount() {
-		console.log("saved mount");
 		fs.writeFile(path.join(__dirname, 'preset-mount.json'), JSON.stringify(customMount, null, 4), err => {
 		})
 	}
@@ -433,6 +431,10 @@ module.exports = function Cosplayer(dispatch) {
 	// ################ //
 
 	const command = Command(dispatch)
+	command.add('dismount', ()=>{
+		dispatch.toServer('C_UNMOUNT_VEHICLE', 1, {})
+	});
+	
 	command.add('cosplay', (param, value, rgb) => {
 		if (param == 'weapon' && value != null) {
 			external.styleWeapon = Number(value)
