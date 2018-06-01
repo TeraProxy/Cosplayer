@@ -59,6 +59,8 @@ The following commands are supported:
 * cosplay tag [text] - change name tag on costume, e.g. "cosplay tag 'I love Spacecats'"
 * cosplay as [name] - copy an online player's outfit, e.g. "cosplay as Sasuke.Uchiha"
 * cosplay undress - goes back to your actual look
+
+* dismount - Workaround for when wrong mount type applied.
   
 Any other input, starting with "cosplay", will return a summary of above commands in the chat.  
   
