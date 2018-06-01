@@ -23,6 +23,7 @@ const Command = require('command'),
 	weapons = Object.keys(items.categories.style.weapon)
 
 module.exports = function Cosplayer(dispatch) {
+	
 	let gameId = null,
 		player = '',
 		job = -1,
@@ -38,16 +39,20 @@ module.exports = function Cosplayer(dispatch) {
 		dressingRoom = [],
 		mouse = Mouse(),
 		hoveredItem = -1
+		
 
 	// ################### //
 	// ### Save & Load ### //
 	// ################### //
 
-	let presets = {},
+	let presets = {}, customMount = {},
 		presetTimeout = null,
 		presetLock = false
 
-	try { presets = require('./presets.json') }
+	try {
+		presets = require('./presets.json');
+		customMount = require('./preset-mount.json');
+	}
 	catch(e) { presets = {} }
 
 	function presetUpdate(setpreset) {
@@ -238,7 +243,7 @@ module.exports = function Cosplayer(dispatch) {
 	dispatch.hook('C_REQUEST_NONDB_ITEM_INFO', 2, event => {
 		if(inDressup) {
 			hoveredItem = event.item
-
+			
 			dispatch.toClient('S_REPLY_NONDB_ITEM_INFO', 1, {
 				item: hoveredItem,
 				unk: true,
@@ -272,18 +277,38 @@ module.exports = function Cosplayer(dispatch) {
 			return false
 		}
 	})
+	
+	
+	// mount hooks
+	dispatch.hook('S_MOUNT_VEHICLE', 1, (event) => {
+		if(customMount[player]!=null && customMount[player] > 0) {
+			if(event.target.equals(gameId)){
+				event.unk1 = customMount[player];
+				return true;
+			}
+			return true;
+		}
+	});
 
 	// ################# //
 	// ### Functions ### //
 	// ################# //
 
 	function equipped(item) {
+		
 		if(items.categories.style.weapon[weapons[job]].includes(item)) {
 			external.styleWeapon = item
 			external.gameId = gameId
 			presetUpdate(true)
 			return
 		}
+		
+		if(mounts[item]!=null){
+			customMount[player] = parseInt(mounts[item].vehicleId);
+			saveMount();
+			return;
+		}		
+		
 		for (let slot of ['face', 'underwear']) {
 			if(items.categories.gear[slot].includes(item)) {
 				external[slot] = item
@@ -395,6 +420,13 @@ module.exports = function Cosplayer(dispatch) {
 		dispatch.toServer('C_REQUEST_USER_PAPERDOLL_INFO', 1, { name: playername })
 		setTimeout(() => { gettingAppearance = false }, 1000)
 	}
+	
+	// Mount functions
+	function saveMount() {
+		console.log("saved mount");
+		fs.writeFile(path.join(__dirname, 'preset-mount.json'), JSON.stringify(customMount, null, 4), err => {
+		})
+	}
 
 	// ################ //
 	// ### Commands ### //
@@ -485,6 +517,7 @@ module.exports = function Cosplayer(dispatch) {
 			changeAppearance()
 			external.gameId = 0
 			presetUpdate(true)
+			customMount[player]=0
 		}
 		else command.message('Commands:\n' 
 								+ ' "cosplay weapon [id]" (change your weapon skin to id, e.g. "cosplay weapon 99272"),\n'
