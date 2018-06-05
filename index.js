@@ -1,14 +1,17 @@
-// Version 2.0.5
+// Version 2.1.0
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
+// Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
 
 'use strict'
 
 try { // Make sure the player can use the compiled win-mouse library
 	if(process.arch != 'x64') throw Error()
+	if(process.versions.modules != '64') throw Error()
 }
 catch(e) {
-	console.error('You are not using the x64 version of Node.JS. Cosplayer only runs properly on 64 bit versions.')
+	if(process.versions.modules == '59') console.error('NodeJS 9 is not compatible with Cosplayer by default. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki')
+	else console.error('Your current system is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki')
 	return
 }
 
@@ -23,6 +26,7 @@ const Command = require('command'),
 	weapons = Object.keys(items.categories.style.weapon)
 
 module.exports = function Cosplayer(dispatch) {
+
 	let gameId = null,
 		player = '',
 		job = -1,
@@ -30,20 +34,19 @@ module.exports = function Cosplayer(dispatch) {
 		userDefaultAppearance = null,
 		inDressup = false,
 		inDye = false,
-		lastTooltip = 0,
 		mypreset = null,
 		mynametag = '',
 		gettingAppearance = false,
-		currentColorItem = null,
 		dressingRoom = [],
 		mouse = Mouse(),
-		hoveredItem = -1
+		hoveredItem = -1,
+		mymount = 0
 
 	// ################### //
 	// ### Save & Load ### //
 	// ################### //
 
-	let presets = {},
+	let presets = {}, 
 		presetTimeout = null,
 		presetLock = false
 
@@ -51,8 +54,11 @@ module.exports = function Cosplayer(dispatch) {
 	catch(e) { presets = {} }
 
 	function presetUpdate(setpreset) {
-		presets[player].nametag = mynametag
 		if(setpreset) mypreset = presets[player] = Object.assign({}, external)
+		if(mypreset) {
+			mypreset.nametag = presets[player].nametag = mynametag
+			mypreset.mount = presets[player].mount = mymount
+		}
 
 		clearTimeout(presetTimeout)
 		presetTimeout = setTimeout(presetSave, 1000)
@@ -89,9 +95,18 @@ module.exports = function Cosplayer(dispatch) {
 		player = event.name
 		inDressup = false
 		inDye = false
+		mypreset = null
+		mynametag = ''
+		external = null
+		userDefaultAppearance = null
+		gettingAppearance = false
+		hoveredItem = -1
+		mymount = 0
+		
 		if(presets[player]) {
 			mypreset = presets[player]
-			mynametag = mypreset.nametag || ''
+			mynametag = mypreset.nametag
+			mymount = mypreset.mount
 		}
 
 		if(mypreset && mypreset.gameId != 0) {
@@ -182,13 +197,15 @@ module.exports = function Cosplayer(dispatch) {
 			}, 1000)
 		}
 
-		if(event.target == gameId && event.id == 10155130)  // Ragnarok
-			changeAppearance()
+		if(event.target == gameId) {
+			if(event.id == 10155130 || event.id == 401705) // Ragnarok, Unleashed
+				changeAppearance()
+		}
 	})
 
 	dispatch.hook('S_ABNORMALITY_END', 1, (event) =>{
 		if(event.target == gameId) {
-			if(event.id == 10155130) // Ragnarok
+			if(event.id == 10155130 || event.id == 401705) // Ragnarok, Unleashed
 				changeAppearance()
 		}
 	})
@@ -223,7 +240,7 @@ module.exports = function Cosplayer(dispatch) {
 	dispatch.hook('C_REQUEST_NONDB_ITEM_INFO', 2, event => {
 		if(inDressup) {
 			hoveredItem = event.item
-
+			
 			dispatch.toClient('S_REPLY_NONDB_ITEM_INFO', 1, {
 				item: hoveredItem,
 				unk: true,
@@ -258,6 +275,15 @@ module.exports = function Cosplayer(dispatch) {
 		}
 	})
 
+	dispatch.hook('S_MOUNT_VEHICLE', 1, (event) => {
+		if(event.target.equals(gameId)) {
+			if(mymount != null && mymount > 0) {
+				event.unk1 = mymount
+				return true
+			}
+		}
+	})
+
 	// ################# //
 	// ### Functions ### //
 	// ################# //
@@ -266,6 +292,11 @@ module.exports = function Cosplayer(dispatch) {
 		if(items.categories.style.weapon[weapons[job]].includes(item)) {
 			external.styleWeapon = item
 			external.gameId = gameId
+			presetUpdate(true)
+			return
+		}
+		else if(mounts[item]) {
+			mymount = mounts[item].vehicleId
 			presetUpdate(true)
 			return
 		}
@@ -471,6 +502,11 @@ module.exports = function Cosplayer(dispatch) {
 			external.gameId = 0
 			presetUpdate(true)
 		}
+		else if (param == 'dismount') {
+			dispatch.toServer('C_UNMOUNT_VEHICLE', 1, {})
+			mymount = 0
+			presetUpdate(true)
+		}
 		else command.message('Commands:\n' 
 								+ ' "cosplay weapon [id]" (change your weapon skin to id, e.g. "cosplay weapon 99272"),\n'
 								+ ' "cosplay costume [id]" (change your costume skin to id, e.g. "cosplay costume 180722"),\n'
@@ -485,7 +521,8 @@ module.exports = function Cosplayer(dispatch) {
 								+ ' "cosplay enchant [0-15]" (change weapon enchant glow, e.g. "cosplay enchant 13"),\n'
 								+ ' "cosplay tag [text]" (change name tag on costume, e.g. "cosplay tag \'I love Spacecats\'"),\n'
 								+ ' "cosplay as [name]" (copy an online player\'s outfit, e.g. "cosplay as Sasuke.Uchiha"),\n'
-								+ ' "cosplay undress" (goes back to your actual look)'
+								+ ' "cosplay undress" (revert to your original look),\n'
+								+ ' "cosplay dismount" (dismount and revert to your original mount)'
 			)
 	})
 }

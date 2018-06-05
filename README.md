@@ -1,49 +1,45 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Working on NA Godsfall patch with the latest https://github.com/meishuu/tera-data.  
+Working on NA patch 6802 with the latest https://github.com/meishuu/tera-data.  
 Please always keep your tera-data up-to-date.  
-Other regions will work if the opcodes are mapped but I personally only test modules on NA.  
-Due to a compatibility problem with the module caching feature of newer Tera-Proxy software, you will have to restart your proxy if you disconnect from the game.  
-  
-##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
-1) Make sure you have Node.JS 9.3.0 x64 or newer installed: https://nodejs.org/dist/v9.4.0/node-v9.4.0-x64.msi
+All regions should work if the opcodes are mapped but I personally only test modules on NA.  
+Due to a compatibility problem with the module caching feature of PinkiePie's Tera-Proxy software, you will have to restart your proxy if you disconnect from the game.  
+
+##### :heavy_exclamation_mark: Installation for Caali's tera-proxy :heavy_exclamation_mark:
+1) Download Cosplayer's module.json: https://github.com/TeraProxy/Cosplayer/blob/master/module.json
+2) Create an empty folder "Cosplayer" in "\tera-proxy\bin\node_modules\"
+3) Copy the module.json into "\tera-proxy\bin\node_modules\Cosplayer"
+4) Cosplay!
+
+##### :heavy_exclamation_mark: Installation for PinkiePie's tera-proxy :heavy_exclamation_mark:
+1) Make sure you have Node.JS 10 x64 or newer installed: https://nodejs.org/dist/v10.3.0/node-v10.3.0-x64.msi
 2) Update your tera-data: https://github.com/meishuu/tera-data
 3) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
 4) Extract the contents of the zip file into "\tera-proxy\bin\node_modules\"
 5) Cosplay!
+6) Check back here once in a while for updates
 
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ&lc=US&item_name=TeraProxy&curency_code=USD&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 
-## New in version 2.0.0
-### Change in functionality
-Bluehole Studios fixed the bug that was abused to save Dressing Room items on mouse click.  
-So we'll just abuse something else from now on: Hover over an item in the Dressing Room until you see its tooltip appear (should happen almost immediately). 
-On your next right click (NOT left lick) in the Dressing Room, the item over which you hovered last will be applied to your character. Easy enough, right?  
-Also some text commands changed. Refer to "Usage" below.  
-### Changes in Dressing Room generation
-A complete list of possible Dressing Room items for your character will be generated on login.  
-The databases for this will from now on be parsed directly from the datacenter. So when a new costume patch hits, check for a Cosplayer update.  
-No more manual scanning, no more duplicates.  
-### The "cosplay as" command
-This new command copies an online player's outfit over to your character. To make sure nothing bad happens, only items suitable for your character are applied.  
-In other words: If the other player and you share the same gender and race, you'll copy the whole outfit (except for the weapon if the class is different).  
-### Experimental "cosplay dyergb" expansion
-The client supports changing the colors of many more items than just your costume. Won't always have a visible effect though.  
-Nevertheless, you can for now use the "cosplay dyergb" command followed by "costume", "underwear", "chest", "gloves" or "boots" to experiment.  
+## New in version 2.1.0
+### Custom Mount Support
+Now even your mount can cosplay with you!  
+Right click on mounts in the Dressing Room to change your used mount in game.  
+Careful though: Only use ground mounts for ground mounts and flying mounts for flying mounts or you might be unable to dismount (you can easily fix this by using the "cosplay dismount" command though)  
 
 # Cosplayer
 A tera-proxy module able to change your client-side appearance.  
 Changes to your character are saved on your hard drive and reloaded on next login.  
-  
+
 ## Usage  
 1) Open the Dressing Room  
 2) Hover over an item until you see its tooltip appear  
 3) Right click  
 That's it! Or use one of the many commands below.  
-  
+
 While in game, open a proxy chat session by typing "/proxy" or "/8" in chat and hitting the space bar.  
 This serves as the script's command interface.  
 The following commands are supported:  
-  
+
 * cosplay weapon [id] - change your weapon skin to id, e.g. "cosplay weapon 99272"
 * cosplay costume [id] - change your costume skin to id, e.g. "cosplay costume 180722"
 * cosplay back [id] - change your back skin to id, e.g. "cosplay back 180081"
@@ -58,19 +54,28 @@ The following commands are supported:
 * cosplay enchant [0-15] - change weapon enchant glow, e.g. "cosplay enchant 13"
 * cosplay tag [text] - change name tag on costume, e.g. "cosplay tag 'I love Spacecats'"
 * cosplay as [name] - copy an online player's outfit, e.g. "cosplay as Sasuke.Uchiha"
-* cosplay undress - goes back to your actual look
-  
+* cosplay undress - revert to your original look
+* cosplay dismount - dismount and revert to your original mount
+
 Any other input, starting with "cosplay", will return a summary of above commands in the chat.  
-  
+
 ## Safety
 Whatever you send to the proxy chat in game is intercepted client-side. The chat is NOT sent to the server.  
 All appearance changes are only visible to your client. Nothing gets changed on the server.  
-  
+
 ## Credits  
-Based on elin-magic by Pinkie Pie https://github.com/pinkipi  
-Thanks to Kourin for a better way to generate the Dressing Room https://github.com/Mister-Kay  
-  
+Based on elin-magic by Pinkie Pie -> https://github.com/pinkipi  
+Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay  
+Thanks to Incedius for help with custom mount support -> https://github.com/incedius  
+
 ## Changelog
+### 2.1.0
+* [+] Added new version check (now that I actually understand what's going on)
+* [+] Added custom mount support via Dressing Room
+* [+] Added "cosplay dismount" command
+* [+] Now supports auto-updating via Caali's tera-proxy
+* [*] Fixed a bug with not reinitializing some variables when switching to a character without a preset
+* [*] Fixed the issue of Berserkers' custom weapon skins reverting to the original after using Unleashed
 ### 2.0.5
 * [-] Removed version check (kept architecture check)
 * [~] Item update
