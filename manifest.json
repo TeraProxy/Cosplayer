@@ -1,11 +1,11 @@
 {
 	"files": {
 		"index.js": "e7b4aa5bd07fd10a2794cf93b6118eef31d273901b8055836aa3244e3b7b9d09",
-		"items.json": "57d137e8e726be17a666c70526aab629bc434f6555f17d7d5c6f514615dbdc51",
+		"items.json": "041077b63d265666c513e4f10bd9068c60e1dd15decd8c26bea3736caf7d2c5d",
 		"module.json": "84f9db08289d1c63c6c5ab6f7c9bf7b0168f8dad904050aa7c0280da439cc74b",
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"mounts.json": "d96493c7e8314e69cb074cd83475b77582b07f711cdbfe7bb695c2c90898c972",
-		"README.md": "2a99820eef454f89f416fae0d3be5a6118678923ae5faa6d4eee8c9c3fc0291b",
+		"mounts.json": "791b9cfef9cc26f9e894d003f9637f9ddd4d09cd5335699df362ad6beb901d84",
+		"README.md": "c5a09c5bb1c52ff3606338c615c3c881aecfa8232f91fa13adce9da263b9cd78",
 		"node_modules/bindings/bindings.js": "4d35b382c2facdc2f05129569869e26248c9986868758a0c279e77fe93df30a7",
 		"node_modules/bindings/package.json": "08698ccc0a5dec84ee782529e1bbf3ddbdc75408d547c7fa4138093aec31f71a",
 		"node_modules/bindings/README.md": "4ebe512409f67b3f7a83e02b88733638d558b16872c0f5e3df6f8e39e1c2f625",

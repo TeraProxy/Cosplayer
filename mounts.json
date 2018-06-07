@@ -373,14 +373,14 @@
 	"98601": {
 		"id": "98601",
 		"name": "Flying Skill: Combat Canary",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random food effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 1 hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200121,
 		"vehicleId": "272"
 	},
 	"98602": {
 		"id": "98602",
 		"name": "Flying Skill: Battle Canary",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random food effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1 hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200122,
 		"vehicleId": "270"
 	},
@@ -401,28 +401,28 @@
 	"98609": {
 		"id": "98609",
 		"name": "Flying Skill: Combat Canary (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random food effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 1 hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200123,
 		"vehicleId": "273"
 	},
 	"98610": {
 		"id": "98610",
 		"name": "Flying Skill: Battle Canary (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random food effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1 hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200124,
 		"vehicleId": "271"
 	},
 	"98625": {
 		"id": "98625",
 		"name": "Flying Skill: Combat Thrush",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random food effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 1 hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200129,
 		"vehicleId": "264"
 	},
 	"98626": {
 		"id": "98626",
 		"name": "Flying Skill: Battle Thrush",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random food effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1 hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200130,
 		"vehicleId": "266"
 	},
@@ -443,14 +443,14 @@
 	"98633": {
 		"id": "98633",
 		"name": "Flying Skill: Combat Thrush (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random food effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 1 hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200131,
 		"vehicleId": "265"
 	},
 	"98634": {
 		"id": "98634",
 		"name": "Flying Skill: Battle Thrush (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random food effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1 hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200132,
 		"vehicleId": "267"
 	},

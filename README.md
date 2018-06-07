@@ -1,14 +1,14 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Working on NA patch 6802 with the latest https://github.com/meishuu/tera-data.  
+Working on NA patch 6905 with the latest https://github.com/meishuu/tera-data.  
 Please always keep your tera-data up-to-date.  
 All regions should work if the opcodes are mapped but I personally only test modules on NA.  
 Due to a compatibility problem with the module caching feature of PinkiePie's Tera-Proxy software, you will have to restart your proxy if you disconnect from the game.  
 
 ##### :heavy_exclamation_mark: Installation for Caali's tera-proxy :heavy_exclamation_mark:
-1) Download Cosplayer's module.json: https://github.com/TeraProxy/Cosplayer/blob/master/module.json
-2) Create an empty folder "Cosplayer" in "\tera-proxy\bin\node_modules\"
-3) Copy the module.json into "\tera-proxy\bin\node_modules\Cosplayer"
-4) Cosplay!
+1) Make sure you have Node.JS 10 x64 or newer installed: https://nodejs.org/dist/v10.3.0/node-v10.3.0-x64.msi
+2) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
+3) Extract the contents of the zip file into "\tera-proxy\bin\node_modules\"
+4) Cosplay! (the module will auto-update when a new version is released)
 
 ##### :heavy_exclamation_mark: Installation for PinkiePie's tera-proxy :heavy_exclamation_mark:
 1) Make sure you have Node.JS 10 x64 or newer installed: https://nodejs.org/dist/v10.3.0/node-v10.3.0-x64.msi
