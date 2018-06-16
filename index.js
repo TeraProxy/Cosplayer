@@ -1,4 +1,4 @@
-// Version 2.1.0
+// Version 2.1.1
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -7,11 +7,12 @@
 
 try { // Make sure the player can use the compiled win-mouse library
 	if(process.arch != 'x64') throw Error()
-	if(process.versions.modules != '64') throw Error()
+	else if(process.versions.modules != '64') throw Error()
 }
 catch(e) {
-	if(process.versions.modules == '59') console.error('NodeJS 9 is not compatible with Cosplayer by default. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki')
-	else console.error('Your current system is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki')
+	if(process.arch != 'x64') console.error('32-bit Node.JS is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
+	else if(process.versions.modules == '59') console.error('Node.JS 9 is not compatible with Cosplayer by default. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
+	else console.error('Your current Node.JS is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
 	return
 }
 
@@ -40,7 +41,8 @@ module.exports = function Cosplayer(dispatch) {
 		dressingRoom = [],
 		mouse = Mouse(),
 		hoveredItem = -1,
-		mymount = 0
+		mymount = 0,
+		unleashed = false
 
 	// ################### //
 	// ### Save & Load ### //
@@ -102,7 +104,8 @@ module.exports = function Cosplayer(dispatch) {
 		gettingAppearance = false
 		hoveredItem = -1
 		mymount = 0
-		
+		unleashed = false
+
 		if(presets[player]) {
 			mypreset = presets[player]
 			mynametag = mypreset.nametag
@@ -151,6 +154,8 @@ module.exports = function Cosplayer(dispatch) {
 
 	dispatch.hook('S_USER_EXTERNAL_CHANGE', 6, event => {
 		if(event.gameId.equals(gameId)) {
+			if(unleashed) return
+
 			userDefaultAppearance = Object.assign({}, event)
 
 			if(mypreset && (mypreset.gameId != 0)) {
@@ -197,16 +202,22 @@ module.exports = function Cosplayer(dispatch) {
 			}, 1000)
 		}
 
-		if(event.target == gameId) {
-			if(event.id == 10155130 || event.id == 401705) // Ragnarok, Unleashed
+		if(event.target.equals(gameId)) {
+			if(event.id == 10155130) // Ragnarok
 				changeAppearance()
+			else if(event.id == 401705) // Unleashed
+				unleashed = true
 		}
 	})
 
-	dispatch.hook('S_ABNORMALITY_END', 1, (event) =>{
-		if(event.target == gameId) {
-			if(event.id == 10155130 || event.id == 401705) // Ragnarok, Unleashed
+	dispatch.hook('S_ABNORMALITY_END', 1, (event) => {
+		if(event.target.equals(gameId)) {
+			if(event.id == 10155130) // Ragnarok
 				changeAppearance()
+			else if(event.id == 401705) { // Unleashed
+				unleashed = false
+				setTimeout(reapplyPreset, 100)
+			}
 		}
 	})
 

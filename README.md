@@ -1,17 +1,16 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Working on NA patch 6905 with the latest https://github.com/meishuu/tera-data.  
-Please always keep your tera-data up-to-date.  
-All regions should work if the opcodes are mapped but I personally only test modules on NA.  
-Due to a compatibility problem with the module caching feature of PinkiePie's Tera-Proxy software, you will have to restart your proxy if you disconnect from the game.  
+Working on NA patch 6905.  
+All regions should work if the opcodes are mapped but I personally only test modules on NA with Caali's Tera-Proxy.  
+Due to a compatibility problem with the module caching feature of latest Tera-Proxy software, you will have to restart your proxy if you disconnect from the game.  
 
-##### :heavy_exclamation_mark: Installation for Caali's tera-proxy :heavy_exclamation_mark:
-1) Make sure you have Node.JS 10 x64 or newer installed: https://nodejs.org/dist/v10.3.0/node-v10.3.0-x64.msi
+##### :heavy_exclamation_mark: Installation for Caali's Tera-Proxy :heavy_exclamation_mark:
+1) Make sure you have Node.JS 10 x64 or newer installed: https://nodejs.org/dist/v10.4.1/node-v10.4.1-x64.msi
 2) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
 3) Extract the contents of the zip file into "\tera-proxy\bin\node_modules\"
 4) Cosplay! (the module will auto-update when a new version is released)
 
-##### :heavy_exclamation_mark: Installation for PinkiePie's tera-proxy :heavy_exclamation_mark:
-1) Make sure you have Node.JS 10 x64 or newer installed: https://nodejs.org/dist/v10.3.0/node-v10.3.0-x64.msi
+##### :heavy_exclamation_mark: Installation for PinkiePie's Tera-Proxy :heavy_exclamation_mark:
+1) Make sure you have Node.JS 10 x64 or newer installed: https://nodejs.org/dist/v10.4.1/node-v10.4.1-x64.msi
 2) Update your tera-data: https://github.com/meishuu/tera-data
 3) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
 4) Extract the contents of the zip file into "\tera-proxy\bin\node_modules\"
@@ -20,7 +19,7 @@ Due to a compatibility problem with the module caching feature of PinkiePie's Te
 
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ&lc=US&item_name=TeraProxy&curency_code=USD&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 
-## New in version 2.1.0
+## New in version 2.1
 ### Custom Mount Support
 Now even your mount can cosplay with you!  
 Right click on mounts in the Dressing Room to change your used mount in game.  
@@ -69,13 +68,15 @@ Thanks to Kourin for a better way to generate the Dressing Room -> https://githu
 Thanks to Incedius for help with custom mount support -> https://github.com/incedius  
 
 ## Changelog
+### 2.1.1
+* [*] Better error checks
+* [*] Fixed the issue of Berserkers' custom weapon skins reverting to the original after using Unleashed
 ### 2.1.0
 * [+] Added new version check (now that I actually understand what's going on)
 * [+] Added custom mount support via Dressing Room
 * [+] Added "cosplay dismount" command
 * [+] Now supports auto-updating via Caali's tera-proxy
 * [*] Fixed a bug with not reinitializing some variables when switching to a character without a preset
-* [*] Fixed the issue of Berserkers' custom weapon skins reverting to the original after using Unleashed
 ### 2.0.5
 * [-] Removed version check (kept architecture check)
 * [~] Item update

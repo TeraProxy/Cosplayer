@@ -1,11 +1,11 @@
 {
 	"files": {
-		"index.js": "e7b4aa5bd07fd10a2794cf93b6118eef31d273901b8055836aa3244e3b7b9d09",
+		"index.js": "c8c77403da4f8a0063725f6374445b8f6633d9110fd727dcec44a9d68c243d79",
 		"items.json": "041077b63d265666c513e4f10bd9068c60e1dd15decd8c26bea3736caf7d2c5d",
 		"module.json": "84f9db08289d1c63c6c5ab6f7c9bf7b0168f8dad904050aa7c0280da439cc74b",
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
 		"mounts.json": "791b9cfef9cc26f9e894d003f9637f9ddd4d09cd5335699df362ad6beb901d84",
-		"README.md": "c5a09c5bb1c52ff3606338c615c3c881aecfa8232f91fa13adce9da263b9cd78",
+		"README.md": "ad4964469cecb0ee78c4aaef9622eb3406ee36dd4618de6be0c92b06cfff0fc6",
 		"node_modules/bindings/bindings.js": "4d35b382c2facdc2f05129569869e26248c9986868758a0c279e77fe93df30a7",
 		"node_modules/bindings/package.json": "08698ccc0a5dec84ee782529e1bbf3ddbdc75408d547c7fa4138093aec31f71a",
 		"node_modules/bindings/README.md": "4ebe512409f67b3f7a83e02b88733638d558b16872c0f5e3df6f8e39e1c2f625",
@@ -71,7 +71,8 @@
 		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link-VCTIP.write.60.tlog": "e55ad2805c22b030a56b0cb42e72fbc991d0223ea80fbb028ee4469e83bfd58e",
 		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link.command.1.tlog": "c424f5a7cfcc6bf600e6173b9b05ef709eae67df7f55bad90555175c54117a5b",
 		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link.read.1.tlog": "a869310af60303cbf553175031359b888ef052f83d0170d49d3c5c6b7670986a",
-		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link.write.1.tlog": "34555e627056e8b5ca5d7b8cf8ee53b50b2b34312ec5848965bd6a09d5df3b07"
+		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link.write.1.tlog": "34555e627056e8b5ca5d7b8cf8ee53b50b2b34312ec5848965bd6a09d5df3b07",
+		"presets.json": "18bbb6307de811b79d3fea39dde53f47bbb93482f4f281e876a6385ea2d17394"
 	},
 	"defs": {
 		"C_CANCEL_CONTRACT": 1,
