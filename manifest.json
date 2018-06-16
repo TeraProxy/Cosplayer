@@ -71,8 +71,7 @@
 		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link-VCTIP.write.60.tlog": "e55ad2805c22b030a56b0cb42e72fbc991d0223ea80fbb028ee4469e83bfd58e",
 		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link.command.1.tlog": "c424f5a7cfcc6bf600e6173b9b05ef709eae67df7f55bad90555175c54117a5b",
 		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link.read.1.tlog": "a869310af60303cbf553175031359b888ef052f83d0170d49d3c5c6b7670986a",
-		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link.write.1.tlog": "34555e627056e8b5ca5d7b8cf8ee53b50b2b34312ec5848965bd6a09d5df3b07",
-		"presets.json": "18bbb6307de811b79d3fea39dde53f47bbb93482f4f281e876a6385ea2d17394"
+		"node_modules/win-mouse/build/Release/obj/addon/addon.tlog/link.write.1.tlog": "34555e627056e8b5ca5d7b8cf8ee53b50b2b34312ec5848965bd6a09d5df3b07"
 	},
 	"defs": {
 		"C_CANCEL_CONTRACT": 1,
