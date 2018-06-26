@@ -65,6 +65,7 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 
 ## Changelog
 <details>
+
 ### 2.1.2
 * [*] Fixed a weird case-sensitivity issue
 * [*] Alternate implementation to revert weapon skins after Unleashed
@@ -115,4 +116,5 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 * [+] Emulated Marrow Brooch appearance changes
 ### 1.0.0
 * [~] Initial Release
+
 </details>
