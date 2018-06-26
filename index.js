@@ -1,4 +1,4 @@
-// Version 2.1.1
+// Version 2.1.2
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -26,7 +26,7 @@ const Command = require('command'),
 	mounts = require('./mounts.json'),
 	weapons = Object.keys(items.categories.style.weapon)
 
-module.exports = function Cosplayer(dispatch) {
+module.exports = function cosplayer(dispatch) {
 
 	let gameId = null,
 		player = '',
@@ -193,7 +193,7 @@ module.exports = function Cosplayer(dispatch) {
 	})
 
 	dispatch.hook('S_ABNORMALITY_BEGIN', 2, (event) => {
-		if(mypreset && (mypreset.gameId != 0) && (external.showStyle == true) && (event.id == 7777008)) { // self-confidence abnormality
+		if(mypreset && mypreset.gameId != 0 && external.showStyle == true && event.id == 7777008) { // self-confidence abnormality
 			setTimeout(() => {
 				dispatch.toClient('S_ABNORMALITY_END', 1, {
 					target: gameId,
@@ -214,10 +214,8 @@ module.exports = function Cosplayer(dispatch) {
 		if(event.target.equals(gameId)) {
 			if(event.id == 10155130) // Ragnarok
 				changeAppearance()
-			else if(event.id == 401705) { // Unleashed
+			else if(event.id == 401705) // Unleashed
 				unleashed = false
-				setTimeout(reapplyPreset, 100)
-			}
 		}
 	})
 
@@ -286,10 +284,21 @@ module.exports = function Cosplayer(dispatch) {
 		}
 	})
 
-	dispatch.hook('S_MOUNT_VEHICLE', 1, (event) => {
+	dispatch.hook('S_MOUNT_VEHICLE', 1, event => {
 		if(event.target.equals(gameId)) {
 			if(mymount != null && mymount > 0) {
 				event.unk1 = mymount
+				return true
+			}
+		}
+	})
+	
+	dispatch.hook('S_USER_WEAPON_APPEARANCE_CHANGE', 1, event => { // To revert weapon after Berserker's Unleashed
+		if(event.gameId.equals(gameId) && !unleashed) {
+			if(mypreset && mypreset.gameId != 0) {
+				event.dbid = mypreset.weapon
+				event.weaponSkin = mypreset.styleWeapon
+				event.enchant = mypreset.weaponEnchant
 				return true
 			}
 		}

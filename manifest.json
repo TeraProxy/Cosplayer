@@ -1,11 +1,11 @@
 {
 	"files": {
-		"index.js": "c8c77403da4f8a0063725f6374445b8f6633d9110fd727dcec44a9d68c243d79",
+		"index.js": "4f9ded905bf31a15158774c20d85abcd71648192e94bf6824c8e3f65c9a6341d",
 		"items.json": "041077b63d265666c513e4f10bd9068c60e1dd15decd8c26bea3736caf7d2c5d",
 		"module.json": "84f9db08289d1c63c6c5ab6f7c9bf7b0168f8dad904050aa7c0280da439cc74b",
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
 		"mounts.json": "791b9cfef9cc26f9e894d003f9637f9ddd4d09cd5335699df362ad6beb901d84",
-		"README.md": "ad4964469cecb0ee78c4aaef9622eb3406ee36dd4618de6be0c92b06cfff0fc6",
+		"README.md": "1da25fb0671a25e43ccf6ce540d5f47bcb48e32a2ce5e26edc2b62d60c163701",
 		"node_modules/bindings/bindings.js": "4d35b382c2facdc2f05129569869e26248c9986868758a0c279e77fe93df30a7",
 		"node_modules/bindings/package.json": "08698ccc0a5dec84ee782529e1bbf3ddbdc75408d547c7fa4138093aec31f71a",
 		"node_modules/bindings/README.md": "4ebe512409f67b3f7a83e02b88733638d558b16872c0f5e3df6f8e39e1c2f625",
@@ -92,6 +92,7 @@
 		"S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST": 1,
 		"S_UNICAST_TRANSFORM_DATA": 3,
 		"S_USER_EXTERNAL_CHANGE": 6,
-		"S_USER_PAPERDOLL_INFO": 5
+		"S_USER_PAPERDOLL_INFO": 5,
+		"S_USER_WEAPON_APPEARANCE_CHANGE": 1
 	}
 }
