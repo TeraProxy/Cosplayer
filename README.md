@@ -67,6 +67,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.1.4
+* [*] Presets file now gets generated when not present which fixes an error with auto-update
 ### 2.1.3
 * [*] Fixed mouse handler not getting destroyed on unload
 * [*] Fixed "Module did not self-register" error when unloading and reloading the module

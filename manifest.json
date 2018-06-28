@@ -1,15 +1,15 @@
 {
 	"force_clean": true,
 	"files": {
-		"index.js": "dcd5f27ff5ea4e0b46190a605ce125412ad7ea3fbc18b46fa78227aac0c6cfdb",
+		"index.js": "547a3a627460517ff42604c6f1393e958cc6774df3a3e84c81d80b7b20057d9c",
 		"items.json": "041077b63d265666c513e4f10bd9068c60e1dd15decd8c26bea3736caf7d2c5d",
 		"module.json": "84f9db08289d1c63c6c5ab6f7c9bf7b0168f8dad904050aa7c0280da439cc74b",
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
 		"mounts.json": "791b9cfef9cc26f9e894d003f9637f9ddd4d09cd5335699df362ad6beb901d84",
-		"README.md": "5b47c8fa8dbac62a959ac306a2ba35c300ac82239038f5231fd8c94521b09ba8",
+		"README.md": "8517671bc5719570c460ccea6e462bc9e4ac427deb9388b0c5cd798bcb468899",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "89366778fb984fa2af34abc8aacf16202190696226cdd2aa18aa97e5278553ef"
+			"hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 		},
 		"mouse.js": "9a9ba63573058558fcf9883db7b8a54ba653c557474e5a7de78f7797f0e0283e",
 		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18"

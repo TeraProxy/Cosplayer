@@ -1,4 +1,4 @@
-// Version 2.1.3
+// Version 2.1.4
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -63,7 +63,10 @@ module.exports = function cosplayer(dispatch) {
 		presetLock = false
 
 	try { presets = require('./presets') }
-	catch(e) { presets = {} }
+	catch(e) { 
+		presets = {} 
+		presetSave()
+	}
 
 	function presetUpdate(setpreset) {
 		if(setpreset) mypreset = presets[player] = Object.assign({}, external)
