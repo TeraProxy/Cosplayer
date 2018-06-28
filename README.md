@@ -12,7 +12,7 @@ Should work on all regions as long as the opcodes are mapped but I personally on
 3) Download tera-game-state: https://github.com/hackerman-caali/tera-game-state/archive/master.zip
 4) Extract the contents of both zip files into "\tera-proxy\bin\node_modules\"
 5) Done!
-6) Check back here once in a while for updates
+6) Check back here once in a while for updates (do NOT overwrite presets.json or you will lose your saved outfits!)
 
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ&lc=US&item_name=TeraProxy&curency_code=USD&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 
