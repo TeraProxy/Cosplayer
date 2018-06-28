@@ -1,32 +1,38 @@
-// Version 2.1.2
+// Version 2.1.3
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
 
 'use strict'
 
-try { // Make sure the player can use the compiled win-mouse library
+try { // Make sure the player can use the native mouse hooking module
 	if(process.arch != 'x64') throw Error()
 	else if(process.versions.modules != '64') throw Error()
 }
 catch(e) {
 	if(process.arch != 'x64') console.error('32-bit Node.JS is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
-	else if(process.versions.modules == '59') console.error('Node.JS 9 is not compatible with Cosplayer by default. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
-	else console.error('Your current Node.JS is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
+	else console.error('Your current Node.JS version is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
 	return
 }
+
+if(!global.cosplayer_mouse)
+	global.cosplayer_mouse = require('./mouse')
 
 const Command = require('command'),
 	path = require('path'),
 	fs = require('fs'),
-	Mouse = require('win-mouse'),
+	GameState = require('tera-game-state'),
+	Mouse = global.cosplayer_mouse,
 	CONTRACT_DRESSING_ROOM = 76,
 	SLOTS = ["face", "styleHead", "styleFace", "styleBack", "styleWeapon", "weaponEnchant", "styleBody", "styleBodyDye", "styleFootprint", "underwear"],
-	items = require('./items.json'),
-	mounts = require('./mounts.json'),
+	items = require('./items'),
+	mounts = require('./mounts'),
 	weapons = Object.keys(items.categories.style.weapon)
 
 module.exports = function cosplayer(dispatch) {
+
+	const command = Command(dispatch),
+		game = GameState(dispatch)
 
 	let gameId = null,
 		player = '',
@@ -44,6 +50,10 @@ module.exports = function cosplayer(dispatch) {
 		mymount = 0,
 		unleashed = false
 
+	this.destructor = () => {
+		mouse.destroy()
+	}
+
 	// ################### //
 	// ### Save & Load ### //
 	// ################### //
@@ -52,7 +62,7 @@ module.exports = function cosplayer(dispatch) {
 		presetTimeout = null,
 		presetLock = false
 
-	try { presets = require('./presets.json') }
+	try { presets = require('./presets') }
 	catch(e) { presets = {} }
 
 	function presetUpdate(setpreset) {
@@ -92,9 +102,9 @@ module.exports = function cosplayer(dispatch) {
 		return true
 	})
 
-	dispatch.hook('S_LOGIN', 10, event => {
-		gameId = event.gameId
-		player = event.name
+	game.on('enter_game', () => {
+		gameId = game.me.gameId
+		player = game.me.name
 		inDressup = false
 		inDye = false
 		mypreset = null
@@ -104,7 +114,6 @@ module.exports = function cosplayer(dispatch) {
 		gettingAppearance = false
 		hoveredItem = -1
 		mymount = 0
-		unleashed = false
 
 		if(presets[player]) {
 			mypreset = presets[player]
@@ -118,7 +127,7 @@ module.exports = function cosplayer(dispatch) {
 		}
 
 		// Generate our Dressing Room
-		let templateId = event.templateId,
+		let templateId = game.me.templateId,
 			race = Math.floor((templateId - 10101) / 100)
 		job = (templateId - 10101) % 100
 
@@ -154,8 +163,6 @@ module.exports = function cosplayer(dispatch) {
 
 	dispatch.hook('S_USER_EXTERNAL_CHANGE', 6, event => {
 		if(event.gameId.equals(gameId)) {
-			if(unleashed) return
-
 			userDefaultAppearance = Object.assign({}, event)
 
 			if(mypreset && (mypreset.gameId != 0)) {
@@ -184,7 +191,7 @@ module.exports = function cosplayer(dispatch) {
 		}
 	})
 
-	dispatch.hook('C_ITEM_COLORING_SET_COLOR', 1, (event) => {
+	dispatch.hook('C_ITEM_COLORING_SET_COLOR', 1, event => {
 		let color = Number('0x' + event.alpha.toString(16) + event.red.toString(16) + event.green.toString(16) + event.blue.toString(16))
 		inDye = true
 		external.styleBodyDye = color
@@ -192,7 +199,7 @@ module.exports = function cosplayer(dispatch) {
 		presetUpdate(true)
 	})
 
-	dispatch.hook('S_ABNORMALITY_BEGIN', 2, (event) => {
+	dispatch.hook('S_ABNORMALITY_BEGIN', 2, event => {
 		if(mypreset && mypreset.gameId != 0 && external.showStyle == true && event.id == 7777008) { // self-confidence abnormality
 			setTimeout(() => {
 				dispatch.toClient('S_ABNORMALITY_END', 1, {
@@ -210,7 +217,7 @@ module.exports = function cosplayer(dispatch) {
 		}
 	})
 
-	dispatch.hook('S_ABNORMALITY_END', 1, (event) => {
+	dispatch.hook('S_ABNORMALITY_END', 1, event => {
 		if(event.target.equals(gameId)) {
 			if(event.id == 10155130) // Ragnarok
 				changeAppearance()
@@ -292,7 +299,7 @@ module.exports = function cosplayer(dispatch) {
 			}
 		}
 	})
-	
+
 	dispatch.hook('S_USER_WEAPON_APPEARANCE_CHANGE', 1, event => { // To revert weapon after Berserker's Unleashed
 		if(event.gameId.equals(gameId) && !unleashed) {
 			if(mypreset && mypreset.gameId != 0) {
@@ -302,6 +309,12 @@ module.exports = function cosplayer(dispatch) {
 				return true
 			}
 		}
+	})
+
+	dispatch.hook('S_PREVIEW_ITEM', 1, () => {
+		dispatch.hookOnce('C_PLAYER_LOCATION', 'raw', () => {
+			reapplyPreset()
+		})
 	})
 
 	// ################# //
@@ -422,21 +435,20 @@ module.exports = function cosplayer(dispatch) {
 		return convertedList
 	}
 
-	mouse.on('right-down', () => { 
-		if(hoveredItem > -1) equipped(hoveredItem)
-	})
-
 	function cosplayAs(playername) {
 		gettingAppearance = true
 		dispatch.toServer('C_REQUEST_USER_PAPERDOLL_INFO', 1, { name: playername })
 		setTimeout(() => { gettingAppearance = false }, 1000)
 	}
 
+	mouse.on('right-down', () => { 
+		if(hoveredItem > -1) equipped(hoveredItem)
+	})
+
 	// ################ //
 	// ### Commands ### //
 	// ################ //
 
-	const command = Command(dispatch)
 	command.add('cosplay', (param, value, rgb) => {
 		if (param == 'weapon' && value != null) {
 			external.styleWeapon = Number(value)
