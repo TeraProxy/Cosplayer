@@ -16,11 +16,15 @@ Should work on all regions as long as the opcodes are mapped but I personally on
 
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ&lc=US&item_name=TeraProxy&curency_code=USD&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 
-## New in version 2.1
+## New in version 2.1.5
+### Footprints
+Footprints have finally been added as well. Happy running! (easiest way to find them is just type "foot" in the Dressing Room search)
 ### Custom Mount Support
 Now even your mount can cosplay with you!  
 Right click on mounts in the Dressing Room to change your used mount in game.  
 Careful though: Only use ground mounts for ground mounts and flying mounts for flying mounts or you might be unable to dismount (you can easily fix this by using the "cosplay dismount" command though)  
+
+![Screenshot](https://i.imgur.com/J4H9W1s.jpg)
 
 # Cosplayer
 A tera-proxy module able to change your client-side appearance.  
@@ -67,6 +71,9 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.1.5
+* [+] Added Footprints
+* [*] More optimizations
 ### 2.1.4
 * [*] Presets file now gets generated when not present which fixes an error with auto-update
 ### 2.1.3

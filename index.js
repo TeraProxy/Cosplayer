@@ -1,4 +1,4 @@
-// Version 2.1.4
+// Version 2.1.5
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -33,14 +33,14 @@ module.exports = function cosplayer(dispatch) {
 
 	const command = Command(dispatch),
 		game = GameState(dispatch)
+	game.initialize("contract")
 
-	let gameId = null,
-		player = '',
-		job = -1,
+	let job = -1,
 		external = null,
 		userDefaultAppearance = null,
 		inDressup = false,
 		inDye = false,
+		inHatRestyle = false,
 		mypreset = null,
 		mynametag = '',
 		gettingAppearance = false,
@@ -53,6 +53,10 @@ module.exports = function cosplayer(dispatch) {
 	this.destructor = () => {
 		mouse.destroy()
 	}
+
+	mouse.on('right-down', () => { 
+		if(hoveredItem > -1) equipped(hoveredItem)
+	})
 
 	// ################### //
 	// ### Save & Load ### //
@@ -69,10 +73,10 @@ module.exports = function cosplayer(dispatch) {
 	}
 
 	function presetUpdate(setpreset) {
-		if(setpreset) mypreset = presets[player] = Object.assign({}, external)
+		if(setpreset) mypreset = presets[game.me.name] = Object.assign({}, external)
 		if(mypreset) {
-			mypreset.nametag = presets[player].nametag = mynametag
-			mypreset.mount = presets[player].mount = mymount
+			mypreset.nametag = presets[game.me.name].nametag = mynametag
+			mypreset.mount = presets[game.me.name].mount = mymount
 		}
 
 		clearTimeout(presetTimeout)
@@ -94,43 +98,27 @@ module.exports = function cosplayer(dispatch) {
 	// ### Hooks ### //
 	// ############# //
 
-	dispatch.hook('S_GET_USER_LIST', 14, event => {
-		for (let i in event.characters) {
-			let charpreset = presets[event.characters[i].name]
-
-			if(charpreset && charpreset.gameId != 0) 
-				for(let slot of SLOTS)
-					event.characters[i][slot] = charpreset[slot]
-		}
-		return true
-	})
-
 	game.on('enter_game', () => {
-		gameId = game.me.gameId
-		player = game.me.name
-		inDressup = false
-		inDye = false
-		mypreset = null
+		inDressup = inDye = inHatRestyle = false
+		mypreset = external = userDefaultAppearance = null
 		mynametag = ''
-		external = null
-		userDefaultAppearance = null
 		gettingAppearance = false
 		hoveredItem = -1
 		mymount = 0
 
-		if(presets[player]) {
-			mypreset = presets[player]
+		if(presets[game.me.name]) {
+			mypreset = presets[game.me.name]
 			mynametag = mypreset.nametag
 			mymount = mypreset.mount
 		}
 
 		if(mypreset && mypreset.gameId != 0) {
 			external = mypreset
-			external.gameId = gameId
+			external.gameId = game.me.gameId
 		}
 
 		// Generate our Dressing Room
-		let templateId = game.me.templateId,
+		const templateId = game.me.templateId,
 			race = Math.floor((templateId - 10101) / 100)
 		job = (templateId - 10101) % 100
 
@@ -164,18 +152,55 @@ module.exports = function cosplayer(dispatch) {
 		dressingRoom = convertList(dressingRoom)
 	})
 
+	game.contract.on('begin', (type, id) => {
+		if(type == CONTRACT_DRESSING_ROOM) {
+			inDressup = true
+			dispatch.toClient('S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST', 1, { list: dressingRoom })
+		}
+	})
+	game.contract.on('end', (how) => {
+		if(how == "cancel" && inDressup) {
+			hoveredItem = -1
+			inDressup = false
+			process.nextTick(() => { changeAppearance() })
+
+			presetUpdate(true)
+		}
+	})
+
+	dispatch.hook('C_CANCEL_CONTRACT', 1, event => {
+		if(inDye) {
+			inDye = false
+
+			external.gameId = game.me.gameId
+			changeAppearance()
+			presetUpdate(true)
+		}
+	})
+
+	dispatch.hook('S_GET_USER_LIST', 14, event => {
+		for (let i in event.characters) {
+			let charpreset = presets[event.characters[i].name]
+
+			if(charpreset && charpreset.gameId != 0) 
+				for(let slot of SLOTS)
+					event.characters[i][slot] = charpreset[slot]
+		}
+		return true
+	})
+
 	dispatch.hook('S_USER_EXTERNAL_CHANGE', 6, event => {
-		if(event.gameId.equals(gameId)) {
+		if(game.me.is(event.gameId)) {
 			userDefaultAppearance = Object.assign({}, event)
 
-			if(mypreset && (mypreset.gameId != 0)) {
+			if(mypreset && mypreset.gameId != 0) {
 				changeAppearance()
 				presetUpdate(true)
 
 				if(external.showStyle == false) {
 					dispatch.toClient('S_ABNORMALITY_BEGIN', 2, {
-						target: gameId,
-						source: gameId,
+						target: game.me.gameId,
+						source: game.me.gameId,
 						id: 7777008, // self-confidence abnormality
 						duration: 864000000,
 						unk: 0,
@@ -187,8 +212,8 @@ module.exports = function cosplayer(dispatch) {
 			}
 			else {
 				external = Object.assign({}, event)
-				presets[player] = Object.assign({}, external)
-				presets[player].gameId = 0
+				presets[game.me.name] = Object.assign({}, external)
+				presets[game.me.name].gameId = 0
 				presetUpdate(false)
 			}
 		}
@@ -206,13 +231,13 @@ module.exports = function cosplayer(dispatch) {
 		if(mypreset && mypreset.gameId != 0 && external.showStyle == true && event.id == 7777008) { // self-confidence abnormality
 			setTimeout(() => {
 				dispatch.toClient('S_ABNORMALITY_END', 1, {
-					target: gameId,
+					target: game.me.gameId,
 					id: 7777008, // self-confidence abnormality
 				})
 			}, 1000)
 		}
 
-		if(event.target.equals(gameId)) {
+		if(game.me.is(event.target)) {
 			if(event.id == 10155130) // Ragnarok
 				changeAppearance()
 			else if(event.id == 401705) // Unleashed
@@ -221,38 +246,11 @@ module.exports = function cosplayer(dispatch) {
 	})
 
 	dispatch.hook('S_ABNORMALITY_END', 1, event => {
-		if(event.target.equals(gameId)) {
+		if(game.me.is(event.target)) {
 			if(event.id == 10155130) // Ragnarok
 				changeAppearance()
 			else if(event.id == 401705) // Unleashed
 				unleashed = false
-		}
-	})
-
-	dispatch.hook('S_REQUEST_CONTRACT', 1, event => {
-		if(event.type == CONTRACT_DRESSING_ROOM) {
-			inDressup = true
-			dispatch.toClient('S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST', 1, { list: dressingRoom })
-		}
-	})
-	
-	dispatch.hook('C_CANCEL_CONTRACT', 1, event => {
-		if(inDye) {
-			inDye = false
-
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-	})
-
-	dispatch.hook('S_CANCEL_CONTRACT', 1, event => {
-		if(inDressup) {
-			hoveredItem = -1
-			inDressup = false
-			process.nextTick(() => { changeAppearance() })
-
-			presetUpdate(true)
 		}
 	})
 
@@ -276,7 +274,7 @@ module.exports = function cosplayer(dispatch) {
 	})
 
 	dispatch.hook('S_UNICAST_TRANSFORM_DATA', 3, event => { // Reapply look after Marrow Brooch / Clone Jutsu
-		if(event.gameId.equals(gameId) && event.unk2 == false) setTimeout(reapplyPreset, 100)
+		if(game.me.is(event.gameId) && event.unk2 == false) setTimeout(reapplyPreset, 100)
 	})
 
 	dispatch.hook('S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST', 1, event => {
@@ -295,7 +293,7 @@ module.exports = function cosplayer(dispatch) {
 	})
 
 	dispatch.hook('S_MOUNT_VEHICLE', 1, event => {
-		if(event.target.equals(gameId)) {
+		if(game.me.is(event.target)) {
 			if(mymount != null && mymount > 0) {
 				event.unk1 = mymount
 				return true
@@ -304,7 +302,7 @@ module.exports = function cosplayer(dispatch) {
 	})
 
 	dispatch.hook('S_USER_WEAPON_APPEARANCE_CHANGE', 1, event => { // To revert weapon after Berserker's Unleashed
-		if(event.gameId.equals(gameId) && !unleashed) {
+		if(game.me.is(event.gameId) && !unleashed) {
 			if(mypreset && mypreset.gameId != 0) {
 				event.dbid = mypreset.weapon
 				event.weaponSkin = mypreset.styleWeapon
@@ -314,7 +312,7 @@ module.exports = function cosplayer(dispatch) {
 		}
 	})
 
-	dispatch.hook('S_PREVIEW_ITEM', 1, () => {
+	dispatch.hook('S_PREVIEW_ITEM', 1, () => { // Fix losing custom outfit when previewing an item
 		dispatch.hookOnce('C_PLAYER_LOCATION', 'raw', () => {
 			reapplyPreset()
 		})
@@ -327,7 +325,7 @@ module.exports = function cosplayer(dispatch) {
 	function equipped(item) {
 		if(items.categories.style.weapon[weapons[job]].includes(item)) {
 			external.styleWeapon = item
-			external.gameId = gameId
+			external.gameId = game.me.gameId
 			presetUpdate(true)
 			return
 		}
@@ -339,7 +337,7 @@ module.exports = function cosplayer(dispatch) {
 		for (let slot of ['face', 'underwear']) {
 			if(items.categories.gear[slot].includes(item)) {
 				external[slot] = item
-				external.gameId = gameId
+				external.gameId = game.me.gameId
 				presetUpdate(true)
 				return
 			}
@@ -347,7 +345,7 @@ module.exports = function cosplayer(dispatch) {
 		for (let slot of ['styleBody', 'styleFace', 'styleHead', 'styleBack', 'styleFootprint']) {
 			if(items.categories.style[slot].includes(item)) {
 				external[slot] = item
-				external.gameId = gameId
+				external.gameId = game.me.gameId
 				presetUpdate(true)
 				return
 			}
@@ -356,13 +354,13 @@ module.exports = function cosplayer(dispatch) {
 
 	function changeColor(item) {
 		dispatch.toClient('S_REQUEST_CONTRACT', 1, {
-			senderId: gameId,
+			senderId: game.me.gameId,
 			recipientId: 0,
 			type: 42,
 			id: 999999,
 			unk3: 0,
 			time: 0,
-			senderName: player,
+			senderName: game.me.name,
 			recipientName: '',
 			data: ''
 		})
@@ -382,8 +380,8 @@ module.exports = function cosplayer(dispatch) {
 	function changePantsu() {
 		if(external.showStyle == true) {
 			dispatch.toClient('S_ABNORMALITY_BEGIN', 2, {
-				target: gameId,
-				source: gameId,
+				target: game.me.gameId,
+				source: game.me.gameId,
 				id: 7777008, // self-confidence abnormality
 				duration: 864000000, // 10 days
 				unk: 0,
@@ -393,7 +391,7 @@ module.exports = function cosplayer(dispatch) {
 		}
 		else if(external.showStyle == false) {
 			dispatch.toClient('S_ABNORMALITY_END', 1, {
-				target: gameId,
+				target: game.me.gameId,
 				id: 7777008 // self-confidence abnormality
 			})
 		}
@@ -410,8 +408,8 @@ module.exports = function cosplayer(dispatch) {
 	}
 
 	function changeNametag(newnametag) {
-		dispatch.toClient('S_ITEM_CUSTOM_STRING', 2, {gameId: gameId, customStrings: [{dbid: external.styleBody, string: newnametag}]})
-		mynametag = (newnametag == player) ? "" : newnametag
+		dispatch.toClient('S_ITEM_CUSTOM_STRING', 2, {gameId: game.me.gameId, customStrings: [{dbid: external.styleBody, string: newnametag}]})
+		mynametag = (newnametag == game.me.name) ? "" : newnametag
 		presetUpdate(true)
 	}
 
@@ -444,120 +442,138 @@ module.exports = function cosplayer(dispatch) {
 		setTimeout(() => { gettingAppearance = false }, 1000)
 	}
 
-	mouse.on('right-down', () => { 
-		if(hoveredItem > -1) equipped(hoveredItem)
-	})
-
 	// ################ //
 	// ### Commands ### //
 	// ################ //
 
-	command.add('cosplay', (param, value, rgb) => {
-		if (param == 'weapon' && value != null) {
-			external.styleWeapon = Number(value)
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-		else if (param == 'costume' && value != null) {
-			external.styleBody = Number(value)
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-		else if (param == 'back' && value != null) {
-			external.styleBack = Number(value)
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-		else if (param == 'face' && value != null) {
-			external.styleFace = Number(value)
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-		else if (param == 'head' && value != null) {
-			external.styleHead = Number(value)
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-		else if (param == 'underwear' && value != null) {
-			external.underwear = Number(value)
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-		else if (param == 'footprints' && value != null) {
-			external.styleFootprint = Number(value)
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-		else if (param == 'dye') {
-			changeColor(external.styleBody)
-		}
-		else if (param == 'dyergb' && value != null && rgb != null) {
-			let index = ["costume","underwear","chest","gloves","boots"].indexOf(value)
-			if(index == -1)
-				command.message("Please use one of the following dyergb commands:\n"
-								+ ' "cosplay dyergb costume \'[0-255 0-255 0-255]\'",\n'
-								+ ' "cosplay dyergb underwear \'[0-255 0-255 0-255]\'",\n'
-								+ ' "cosplay dyergb chest \'[0-255 0-255 0-255]\'",\n'
-								+ ' "cosplay dyergb gloves \'[0-255 0-255 0-255]\'",\n'
-								+ ' "cosplay dyergb boots \'[0-255 0-255 0-255]\'"'
-				)
-			else {
-				let dyeToChange = ["styleBodyDye","underwearDye","bodyDye","handDye","feetDye"][index]
-				external[dyeToChange] = parseInt(rgb, 16)
-				external.gameId = gameId
+	command.add('cosplay', (cmd, value, rgb) => {
+		switch (cmd) {
+			case "weapon":
+				if(value) {
+					external.styleWeapon = Number(value)
+					external.gameId = game.me.gameId
+					changeAppearance()
+					presetUpdate(true)
+				}
+				break
+			case "costume":
+				if(value) {
+					external.styleBody = Number(value)
+					external.gameId = game.me.gameId
+					changeAppearance()
+					presetUpdate(true)
+				}
+				break
+			case "back":
+				if (value) {
+					external.styleBack = Number(value)
+					external.gameId = game.me.gameId
+					changeAppearance()
+					presetUpdate(true)
+				}
+				break
+			case "face":
+				if(value) {
+					external.styleFace = Number(value)
+					external.gameId = game.me.gameId
+					changeAppearance()
+					presetUpdate(true)
+				}
+				break
+			case "head":
+				if (value) {
+					external.styleHead = Number(value)
+					external.gameId = game.me.gameId
+					changeAppearance()
+					presetUpdate(true)
+				}
+				break
+			case "underwear":
+				if(value) {
+					external.underwear = Number(value)
+					external.gameId = game.me.gameId
+					changeAppearance()
+					presetUpdate(true)
+				}
+				break
+			case "footprints":
+				if(value) {
+					external.styleFootprint = Number(value)
+					external.gameId = game.me.gameId
+					changeAppearance()
+					presetUpdate(true)
+				}
+				break
+			case "dye":
+				changeColor(external.styleBody)
+				break
+			case "dyergb":
+				if(value && rgb) {
+					let index = ["costume","underwear","chest","gloves","boots"].indexOf(value)
+					if(index == -1)
+						command.message("Please use one of the following dyergb commands:\n"
+										+ ' "cosplay dyergb costume \'[0-255 0-255 0-255]\'",\n'
+										+ ' "cosplay dyergb underwear \'[0-255 0-255 0-255]\'",\n'
+										+ ' "cosplay dyergb chest \'[0-255 0-255 0-255]\'",\n'
+										+ ' "cosplay dyergb gloves \'[0-255 0-255 0-255]\'",\n'
+										+ ' "cosplay dyergb boots \'[0-255 0-255 0-255]\'"'
+						)
+					else {
+						let dyeToChange = ["styleBodyDye","underwearDye","bodyDye","handDye","feetDye"][index]
+						external[dyeToChange] = parseInt(rgb, 16)
+						external.gameId = game.me.gameId
+						changeAppearance()
+						presetUpdate(true)
+					}
+				}
+				break
+			case "pantsu":
+				changePantsu()
+				break
+			case "enchant":
+				if(value) {
+					external.weaponEnchant = Number(value)
+					external.gameId = game.me.gameId
+					changeAppearance()
+					presetUpdate(true)
+				}
+				break
+			case "tag":
+				if(value) changeNametag(value)
+				break
+			case "as":
+				if(value) cosplayAs(value)
+				break
+			case "undress":
+				external = Object.assign({}, userDefaultAppearance)
 				changeAppearance()
+				external.gameId = 0
 				presetUpdate(true)
-			}
+				break
+			case "dismount":
+				dispatch.toServer('C_UNMOUNT_VEHICLE', 1, {})
+				mymount = 0
+				presetUpdate(true)
+				break
+			default:
+				command.message('Commands:\n' 
+									+ ' "cosplay weapon [id]" (change your weapon skin to id, e.g. "cosplay weapon 99272"),\n'
+									+ ' "cosplay costume [id]" (change your costume skin to id, e.g. "cosplay costume 180722"),\n'
+									+ ' "cosplay back [id]" (change your back skin to id, e.g. "cosplay back 180081"),\n'
+									+ ' "cosplay face [id]" (change your face adornment to id, e.g. "cosplay face 181563"),\n'
+									+ ' "cosplay head [id]" (change your head adornment to id, e.g. "cosplay head 252972"),\n'
+									+ ' "cosplay underwear [id]" (change your underwear skin to id, e.g. "cosplay underwear 97936"),\n'
+									+ ' "cosplay footprints [id]" (change your footprints to id, e.g. "cosplay footprints 99579"),\n'
+									+ ' "cosplay dye" (change costume dye with the slider tool, e.g. "cosplay dye"),\n'
+									+ ' "cosplay dyergb [item] \'[0-255 0-255 0-255]\'" (change dye to rgb value, e.g. "cosplay dyergb costume \'214 153 204\'"),\n'
+									+ ' "cosplay pantsu" (switch between showing your underwear and costume),\n'
+									+ ' "cosplay enchant [0-15]" (change weapon enchant glow, e.g. "cosplay enchant 13"),\n'
+									+ ' "cosplay tag [text]" (change name tag on costume, e.g. "cosplay tag \'I love Spacecats\'"),\n'
+									+ ' "cosplay as [name]" (copy an online player\'s outfit, e.g. "cosplay as Sasuke.Uchiha"),\n'
+									+ ' "cosplay undress" (revert to your original look),\n'
+									+ ' "cosplay dismount" (dismount and revert to your original mount)'
+				)
+				break
 		}
-		else if (param == 'pantsu') {
-			changePantsu()
-		}
-		else if (param == 'enchant' && value != null) {
-			external.weaponEnchant = Number(value)
-			external.gameId = gameId
-			changeAppearance()
-			presetUpdate(true)
-		}
-		else if (param == 'tag' && value != null) {
-			changeNametag(value)
-		}
-		else if (param == 'as' && value != null) {
-			cosplayAs(value)
-		}
-		else if (param == 'undress') {
-			external = Object.assign({}, userDefaultAppearance)
-			changeAppearance()
-			external.gameId = 0
-			presetUpdate(true)
-		}
-		else if (param == 'dismount') {
-			dispatch.toServer('C_UNMOUNT_VEHICLE', 1, {})
-			mymount = 0
-			presetUpdate(true)
-		}
-		else command.message('Commands:\n' 
-								+ ' "cosplay weapon [id]" (change your weapon skin to id, e.g. "cosplay weapon 99272"),\n'
-								+ ' "cosplay costume [id]" (change your costume skin to id, e.g. "cosplay costume 180722"),\n'
-								+ ' "cosplay back [id]" (change your back skin to id, e.g. "cosplay back 180081"),\n'
-								+ ' "cosplay face [id]" (change your face adornment to id, e.g. "cosplay face 181563"),\n'
-								+ ' "cosplay head [id]" (change your head adornment to id, e.g. "cosplay head 252972"),\n'
-								+ ' "cosplay underwear [id]" (change your underwear skin to id, e.g. "cosplay underwear 97936"),\n'
-								+ ' "cosplay footprints [id]" (change your footprints to id, e.g. "cosplay footprints 99579"),\n'
-								+ ' "cosplay dye" (change costume dye with the slider tool, e.g. "cosplay dye"),\n'
-								+ ' "cosplay dyergb [item] \'[0-255 0-255 0-255]\'" (change dye to rgb value, e.g. "cosplay dyergb costume \'214 153 204\'"),\n'
-								+ ' "cosplay pantsu" (switch between showing your underwear and costume),\n'
-								+ ' "cosplay enchant [0-15]" (change weapon enchant glow, e.g. "cosplay enchant 13"),\n'
-								+ ' "cosplay tag [text]" (change name tag on costume, e.g. "cosplay tag \'I love Spacecats\'"),\n'
-								+ ' "cosplay as [name]" (copy an online player\'s outfit, e.g. "cosplay as Sasuke.Uchiha"),\n'
-								+ ' "cosplay undress" (revert to your original look),\n'
-								+ ' "cosplay dismount" (dismount and revert to your original mount)'
-			)
 	})
 }

@@ -1,18 +1,18 @@
 {
 	"force_clean": true,
 	"files": {
-		"index.js": "547a3a627460517ff42604c6f1393e958cc6774df3a3e84c81d80b7b20057d9c",
-		"items.json": "041077b63d265666c513e4f10bd9068c60e1dd15decd8c26bea3736caf7d2c5d",
-		"module.json": "84f9db08289d1c63c6c5ab6f7c9bf7b0168f8dad904050aa7c0280da439cc74b",
+		"index.js": "831e7a4340596fdd5b27f1c2b1e371145ba9707ce396ea3ee17ebddd47c047bb",
+		"items.json": "034f4219cf167c3677f7616d4d60ad87b691f072a1bf02c00a1e21137502c6b8",
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+		"module.json": "84f9db08289d1c63c6c5ab6f7c9bf7b0168f8dad904050aa7c0280da439cc74b",
 		"mounts.json": "791b9cfef9cc26f9e894d003f9637f9ddd4d09cd5335699df362ad6beb901d84",
-		"README.md": "b56cc9f436827ff3c43eea799958f449e67ded663070dce7f58cc8a42a094585",
+		"mouse.js": "9a9ba63573058558fcf9883db7b8a54ba653c557474e5a7de78f7797f0e0283e",
+		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
 		"presets.json": {
 			"overwrite": false,
 			"hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 		},
-		"mouse.js": "9a9ba63573058558fcf9883db7b8a54ba653c557474e5a7de78f7797f0e0283e",
-		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18"
+		"README.md": "77b25c61f82bc2b67f0fbab14983c3a2efdf2ea6da5c70db5be6955d4351b256"
 	},
 	"defs": {
 		"C_CANCEL_CONTRACT": 1,
