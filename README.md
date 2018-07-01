@@ -1,5 +1,6 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
 Should work on all regions as long as the opcodes are mapped but I personally only test modules on NA with Caali's tera-proxy: https://discord.gg/maqBmJV  
+Pinkie's last tera-proxy update broke this (and other) modules. Please use Caali's tera-proxy until Pinkie either fixes his compatibility, or Caali releases bigInt support.  
 
 ##### :heavy_exclamation_mark: Installation for Caali's tera-proxy :heavy_exclamation_mark:
 1) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
