@@ -2,7 +2,7 @@
 	"force_clean": true,
 	"files": {
 		"index.js": "831e7a4340596fdd5b27f1c2b1e371145ba9707ce396ea3ee17ebddd47c047bb",
-		"items.json": "034f4219cf167c3677f7616d4d60ad87b691f072a1bf02c00a1e21137502c6b8",
+		"items.json": "0974d26d4bb1046ebfad447a211a4643c6e14acc68803750768d3e0d9e8afe18",
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
 		"module.json": "84f9db08289d1c63c6c5ab6f7c9bf7b0168f8dad904050aa7c0280da439cc74b",
 		"mounts.json": "791b9cfef9cc26f9e894d003f9637f9ddd4d09cd5335699df362ad6beb901d84",
@@ -10,7 +10,7 @@
 		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+			"hash": "0a278ac996a276091020789e4568f66aaf77a661838461ab6cc2af02f131f647"
 		},
 		"README.md": "807907dda388e968d85b552d910099f5abba60a46024ff3a0fd3b2ad62afaff4"
 	},
