@@ -70,6 +70,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.1.7
+* [*] Unleash abnormality id fixed
 ### 2.1.6
 * [+] Added localization for JP, KR, RU, TH, TW regions
 ### 2.1.5
