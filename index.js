@@ -1,4 +1,4 @@
-// Version 2.1.5
+// Version 2.1.6
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -24,15 +24,26 @@ const Command = require('command'),
 	GameState = require('tera-game-state'),
 	Mouse = global.cosplayer_mouse,
 	CONTRACT_DRESSING_ROOM = 76,
-	SLOTS = ["face", "styleHead", "styleFace", "styleBack", "styleWeapon", "weaponEnchant", "styleBody", "styleBodyDye", "styleFootprint", "underwear"],
-	items = require('./items'),
-	mounts = require('./mounts'),
-	weapons = Object.keys(items.categories.style.weapon)
+	SLOTS = ["face", "styleHead", "styleFace", "styleBack", "styleWeapon", "weaponEnchant", "styleBody", "styleBodyDye", "styleFootprint", "underwear"]
+
+let items = null,
+	mounts = null
 
 module.exports = function cosplayer(dispatch) {
 
+	if(dispatch.region != "na" && dispatch.region != "eu") {
+		items = require('./items/items.' + dispatch.region + '.json'),
+		mounts = require('./mounts/mounts.' + dispatch.region + '.json')
+	}
+	else {
+		items = require('./items/items.json'),
+		mounts = require('./mounts/mounts.json')
+	}
+
 	const command = Command(dispatch),
-		game = GameState(dispatch)
+		game = GameState(dispatch),
+		weapons = Object.keys(items.categories.style.weapon)
+
 	game.initialize("contract")
 
 	let job = -1,

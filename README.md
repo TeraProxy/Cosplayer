@@ -17,13 +17,9 @@ Pinkie's last tera-proxy update broke this (and other) modules. Please use Caali
 
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ&lc=US&item_name=TeraProxy&curency_code=USD&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 
-## New in version 2.1.5
-### Footprints
-Footprints have finally been added as well. Happy running! (easiest way to find them is just type "foot" in the Dressing Room search)
-### Custom Mount Support
-Now even your mount can cosplay with you!  
-Right click on mounts in the Dressing Room to change your used mount in game.  
-Careful though: Only use ground mounts for ground mounts and flying mounts for flying mounts or you might be unable to dismount (you can easily fix this by using the "cosplay dismount" command though)  
+## New in version 2.1.6
+### Localization
+Item and mount databases are now localized and Cosplayer will only download the correct version for your region to save bandwidth and disk space.
 
 ![Screenshot](https://i.imgur.com/J4H9W1s.jpg)
 
@@ -36,6 +32,8 @@ Changes to your character are saved on your hard drive and reloaded on next logi
 2) Hover over an item until you see its tooltip appear  
 3) Right click  
 That's it! Or use one of the many commands below.  
+
+:heavy_exclamation_mark: Careful with mounts: Only use ground mounts for custom ground mounts and flying mounts for custom flying mounts or you might be unable to dismount (you can easily fix this by using the "cosplay dismount" command though) :heavy_exclamation_mark:  
 
 While in game, open a proxy chat session by typing "/proxy" or "/8" in chat and hitting the space bar.  
 This serves as the script's command interface.  
@@ -72,6 +70,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.1.6
+* [+] Added localization for JP, KR, RU, TH, TW regions
 ### 2.1.5
 * [+] Added Footprints
 * [*] More optimizations
