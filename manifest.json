@@ -7,12 +7,12 @@
 		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "9d3b42051716b6da1f31619ed83cdd3137284aac21f5ed1871cf07a54afa41cd"
+			"hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 		},
-		"README.md": "c6cacf625627fa03daea125d43a64cef7b401cd95865cae3a069738e0916de63",
+		"README.md": "11821e0e993955d09d3e2b38c791e6a5a5a4906783909cd427e31a670d233dce",
 		"items/items.jp.json": {
 			"region": "jp",
-			"hash": "9cd3d2e1432e8e235cf6498c26de23017614db297f1cca0a0d0fda5b94dc16ba"
+			"hash": "14c21b403b661e6ab07f2e8f432028c53864f4da4061f7c5d233de99780f93e2"
 		},
 		"items/items.kr.json": {
 			"region": "kr",
