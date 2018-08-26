@@ -1,18 +1,15 @@
 {
 	"files": {
-		"index.js": "af90fda902ec3aabcc69d2c7a9ce4e45f1fc532af6d2ba395d7a4bcb260e9dd4",
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"module.json": "84f9db08289d1c63c6c5ab6f7c9bf7b0168f8dad904050aa7c0280da439cc74b",
-		"mouse.js": "9a9ba63573058558fcf9883db7b8a54ba653c557474e5a7de78f7797f0e0283e",
-		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
-		"presets.json": {
-			"overwrite": false,
-			"hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-		},
-		"README.md": "11821e0e993955d09d3e2b38c791e6a5a5a4906783909cd427e31a670d233dce",
+		"README.md": "a4cf7a43037b77d5312faa2f8bad8928e4a3c42028da8121346b3b1f5ab51085",
+		"index.js": "da60ff40ce6ee9a0d22d82309c07d9b3b0da23dfc21349dbe006cc7639f21b3c",
 		"items/items.jp.json": {
 			"region": "jp",
 			"hash": "14c21b403b661e6ab07f2e8f432028c53864f4da4061f7c5d233de99780f93e2"
+		},
+		"items/items.json": {
+			"region": ["eu","na"],
+			"hash": "0974d26d4bb1046ebfad447a211a4643c6e14acc68803750768d3e0d9e8afe18"
 		},
 		"items/items.kr.json": {
 			"region": "kr",
@@ -22,24 +19,22 @@
 			"region": "ru",
 			"hash": "fad73926016914e91950051add0e3d2eaadebf5d74b16e1f3af058ac6dfe4fcb"
 		},
-		"items/items.tw.json": {
-			"region": "tw",
-			"hash": "0b65cef7b445a0832c32405bc52b507044c0b91b7caa1a653254cefe91e8c86b"
-		},
 		"items/items.th.json": {
 			"region": "th",
 			"hash": "f11609268fa70c96b99f0a8abb05791621d49581f7dbc41c3462bdd71ef72ef7"
 		},
-		"items/items.json": {
-			"region": [
-				"eu",
-				"na"
-			],
-			"hash": "0974d26d4bb1046ebfad447a211a4643c6e14acc68803750768d3e0d9e8afe18"
+		"items/items.tw.json": {
+			"region": "tw",
+			"hash": "0b65cef7b445a0832c32405bc52b507044c0b91b7caa1a653254cefe91e8c86b"
 		},
+		"module.json": "5c7483643640c9a502d68a05de74cfb25dea25e07c20714f57f9490924a1607b",
 		"mounts/mounts.jp.json": {
 			"region": "jp",
 			"hash": "3e2970bfc53b28205815dcf6948ac75131889700cac5cabaaaff8776265023da"
+		},
+		"mounts/mounts.json": {
+			"region": ["eu","na"],
+			"hash": "791b9cfef9cc26f9e894d003f9637f9ddd4d09cd5335699df362ad6beb901d84"
 		},
 		"mounts/mounts.kr.json": {
 			"region": "kr",
@@ -49,25 +44,25 @@
 			"region": "ru",
 			"hash": "a544abe66b5c85ef84f69dce59e5be494d2584a5d2f9e4e04a2fcc5df8b1253e"
 		},
-		"mounts/mounts.tw.json": {
-			"region": "tw",
-			"hash": "61c400d31a569e771657900a81002d9c0981bfa48e2d577e9044a465ce96831a"
-		},
 		"mounts/mounts.th.json": {
 			"region": "th",
 			"hash": "2ee666e73296d61318d106f3843b63d61bf3fb983fb9c1e40daa22202f072d22"
 		},
-		"mounts/mounts.json": {
-			"region": [
-				"eu",
-				"na"
-			],
-			"hash": "791b9cfef9cc26f9e894d003f9637f9ddd4d09cd5335699df362ad6beb901d84"
+		"mounts/mounts.tw.json": {
+			"region": "tw",
+			"hash": "61c400d31a569e771657900a81002d9c0981bfa48e2d577e9044a465ce96831a"
+		},
+		"mouse.js": "9a9ba63573058558fcf9883db7b8a54ba653c557474e5a7de78f7797f0e0283e",
+		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
+		"presets.json": {
+			"overwrite": false,
+			"hash": "8eb6388e81c239dedab42fac9c690a672d25f0db925dab0ea7cc70f9fe6a019a"
 		}
 	},
 	"defs": {
 		"C_CANCEL_CONTRACT": 1,
 		"C_ITEM_COLORING_SET_COLOR": 1,
+		"C_PLAYER_LOCATION": "raw",
 		"C_REQUEST_NONDB_ITEM_INFO": 2,
 		"C_REQUEST_USER_PAPERDOLL_INFO": 1,
 		"C_UNMOUNT_VEHICLE": 1,
