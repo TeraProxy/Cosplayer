@@ -57,6 +57,9 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.1.10
+* [~] Database update
+* [~] NA/EU split
 ### 2.1.9
 * [~] Definition update
 ### 2.1.8

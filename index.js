@@ -1,4 +1,4 @@
-// Version 2.1.9
+// Version 2.1.10
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -29,14 +29,8 @@ let items = null,
 
 module.exports = function cosplayer(mod) {
 
-	if(mod.region != "na" && mod.region != "eu") {
-		items = require('./items/items.' + mod.region + '.json'),
-		mounts = require('./mounts/mounts.' + mod.region + '.json')
-	}
-	else {
-		items = require('./items/items.json'),
-		mounts = require('./mounts/mounts.json')
-	}
+	items = require('./items/items.' + mod.region + '.json'),
+	mounts = require('./mounts/mounts.' + mod.region + '.json')
 
 	const weapons = Object.keys(items.categories.style.weapon)
 
