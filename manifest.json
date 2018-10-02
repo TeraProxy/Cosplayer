@@ -3,7 +3,10 @@
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
 		"README.md": "7c593de83a8a3338a76dde88b2c79e7dd7bf61c6ceac440fa76832b75c47306d",
 		"index.js": "72d5ba668119a4b60107c30e69b12fcb4a30689137b6aaa6db338f9432b453d2",
-		"items/items.eu.json": "1a6db60172118dc13ccb75fb20e6d3cb669341129ed12e7a0379aa3a8036aaed",
+		"items/items.eu.json": {
+			"region": "eu",
+			"hash": "1a6db60172118dc13ccb75fb20e6d3cb669341129ed12e7a0379aa3a8036aaed"
+		},
 		"items/items.jp.json": {
 			"region": "jp",
 			"hash": "ecce558946669a15eb38842383d85188208625aa512a5dfaf43aaf9643f0ed18"
@@ -12,7 +15,10 @@
 			"region": "kr",
 			"hash": "279055daf37c001818535b80d4d2c380499e5d453d6ee522764639fd235d536d"
 		},
-		"items/items.na.json": "6760e4522a33032aaddc35b8ac1b6049e7e9033688d7b4b290e0eb04e925b37b",
+		"items/items.na.json": {
+			"region": "na",
+			"hash": "6760e4522a33032aaddc35b8ac1b6049e7e9033688d7b4b290e0eb04e925b37b"
+		},
 		"items/items.ru.json": {
 			"region": "ru",
 			"hash": "e79a42cdbfbee9450ceb49a0e790784efaa0327be4ff5572fd88615aecd7394f"
@@ -26,7 +32,10 @@
 			"hash": "ffd26ec8f6ad750cc92089f9e23c25187eb8a746b7746bc8b3680072335a959f"
 		},
 		"module.json": "5c7483643640c9a502d68a05de74cfb25dea25e07c20714f57f9490924a1607b",
-		"mounts/mounts.eu.json": "c34a68e8765c8e55e2b3dd119f459fc9aa3944fe366fb644fd9d2cdb7bbc3f2d",
+		"mounts/mounts.eu.json": {
+			"region": "eu",
+			"hash": "c34a68e8765c8e55e2b3dd119f459fc9aa3944fe366fb644fd9d2cdb7bbc3f2d"
+		},
 		"mounts/mounts.jp.json": {
 			"region": "jp",
 			"hash": "8e748efd8eeb92796642f4ff19859577bb8a4c6d6b91995dcb2fda2bc7333b75"
@@ -35,7 +44,10 @@
 			"region": "kr",
 			"hash": "63d7682cfaa0694cd315f61695d4d37d0db37c881d416b1910efb8ae3f980de2"
 		},
-		"mounts/mounts.na.json": "ba5a0c70c44aa5ccb540df2d8a13253ee73ef71bcbea1dccdfc285f537f04de1",
+		"mounts/mounts.na.json": {
+			"region": "na",
+			"hash": "ba5a0c70c44aa5ccb540df2d8a13253ee73ef71bcbea1dccdfc285f537f04de1"
+		},
 		"mounts/mounts.ru.json": {
 			"region": "ru",
 			"hash": "65e98bf5bf4e0fbc803c571f7247b4caa4de438ec96fa87f17f99d03bdb3270e"
