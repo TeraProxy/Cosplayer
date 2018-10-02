@@ -57,6 +57,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.1.11
+* [*] Support for patch versions < 75
 ### 2.1.10
 * [~] Database update
 * [~] NA/EU split

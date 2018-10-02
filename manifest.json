@@ -1,8 +1,8 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "7c593de83a8a3338a76dde88b2c79e7dd7bf61c6ceac440fa76832b75c47306d",
-		"index.js": "72d5ba668119a4b60107c30e69b12fcb4a30689137b6aaa6db338f9432b453d2",
+		"README.md": "055c8e605b283392e3b9a32f6f69b634c63aaeded289878de2b025cf152fc7a0",
+		"index.js": "24137dcb2d59c0e4ab68b23926585e60194408c0fef2f787093dcc1e6b72b38e",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "1a6db60172118dc13ccb75fb20e6d3cb669341129ed12e7a0379aa3a8036aaed"
@@ -74,7 +74,7 @@
 		"C_REQUEST_NONDB_ITEM_INFO": 2,
 		"C_REQUEST_USER_PAPERDOLL_INFO": 1,
 		"C_UNMOUNT_VEHICLE": 1,
-		"S_ABNORMALITY_BEGIN": 3,
+		"S_ABNORMALITY_BEGIN": [2,3],
 		"S_ABNORMALITY_END": 1,
 		"S_CANCEL_CONTRACT": 1,
 		"S_GET_USER_LIST": 14,
