@@ -1,4 +1,4 @@
-// Version 2.1.8
+// Version 2.1.9
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -205,7 +205,7 @@ module.exports = function cosplayer(mod) {
 				presetUpdate(true)
 
 				if(external.showStyle == false) {
-					mod.toClient('S_ABNORMALITY_BEGIN', 2, {
+					mod.toClient('S_ABNORMALITY_BEGIN', 3, {
 						target: mod.game.me.gameId,
 						source: mod.game.me.gameId,
 						id: 7777008, // self-confidence abnormality
@@ -213,6 +213,7 @@ module.exports = function cosplayer(mod) {
 						unk: 0,
 						stacks: 1,
 						unk2: 0,
+						unk3: 0
 					})
 				}
 				return false
@@ -234,7 +235,7 @@ module.exports = function cosplayer(mod) {
 		presetUpdate(true)
 	})
 
-	mod.hook('S_ABNORMALITY_BEGIN', 2, event => {
+	mod.hook('S_ABNORMALITY_BEGIN', 3, event => {
 		if(mypreset && mypreset.gameId != 0 && external.showStyle == true && event.id == 7777008) { // self-confidence abnormality
 			setTimeout(() => {
 				mod.toClient('S_ABNORMALITY_END', 1, {
@@ -299,21 +300,21 @@ module.exports = function cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_MOUNT_VEHICLE', 1, event => {
-		if(mod.game.me.is(event.target)) {
+	mod.hook('S_MOUNT_VEHICLE', 2, event => {
+		if(mod.game.me.is(event.gameId)) {
 			if(mymount != null && mymount > 0) {
-				event.unk1 = mymount
+				event.id = mymount
 				return true
 			}
 		}
 	})
 
-	mod.hook('S_USER_WEAPON_APPEARANCE_CHANGE', 1, event => { // To revert weapon after Berserker's Unleashed
+	mod.hook('S_USER_WEAPON_APPEARANCE_CHANGE', 2, event => { // To revert weapon after Berserker's Unleashed
 		if(mod.game.me.is(event.gameId) && !unleashed) {
 			if(mypreset && mypreset.gameId != 0) {
-				event.dbid = mypreset.weapon
-				event.weaponSkin = mypreset.styleWeapon
-				event.enchant = mypreset.weaponEnchant
+				event.weapon = mypreset.weapon
+				event.styleWeapon = mypreset.styleWeapon
+				event.weaponEnchant = mypreset.weaponEnchant
 				return true
 			}
 		}
@@ -386,14 +387,15 @@ module.exports = function cosplayer(mod) {
 
 	function changePantsu() {
 		if(external.showStyle == true) {
-			mod.toClient('S_ABNORMALITY_BEGIN', 2, {
+			mod.toClient('S_ABNORMALITY_BEGIN', 3, {
 				target: mod.game.me.gameId,
 				source: mod.game.me.gameId,
 				id: 7777008, // self-confidence abnormality
 				duration: 864000000, // 10 days
 				unk: 0,
 				stacks: 1,
-				unk2: 0
+				unk2: 0,
+				unk3: 0
 			})
 		}
 		else if(external.showStyle == false) {
