@@ -1,12 +1,9 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "055c8e605b283392e3b9a32f6f69b634c63aaeded289878de2b025cf152fc7a0",
-		"index.js": "24137dcb2d59c0e4ab68b23926585e60194408c0fef2f787093dcc1e6b72b38e",
-		"items/items.eu.json": {
-			"region": "eu",
-			"hash": "1a6db60172118dc13ccb75fb20e6d3cb669341129ed12e7a0379aa3a8036aaed"
-		},
+		"README.md": "ce1239368fc3493c44a3802c62317dbc32f211fd76c1e87150d7efdc3262be77",
+		"index.js": "d4a6042f09e002ad6243da95668bea766ce153b4b36c7781468715bd6129fbed",
+		"items/items.eu.json": "1a6db60172118dc13ccb75fb20e6d3cb669341129ed12e7a0379aa3a8036aaed",
 		"items/items.jp.json": {
 			"region": "jp",
 			"hash": "ecce558946669a15eb38842383d85188208625aa512a5dfaf43aaf9643f0ed18"
@@ -15,10 +12,7 @@
 			"region": "kr",
 			"hash": "279055daf37c001818535b80d4d2c380499e5d453d6ee522764639fd235d536d"
 		},
-		"items/items.na.json": {
-			"region": "na",
-			"hash": "6760e4522a33032aaddc35b8ac1b6049e7e9033688d7b4b290e0eb04e925b37b"
-		},
+		"items/items.na.json": "8065a3f457235af67285740bb2fd93cc11f0e1ef4960f73e26e96b5986a66985",
 		"items/items.ru.json": {
 			"region": "ru",
 			"hash": "e79a42cdbfbee9450ceb49a0e790784efaa0327be4ff5572fd88615aecd7394f"
@@ -32,10 +26,7 @@
 			"hash": "ffd26ec8f6ad750cc92089f9e23c25187eb8a746b7746bc8b3680072335a959f"
 		},
 		"module.json": "5c7483643640c9a502d68a05de74cfb25dea25e07c20714f57f9490924a1607b",
-		"mounts/mounts.eu.json": {
-			"region": "eu",
-			"hash": "c34a68e8765c8e55e2b3dd119f459fc9aa3944fe366fb644fd9d2cdb7bbc3f2d"
-		},
+		"mounts/mounts.eu.json": "c34a68e8765c8e55e2b3dd119f459fc9aa3944fe366fb644fd9d2cdb7bbc3f2d",
 		"mounts/mounts.jp.json": {
 			"region": "jp",
 			"hash": "8e748efd8eeb92796642f4ff19859577bb8a4c6d6b91995dcb2fda2bc7333b75"
@@ -44,10 +35,7 @@
 			"region": "kr",
 			"hash": "63d7682cfaa0694cd315f61695d4d37d0db37c881d416b1910efb8ae3f980de2"
 		},
-		"mounts/mounts.na.json": {
-			"region": "na",
-			"hash": "ba5a0c70c44aa5ccb540df2d8a13253ee73ef71bcbea1dccdfc285f537f04de1"
-		},
+		"mounts/mounts.na.json": "1e37608fdd8b2d4b21df94105771c16df75309ce2b243896de6d6e339d651e4a",
 		"mounts/mounts.ru.json": {
 			"region": "ru",
 			"hash": "65e98bf5bf4e0fbc803c571f7247b4caa4de438ec96fa87f17f99d03bdb3270e"
@@ -64,27 +52,31 @@
 		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "3fd1927008955c4ffe3c8030c5d9291c8c5eafbbd3256cb77f18e92d58154b76"
+			"hash": "bbfd6ab7776a05c217c10639787b90a2c2a5361ec54f90523f2084f09bd4d312"
 		}
 	},
 	"defs": {
 		"C_CANCEL_CONTRACT": 1,
+		"C_COMMIT_ACCESSORY_TRANSFORM": 1,
 		"C_ITEM_COLORING_SET_COLOR": 1,
 		"C_PLAYER_LOCATION": "raw",
+		"C_REQUEST_ACCESSORY_COST_INFO": 1,
 		"C_REQUEST_NONDB_ITEM_INFO": 2,
 		"C_REQUEST_USER_PAPERDOLL_INFO": 1,
 		"C_UNMOUNT_VEHICLE": 1,
 		"S_ABNORMALITY_BEGIN": [2,3],
 		"S_ABNORMALITY_END": 1,
-		"S_CANCEL_CONTRACT": 1,
+		"S_COMMIT_ACCESSORY_TRANSFORM_RESULT": 1,
 		"S_GET_USER_LIST": 14,
 		"S_ITEM_COLORING_BAG": 1,
 		"S_ITEM_CUSTOM_STRING": 2,
+		"S_ITEM_TRANSFORM_DATA": 1,
 		"S_MOUNT_VEHICLE": 2,
 		"S_PREVIEW_ITEM": 1,
 		"S_REPLY_NONDB_ITEM_INFO": 1,
 		"S_REQUEST_CONTRACT": 1,
 		"S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST": 1,
+		"S_RESPONSE_ACCESSORY_COST_INFO": 1,
 		"S_UNICAST_TRANSFORM_DATA": 3,
 		"S_USER_EXTERNAL_CHANGE": 6,
 		"S_USER_PAPERDOLL_INFO": 5,

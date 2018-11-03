@@ -58,7 +58,7 @@
 	"304": {
 		"id": "304",
 		"name": "Riding Skill: Battle Charger",
-		"toolTip": "Use this manual to learn how to summon a battle charger with a Movement Speed of 290. To ride the battle charger, you must stay in the top 30 in the Fraywind Canyon rankings.",
+		"toolTip": "Use this manual to learn how to summon a battle charger mount with a Movement Speed of 290.",
 		"skill": 111120,
 		"vehicleId": "10"
 	},
@@ -1203,6 +1203,13 @@
 		"skill": 13000059,
 		"vehicleId": "231"
 	},
+	"109948": {
+		"id": "109948",
+		"name": "",
+		"toolTip": "",
+		"skill": 13600238,
+		"vehicleId": "1700"
+	},
 	"110083": {
 		"id": "110083",
 		"name": "",
@@ -1394,41 +1401,57 @@
 	},
 	"142781": {
 		"id": "142781",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000106,
 		"vehicleId": "3000"
 	},
 	"142782": {
 		"id": "142782",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000107,
 		"vehicleId": "3001"
 	},
 	"142783": {
 		"id": "142783",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000108,
 		"vehicleId": "3002"
 	},
 	"142784": {
 		"id": "142784",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000109,
 		"vehicleId": "3003"
 	},
 	"142785": {
 		"id": "142785",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000110,
 		"vehicleId": "3004"
 	},
 	"142786": {
 		"id": "142786",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000111,
 		"vehicleId": "3005"
 	},
 	"142787": {
 		"id": "142787",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000112,
 		"vehicleId": "3006"
 	},
 	"142788": {
 		"id": "142788",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000113,
 		"vehicleId": "3007"
 	},

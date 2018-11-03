@@ -1,4 +1,4 @@
-// Version 2.1.11
+// Version 2.2.2
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -22,12 +22,17 @@ const path = require('path'),
 	fs = require('fs'),
 	Mouse = global.cosplayer_mouse,
 	CONTRACT_DRESSING_ROOM = 76,
-	SLOTS = ["face", "styleHead", "styleFace", "styleBack", "styleWeapon", "weaponEnchant", "styleBody", "styleBodyDye", "styleFootprint", "underwear"]
+	CONTRACT_HAT_RESTYLE = 90,
+	hatrestyle = false, // enable free hat restyling, needs additional opcodes
+	SLOTS = [
+		"face", "styleHead", "styleFace", "styleBack", "styleWeapon", "weaponEnchant", "styleBody", "styleBodyDye", "styleFootprint", "underwear",
+		"styleHeadScale"
+	]
 
 let items = null,
 	mounts = null
 
-module.exports = function cosplayer(mod) {
+module.exports = function Cosplayer(mod) {
 
 	items = require('./items/items.' + mod.region + '.json'),
 	mounts = require('./mounts/mounts.' + mod.region + '.json')
@@ -90,6 +95,8 @@ module.exports = function cosplayer(mod) {
 			return
 		}
 		presetLock = true
+		if(presets[mod.game.me.name] && typeof presets[mod.game.me.name].gameId === 'bigint')
+			presets[mod.game.me.name].gameId = presets[mod.game.me.name].gameId.toString()
 		fs.writeFile(path.join(__dirname, 'presets.json'), JSON.stringify(presets, null, 4), err => {
 			presetLock = false
 		})
@@ -333,6 +340,27 @@ module.exports = function cosplayer(mod) {
 		})
 	})
 
+	if(hatrestyle) {
+		mod.hook('C_REQUEST_ACCESSORY_COST_INFO', 1, () => { // When wearing a custom outfit, allow free hat restyling
+			if(mypreset && mypreset.gameId != 0) {
+				mod.toClient('S_RESPONSE_ACCESSORY_COST_INFO', 1, {
+					response: 1,
+					item: 0,
+					unk: 0,
+					amount: 0
+				})
+				return false
+			}
+		})
+
+		mod.hook('C_COMMIT_ACCESSORY_TRANSFORM', 1, event => { // When wearing a custom outfit, allow free hat restyling
+			if(mypreset && mypreset.gameId != 0) {
+				restyleHat(event)
+				return false
+			}
+		})
+	}
+
 	// ################# //
 	// ### Functions ### //
 	// ################# //
@@ -469,6 +497,26 @@ module.exports = function cosplayer(mod) {
 		gettingAppearance = true
 		mod.toServer('C_REQUEST_USER_PAPERDOLL_INFO', 1, { name: playername })
 		setTimeout(() => { gettingAppearance = false }, 1000)
+	}
+
+	function restyleHat(event) {
+		mod.toClient('S_COMMIT_ACCESSORY_TRANSFORM_RESULT', 1, {
+			success: true
+		})
+		mod.toClient('S_ITEM_TRANSFORM_DATA', 1, {
+			gameId: game.me.gameId,
+			item: mypreset.styleHead,
+			scale: event.scale,
+			rotation: event.rotation,
+			translation: event.translation,
+			translationDebug: event.translationDebug,
+			unk: true
+		})
+		external.styleHeadScale = event.scale
+		external.styleHeadRotation = event.rotation
+		external.styleHeadTranslation = event.translation
+		external.styleHeadTranslationDebug = event.translationDebug
+		presetUpdate(true)
 	}
 
 	// ################ //

@@ -1,14 +1,14 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Should work on all regions as long as the opcodes are mapped. Thanks to EME's recent unjustified DMCA actions against developers, opcodes for NA are no longer mapped.
+Should work on all regions as long as the opcodes are mapped. Thanks to EME's unjustified DMCA actions against developers, opcodes for NA are no longer mapped.  
 
-##### :heavy_exclamation_mark: Installation for Caali's tera-proxy :heavy_exclamation_mark:
+##### :heavy_exclamation_mark: Installation (tera-proxy required) :heavy_exclamation_mark:
 1) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
 2) Extract the contents of the zip file into "\tera-proxy\bin\node_modules\"
-3) Done! (the module will auto-update when a new version is released)
+3) Done! (the module will auto-update on Caali's tera-proxy when a new version is released)
   
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ&lc=US&item_name=TeraProxy&curency_code=USD&no_note=1&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted)
 
-![Screenshot](https://i.imgur.com/J4H9W1s.jpg)
+![Screenshot](https://i.imgur.com/m8X358f.jpg)
 
 # Cosplayer
 A tera-proxy module able to change your client-side appearance.  
@@ -57,6 +57,12 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.2
+* [~] Hat Restyler support needs to be enabled in index.js (only do that when you have the opcodes)
+* [+] Add support for Bigint (will now work with Pinkie Pie's tera-proxy again)
+### 2.2.0
+* [+] Added Hat Restyler support for custom head accessories
+* [*] Now using the new contract submodule of tera-game-state
 ### 2.1.11
 * [*] Support for patch versions < 75
 ### 2.1.10
