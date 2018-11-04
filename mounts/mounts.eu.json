@@ -58,7 +58,7 @@
 	"304": {
 		"id": "304",
 		"name": "Riding Skill: Battle Charger",
-		"toolTip": "Use this manual to learn how to summon a battle charger with a Movement Speed of 290. To ride the battle charger, you must stay in the top 30 in the Fraywind Canyon rankings.",
+		"toolTip": "Use this manual to learn how to summon a battle charger mount with a Movement Speed of 290.",
 		"skill": 111120,
 		"vehicleId": "10"
 	},
@@ -1202,6 +1202,13 @@
 		"toolTip": "",
 		"skill": 13000059,
 		"vehicleId": "231"
+	},
+	"109948": {
+		"id": "109948",
+		"name": "",
+		"toolTip": "",
+		"skill": 13600238,
+		"vehicleId": "1700"
 	},
 	"110083": {
 		"id": "110083",
