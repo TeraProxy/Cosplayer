@@ -1,4 +1,4 @@
-// Version 2.2.2
+// Version 2.2.3
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -53,8 +53,7 @@ module.exports = function Cosplayer(mod) {
 		dressingRoom = [],
 		mouse = Mouse(),
 		hoveredItem = -1,
-		mymount = 0,
-		unleashed = false
+		mymount = 0
 
 	this.destructor = () => {
 		mouse.destroy()
@@ -159,6 +158,12 @@ module.exports = function Cosplayer(mod) {
 		dressingRoom = dressingRoom.concat(Object.keys(mounts))
 		dressingRoom = convertList(dressingRoom)
 	})
+	mod.game.on('leave_game', () => {
+		if(presetTimeout) {
+			clearTimeout(presetTimeout)
+			presetTimeout = null
+		}
+	})
 
 	mod.game.contract.on('begin', (type, id) => {
 		if(type == CONTRACT_DRESSING_ROOM) {
@@ -262,8 +267,6 @@ module.exports = function Cosplayer(mod) {
 		if(mod.game.me.is(event.target)) {
 			if(event.id == 10155130) // Ragnarok
 				changeAppearance()
-			else if(event.id == 401730) // Unleashed
-				unleashed = true
 		}
 	})
 
@@ -271,8 +274,6 @@ module.exports = function Cosplayer(mod) {
 		if(mod.game.me.is(event.target)) {
 			if(event.id == 10155130) // Ragnarok
 				changeAppearance()
-			else if(event.id == 401730) // Unleashed
-				unleashed = false
 		}
 	})
 
@@ -324,7 +325,7 @@ module.exports = function Cosplayer(mod) {
 	})
 
 	mod.hook('S_USER_WEAPON_APPEARANCE_CHANGE', 2, event => { // To revert weapon after Berserker's Unleashed
-		if(mod.game.me.is(event.gameId) && !unleashed) {
+		if(mod.game.me.is(event.gameId) && event.abnormalityEffect == 0) { // 0 = stop Unleashed; 329 = start Unleashed
 			if(mypreset && mypreset.gameId != 0) {
 				event.weapon = mypreset.weapon
 				event.styleWeapon = mypreset.styleWeapon
