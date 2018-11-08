@@ -60,6 +60,7 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ### 2.2.3
 * [*] Changed Unleashed tracking to not rely on "S_ABNORMALITY_*" hooks any longer
 * [*] Fixed a bug that caused a lookup error on closing tera-proxy while trying to save settings
+* [-] Deleted obsolete abnormality tracking for Ragnarok
 ### 2.2.2
 * [~] Hat Restyler support needs to be enabled in index.js (only do that when you have the opcodes)
 * [+] Add support for Bigint (will now work with Pinkie Pie's tera-proxy again)

@@ -263,18 +263,6 @@ module.exports = function Cosplayer(mod) {
 				})
 			}, 1000)
 		}
-
-		if(mod.game.me.is(event.target)) {
-			if(event.id == 10155130) // Ragnarok
-				changeAppearance()
-		}
-	})
-
-	mod.hook('S_ABNORMALITY_END', 1, event => {
-		if(mod.game.me.is(event.target)) {
-			if(event.id == 10155130) // Ragnarok
-				changeAppearance()
-		}
 	})
 
 	mod.hook('C_REQUEST_NONDB_ITEM_INFO', 2, event => {
