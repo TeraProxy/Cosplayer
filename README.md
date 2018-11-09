@@ -1,5 +1,5 @@
 ##### :heavy_exclamation_mark: Status :heavy_exclamation_mark:
-Should work on all regions as long as the opcodes are mapped. Thanks to EME's unjustified DMCA actions against developers, opcodes for NA are no longer mapped.  
+Should work on all regions as long as the opcodes are mapped. Works on Caali's and Pinkie Pie's tera-proxy.  
 
 ##### :heavy_exclamation_mark: Installation (tera-proxy required) :heavy_exclamation_mark:
 1) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip

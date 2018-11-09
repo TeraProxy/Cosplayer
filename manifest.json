@@ -1,8 +1,8 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "94b7a939884b3c73d0449ff5cba82735d76136f46556fd4336981b61fe2fd668",
-		"index.js": "7ca162631b6b3a8059f7e48759180b73dcdd11c3649fa6b2f71715cd0cc9aecc",
+		"README.md": "50b958c552ab63b29586515d123bf3158a2581dc3f3558f282fa283c98d37233",
+		"index.js": "026a9cbd11fcf206050a1e687195a3919441d35844beb9d8978c87e752e736d6",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "d12739ac58f11d0af0288790adcdeda02a4ddd280920f3f97edeb637af31acf6"

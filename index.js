@@ -94,9 +94,7 @@ module.exports = function Cosplayer(mod) {
 			return
 		}
 		presetLock = true
-		if(presets[mod.game.me.name] && typeof presets[mod.game.me.name].gameId === 'bigint')
-			presets[mod.game.me.name].gameId = presets[mod.game.me.name].gameId.toString()
-		fs.writeFile(path.join(__dirname, 'presets.json'), JSON.stringify(presets, null, 4), err => {
+		fs.writeFile(path.join(__dirname, 'presets.json'), JSON.stringify(presets, (key, value) => typeof value === 'bigint' ? value.toString() : value, 4), err => {
 			presetLock = false
 		})
 	}
