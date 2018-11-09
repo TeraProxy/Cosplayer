@@ -9,7 +9,7 @@
 		},
 		"items/items.jp.json": {
 			"region": "jp",
-			"hash": "ecce558946669a15eb38842383d85188208625aa512a5dfaf43aaf9643f0ed18"
+			"hash": "2db67896de3394c6a70e42b06b49b42ec15aa5f409cc54592b0c1a6f7a77dd23"
 		},
 		"items/items.kr.json": {
 			"region": "kr",
@@ -21,7 +21,7 @@
 		},
 		"items/items.ru.json": {
 			"region": "ru",
-			"hash": "e79a42cdbfbee9450ceb49a0e790784efaa0327be4ff5572fd88615aecd7394f"
+			"hash": "728c313c5945ccf5d0bbfb66a5a1d9760582bf66b22ddcb7f6dd15df480aae25"
 		},
 		"items/items.th.json": {
 			"region": "th",
@@ -29,7 +29,7 @@
 		},
 		"items/items.tw.json": {
 			"region": "tw",
-			"hash": "ffd26ec8f6ad750cc92089f9e23c25187eb8a746b7746bc8b3680072335a959f"
+			"hash": "b3a53d1c3968d71c259b841ec829515d332f3c536957df92313ccd563ee7f1ce"
 		},
 		"module.json": "5c7483643640c9a502d68a05de74cfb25dea25e07c20714f57f9490924a1607b",
 		"mounts/mounts.eu.json": {
@@ -38,7 +38,7 @@
 		},
 		"mounts/mounts.jp.json": {
 			"region": "jp",
-			"hash": "8e748efd8eeb92796642f4ff19859577bb8a4c6d6b91995dcb2fda2bc7333b75"
+			"hash": "2227cc6983a62a9747973d938dc453f9119fdd5f4273465e8e157d3044b02c1e"
 		},
 		"mounts/mounts.kr.json": {
 			"region": "kr",
@@ -50,7 +50,7 @@
 		},
 		"mounts/mounts.ru.json": {
 			"region": "ru",
-			"hash": "65e98bf5bf4e0fbc803c571f7247b4caa4de438ec96fa87f17f99d03bdb3270e"
+			"hash": "96667e26ecce3fe8bb851aa82639a05b936201d49e31a40042896b8bf716957e"
 		},
 		"mounts/mounts.th.json": {
 			"region": "th",
@@ -58,7 +58,7 @@
 		},
 		"mounts/mounts.tw.json": {
 			"region": "tw",
-			"hash": "894502209cdec07656697bc88bc30c36a0f870b4d6d0633d5d4c5802d4732ca9"
+			"hash": "6ee34f4b09c98cfd832f0be6a17d05f2d587a6a08b35710d189cea8359dac166"
 		},
 		"mouse.js": "9a9ba63573058558fcf9883db7b8a54ba653c557474e5a7de78f7797f0e0283e",
 		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
