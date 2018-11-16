@@ -1,4 +1,4 @@
-// Version 2.2.3
+// Version 2.2.4
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -209,29 +209,16 @@ module.exports = function Cosplayer(mod) {
 				presetUpdate(true)
 
 				if(external.showStyle == false) {
-					if(mod.base.majorPatchVersion >= 75) {
-						mod.toClient('S_ABNORMALITY_BEGIN', 3, {
-							target: mod.game.me.gameId,
-							source: mod.game.me.gameId,
-							id: 7777008, // self-confidence abnormality
-							duration: 864000000, // 10 days
-							unk: 0,
-							stacks: 1,
-							unk2: 0,
-							unk3: 0
-						})
-					}
-					else {
-						mod.toClient('S_ABNORMALITY_BEGIN', 2, {
-							target: mod.game.me.gameId,
-							source: mod.game.me.gameId,
-							id: 7777008, // self-confidence abnormality
-							duration: 864000000, // 10 days
-							unk: 0,
-							stacks: 1,
-							unk2: 0
-						})
-					}
+					mod.toClient('S_ABNORMALITY_BEGIN', 3, {
+						target: mod.game.me.gameId,
+						source: mod.game.me.gameId,
+						id: 7777008, // self-confidence abnormality
+						duration: 864000000, // 10 days
+						unk: 0,
+						stacks: 1,
+						unk2: 0,
+						unk3: 0
+					})
 				}
 				return false
 			}
@@ -252,7 +239,7 @@ module.exports = function Cosplayer(mod) {
 		presetUpdate(true)
 	})
 
-	mod.hook('S_ABNORMALITY_BEGIN', mod.base.majorPatchVersion >= 75 ? 3:2, event => {
+	mod.hook('S_ABNORMALITY_BEGIN', 3, event => {
 		if(mypreset && mypreset.gameId != 0 && external.showStyle == true && event.id == 7777008) { // self-confidence abnormality
 			setTimeout(() => {
 				mod.toClient('S_ABNORMALITY_END', 1, {
@@ -409,29 +396,16 @@ module.exports = function Cosplayer(mod) {
 
 	function changePantsu() {
 		if(external.showStyle == true) {
-			if(mod.base.majorPatchVersion >= 75) {
-				mod.toClient('S_ABNORMALITY_BEGIN', 3, {
-					target: mod.game.me.gameId,
-					source: mod.game.me.gameId,
-					id: 7777008, // self-confidence abnormality
-					duration: 864000000, // 10 days
-					unk: 0,
-					stacks: 1,
-					unk2: 0,
-					unk3: 0
-				})
-			}
-			else {
-				mod.toClient('S_ABNORMALITY_BEGIN', 2, {
-					target: mod.game.me.gameId,
-					source: mod.game.me.gameId,
-					id: 7777008, // self-confidence abnormality
-					duration: 864000000, // 10 days
-					unk: 0,
-					stacks: 1,
-					unk2: 0
-				})
-			}
+			mod.toClient('S_ABNORMALITY_BEGIN', 3, {
+				target: mod.game.me.gameId,
+				source: mod.game.me.gameId,
+				id: 7777008, // self-confidence abnormality
+				duration: 864000000, // 10 days
+				unk: 0,
+				stacks: 1,
+				unk2: 0,
+				unk3: 0
+			})
 		}
 		else if(external.showStyle == false) {
 			mod.toClient('S_ABNORMALITY_END', 1, {

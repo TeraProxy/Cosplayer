@@ -1,8 +1,8 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "50b958c552ab63b29586515d123bf3158a2581dc3f3558f282fa283c98d37233",
-		"index.js": "026a9cbd11fcf206050a1e687195a3919441d35844beb9d8978c87e752e736d6",
+		"README.md": "f7ac0bea571d9c2b6fbca7ff465902c522798e98ecdcd58882ac382b77e5e87e",
+		"index.js": "445ac5e35eee7df37a244542b0d65177c75b9de309e65596c978e6fd25b4cfce",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "d12739ac58f11d0af0288790adcdeda02a4ddd280920f3f97edeb637af31acf6"
@@ -64,7 +64,7 @@
 		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "4b8bb43626cc5f379e1c32c404e55bd01647cc284baebf2f26d8b73d4f28e9df"
+			"hash": "8058b5ccd419aeaed0bc3d42e1b5456d45d6f7c04304de96ae3475da8f1942a6"
 		}
 	},
 	"defs": {
@@ -76,7 +76,7 @@
 		"C_REQUEST_NONDB_ITEM_INFO": 2,
 		"C_REQUEST_USER_PAPERDOLL_INFO": 1,
 		"C_UNMOUNT_VEHICLE": 1,
-		"S_ABNORMALITY_BEGIN": [2,3],
+		"S_ABNORMALITY_BEGIN": 3,
 		"S_ABNORMALITY_END": 1,
 		"S_COMMIT_ACCESSORY_TRANSFORM_RESULT": 1,
 		"S_GET_USER_LIST": 14,

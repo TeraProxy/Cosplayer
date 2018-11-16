@@ -57,6 +57,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.4
+* [-] Removed support for patch versions < 75
 ### 2.2.3
 * [*] Changed Unleashed tracking to not rely on "S_ABNORMALITY_*" hooks any longer
 * [*] Fixed a bug that caused a lookup error on closing tera-proxy while trying to save settings
