@@ -2,602 +2,602 @@
 	"20": {
 		"id": "20",
 		"name": "Riding Skill: Bay Gelding",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Brown Horse ความเร็วเคลื่อนที่ 240",
+		"toolTip": "Use this manual to learn how to summon a Brown Horse with a Movement Speed of 240.",
 		"skill": 111111,
 		"vehicleId": "1"
 	},
 	"21": {
 		"id": "21",
 		"name": "Riding Skill: Fast Bay Gelding",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Brown Horse ความเร็วเคลื่อนที่ 270",
+		"toolTip": "Use this manual to learn how to summon a Brown Horse with a Movement Speed of 270.",
 		"skill": 111112,
 		"vehicleId": "2"
 	},
 	"41": {
 		"id": "41",
 		"name": "Riding Skill: Fast White Stallion",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Fast White Stallion<br>ความเร็วเคลื่อนที่ 270",
+		"toolTip": "Use this manual to learn how to summon a fast white stallion with a Movement Speed of 270.",
 		"skill": 111114,
 		"vehicleId": "3"
 	},
 	"161": {
 		"id": "161",
 		"name": "Personal Riding Skill: Arcadian Dapple",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Arcadian Dapple ความเร็วเคลื่อนที่ 240",
+		"toolTip": "Use this manual to learn how to summon an Arcadian Dapple with a Movement Speed of 240.",
 		"skill": 111115,
 		"vehicleId": "5"
 	},
 	"162": {
 		"id": "162",
 		"name": "Personal Riding Skill: Chestnut Gelding",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Yellow Horse ความเร็วเคลื่อนที่ 240",
+		"toolTip": "Use this manual to learn how to summon a Yellow Horse with a Movement Speed of 240.",
 		"skill": 111116,
 		"vehicleId": "6"
 	},
 	"163": {
 		"id": "163",
 		"name": "Personal Riding Skill: Velikan Gray",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Gray Horse ความเร็วเคลื่อนที่ 240",
+		"toolTip": "Use this manual to learn how to summon a Gray Horse with a Movement Speed of 240.",
 		"skill": 111117,
 		"vehicleId": "7"
 	},
 	"164": {
 		"id": "164",
 		"name": "Personal Riding Skill: Pinto",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Pinto ความเร็วเคลื่อนที่ 240",
+		"toolTip": "Use this manual to learn how to summon a Pinto with a Movement Speed of 240.",
 		"skill": 111118,
 		"vehicleId": "8"
 	},
 	"165": {
 		"id": "165",
 		"name": "Personal Riding Skill: Blue Roan",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Blue Roan ความเร็วเคลื่อนที่ 240",
+		"toolTip": "Use this manual to learn how to summon a Blue Roan with a Movement Speed of 240.",
 		"skill": 111119,
 		"vehicleId": "9"
 	},
 	"304": {
 		"id": "304",
 		"name": "Riding Skill: Battle Charger",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Battle Charger ความเร็วเคลื่อนที่ 290<br>Battle Charger สามารถขี่ได้เฉพาะผู้ที่มีอันดับไม่เกิน 30<br>ของอันดับการต่อสู้ใน Fraywind Canyon",
+		"toolTip": "Use this manual to learn how to summon a battle charger mount with a Movement Speed of 290.",
 		"skill": 111120,
 		"vehicleId": "10"
 	},
 	"306": {
 		"id": "306",
 		"name": "Riding Skill: Fast Arcadian Dapple",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Fast Arcadian Dapple<br>ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a fast Arcadian Dapple with a Movement Speed of 280.",
 		"skill": 111121,
 		"vehicleId": "51"
 	},
 	"307": {
 		"id": "307",
 		"name": "Riding Skill: Fast Pinto",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Fast Pinto ความเร็วเคลื่อนที่ 270",
+		"toolTip": "Use this manual to learn how to summon a fast Pinto with a Movement Speed of 270.",
 		"skill": 111122,
 		"vehicleId": "81"
 	},
 	"316": {
 		"id": "316",
 		"name": "Riding Skill: Night Mare",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Night Mare ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a Night Mare with a Movement Speed of 280.",
 		"skill": 111123,
 		"vehicleId": "12"
 	},
 	"336": {
 		"id": "336",
 		"name": "Riding Skill: Fast Velikan Gray",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Fast Velikan Gray<br>ความเร็วเคลื่อนที่ 270",
+		"toolTip": "Use this manual to learn how to summon a Gray Horse with a Movement Speed of 270.",
 		"skill": 111190,
 		"vehicleId": "71"
 	},
 	"351": {
 		"id": "351",
 		"name": "Riding Skill: Quick-Start Charger",
-		"toolTip": "ไอเทมสนับสนุนทหารใหม่ ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Warhorse<br>ความเร็วเคลื่อนที่ 270",
+		"toolTip": "Use this manual to learn how to summon a warhorse with 270 Movement Speed.",
 		"skill": 111125,
 		"vehicleId": "13"
 	},
 	"378": {
 		"id": "378",
 		"name": "Riding Skill: Shadow Steed",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Shadow Steed ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a Shadow Steed with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111191,
 		"vehicleId": "14"
 	},
 	"379": {
 		"id": "379",
 		"name": "Riding Skill: Electrum Wind",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Electrum Wind ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a horse with a Movement Speed of 280.",
 		"skill": 111192,
 		"vehicleId": "15"
 	},
 	"380": {
 		"id": "380",
 		"name": "Riding Skill: Nexus Warhorse",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Nexus Warhorse ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon an Agnitor warhorse with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111193,
 		"vehicleId": "16"
 	},
 	"381": {
 		"id": "381",
 		"name": "Riding Skill: Razormane",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Razormane ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon Razormane with a Movement Speed of 280.",
 		"skill": 111194,
 		"vehicleId": "17"
 	},
 	"382": {
 		"id": "382",
 		"name": "Riding Skill: Aeolian Zebra",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Aeolian Zebra ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a zebra with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111195,
 		"vehicleId": "18"
 	},
 	"383": {
 		"id": "383",
 		"name": "Riding Skill: Death Charger",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Death Charger ความเร็วเคลื่อนที่ 280",
+		"toolTip": "This manual enables a nexus champion to summon a Death Charger with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111196,
 		"vehicleId": "19"
 	},
 	"384": {
 		"id": "384",
 		"name": "Riding Skill: Jeweled Lion",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Jeweled Lion ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a lion with a Movement Speed of 280.",
 		"skill": 111197,
 		"vehicleId": "20"
 	},
 	"385": {
 		"id": "385",
 		"name": "Riding Skill: Tawny Huntress",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Tawny Huntress ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a lioness with a Movement Speed of 280.",
 		"skill": 111198,
 		"vehicleId": "21"
 	},
 	"406": {
 		"id": "406",
 		"name": "Riding Skill: Black Leopard",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Black Leopard<br>ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a black leopard with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111199,
 		"vehicleId": "22"
 	},
 	"412": {
 		"id": "412",
 		"name": "Riding Skill: White Stallion",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ White Stallion<br>ความเร็วเคลื่อนที่ 255",
+		"toolTip": "Use this manual to learn how to summon a white stallion with a Movement Speed of 255.",
 		"skill": 111126,
 		"vehicleId": "23"
 	},
 	"413": {
 		"id": "413",
 		"name": "Riding Skill: Arcadian Dapple",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Arcadian Dapple<br>ความเร็วเคลื่อนที่ 255",
+		"toolTip": "Use this manual to learn how to summon an Arcadian Dapple with a Movement Speed of 255.",
 		"skill": 111127,
 		"vehicleId": "24"
 	},
 	"414": {
 		"id": "414",
 		"name": "Riding Skill: Blue Roan",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Blue Roan ความเร็วเคลื่อนที่ 255",
+		"toolTip": "Use this manual to learn how to summon a Blue Roan with a Movement Speed of 255.",
 		"skill": 111128,
 		"vehicleId": "25"
 	},
 	"415": {
 		"id": "415",
 		"name": "Riding Skill: Velikan Gray",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Velikan Gray<br>ความเร็วเคลื่อนที่ 255",
+		"toolTip": "Use this manual to learn how to summon a Velikan Gray with a Movement Speed of 255.",
 		"skill": 111129,
 		"vehicleId": "26"
 	},
 	"416": {
 		"id": "416",
 		"name": "Riding Skill: Pinto",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Pinto ความเร็วเคลื่อนที่ 255",
+		"toolTip": "Use this manual to learn how to summon a Pinto with a Movement Speed of 255.",
 		"skill": 111130,
 		"vehicleId": "27"
 	},
 	"417": {
 		"id": "417",
 		"name": "Riding Skill: Chestnut Gelding",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Chestnut Gelding<br>ความเร็วเคลื่อนที่ 255",
+		"toolTip": "Use this manual to learn how to summon a Chestnut Gelding with a Movement Speed of 255.",
 		"skill": 111131,
 		"vehicleId": "28"
 	},
 	"418": {
 		"id": "418",
 		"name": "Riding Skill: Regal Frostlion",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Regal Frostlion<br>ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a Regal Frostlion with a Movement Speed of 280.",
 		"skill": 111132,
 		"vehicleId": "29"
 	},
 	"450": {
 		"id": "450",
 		"name": "Riding Skill: Sleipnir",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Sleipnir ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon Sleipnir, the celestial warhorse with a Movement Speed of 280.",
 		"skill": 111133,
 		"vehicleId": "30"
 	},
 	"451": {
 		"id": "451",
 		"name": "Riding Skill: Smolder",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Smolderความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon Smolder, the black lion with a Movement Speed of 280.",
 		"skill": 111135,
 		"vehicleId": "32"
 	},
 	"452": {
 		"id": "452",
 		"name": "Riding Skill: Boneshaker",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Boneshaker ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon Boneshaker, a skeletal warhorse with a Movement Speed of 280.",
 		"skill": 111136,
 		"vehicleId": "37"
 	},
 	"453": {
 		"id": "453",
 		"name": "Riding Skill: Munchhausen",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Munchhausen ความเร็วเคลื่อนที่ 280<br>เมื่อขี่จะช่วยฟื้นฟู 0.5% ของ MP สูงสุด ทุกๆ วินาที",
+		"toolTip": "Use this manual to learn how to summon Munchhausen, the mendacious traveler with a Movement Speed of 280 that replenishes 0.5% of your max MP every second.",
 		"skill": 111137,
 		"vehicleId": "34"
 	},
 	"454": {
 		"id": "454",
 		"name": "Riding Skill: Gourmando",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Gourmando ความเร็วเคลื่อนที่ 280<br>เมื่อขี่จะช่วยฟื้นฟู 0.5% ของ MP สูงสุด ทุกๆ วินาที",
+		"toolTip": "Use this manual to learn how to summon Gourmando, the infernal glutton with a Movement Speed of 280 that recovers 0.5% of your max HP every second.",
 		"skill": 111138,
 		"vehicleId": "35"
 	},
 	"455": {
 		"id": "455",
 		"name": "Riding Skill: Sheldon",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Sheldon ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon Sheldon, a giant kamara after which the Unified Theory Institute's bots were modeled, with a Movement Speed of 280.",
 		"skill": 111139,
 		"vehicleId": "33"
 	},
 	"456": {
 		"id": "456",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: EX-TRM",
+		"toolTip": "Use this manual to learn how to summon EX-TRM, Unified Theory Institute's prototype construct mount, with a Movement Speed of 280.",
 		"skill": 111151,
 		"vehicleId": "31"
 	},
 	"457": {
 		"id": "457",
 		"name": "Riding Skill: Regulus",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Regulus ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon Regulus with a Movement Speed of 280.",
 		"skill": 11117100,
 		"vehicleId": "36"
 	},
 	"481": {
 		"id": "481",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Summon Rainbow",
+		"toolTip": "As pure and beautiful as rain on a sunny day. Learn how to summon Rainbow the unicorn with a Movement Speed of 280.",
 		"skill": 111141,
 		"vehicleId": "41"
 	},
 	"482": {
 		"id": "482",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Summon Terminus",
+		"toolTip": "Trophy for champions. Use this manual to learn how to summon Terminus, an argon hybrid horse, with a Movement Speed of 280.",
 		"skill": 111142,
 		"vehicleId": "42"
 	},
 	"650": {
 		"id": "650",
 		"name": "A Week of Night Mares",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ A Week of Night Mares ความเร็วเคลื่อนที่ 270<br>A Week of Night Mares สามารถขี่ได้เป็นเวลา 7 วัน ตามเวลาจริง",
+		"toolTip": "Use this book to learn how to summon Night Mare for 7 days in real time.",
 		"skill": 111202,
 		"vehicleId": "80"
 	},
 	"5175": {
 		"id": "5175",
 		"name": "Riding Skill: Black Pearl",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Black Pearl ความเร็วเคลื่อนที่ 275",
+		"toolTip": "Use this manual to learn how to summon Black Pearl, the pirate horse with a Movement Speed of 275.",
 		"skill": 116001,
 		"vehicleId": "140"
 	},
 	"9307": {
 		"id": "9307",
 		"name": "Riding Skill: Topthorn",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Topthorn ความเร็วเคลื่อนที่ 270",
+		"toolTip": "Use this manual to learn how to summon a black war horse with a Movement Speed of 270, which can be ridden in Civil Unrest zones.",
 		"skill": 15210001,
 		"vehicleId": "15201"
 	},
 	"9308": {
 		"id": "9308",
 		"name": "Riding Skill: Tanner",
-		"toolTip": "คู่มือสกิลที่ได้รับจากกิลด์อันดับ 1 ในสงครามกิลด์ ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Tanner ความเร็วเคลื่อนที่ 280 สามารถขี่ได้ทุกที่รวมทั้งในสงครามกิลด์ ",
+		"toolTip": "Awarded to members of a Civil Unrest winning guild. Use this manual to learn how to summon a battle lion with a Movement Speed of 280, which can be ridden in normal and Civil Unrest zones.",
 		"skill": 15210002,
 		"vehicleId": "15202"
 	},
 	"45478": {
 		"id": "45478",
 		"name": "Flying Skill: Iron Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Iron Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon an iron dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Iron Dragon is the last mount you used.",
 		"skill": 12200001,
 		"vehicleId": "232"
 	},
 	"45479": {
 		"id": "45479",
 		"name": "Flying Skill: Crimson Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Crimson Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a red dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Crimson Dragon is the last mount you used.",
 		"skill": 12200002,
 		"vehicleId": "233"
 	},
 	"70050": {
 		"id": "70050",
 		"name": "Festive Carpet",
-		"toolTip": "สามารถใช้ Riding Skill เรียนสกิลอัญเชิญ Festive Carpet ความเร็ว 280 ได้",
+		"toolTip": "Use the Manual to learn how to summon a Festive Carpet with Movement Speed of 280.",
 		"skill": 1111513,
 		"vehicleId": "48"
 	},
 	"71001": {
 		"id": "71001",
 		"name": "Flying Skill: Skydancer",
-		"toolTip": "[[ของขวัญพิเศษสำหรับ การโอนย้ายบริการ]]<br><br>อัญเชิญ Skydancer ที่สามารถบินในเขตบินได้อย่างอิสระ<br>ความเร็วการบินของ Skydancer คือ 270 และความเร็วบนพื้นดินคือ 280",
+		"toolTip": "Summon a horse you can fly in free-flight zones.",
 		"skill": 17000001,
 		"vehicleId": "204"
 	},
 	"71002": {
 		"id": "71002",
 		"name": "Flying Skill: Tulpar",
-		"toolTip": "อัญเชิญ Tulpar ที่สามารถบินในเขตบินได้อย่างอิสระ<br>ความเร็วการบินของ Tulpar คือ 270 และความเร็วบนพื้นดินคือ 270",
+		"toolTip": "Summon a horse you can fly in free-flight zones.",
 		"skill": 117003,
 		"vehicleId": "206"
 	},
 	"81204": {
 		"id": "81204",
 		"name": "Riding Skill: Jade",
-		"toolTip": "สามารถใช้ Riding Skill เรียนสกิลอัญเชิญกิเลนความเร็ว 270 ได้",
+		"toolTip": "Use this manual to learn how to summon Jade, an oriental dragon with a Movement Speed of 270.",
 		"skill": 1111573,
 		"vehicleId": "158"
 	},
 	"90098": {
 		"id": "90098",
 		"name": "Riding Skill: Carmine",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Carmine ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon a blood-red dracoraptor with a Movement Speed of 280.",
 		"skill": 1111521,
 		"vehicleId": "60"
 	},
 	"90099": {
 		"id": "90099",
 		"name": "Riding Skill: Carmine",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Carmine ความเร็วเคลื่อนที่ 275",
+		"toolTip": "Use this manual to learn how to summon a temporary blood-red dracoraptor with a Movement Speed of 275.",
 		"skill": 1111522,
 		"vehicleId": "55"
 	},
 	"90100": {
 		"id": "90100",
 		"name": "Riding Skill: Sparky",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Sparky ความเร็วเคลื่อนที่ 275",
+		"toolTip": "Use this manual to learn how to summon a dracoraptor with a Movement Speed of 275.",
 		"skill": 1111523,
 		"vehicleId": "53"
 	},
 	"98601": {
 		"id": "98601",
 		"name": "Flying Skill: Yellow Bird (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Yellow Bird<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลสั่งใช้ [Arbitrary Gift I] ที่มอบเอฟเฟกต์ผลประโยชน์แบบสุ่ม<br>กับสกิลติดตัว Lucky Feather ช่วยให้ความเสียหายคริติคอล เพิ่มขึ้น<br>ซึ่งสกิลดังกล่าว จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a Yellow Bird with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Arbitrary Gift I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Arbitrary Gift I</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200121,
 		"vehicleId": "272"
 	},
 	"98602": {
 		"id": "98602",
 		"name": "Flying Skill: Ultra Yellow Bird (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Yellow Bird<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลสั่งใช้ [Arbitrary Gift II] ที่มอบเอฟเฟกต์ผลประโยชน์แบบสุ่ม<br>กับสกิลติดตัว Lucky Wings ช่วยให้ความเสียหายคริติคอล เพิ่มขึ้น<br>ซึ่งสกิลดังกล่าว จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a Yellow Bird with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Arbitrary Gift II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Arbitrary Gift II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200122,
 		"vehicleId": "270"
 	},
 	"98603": {
 		"id": "98603",
 		"name": "Flying Skill: Yellow Bird",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Yellow Bird<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a Yellow Bird with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200125,
 		"vehicleId": "275"
 	},
 	"98604": {
 		"id": "98604",
 		"name": "Flying Skill: Ultra Yellow Bird",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Yellow Bird<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a Yellow Bird with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200126,
 		"vehicleId": "274"
 	},
 	"98609": {
 		"id": "98609",
-		"name": "Flying Skill: Yellow Bird (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Yellow Bird<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลสั่งใช้ [Arbitrary Gift I] ที่มอบเอฟเฟกต์ผลประโยชน์แบบสุ่ม<br>กับสกิลติดตัว Lucky Feather ช่วยให้ความเสียหายคริติคอล เพิ่มขึ้น<br>ซึ่งสกิลดังกล่าว จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"name": "Flying Skill: Yellow Bird (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Yellow Bird with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Arbitrary Gift I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Arbitrary Gift I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200123,
 		"vehicleId": "273"
 	},
 	"98610": {
 		"id": "98610",
-		"name": "Flying Skill: Ultra Yellow Bird (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Yellow Bird<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลสั่งใช้ [Arbitrary Gift II] ที่มอบเอฟเฟกต์ผลประโยชน์แบบสุ่ม<br>กับสกิลติดตัว Lucky Wings ช่วยให้ความเสียหายคริติคอล เพิ่มขึ้น<br>ซึ่งสกิลดังกล่าว จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"name": "Flying Skill: Ultra Yellow Bird (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Yellow Bird with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Arbitrary Gift II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Arbitrary Gift II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200124,
 		"vehicleId": "271"
 	},
 	"98625": {
 		"id": "98625",
 		"name": "Flying Skill: Blue Bird (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Blue Bird<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลสั่งใช้ [Arbitrary Gift I] ที่มอบเอฟเฟกต์ผลประโยชน์แบบสุ่ม<br>กับสกิลติดตัว Lucky Feather ช่วยให้ความเสียหายคริติคอล เพิ่มขึ้น<br>ซึ่งสกิลดังกล่าว จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a Blue Bird with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Arbitrary Gift I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Arbitrary Gift I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200129,
 		"vehicleId": "264"
 	},
 	"98626": {
 		"id": "98626",
 		"name": "Flying Skill: Ultra Blue Bird (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Blue Bird<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลสั่งใช้ [Arbitrary Gift II] ที่มอบเอฟเฟกต์ผลประโยชน์แบบสุ่ม<br>กับสกิลติดตัว Lucky Wings ช่วยให้ความเสียหายคริติคอล เพิ่มขึ้น<br>ซึ่งสกิลดังกล่าว จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a Blue Bird with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Arbitrary Gift II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Arbitrary Gift II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200130,
 		"vehicleId": "266"
 	},
 	"98627": {
 		"id": "98627",
 		"name": "Flying Skill: Blue Bird",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Blue Bird<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a Blue Bird with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200133,
 		"vehicleId": "269"
 	},
 	"98628": {
 		"id": "98628",
 		"name": "Flying Skill: Ultra Blue Bird",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Blue Bird<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a Blue Bird with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200134,
 		"vehicleId": "268"
 	},
 	"98633": {
 		"id": "98633",
-		"name": "Flying Skill: Blue Bird (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Blue Bird<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลสั่งใช้ [Arbitrary Gift I] ที่มอบเอฟเฟกต์ผลประโยชน์แบบสุ่ม<br>กับสกิลติดตัว Lucky Feather ช่วยให้ความเสียหายคริติคอล เพิ่มขึ้น<br>ซึ่งสกิลดังกล่าว จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"name": "Flying Skill: Blue Bird (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Blue Bird with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Arbitrary Gift I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Arbitrary Gift I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200131,
 		"vehicleId": "265"
 	},
 	"98634": {
 		"id": "98634",
-		"name": "Flying Skill: Ultra Blue Bird (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Blue Bird<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลสั่งใช้ [Arbitrary Gift II] ที่มอบเอฟเฟกต์ผลประโยชน์แบบสุ่ม<br>กับสกิลติดตัว Lucky Wings ช่วยให้ความเสียหายคริติคอล เพิ่มขึ้น<br>ซึ่งสกิลดังกล่าว จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"name": "Flying Skill: Ultra Blue Bird (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Blue Bird with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Arbitrary Gift II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Arbitrary Gift II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200132,
 		"vehicleId": "267"
 	},
 	"99102": {
 		"id": "99102",
 		"name": "Flying Skill: Ghost Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ghost Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a ghost dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ghost Dragon is the last mount you used.",
 		"skill": 12200003,
 		"vehicleId": "234"
 	},
 	"99103": {
 		"id": "99103",
 		"name": "Flying Skill: Diamond Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Diamond Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a diamond dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Diamond Dragon is the last mount you used.",
 		"skill": 12200004,
 		"vehicleId": "235"
 	},
 	"99104": {
 		"id": "99104",
 		"name": "Flying Skill: Royal Iron Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Iron Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal iron dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Iron Dragon is the last mount you used.",
 		"skill": 12200005,
 		"vehicleId": "236"
 	},
 	"99105": {
 		"id": "99105",
 		"name": "Flying Skill: Royal Crimson Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Crimson Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal crimson dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Crimson Dragon is the last mount you used.",
 		"skill": 12200006,
 		"vehicleId": "237"
 	},
 	"99106": {
 		"id": "99106",
 		"name": "Flying Skill: Royal Ghost Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ghost Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal ghost dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Ghost Dragon is the last mount you used.",
 		"skill": 12200007,
 		"vehicleId": "238"
 	},
 	"99107": {
 		"id": "99107",
 		"name": "Flying Skill: Royal Diamond Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Diamond Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal diamond dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Diamond Dragon is the last mount you used.",
 		"skill": 12200008,
 		"vehicleId": "239"
 	},
 	"99283": {
 		"id": "99283",
 		"name": "Flying Skill: Bone Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Bone Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Bone Dragon is the last mount you used.",
 		"skill": 12200035,
 		"vehicleId": "244"
 	},
 	"99284": {
 		"id": "99284",
 		"name": "Flying Skill: Night Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Night Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Night Dragon is the last mount you used.",
 		"skill": 12200043,
 		"vehicleId": "245"
 	},
 	"99285": {
 		"id": "99285",
 		"name": "Flying Skill: Ultra Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ultra Dragon is the last mount you used.",
 		"skill": 12200051,
 		"vehicleId": "246"
 	},
 	"99286": {
 		"id": "99286",
 		"name": "Flying Skill: Astra Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Astra Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Astra Dragon is the last mount you used.",
 		"skill": 12200059,
 		"vehicleId": "247"
 	},
 	"99287": {
 		"id": "99287",
 		"name": "Flying Skill: Ash Dragon",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ash Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Dragon Master] ที่เพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ash Dragon is the last mount you used.",
 		"skill": 12200067,
 		"vehicleId": "248"
 	},
 	"99288": {
 		"id": "99288",
 		"name": "Flying Skill: Bonefury",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Bone Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Bonefury is the last mount you used.",
 		"skill": 12200036,
 		"vehicleId": "249"
 	},
 	"99289": {
 		"id": "99289",
 		"name": "Flying Skill: Nightfury",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Night Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Nightfury is the last mount you used.",
 		"skill": 12200044,
 		"vehicleId": "250"
 	},
 	"99290": {
 		"id": "99290",
 		"name": "Flying Skill: Ultrafury",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Ultrafury is the last mount you used.",
 		"skill": 12200052,
 		"vehicleId": "251"
 	},
 	"99291": {
 		"id": "99291",
 		"name": "Flying Skill: Astrafury",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Astra Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Astrafury is the last mount you used.",
 		"skill": 12200060,
 		"vehicleId": "252"
 	},
 	"99292": {
 		"id": "99292",
 		"name": "Flying Skill: Ashfury",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ash Dragon<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับออร่าที่ทำให้ความเร็วเคลื่อนที่ สัตว์ขี่ของสมาชิกปาร์ตี้<br>ที่อยู่รอบๆ ตัว เพิ่มขึ้น +10 และได้รับสกิลติดตัว [Draconis Rex]<br>ที่เพิ่มความเสียหายคริติคอลด้วย ซึ่งสกิลดังกล่าว<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Ashfury is the last mount you used.",
 		"skill": 12200068,
 		"vehicleId": "253"
 	},
 	"99531": {
 		"id": "99531",
 		"name": "Flying Skill: Azure Phoenix",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Phoenix<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Phoenix Aura] ที่ช่วยชุบชีวิตจากความตายได้<br>และ [Blazing Aura I] ช่วยเพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura I activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200075,
 		"vehicleId": "258"
 	},
 	"99532": {
 		"id": "99532",
 		"name": "Flying Skill: Urvog",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Phoenix<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Phoenix Aura] ที่ช่วยชุบชีวิตจากความตายได้<br>และ [Blazing Aura I] ช่วยเพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200076,
 		"vehicleId": "260"
 	},
 	"99555": {
 		"id": "99555",
 		"name": "Flying Skill: Blazing Phoenix",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Phoenix<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Phoenix Aura] ที่ช่วยชุบชีวิตจากความตายได้<br>และ [Blazing Aura I] ช่วยเพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับแรร์ตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura I activates a 1-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200083,
 		"vehicleId": "257"
 	},
 	"99556": {
 		"id": "99556",
 		"name": "Flying Skill: Pteryx",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Phoenix<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที นอกจากนี้<br>ยังได้รับสกิลติดตัว [Phoenix Aura] ที่ช่วยชุบชีวิตจากความตายได้<br>และ [Blazing Aura I] ช่วยเพิ่มความเสียหายคริติคอลด้วย<br>ซึ่งสกิลดังกล่าวจะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature]<br>ระดับตำนานตัวอื่น โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้</font>",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200084,
 		"vehicleId": "259"
 	},
 	"99975": {
 		"id": "99975",
-		"name": "Flying Skill: Dark Pegesus",
-		"toolTip": "เรียก Dark Pegasus ที่สามารถบินไปในเขตที่บินได้<br>ความเร็วในการบินของ Dark Pegasus เป็น 270 และความเร็วเคลื่อนที่บนพื้นดินเป็น 280",
+		"name": "Flying Skill: Black Pegasus",
+		"toolTip": "Use this manual to learn how to summon Black Pegasus, a winged mount with a Flight Speed of 270 and Movement Speed of 280.",
 		"skill": 117004,
 		"vehicleId": "205"
 	},
@@ -1217,6 +1217,13 @@
 		"skill": 13000059,
 		"vehicleId": "231"
 	},
+	"109948": {
+		"id": "109948",
+		"name": "",
+		"toolTip": "",
+		"skill": 13600238,
+		"vehicleId": "1700"
+	},
 	"110083": {
 		"id": "110083",
 		"name": "",
@@ -1345,15 +1352,15 @@
 	},
 	"137010": {
 		"id": "137010",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Black Leopard",
+		"toolTip": "Use this manual to learn how to summon a black leopard with a movement speed of 275.",
 		"skill": 111148,
 		"vehicleId": "220"
 	},
 	"137042": {
 		"id": "137042",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Duck (Punk) (New)",
+		"toolTip": "Currently not used",
 		"skill": 1111520,
 		"vehicleId": "54"
 	},
@@ -1471,8 +1478,8 @@
 	},
 	"147030": {
 		"id": "147030",
-		"name": "",
-		"toolTip": "",
+		"name": "[Event] Riding Skill: Silver Giraffe(30days)",
+		"toolTip": "Use this manual to learn how to summon a Silver Giraffe with a movement speed of 280 that restores 0.5% HP and MP every second.<br>Item expires in 30 days.",
 		"skill": 12000015,
 		"vehicleId": "160"
 	},
@@ -1569,15 +1576,15 @@
 	},
 	"150910": {
 		"id": "150910",
-		"name": "",
-		"toolTip": "",
+		"name": "Mount: Lucky Pig",
+		"toolTip": "Use this manual to learn how to summon a Lucky Pig with a Movement Speed of 280.",
 		"skill": 2222705,
 		"vehicleId": "581"
 	},
 	"151984": {
 		"id": "151984",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Supercharged Police Car",
+		"toolTip": "Use this manual to learn how to summon a Supercharged Police Car with a Movement Speed of 280 that restores 1% of your max HP and MP every second.",
 		"skill": 14100106,
 		"vehicleId": "168"
 	},
@@ -1681,155 +1688,155 @@
 	},
 	"181120": {
 		"id": "181120",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Nexus Warhorse",
+		"toolTip": "Use this manual to learn how to summon a Nexus warhorse with a Movement Speed of 275. You can obtain this mount from the federation bill store and ride like a real nexus champion.",
 		"skill": 2222560,
 		"vehicleId": "2216"
 	},
 	"181121": {
 		"id": "181121",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Aeolian Zebra",
+		"toolTip": "Use this manual to learn how to summon a zebra with a Movement Speed of 275. You can obtain this mount from the federation bill store.",
 		"skill": 2222561,
 		"vehicleId": "2218"
 	},
 	"181122": {
 		"id": "181122",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Death Charger",
+		"toolTip": "Use this manual to learn how to a death charger with a Movement Speed of 275. You can obtain this mount from the federation bill store and ride like a real nexus champion.",
 		"skill": 2222562,
 		"vehicleId": "2219"
 	},
 	"201531": {
 		"id": "201531",
 		"name": "Riding Skill: Elephant",
-		"toolTip": "ใช้คู่มือนี้เรียนสกิลการเรียก Elephant ที่มีความเร็วเคลื่อนที่ 290",
+		"toolTip": "Use this manual to learn how to summon an elephant ground mount with a movement speed of 290.",
 		"skill": 12200103,
 		"vehicleId": "263"
 	},
 	"202104": {
 		"id": "202104",
 		"name": "Flying Skill: Ultra Dark Dragon [Blue] (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Blue] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 2 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Eclipsed Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับตำนานตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Blue] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Eclipsed Rex, which provides a chance to double your Crit Power and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Eclipsed Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200140,
 		"vehicleId": "277"
 	},
 	"202105": {
 		"id": "202105",
 		"name": "Flying Skill: Ultra Dark Dragon [Blue]",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Blue] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Blue] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.\n",
 		"skill": 12200142,
 		"vehicleId": "276"
 	},
 	"202108": {
 		"id": "202108",
-		"name": "Flying Skill: Ultra Dark Dragon [Blue] (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Blue] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 2 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Eclipsed Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับตำนานตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"name": "Flying Skill: Ultra Dark Dragon [Blue] (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Blue] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Eclipsed Rex, which provides a chance to double your Crit Power and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Eclipsed Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.\n",
 		"skill": 12200141,
 		"vehicleId": "278"
 	},
 	"202116": {
 		"id": "202116",
 		"name": "Flying Skill: Dark Dragon [Red] (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Red] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 1.5 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Darkened Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับหายากตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Red] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Darkened Rex, which provides a chance to increase your Crit Power by a factor of 1.5 and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Darkened Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.\n",
 		"skill": 12200144,
 		"vehicleId": "280"
 	},
 	"202117": {
 		"id": "202117",
 		"name": "Flying Skill: Dark Dragon [Red]",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Red] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Red] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.\n",
 		"skill": 12200146,
 		"vehicleId": "279"
 	},
 	"202120": {
 		"id": "202120",
-		"name": "Flying Skill: Dark Dragon [Red] (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Red] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 1.5 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Darkened Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับหายากตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"name": "Flying Skill: Dark Dragon [Red] (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Red] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Darkened Rex, which provides a chance to increase your Crit Power by a factor of 1.5 and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Darkened Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.\n",
 		"skill": 12200145,
 		"vehicleId": "281"
 	},
 	"202128": {
 		"id": "202128",
 		"name": "Flying Skill: Ultra Dark Dragon [Dorchadas] (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Dorchadas]<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 2 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Eclipsed Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับตำนานตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Dorchadas] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Eclipsed Rex, which grants a chance to double your Crit Power and deals additional damage against monsters, when you are not mounted. Using <font color = '#F9B600'>Eclipsed Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.\n",
 		"skill": 12200148,
 		"vehicleId": "283"
 	},
 	"202129": {
 		"id": "202129",
 		"name": "Flying Skill: Ultra Dark Dragon [Dorchadas]",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Dorchadas]<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Dorchadas] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.\n",
 		"skill": 12200150,
 		"vehicleId": "282"
 	},
 	"202132": {
 		"id": "202132",
-		"name": "Flying Skill: Ultra Dark Dragon [Dorchadas] (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Dorchadas]<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 2 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Eclipsed Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับตำนานตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"name": "Flying Skill: Ultra Dark Dragon [Dorchadas] (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Dorchadas] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Eclipsed Rex, which grants a chance to double your Crit Power and deals additional damage against monsters, when you are not mounted. Using <font color = '#F9B600'>Eclipsed Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.\n",
 		"skill": 12200149,
 		"vehicleId": "284"
 	},
 	"202320": {
 		"id": "202320",
 		"name": "Flying Skill: Dark Dragon [Blue] (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Blue] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 1.5 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Darkened Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับหายากตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Blue] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Darkened Rex, which provides a chance to increase your Crit Power by a factor of 1.5 and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Darkened Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200152,
 		"vehicleId": "286"
 	},
 	"202321": {
 		"id": "202321",
 		"name": "Flying Skill: Dark Dragon [Blue]",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Blue] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Blue] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200154,
 		"vehicleId": "285"
 	},
 	"202324": {
 		"id": "202324",
-		"name": "Flying Skill: Dark Dragon [Blue] (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Blue] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 1.5 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Darkened Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับหายากตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"name": "Flying Skill: Dark Dragon [Blue] (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Blue] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Darkened Rex, which provides a chance to increase your Crit Power by a factor of 1.5 and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Darkened Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200153,
 		"vehicleId": "287"
 	},
 	"202332": {
 		"id": "202332",
 		"name": "Flying Skill: Ultra Dark Dragon [Red] (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Red] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 2 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Eclipsed Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับตำนานตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Red] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Eclipsed Rex, which provides a chance to double your Crit Power and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Eclipsed Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200156,
 		"vehicleId": "292"
 	},
 	"202333": {
 		"id": "202333",
 		"name": "Flying Skill: Ultra Dark Dragon [Red]",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Red] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Red] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200158,
 		"vehicleId": "291"
 	},
 	"202336": {
 		"id": "202336",
-		"name": "Flying Skill: Ultra Dark Dragon [Red] (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Ultra Dark Dragon [Red] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 157 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 2% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 2 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Eclipsed Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับตำนานตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"name": "Flying Skill: Ultra Dark Dragon [Red] (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon Ultra Dark Dragon [Red] with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Eclipsed Rex, which grants a chance to double your Crit Power and deals additional damage against monsters, when you are not mounted. Eclipsed Rex does not stack with passive skills gained from other superior [mythical] mounts, and only grants the passive of the last mount mounted.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200157,
 		"vehicleId": "293"
 	},
 	"202344": {
 		"id": "202344",
 		"name": "Flying Skill: Dark Dragon [Dorchadas] (Special)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Dorchadas] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 1.5 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Darkened Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับหายากตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Dorchadas] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Darkened Rex, which provides a chance to increase your Crit Power by a factor of 1.5 and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Darkened Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200160,
 		"vehicleId": "289"
 	},
 	"202345": {
 		"id": "202345",
 		"name": "Flying Skill: Dark Dragon [Dorchadas]",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Dorchadas] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Dorchadas] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200162,
 		"vehicleId": "288"
 	},
 	"202348": {
 		"id": "202348",
-		"name": "Flying Skill: Dark Dragon [Dorchadas] (Special) (3 วัน)",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Dark Dragon [Dorchadas] ได้<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)<br>เมื่อขึ้นขี่ HP, MP จะฟื้นฟู 1% ของค่าสูงสุด ทุกๆ วินาที<br>แล้วได้รับความสามารถที่ทำให้ ความเสียหายคริติคอลนั้นเพิ่มขึ้น 1.5 เท่า<br>นอกจากนี้ยังสามารถเรียนรู้สกิลติดตัว Darkened Rex<br>ที่ช่วยสร้างความเสียหายให้แก่เป้าหมายเพิ่มขึ้นได้อีกด้วย โดยสกิลติดตัวนี้<br>จะไม่มีผลซ้ำซ้อนกับสัตว์ขี่ [Mythical Creature] ระดับหายากตัวอื่น<br>โดยสัตว์ที่ขี่ตัวล่าสุด สกิลจะถูกทำการใช้งาน<br><br><font color='#c21919'>ไอเทมนี้ไม่สามารถซื้อขายได้",
+		"name": "Flying Skill: Dark Dragon [Dorchadas] (Special) (3 Days)",
+		"toolTip": "Use this manual to learn how to summon Dark Dragon [Dorchadas] with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Darkened Rex, which provides a chance to increase your Crit Power by a factor of 1.5 and deal additional damage against monsters when you are not mounted. Using <font color = '#F9B600'>Darkened Rex</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200161,
 		"vehicleId": "290"
 	},
@@ -1976,42 +1983,42 @@
 	"254960": {
 		"id": "254960",
 		"name": "Riding Skill: Lady",
-		"toolTip": "ใช้ตำราคู่มือแล้วสามารถเรียนรู้สกิลอัญเชิญ Lady ความเร็วเคลื่อนที่ 280",
+		"toolTip": "Use this manual to learn how to summon Lady, a spirit wolf with a movement speed of 280.",
 		"skill": 23000141,
 		"vehicleId": "254"
 	},
 	"255328": {
 		"id": "255328",
 		"name": "Flying Skill: Moon Rabbit [Blue]",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Moon Rabbit [Blue]<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)",
+		"toolTip": "Use this manual to learn how to summon Moon Rabbit [Blue] with a flight and movement speed of 290.",
 		"skill": 23000153,
 		"vehicleId": "255"
 	},
 	"255372": {
 		"id": "255372",
 		"name": "Unique Flying Skill: Moon Rabbit [Red]",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Moon Rabbit [Red]<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)",
+		"toolTip": "Use this manual to learn how to summon Moon Rabbit [Red] with a flight and movement speed of 290.",
 		"skill": 23000165,
 		"vehicleId": "256"
 	},
 	"256448": {
 		"id": "256448",
 		"name": "Flying Skill: Black Mane Wolf",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Black Mane Wolf<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)",
+		"toolTip": "Use this manual to learn how to summon Black Mane Wolf with a flight and movement speed of 290.",
 		"skill": 23000177,
 		"vehicleId": "17600"
 	},
 	"256492": {
 		"id": "256492",
 		"name": "Flying Skill: Blue Mane Ghost Wolf",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Blue Mane Ghost Wolf<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)",
+		"toolTip": "Use this manual to learn how to summon Blue Mane Ghost Wolf with a flight and movement speed of 290.",
 		"skill": 23000189,
 		"vehicleId": "11930"
 	},
 	"256536": {
 		"id": "256536",
 		"name": "Flying Skill: Pink Mane Wolf",
-		"toolTip": "ใช้ตำราคู่มือแล้วจะสามารถเรียนรู้สกิลอัญเชิญ Pink Mane Wolf<br>ค่าสมรรถนะการบินเฉลี่ย 136 (ความเร็วการบิน 290, ความเร็วเคลื่อนที่ 290)",
+		"toolTip": "Use this manual to learn how to summon Pink Mane Wolf with a flight and movement speed of 290.",
 		"skill": 23000201,
 		"vehicleId": "2540"
 	}

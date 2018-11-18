@@ -498,36 +498,36 @@
 	},
 	"99283": {
 		"id": "99283",
-		"name": "Flying Skill: Bone Dragon",
-		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Bone Dragon is the last mount you used.",
+		"name": "Flying Skill: Fang",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Fang is the last mount you used.",
 		"skill": 12200035,
 		"vehicleId": "244"
 	},
 	"99284": {
 		"id": "99284",
-		"name": "Flying Skill: Night Dragon",
-		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Night Dragon is the last mount you used.",
+		"name": "Flying Skill: Murk",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Murk is the last mount you used.",
 		"skill": 12200043,
 		"vehicleId": "245"
 	},
 	"99285": {
 		"id": "99285",
-		"name": "Flying Skill: Ultra Dragon",
-		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ultra Dragon is the last mount you used.",
+		"name": "Flying Skill: Ignite",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ignite is the last mount you used.",
 		"skill": 12200051,
 		"vehicleId": "246"
 	},
 	"99286": {
 		"id": "99286",
-		"name": "Flying Skill: Astra Dragon",
-		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Astra Dragon is the last mount you used.",
+		"name": "Flying Skill: Brumal",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Brumal is the last mount you used.",
 		"skill": 12200059,
 		"vehicleId": "247"
 	},
 	"99287": {
 		"id": "99287",
-		"name": "Flying Skill: Ash Dragon",
-		"toolTip": "Use this manual to learn how to summon an undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ash Dragon is the last mount you used.",
+		"name": "Flying Skill: Fume",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Fume is the last mount you used.",
 		"skill": 12200067,
 		"vehicleId": "248"
 	},

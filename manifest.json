@@ -5,7 +5,7 @@
 		"index.js": "445ac5e35eee7df37a244542b0d65177c75b9de309e65596c978e6fd25b4cfce",
 		"items/items.eu.json": {
 			"region": "eu",
-			"hash": "d12739ac58f11d0af0288790adcdeda02a4ddd280920f3f97edeb637af31acf6"
+			"hash": "9ae24b2a9dbb088c82209bc3da878a8a4b23fdfdc930cb5c8aac243f59598143"
 		},
 		"items/items.jp.json": {
 			"region": "jp",
@@ -17,23 +17,23 @@
 		},
 		"items/items.na.json": {
 			"region": "na",
-			"hash": "8065a3f457235af67285740bb2fd93cc11f0e1ef4960f73e26e96b5986a66985"
+			"hash": "87f23449dcddce5391fd12421c54ba5481d3e636f91d6ad6c5e219c752f220d8"
 		},
 		"items/items.ru.json": {
 			"region": "ru",
-			"hash": "728c313c5945ccf5d0bbfb66a5a1d9760582bf66b22ddcb7f6dd15df480aae25"
+			"hash": "010a3e42791fb67a654ac0c3e3c3afc0affb608c6b8afe5fba58bd7de98085e3"
 		},
 		"items/items.se.json": {
 			"region": "se",
-			"hash": "a41d0a800c3a2ef5fa9f88a9ac2499c4c70b9f717025fb132b2ca844c5a75a1f"
+			"hash": "71dd4d6cff5dac1ab093b9af3ee098793be61d3bc33ab5850cf577c8c82bf537"
 		},
 		"items/items.th.json": {
 			"region": "th",
-			"hash": "a41d0a800c3a2ef5fa9f88a9ac2499c4c70b9f717025fb132b2ca844c5a75a1f"
+			"hash": "b5af76ab31beadff60c8f8112764e7ce635f61477f8152bddf15f215d87368a7"
 		},
 		"items/items.tw.json": {
 			"region": "tw",
-			"hash": "b3a53d1c3968d71c259b841ec829515d332f3c536957df92313ccd563ee7f1ce"
+			"hash": "ff9d8d6fcec9a4162530b257a5032386feef1edb87f1821028a28e8daff890db"
 		},
 		"module.json": "5c7483643640c9a502d68a05de74cfb25dea25e07c20714f57f9490924a1607b",
 		"mounts/mounts.eu.json": {
@@ -50,7 +50,7 @@
 		},
 		"mounts/mounts.na.json": {
 			"region": "na",
-			"hash": "1e37608fdd8b2d4b21df94105771c16df75309ce2b243896de6d6e339d651e4a"
+			"hash": "08287447d78cd7a44cab05822597f424bf11228586378fdd51f9b8d6680a22a1"
 		},
 		"mounts/mounts.ru.json": {
 			"region": "ru",
@@ -58,11 +58,11 @@
 		},
 		"mounts/mounts.se.json": {
 			"region": "se",
-			"hash": "bce6fa75850025c7fb0fa61a8b11434abdfa644537d92094da44c0402e5865c1"
+			"hash": "26bf2a86c7286ae943c53c29edd70dcda6d90a72876c08fc710fddf9ba9901cb"
 		},
 		"mounts/mounts.th.json": {
 			"region": "th",
-			"hash": "bce6fa75850025c7fb0fa61a8b11434abdfa644537d92094da44c0402e5865c1"
+			"hash": "779ced339c53bf25ec0c11525fad6fbced277a0d7ee483a88b58f4fb92572da8"
 		},
 		"mounts/mounts.tw.json": {
 			"region": "tw",
