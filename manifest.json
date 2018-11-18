@@ -23,7 +23,10 @@
 			"region": "ru",
 			"hash": "728c313c5945ccf5d0bbfb66a5a1d9760582bf66b22ddcb7f6dd15df480aae25"
 		},
-		"items/items.se.json": "a41d0a800c3a2ef5fa9f88a9ac2499c4c70b9f717025fb132b2ca844c5a75a1f",
+		"items/items.se.json": {
+			"region": "se",
+			"hash": "a41d0a800c3a2ef5fa9f88a9ac2499c4c70b9f717025fb132b2ca844c5a75a1f"
+		},
 		"items/items.th.json": {
 			"region": "th",
 			"hash": "a41d0a800c3a2ef5fa9f88a9ac2499c4c70b9f717025fb132b2ca844c5a75a1f"
@@ -53,7 +56,10 @@
 			"region": "ru",
 			"hash": "96667e26ecce3fe8bb851aa82639a05b936201d49e31a40042896b8bf716957e"
 		},
-		"mounts/mounts.se.json": "bce6fa75850025c7fb0fa61a8b11434abdfa644537d92094da44c0402e5865c1",
+		"mounts/mounts.se.json": {
+			"region": "se",
+			"hash": "bce6fa75850025c7fb0fa61a8b11434abdfa644537d92094da44c0402e5865c1"
+		},
 		"mounts/mounts.th.json": {
 			"region": "th",
 			"hash": "bce6fa75850025c7fb0fa61a8b11434abdfa644537d92094da44c0402e5865c1"
