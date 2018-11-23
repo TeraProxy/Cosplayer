@@ -6,7 +6,9 @@ try {
 	if(process.arch != 'x64') throw Error()
 }
 catch {
-	console.error('32-bit Node.JS is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
+	console.error('\x1b[31m' + 'ERROR ' + '\x1b[0m' +
+	'32-bit Node.JS is not compatible with Cosplayer. Please go here for advice:\n' +
+	'\x1b[36m' + 'https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility' + '\x1b[0m')
 }
 
 switch(process.versions.modules) {
@@ -18,7 +20,9 @@ switch(process.versions.modules) {
 		break;
 
 	default:
-		console.error('Your current Node.JS version is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
+		console.error('\x1b[31m' + 'ERROR ' + '\x1b[0m' +
+		'Your current Node.JS version is not compatible with Cosplayer. Please go here for advice:\n' +
+		'\x1b[36m' + 'https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility' + '\x1b[0m')
 }
 
 module.exports = function() {
