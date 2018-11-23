@@ -1,19 +1,9 @@
-// Version 2.2.4
+// Version 2.2.5
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
 
 'use strict'
-
-try { // Make sure the player can use the native mouse hooking module
-	if(process.arch != 'x64') throw Error()
-	else if(process.versions.modules != '64') throw Error()
-}
-catch(e) {
-	if(process.arch != 'x64') console.error('32-bit Node.JS is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
-	else console.error('Your current Node.JS version is not compatible with Cosplayer. Please go here for advice: https://github.com/TeraProxy/Cosplayer/wiki/Version-Incompatibility')
-	return
-}
 
 if(!global.cosplayer_mouse)
 	global.cosplayer_mouse = require('./mouse')

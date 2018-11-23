@@ -1,8 +1,8 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "f7ac0bea571d9c2b6fbca7ff465902c522798e98ecdcd58882ac382b77e5e87e",
-		"index.js": "445ac5e35eee7df37a244542b0d65177c75b9de309e65596c978e6fd25b4cfce",
+		"README.md": "7db20c5d48b75b3bfba8600fd56e4afac1d11e7551fe1a361d8e8b1bef34256a",
+		"index.js": "7d940d1d68b98473a66dd66e2962a84e019fc255b90e2347ecdc0d47ee49cc94",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "9ae24b2a9dbb088c82209bc3da878a8a4b23fdfdc930cb5c8aac243f59598143"
@@ -68,11 +68,12 @@
 			"region": "tw",
 			"hash": "6ee34f4b09c98cfd832f0be6a17d05f2d587a6a08b35710d189cea8359dac166"
 		},
-		"mouse.js": "9a9ba63573058558fcf9883db7b8a54ba653c557474e5a7de78f7797f0e0283e",
-		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
+		"mouse.js": "eff504d293f24aff5498f735e074db04522e52ed7cb8c669d2e236575d88025e",
+		"mouse/64.node": "835cf41596d004ba063fcf811e84a2663899c8c58b2e911ec54b3b989d585979",
+		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "2cdd7dd2d2e97d5afd2d748bf605ec01a1812e086ea6be8ce860d6ec4b69dea6"
+			"hash": "355fb5418370dc2cbf719e6fe1557300ee9a372fe90b29d4c7e1294ef50e4db5"
 		}
 	},
 	"defs": {

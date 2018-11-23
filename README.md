@@ -57,6 +57,9 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.5
+* [+] Added support for Node.JS 11
+* [+] Added backwards compatibility for Node.JS 10
 ### 2.2.4
 * [-] Removed support for patch versions < 75
 ### 2.2.3
