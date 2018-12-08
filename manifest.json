@@ -1,8 +1,8 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "7db20c5d48b75b3bfba8600fd56e4afac1d11e7551fe1a361d8e8b1bef34256a",
-		"index.js": "7d940d1d68b98473a66dd66e2962a84e019fc255b90e2347ecdc0d47ee49cc94",
+		"README.md": "bdc317160578aca7640e5b30996330dd234564b2a195ffcff20979c7acf3e480",
+		"index.js": "97565eca30d8623bab9a16999073591097b1cc4f4a5a508f4c6f8ab03c1ebffc",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "9ae24b2a9dbb088c82209bc3da878a8a4b23fdfdc930cb5c8aac243f59598143"
@@ -13,11 +13,11 @@
 		},
 		"items/items.kr.json": {
 			"region": "kr",
-			"hash": "279055daf37c001818535b80d4d2c380499e5d453d6ee522764639fd235d536d"
+			"hash": "065ad8bd607933b84244a3af299063bb3f3e1e5c67a799f76ecc467921b68ddb"
 		},
 		"items/items.na.json": {
 			"region": "na",
-			"hash": "87f23449dcddce5391fd12421c54ba5481d3e636f91d6ad6c5e219c752f220d8"
+			"hash": "38b3758d5d03b0b3782ac58f27f6ba9a108825bf2eb213299149fb71e8a60121"
 		},
 		"items/items.ru.json": {
 			"region": "ru",
@@ -35,45 +35,46 @@
 			"region": "tw",
 			"hash": "ff9d8d6fcec9a4162530b257a5032386feef1edb87f1821028a28e8daff890db"
 		},
-		"module.json": "5c7483643640c9a502d68a05de74cfb25dea25e07c20714f57f9490924a1607b",
+		"module.json": "73905d8493b0e13e5461c2034b57605458cc92316aa9722fc7248a5b4e133b12",
 		"mounts/mounts.eu.json": {
 			"region": "eu",
-			"hash": "5eccc7bc60cfb3d61bb38aa19d1f83122fc31582dc51d60346dec02170ab164c"
+			"hash": "576b8b680eddfb35f365cd321e78bcd8f0c84d43fcdb6b6074b5da5af9df82a1"
 		},
 		"mounts/mounts.jp.json": {
 			"region": "jp",
-			"hash": "2227cc6983a62a9747973d938dc453f9119fdd5f4273465e8e157d3044b02c1e"
+			"hash": "b02fbfaea36aea3ba2f4a289da2be2ff8392edc2cadaef8d1fe80c45610902b4"
 		},
 		"mounts/mounts.kr.json": {
 			"region": "kr",
-			"hash": "63d7682cfaa0694cd315f61695d4d37d0db37c881d416b1910efb8ae3f980de2"
+			"hash": "d2b1c45e08c43f1dcab614e68c86afb12c4314b46c7719d80ec77a0f2ac48b58"
 		},
 		"mounts/mounts.na.json": {
 			"region": "na",
-			"hash": "08287447d78cd7a44cab05822597f424bf11228586378fdd51f9b8d6680a22a1"
+			"hash": "f557c1e0a1891a8e9bbe699f3ab00ce9d1195d1065ebc656e7da20d9627d0f79"
 		},
 		"mounts/mounts.ru.json": {
 			"region": "ru",
-			"hash": "96667e26ecce3fe8bb851aa82639a05b936201d49e31a40042896b8bf716957e"
+			"hash": "388ada8d6ad7674281a0d6fa5e67658d1bb7afbd5638f5f3e833ad5c970365f3"
 		},
 		"mounts/mounts.se.json": {
 			"region": "se",
-			"hash": "26bf2a86c7286ae943c53c29edd70dcda6d90a72876c08fc710fddf9ba9901cb"
+			"hash": "bb7dbc2da4543761400fcb430d0e1eb99faaef9a36146b27291afc85d4089f36"
 		},
 		"mounts/mounts.th.json": {
 			"region": "th",
-			"hash": "779ced339c53bf25ec0c11525fad6fbced277a0d7ee483a88b58f4fb92572da8"
+			"hash": "ad8b65d03efe08b1f82304e98309319cc4e54f56bd06f80e0e9a977e239f0b53"
 		},
 		"mounts/mounts.tw.json": {
 			"region": "tw",
-			"hash": "6ee34f4b09c98cfd832f0be6a17d05f2d587a6a08b35710d189cea8359dac166"
+			"hash": "ecf9777405d8b4e18e8c4cfb9d2e7c900219ab0577c17749e75c05fff19030d2"
 		},
 		"mouse.js": "b71a996bb6de338b95a7932a439ada8cda668b2f7f0eae783887ece68610d872",
+		"mouse.node": "ed4c36f7da41aad273348f8e3c98825fe5e9cf7fa9165c2e29917160bc827b18",
 		"mouse/64.node": "835cf41596d004ba063fcf811e84a2663899c8c58b2e911ec54b3b989d585979",
 		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "355fb5418370dc2cbf719e6fe1557300ee9a372fe90b29d4c7e1294ef50e4db5"
+			"hash": "14d6b83d2183a815f2274e05b507cfd5c9f4deb723c02245ebfd29ad761c2efa"
 		}
 	},
 	"defs": {

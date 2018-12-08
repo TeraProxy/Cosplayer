@@ -1,8 +1,16 @@
 {
     "disableAutoUpdate": false,
+    "name": "Cosplayer",
+    "author": "TeraProxy",
+    "description": "A tera-proxy module able to change your client-side appearance.",
+    "version": "2.2.6",
+    "donationUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ",
     "options": {
-        "niceName": "Cosplayer"
+        "niceName": "Cosplay"
     },
     "servers": ["https://raw.githubusercontent.com/TeraProxy/Cosplayer/master/"],
-    "supportUrl": "https://github.com/TeraProxy/Cosplayer/issues"
+    "supportUrl": "https://github.com/TeraProxy/Cosplayer/issues",
+    "dependencies": {
+        "tera-game-state": "https://raw.githubusercontent.com/caali-hackerman/tera-game-state/master/module.json"
+    }
 }

@@ -2021,5 +2021,12 @@
 		"toolTip": "Use this manual to learn how to summon Pink Mane Wolf with a flight and movement speed of 290.",
 		"skill": 23000201,
 		"vehicleId": "2540"
+	},
+	"99971": {
+		"id": "99971",
+		"name": "Flying Skill: Free Flight",
+		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
+		"skill": 60340286,
+		"vehicleId": "261"
 	}
 }

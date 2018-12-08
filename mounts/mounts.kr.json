@@ -1217,6 +1217,13 @@
 		"skill": 13000059,
 		"vehicleId": "231"
 	},
+	"109948": {
+		"id": "109948",
+		"name": "스킬 교본: 질풍의 훈련된 백색 전투마 소환",
+		"toolTip": "이동 속도 300의 질풍의 훈련된 백색 전투마를 소환 가능한 스킬을 획득 가능.",
+		"skill": 13600238,
+		"vehicleId": "1700"
+	},
 	"110083": {
 		"id": "110083",
 		"name": "스킬교본: 스노우볼 쿠마스 소환",
@@ -1679,6 +1686,13 @@
 		"skill": 14100630,
 		"vehicleId": "1193"
 	},
+	"155714": {
+		"id": "155714",
+		"name": "Riding Skill: Tawny Huntress - 290 riding speed",
+		"toolTip": "Re-use Existing Tawny Huntress Mount<br>Request version that is faster (290 instead of 280)",
+		"skill": 14100637,
+		"vehicleId": "582"
+	},
 	"181120": {
 		"id": "181120",
 		"name": "스킬교본: 고대의 전투 군마 소환",
@@ -2014,5 +2028,12 @@
 		"toolTip": "교본을 사용하여 종합 비행 성능 136(비행속도: 290, 지상 이동속도: 290)의 분홍 갈기의 늑대를 소환하는 스킬을 배울 수 있습니다.",
 		"skill": 23000201,
 		"vehicleId": "2540"
+	},
+	"99971": {
+		"id": "99971",
+		"name": "Flying Skill: Free Flight",
+		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
+		"skill": 60340286,
+		"vehicleId": "261"
 	}
 }

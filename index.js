@@ -1,4 +1,4 @@
-// Version 2.2.5
+// Version 2.2.6
 // Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
 // Thanks to Incedius for help with custom mount support -> https://github.com/incedius
 // Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
@@ -12,7 +12,6 @@ const path = require('path'),
 	fs = require('fs'),
 	Mouse = global.cosplayer_mouse,
 	CONTRACT_DRESSING_ROOM = 76,
-	CONTRACT_HAT_RESTYLE = 90,
 	hatrestyle = false, // enable free hat restyling, needs additional opcodes
 	SLOTS = [
 		"face", "styleHead", "styleFace", "styleBack", "styleWeapon", "weaponEnchant", "styleBody", "styleBodyDye", "styleFootprint", "underwear",
@@ -36,14 +35,17 @@ module.exports = function Cosplayer(mod) {
 		userDefaultAppearance = null,
 		inDressup = false,
 		inDye = false,
-		inHatRestyle = false,
 		mypreset = null,
 		mynametag = '',
 		gettingAppearance = false,
 		dressingRoom = [],
 		mouse = Mouse(),
 		hoveredItem = -1,
-		mymount = 0
+		mymount = 0,
+		vehicles = []
+
+	for(let mount in mounts)
+		vehicles.push(mounts[mount].vehicleId)
 
 	this.destructor = () => {
 		mouse.destroy()
@@ -94,7 +96,7 @@ module.exports = function Cosplayer(mod) {
 	// ############# //
 
 	mod.game.on('enter_game', () => {
-		inDressup = inDye = inHatRestyle = false
+		inDressup = inDye = false
 		mypreset = external = userDefaultAppearance = null
 		mynametag = ''
 		gettingAppearance = false
@@ -493,7 +495,7 @@ module.exports = function Cosplayer(mod) {
 				}
 				break
 			case "back":
-				if (value) {
+				if(value) {
 					external.styleBack = Number(value)
 					external.gameId = mod.game.me.gameId
 					changeAppearance()
@@ -509,7 +511,7 @@ module.exports = function Cosplayer(mod) {
 				}
 				break
 			case "head":
-				if (value) {
+				if(value) {
 					external.styleHead = Number(value)
 					external.gameId = mod.game.me.gameId
 					changeAppearance()
@@ -578,6 +580,14 @@ module.exports = function Cosplayer(mod) {
 				external.gameId = 0
 				presetUpdate(true)
 				break
+			case "mount":
+				if(value) {
+					if(vehicles.includes(value)) {
+						mymount = Number(value)
+						presetUpdate(true)
+					}
+				}
+				break
 			case "dismount":
 				mod.toServer('C_UNMOUNT_VEHICLE', 1, {})
 				mymount = 0
@@ -599,6 +609,7 @@ module.exports = function Cosplayer(mod) {
 									+ ' "cosplay tag [text]" (change name tag on costume, e.g. "cosplay tag \'I love Spacecats\'"),\n'
 									+ ' "cosplay as [name]" (copy an online player\'s outfit, e.g. "cosplay as Sasuke.Uchiha"),\n'
 									+ ' "cosplay undress" (revert to your original look),\n'
+									+ ' "cosplay mount [id]" (change your mount to id, e.g. "cosplay mount 261"),\n'
 									+ ' "cosplay dismount" (dismount and revert to your original mount)'
 				)
 				break
