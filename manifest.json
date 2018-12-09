@@ -21,15 +21,15 @@
 		},
 		"items/items.ru.json": {
 			"region": "ru",
-			"hash": "010a3e42791fb67a654ac0c3e3c3afc0affb608c6b8afe5fba58bd7de98085e3"
+			"hash": "9ea2f88a1b18dc1ddc07e2d9107a4d76f884db55cb2698e3c2fd3a7d57443f29"
 		},
 		"items/items.se.json": {
 			"region": "se",
-			"hash": "71dd4d6cff5dac1ab093b9af3ee098793be61d3bc33ab5850cf577c8c82bf537"
+			"hash": "b76b2d8c1c489cb78477a14b211f2cc02020435bc094013112a912515002c6d8"
 		},
 		"items/items.th.json": {
 			"region": "th",
-			"hash": "b5af76ab31beadff60c8f8112764e7ce635f61477f8152bddf15f215d87368a7"
+			"hash": "fc9cb5ac4db5272e325a823a182869c7cca80dd466ad2ac718b621bad87d688e"
 		},
 		"items/items.tw.json": {
 			"region": "tw",
@@ -73,7 +73,7 @@
 		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "14d6b83d2183a815f2274e05b507cfd5c9f4deb723c02245ebfd29ad761c2efa"
+			"hash": "fc726ef83a3df6dfb8b6b589281856fd7d37730d8c9745058e5893e84c6d44cc"
 		}
 	},
 	"defs": {
