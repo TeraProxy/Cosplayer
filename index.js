@@ -1,8 +1,3 @@
-// Version 2.2.6
-// Thanks to Kourin for a better way to generate the Dressing Room -> https://github.com/Mister-Kay
-// Thanks to Incedius for help with custom mount support -> https://github.com/incedius
-// Special thanks to Pinkie Pie for the original elin-magic code -> https://github.com/pinkipi
-
 'use strict'
 
 if(!global.cosplayer_mouse)
@@ -379,7 +374,7 @@ module.exports = function Cosplayer(mod) {
 			unk2: 0,
 			item: item,
 			unk3: 0,
-			dye: 169087,
+			dye: ['jp','tw','se'].includes(mod.region) ? 206 : 169087,
 			unk4: 0,
 			unk5: 0
 		})

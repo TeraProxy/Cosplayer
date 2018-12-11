@@ -1,8 +1,8 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "88f2a47e48e52688cb73a05fad9556189c9239e3f8039a3296d2b38b4ac7de73",
-		"index.js": "97565eca30d8623bab9a16999073591097b1cc4f4a5a508f4c6f8ab03c1ebffc",
+		"README.md": "952a5d43885fb89d4746834831093e0ca310843d9fcb27cefa77ca065e29262f",
+		"index.js": "d0a053c36e1414f29941cbd442709659ea2a7a6747820d01381e1c529f944c4d",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "9ae24b2a9dbb088c82209bc3da878a8a4b23fdfdc930cb5c8aac243f59598143"
@@ -35,7 +35,7 @@
 			"region": "tw",
 			"hash": "ff9d8d6fcec9a4162530b257a5032386feef1edb87f1821028a28e8daff890db"
 		},
-		"module.json": "73905d8493b0e13e5461c2034b57605458cc92316aa9722fc7248a5b4e133b12",
+		"module.json": "c5e3aa1005e73e63b2e029e8cee7f4d2d807d663bb6192c560564031a3e0e941",
 		"mounts/mounts.eu.json": {
 			"region": "eu",
 			"hash": "576b8b680eddfb35f365cd321e78bcd8f0c84d43fcdb6b6074b5da5af9df82a1"
@@ -73,7 +73,7 @@
 		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "76cfb2e995e6410c3c6ce7ea47712e150c58d6769f7228acc4adbae5f4af0a54"
+			"hash": "307b33febf83f5bbd5df2741bb9b30620f51ab5f36a363170c29ba106d02f304"
 		}
 	},
 	"defs": {

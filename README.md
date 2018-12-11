@@ -3,8 +3,10 @@ Should work on all regions as long as the opcodes are mapped. Works on Caali's a
 
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
 1) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
-2) Extract the contents of the zip file into "\tera-proxy\mods\"
+2) Extract the contents of the zip file into "\tera-proxy\mods\\"
 3) Done! (the module will auto-update on Caali's tera-proxy when a new version is released)
+  
+Users of Pinkie's proxy also need to install tera-game-state: https://github.com/caali-hackerman/tera-game-state/archive/master.zip  
   
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ)
 
@@ -58,6 +60,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.7
+* [*] Fixed JP, TW and SE regions unable to use the "cosplay dye" command
 ### 2.2.6
 * [+] Added "cosplay mount" command
 ### 2.2.5
