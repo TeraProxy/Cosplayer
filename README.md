@@ -3,7 +3,7 @@ Should work on all regions as long as the opcodes are mapped. Works on Caali's a
 
 ##### :heavy_exclamation_mark: Installation :heavy_exclamation_mark:
 1) Download Cosplayer: https://github.com/TeraProxy/Cosplayer/archive/master.zip
-2) Extract the contents of the zip file into "\tera-proxy\bin\node_modules\"
+2) Extract the contents of the zip file into "\tera-proxy\mods\"
 3) Done! (the module will auto-update on Caali's tera-proxy when a new version is released)
   
 If you enjoy my work and wish to support future development, feel free to drop me a small donation: [![Donate](https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ)
@@ -26,23 +26,23 @@ While in game, open a proxy chat session by typing "/proxy" or "/8" in chat and 
 This serves as the script's command interface.  
 The following commands are supported:  
 
-* cosplay weapon [id] - change your weapon skin to id, e.g. "cosplay weapon 99272"
-* cosplay costume [id] - change your costume skin to id, e.g. "cosplay costume 180722"
-* cosplay back [id] - change your back skin to id, e.g. "cosplay back 180081"
-* cosplay face [id] - change your mask skin to id, e.g. "cosplay face 181563"
-* cosplay head [id] - change your hair adornment to id, e.g. "cosplay head 252972"
-* cosplay underwear [id] - change your innerwear skin to id, e.g. "cosplay underwear 97936"
-* cosplay footprints [id] - change your footprints to id, e.g. "cosplay footprints 99579"
-* cosplay dye - change costume dye with the slider tool, e.g. "cosplay dye"
-* cosplay dyergb [item] '[0-255 0-255 0-255]' - change dye to rgb value, e.g. "cosplay dyergb costume \'214 153 204\'"
+* **cosplay weapon [id]** - change your weapon skin to id, e.g. "cosplay weapon 99272"
+* **cosplay costume [id]** - change your costume skin to id, e.g. "cosplay costume 180722"
+* **cosplay back [id]** - change your back skin to id, e.g. "cosplay back 180081"
+* **cosplay face [id]** - change your mask skin to id, e.g. "cosplay face 181563"
+* **cosplay head [id]** - change your hair adornment to id, e.g. "cosplay head 252972"
+* **cosplay underwear [id]** - change your innerwear skin to id, e.g. "cosplay underwear 97936"
+* **cosplay footprints [id]** - change your footprints to id, e.g. "cosplay footprints 99579"
+* **cosplay dye** - change costume dye with the slider tool, e.g. "cosplay dye"
+* **cosplay dyergb [item] '[0-255 0-255 0-255]'** - change dye to rgb value, e.g. "cosplay dyergb costume \'214 153 204\'"
 ** valid item values are: "costume", "underwear", "chest", "gloves", "boots"
-* cosplay pantsu - switch between showing your underwear and costume
-* cosplay enchant [0-15] - change weapon enchant glow, e.g. "cosplay enchant 13"
-* cosplay tag [text] - change name tag on costume, e.g. "cosplay tag 'I love Spacecats'"
-* cosplay as [name] - copy an online player's outfit, e.g. "cosplay as Sasuke.Uchiha"
-* cosplay undress - revert to your original look
-* cosplay mount - change your mount to id, e.g. "cosplay mount 261"
-* cosplay dismount - dismount and revert to your original mount
+* **cosplay pantsu** - switch between showing your underwear and costume
+* **cosplay enchant [0-15]** - change weapon enchant glow, e.g. "cosplay enchant 13"
+* **cosplay tag [text]** - change name tag on costume, e.g. "cosplay tag 'I love Spacecats'"
+* **cosplay as [name]** - copy an online player's outfit, e.g. "cosplay as Sasuke.Uchiha"
+* **cosplay undress** - revert to your original look
+* **cosplay mount** - change your mount to id, e.g. "cosplay mount 261"
+* **cosplay dismount** - dismount and revert to your original mount
 
 Any other input, starting with "cosplay", will return a summary of above commands in the chat.  
 
