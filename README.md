@@ -36,7 +36,7 @@ The following commands are supported:
 * **cosplay underwear [id]** - change your innerwear skin to id, e.g. "cosplay underwear 97936"
 * **cosplay footprints [id]** - change your footprints to id, e.g. "cosplay footprints 99579"
 * **cosplay dye** - change costume dye with the slider tool, e.g. "cosplay dye"
-* **cosplay dyergb [item] '[0-255 0-255 0-255]'** - change dye to rgb value, e.g. "cosplay dyergb costume \'214 153 204\'"
+* **cosplay dyergb [item] '[00000000-FFFFFFFF]'** - change dye to ARGB value, e.g. "cosplay dyergb costume \'FFD699CC\'"
 ** valid item values are: "costume", "underwear", "chest", "gloves", "boots"
 * **cosplay pantsu** - switch between showing your underwear and costume
 * **cosplay enchant [0-15]** - change weapon enchant glow, e.g. "cosplay enchant 13"

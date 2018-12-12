@@ -1,8 +1,8 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "598a46092345392b8fcebe12c99eddc98ce44639cb4e6b3b697da1e814231f11",
-		"index.js": "5b0db845dfde8b4bdb76267c353405cd2e9adb2aeef19a867c802920426e01b0",
+		"README.md": "e3ce987272394230a3ecc8295ef0c3f77de83affefb96c844750ae0dcf9b1bb7",
+		"index.js": "e081a7bc09d49a71632a43ffaff5aadbdff5d07ae1b10cf33cd70f5c5e4e6253",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "9ae24b2a9dbb088c82209bc3da878a8a4b23fdfdc930cb5c8aac243f59598143"
@@ -17,7 +17,7 @@
 		},
 		"items/items.na.json": {
 			"region": "na",
-			"hash": "38b3758d5d03b0b3782ac58f27f6ba9a108825bf2eb213299149fb71e8a60121"
+			"hash": "5c908d72e586214d4569f36e7f4c9e56e8a325fab35efb09960a7b1c1fe39472"
 		},
 		"items/items.ru.json": {
 			"region": "ru",
@@ -50,7 +50,7 @@
 		},
 		"mounts/mounts.na.json": {
 			"region": "na",
-			"hash": "f557c1e0a1891a8e9bbe699f3ab00ce9d1195d1065ebc656e7da20d9627d0f79"
+			"hash": "6ade6531d10633f4c78b0e5cda730682d915ac7df84bc3011bce89589f28e230"
 		},
 		"mounts/mounts.ru.json": {
 			"region": "ru",
@@ -73,7 +73,7 @@
 		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "267788803135d22e9ebea3738fb5010c091773fcac4132210ec6d33b48d92f69"
+			"hash": "196b9c1f1ef19bdbbff706a5d16f0121ee4849f224feb50442bafba40ce906ce"
 		}
 	},
 	"defs": {

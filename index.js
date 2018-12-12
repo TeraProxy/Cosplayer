@@ -177,12 +177,12 @@ module.exports = function Cosplayer(mod) {
 	})
 
 	mod.hook('S_GET_USER_LIST', /*mod.majorPatchVersion > 76 ? 15:*/14, event => {
-		for(let i = 0; i < event.characters.length; i++) {
-			let charpreset = presets[event.characters[i].name]
+		for(let character in event.characters) {
+			let charpreset = presets[event.characters[character].name]
 
 			if(charpreset && charpreset.gameId != 0) 
 				for(let slot of SLOTS)
-					event.characters[i][slot] = charpreset[slot]
+					event.characters[character][slot] = charpreset[slot]
 		}
 		return true
 	})
@@ -535,14 +535,15 @@ module.exports = function Cosplayer(mod) {
 			case "dyergb":
 				if(value && rgb) {
 					let index = ["costume","underwear","chest","gloves","boots"].indexOf(value)
-					if(index == -1)
+					if(index == -1) {
 						mod.command.message("Please use one of the following dyergb commands:\n"
-										+ ' "cosplay dyergb costume \'[0-255 0-255 0-255]\'",\n'
-										+ ' "cosplay dyergb underwear \'[0-255 0-255 0-255]\'",\n'
-										+ ' "cosplay dyergb chest \'[0-255 0-255 0-255]\'",\n'
-										+ ' "cosplay dyergb gloves \'[0-255 0-255 0-255]\'",\n'
-										+ ' "cosplay dyergb boots \'[0-255 0-255 0-255]\'"'
+										+ ' "cosplay dyergb costume \'[00000000-FFFFFFFF]\'",\n'
+										+ ' "cosplay dyergb underwear \'[00000000-FFFFFFFF]\'",\n'
+										+ ' "cosplay dyergb chest \'[00000000-FFFFFFFF]\'",\n'
+										+ ' "cosplay dyergb gloves \'[00000000-FFFFFFFF]\'",\n'
+										+ ' "cosplay dyergb boots \'[00000000-FFFFFFFF]\'"'
 						)
+					}
 					else {
 						let dyeToChange = ["styleBodyDye","underwearDye","bodyDye","handDye","feetDye"][index]
 						external[dyeToChange] = parseInt(rgb, 16)
@@ -598,7 +599,7 @@ module.exports = function Cosplayer(mod) {
 									+ ' "cosplay underwear [id]" (change your underwear skin to id, e.g. "cosplay underwear 97936"),\n'
 									+ ' "cosplay footprints [id]" (change your footprints to id, e.g. "cosplay footprints 99579"),\n'
 									+ ' "cosplay dye" (change costume dye with the slider tool, e.g. "cosplay dye"),\n'
-									+ ' "cosplay dyergb [item] \'[0-255 0-255 0-255]\'" (change dye to rgb value, e.g. "cosplay dyergb costume \'214 153 204\'"),\n'
+									+ ' "cosplay dyergb [item] \'[00000000-FFFFFFFF]\'" (change dye to ARGB value, e.g. "cosplay dyergb costume \'FFD699CC\'"),\n'
 									+ ' "cosplay pantsu" (switch between showing your underwear and costume),\n'
 									+ ' "cosplay enchant [0-15]" (change weapon enchant glow, e.g. "cosplay enchant 13"),\n'
 									+ ' "cosplay tag [text]" (change name tag on costume, e.g. "cosplay tag \'I love Spacecats\'"),\n'
