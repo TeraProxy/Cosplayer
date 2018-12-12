@@ -176,8 +176,8 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_GET_USER_LIST', mod.majorPatchVersion > 76 ? 15:14, event => {
-		for (let i in event.characters) {
+	mod.hook('S_GET_USER_LIST', /*mod.majorPatchVersion > 76 ? 15:*/14, event => {
+		for(let i = 0; i < event.characters.length; i++) {
 			let charpreset = presets[event.characters[i].name]
 
 			if(charpreset && charpreset.gameId != 0) 

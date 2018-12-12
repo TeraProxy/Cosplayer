@@ -2,7 +2,7 @@
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
 		"README.md": "598a46092345392b8fcebe12c99eddc98ce44639cb4e6b3b697da1e814231f11",
-		"index.js": "64e60cd2f6ce058a96e10329768892e667d19efec203d73a46eb5c3103f00094",
+		"index.js": "5b0db845dfde8b4bdb76267c353405cd2e9adb2aeef19a867c802920426e01b0",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "9ae24b2a9dbb088c82209bc3da878a8a4b23fdfdc930cb5c8aac243f59598143"
@@ -73,7 +73,7 @@
 		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "719c03b80ce1eb949ec92dbc78e93d5e4e815e1b110497cd3f2b9ccf3f1d05fc"
+			"hash": "267788803135d22e9ebea3738fb5010c091773fcac4132210ec6d33b48d92f69"
 		}
 	},
 	"defs": {
@@ -88,7 +88,7 @@
 		"S_ABNORMALITY_BEGIN": 3,
 		"S_ABNORMALITY_END": 1,
 		"S_COMMIT_ACCESSORY_TRANSFORM_RESULT": 1,
-		"S_GET_USER_LIST": [14,15],
+		"S_GET_USER_LIST": 14,
 		"S_ITEM_COLORING_BAG": 1,
 		"S_ITEM_CUSTOM_STRING": 2,
 		"S_ITEM_TRANSFORM_DATA": 1,
