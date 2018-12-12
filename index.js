@@ -176,7 +176,7 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_GET_USER_LIST', 14, event => {
+	mod.hook('S_GET_USER_LIST', 15, event => {
 		for (let i in event.characters) {
 			let charpreset = presets[event.characters[i].name]
 
@@ -187,7 +187,7 @@ module.exports = function Cosplayer(mod) {
 		return true
 	})
 
-	mod.hook('S_USER_EXTERNAL_CHANGE', 6, event => {
+	mod.hook('S_USER_EXTERNAL_CHANGE', 7, event => {
 		if(mod.game.me.is(event.gameId)) {
 			userDefaultAppearance = Object.assign({}, event)
 
@@ -256,7 +256,7 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_UNICAST_TRANSFORM_DATA', 3, event => { // Reapply look after Marrow Brooch / Clone Jutsu
+	mod.hook('S_UNICAST_TRANSFORM_DATA', 5, event => { // Reapply look after Marrow Brooch / Clone Jutsu
 		if(mod.game.me.is(event.gameId) && event.unk2 == false) setTimeout(reapplyPreset, 100)
 	})
 
@@ -419,7 +419,7 @@ module.exports = function Cosplayer(mod) {
 	}
 
 	function changeAppearance() {
-		mod.toClient('S_USER_EXTERNAL_CHANGE', 6, external)
+		mod.toClient('S_USER_EXTERNAL_CHANGE', 7, external)
 		if(mynametag && (mynametag.length > 0)) changeNametag(mynametag)
 	}
 

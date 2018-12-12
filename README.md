@@ -60,6 +60,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.8
+* [*] Definition updates
 ### 2.2.7
 * [*] Fixed JP, TW and SE regions unable to use the "cosplay dye" command
 ### 2.2.6

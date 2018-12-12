@@ -1,8 +1,8 @@
 {
 	"files": {
 		"LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-		"README.md": "952a5d43885fb89d4746834831093e0ca310843d9fcb27cefa77ca065e29262f",
-		"index.js": "d0a053c36e1414f29941cbd442709659ea2a7a6747820d01381e1c529f944c4d",
+		"README.md": "598a46092345392b8fcebe12c99eddc98ce44639cb4e6b3b697da1e814231f11",
+		"index.js": "5672df657365cf86ea8527d37742cc41629de4891a6df0bb2d1b1de1fd02aac4",
 		"items/items.eu.json": {
 			"region": "eu",
 			"hash": "9ae24b2a9dbb088c82209bc3da878a8a4b23fdfdc930cb5c8aac243f59598143"
@@ -35,7 +35,7 @@
 			"region": "tw",
 			"hash": "ff9d8d6fcec9a4162530b257a5032386feef1edb87f1821028a28e8daff890db"
 		},
-		"module.json": "c5e3aa1005e73e63b2e029e8cee7f4d2d807d663bb6192c560564031a3e0e941",
+		"module.json": "552fc55804fd97a5ec4af9a3e272c356089337801c8e938d7966dc85d9e848cf",
 		"mounts/mounts.eu.json": {
 			"region": "eu",
 			"hash": "576b8b680eddfb35f365cd321e78bcd8f0c84d43fcdb6b6074b5da5af9df82a1"
@@ -73,7 +73,7 @@
 		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "307b33febf83f5bbd5df2741bb9b30620f51ab5f36a363170c29ba106d02f304"
+			"hash": "719c03b80ce1eb949ec92dbc78e93d5e4e815e1b110497cd3f2b9ccf3f1d05fc"
 		}
 	},
 	"defs": {
@@ -88,7 +88,7 @@
 		"S_ABNORMALITY_BEGIN": 3,
 		"S_ABNORMALITY_END": 1,
 		"S_COMMIT_ACCESSORY_TRANSFORM_RESULT": 1,
-		"S_GET_USER_LIST": 14,
+		"S_GET_USER_LIST": 15,
 		"S_ITEM_COLORING_BAG": 1,
 		"S_ITEM_CUSTOM_STRING": 2,
 		"S_ITEM_TRANSFORM_DATA": 1,
@@ -98,8 +98,8 @@
 		"S_REQUEST_CONTRACT": 1,
 		"S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST": 1,
 		"S_RESPONSE_ACCESSORY_COST_INFO": 1,
-		"S_UNICAST_TRANSFORM_DATA": 3,
-		"S_USER_EXTERNAL_CHANGE": 6,
+		"S_UNICAST_TRANSFORM_DATA": 5,
+		"S_USER_EXTERNAL_CHANGE": 7,
 		"S_USER_PAPERDOLL_INFO": 5,
 		"S_USER_WEAPON_APPEARANCE_CHANGE": 2
 	}
