@@ -594,6 +594,13 @@
 		"skill": 12200084,
 		"vehicleId": "259"
 	},
+	"99971": {
+		"id": "99971",
+		"name": "Flying Skill: Free Flight",
+		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
+		"skill": 60340286,
+		"vehicleId": "261"
+	},
 	"99975": {
 		"id": "99975",
 		"name": "【スキル書】天駆けるペガサス（漆黒）召喚",
@@ -1686,6 +1693,13 @@
 		"skill": 14100630,
 		"vehicleId": "1193"
 	},
+	"155714": {
+		"id": "155714",
+		"name": "Riding Skill: Tawny Huntress - 290 riding speed",
+		"toolTip": "Re-use Existing Tawny Huntress Mount<br>Request version that is faster (290 instead of 280)",
+		"skill": 14100637,
+		"vehicleId": "582"
+	},
 	"181120": {
 		"id": "181120",
 		"name": "",
@@ -2021,12 +2035,5 @@
 		"toolTip": "移動速度290の天駆ける白狼（桜華）を召喚するスキルを習得できる。",
 		"skill": 23000201,
 		"vehicleId": "2540"
-	},
-	"99971": {
-		"id": "99971",
-		"name": "Flying Skill: Free Flight",
-		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
-		"skill": 60340286,
-		"vehicleId": "261"
 	}
 }

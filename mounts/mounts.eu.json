@@ -594,6 +594,13 @@
 		"skill": 12200084,
 		"vehicleId": "259"
 	},
+	"99971": {
+		"id": "99971",
+		"name": "Flying Skill: Free Flight",
+		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
+		"skill": 60340286,
+		"vehicleId": "261"
+	},
 	"99975": {
 		"id": "99975",
 		"name": "Flying Skill: Black Pegasus",
@@ -1686,6 +1693,13 @@
 		"skill": 14100630,
 		"vehicleId": "1193"
 	},
+	"155714": {
+		"id": "155714",
+		"name": "Riding Skill: Swift Tawny Huntress",
+		"toolTip": "<font color = '#02a4dc'>[Batu Desert Event Item]</font><br>Use this manual to learn how to summon a lioness with a movement speed of 290.",
+		"skill": 14100637,
+		"vehicleId": "582"
+	},
 	"181120": {
 		"id": "181120",
 		"name": "Riding Skill: Nexus Warhorse",
@@ -2021,12 +2035,5 @@
 		"toolTip": "Use this manual to learn how to summon a Bloom Tail with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
 		"skill": 23000201,
 		"vehicleId": "2540"
-	},
-	"99971": {
-		"id": "99971",
-		"name": "Flying Skill: Free Flight",
-		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
-		"skill": 60340286,
-		"vehicleId": "261"
 	}
 }

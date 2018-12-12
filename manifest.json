@@ -5,11 +5,11 @@
 		"index.js": "972b6fd05dad5f60148a56d2ac859aa4b1b1cbef3d0f9351539b2e0f055236f4",
 		"items/items.eu.json": {
 			"region": "eu",
-			"hash": "9ae24b2a9dbb088c82209bc3da878a8a4b23fdfdc930cb5c8aac243f59598143"
+			"hash": "e5ecda4d249577b917ba679fe1e579f1c2c2de445d2599b37c92cabf0f85d663"
 		},
 		"items/items.jp.json": {
 			"region": "jp",
-			"hash": "2db67896de3394c6a70e42b06b49b42ec15aa5f409cc54592b0c1a6f7a77dd23"
+			"hash": "3fcec58fd7caa11a797adce69aa2c71b64f6572764c216d75555f7336d319965"
 		},
 		"items/items.kr.json": {
 			"region": "kr",
@@ -21,7 +21,7 @@
 		},
 		"items/items.ru.json": {
 			"region": "ru",
-			"hash": "9ea2f88a1b18dc1ddc07e2d9107a4d76f884db55cb2698e3c2fd3a7d57443f29"
+			"hash": "4ddf840caca9f4dccd7a0025c974c914e5c7a0fa152d1d3f85def75f94e167d7"
 		},
 		"items/items.se.json": {
 			"region": "se",
@@ -38,11 +38,11 @@
 		"module.json": "3af2fa9b251fdc192c021033492716240a6956dfc635a45771476dcf6ba2618a",
 		"mounts/mounts.eu.json": {
 			"region": "eu",
-			"hash": "576b8b680eddfb35f365cd321e78bcd8f0c84d43fcdb6b6074b5da5af9df82a1"
+			"hash": "e5369f8657f91aaa679ab177e16d9ac2b9947d0080d11d363f4c491d3e1364ab"
 		},
 		"mounts/mounts.jp.json": {
 			"region": "jp",
-			"hash": "b02fbfaea36aea3ba2f4a289da2be2ff8392edc2cadaef8d1fe80c45610902b4"
+			"hash": "79fe666b3e81c5d38d9aed7ce1fdf1552cfac78d6cc1f1af9fb16ca37b66f3dc"
 		},
 		"mounts/mounts.kr.json": {
 			"region": "kr",
@@ -54,7 +54,7 @@
 		},
 		"mounts/mounts.ru.json": {
 			"region": "ru",
-			"hash": "388ada8d6ad7674281a0d6fa5e67658d1bb7afbd5638f5f3e833ad5c970365f3"
+			"hash": "002a6ff15f1457a6d3b6b79bacf48aaa15f8bb3ad1a1f047c88d0a468aca1846"
 		},
 		"mounts/mounts.se.json": {
 			"region": "se",
@@ -73,7 +73,7 @@
 		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "bcf3cfb324c9c0f17b585b4a103d3a79cb23faa040a99bf86b9b51a606446157"
+			"hash": "8ce617a2724abae3c5fc4bfbca97aa8f813da1ed11d85a7c7f37e53eaf7a20b6"
 		}
 	},
 	"defs": {
