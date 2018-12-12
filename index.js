@@ -534,19 +534,21 @@ module.exports = function Cosplayer(mod) {
 				break
 			case "dyergb":
 				if(value && rgb) {
-					let index = ["costume","underwear","chest","gloves","boots"].indexOf(value)
-					if(index == -1) {
+					let index = ["costume","underwear","chest","gloves","boots"].indexOf(value),
+						hex2int = Number.parseInt(rgb, 16)
+
+					if(index < 0 || !(0 <= hex2int <= 4294967295)) { // The Risenio check
 						mod.command.message("Please use one of the following dyergb commands:\n"
-										+ ' "cosplay dyergb costume \'[00000000-FFFFFFFF]\'",\n'
-										+ ' "cosplay dyergb underwear \'[00000000-FFFFFFFF]\'",\n'
-										+ ' "cosplay dyergb chest \'[00000000-FFFFFFFF]\'",\n'
-										+ ' "cosplay dyergb gloves \'[00000000-FFFFFFFF]\'",\n'
-										+ ' "cosplay dyergb boots \'[00000000-FFFFFFFF]\'"'
+							+ ' "cosplay dyergb costume [00000000-FFFFFFFF]",\n'
+							+ ' "cosplay dyergb underwear [00000000-FFFFFFFF]",\n'
+							+ ' "cosplay dyergb chest [00000000-FFFFFFFF]",\n'
+							+ ' "cosplay dyergb gloves [00000000-FFFFFFFF]",\n'
+							+ ' "cosplay dyergb boots [00000000-FFFFFFFF]"'
 						)
 					}
 					else {
 						let dyeToChange = ["styleBodyDye","underwearDye","bodyDye","handDye","feetDye"][index]
-						external[dyeToChange] = parseInt(rgb, 16)
+						external[dyeToChange] = hex2int
 						external.gameId = mod.game.me.gameId
 						changeAppearance()
 						presetUpdate(true)
@@ -591,24 +593,23 @@ module.exports = function Cosplayer(mod) {
 				break
 			default:
 				mod.command.message('Commands:\n' 
-									+ ' "cosplay weapon [id]" (change your weapon skin to id, e.g. "cosplay weapon 99272"),\n'
-									+ ' "cosplay costume [id]" (change your costume skin to id, e.g. "cosplay costume 180722"),\n'
-									+ ' "cosplay back [id]" (change your back skin to id, e.g. "cosplay back 180081"),\n'
-									+ ' "cosplay face [id]" (change your face adornment to id, e.g. "cosplay face 181563"),\n'
-									+ ' "cosplay head [id]" (change your head adornment to id, e.g. "cosplay head 252972"),\n'
-									+ ' "cosplay underwear [id]" (change your underwear skin to id, e.g. "cosplay underwear 97936"),\n'
-									+ ' "cosplay footprints [id]" (change your footprints to id, e.g. "cosplay footprints 99579"),\n'
-									+ ' "cosplay dye" (change costume dye with the slider tool, e.g. "cosplay dye"),\n'
-									+ ' "cosplay dyergb [item] \'[00000000-FFFFFFFF]\'" (change dye to ARGB value, e.g. "cosplay dyergb costume \'FFD699CC\'"),\n'
-									+ ' "cosplay pantsu" (switch between showing your underwear and costume),\n'
-									+ ' "cosplay enchant [0-15]" (change weapon enchant glow, e.g. "cosplay enchant 13"),\n'
-									+ ' "cosplay tag [text]" (change name tag on costume, e.g. "cosplay tag \'I love Spacecats\'"),\n'
-									+ ' "cosplay as [name]" (copy an online player\'s outfit, e.g. "cosplay as Sasuke.Uchiha"),\n'
-									+ ' "cosplay undress" (revert to your original look),\n'
-									+ ' "cosplay mount [id]" (change your mount to id, e.g. "cosplay mount 261"),\n'
-									+ ' "cosplay dismount" (dismount and revert to your original mount)'
+					+ ' "cosplay weapon [id]" (change your weapon skin to id, e.g. "cosplay weapon 99272"),\n'
+					+ ' "cosplay costume [id]" (change your costume skin to id, e.g. "cosplay costume 180722"),\n'
+					+ ' "cosplay back [id]" (change your back skin to id, e.g. "cosplay back 180081"),\n'
+					+ ' "cosplay face [id]" (change your face adornment to id, e.g. "cosplay face 181563"),\n'
+					+ ' "cosplay head [id]" (change your head adornment to id, e.g. "cosplay head 252972"),\n'
+					+ ' "cosplay underwear [id]" (change your underwear skin to id, e.g. "cosplay underwear 97936"),\n'
+					+ ' "cosplay footprints [id]" (change your footprints to id, e.g. "cosplay footprints 99579"),\n'
+					+ ' "cosplay dye" (change costume dye with the slider tool, e.g. "cosplay dye"),\n'
+					+ ' "cosplay dyergb [item] [00000000-FFFFFFFF]" (change dye to ARGB value, e.g. "cosplay dyergb costume FFD699CC"),\n'
+					+ ' "cosplay pantsu" (switch between showing your underwear and costume),\n'
+					+ ' "cosplay enchant [0-15]" (change weapon enchant glow, e.g. "cosplay enchant 13"),\n'
+					+ ' "cosplay tag [text]" (change name tag on costume, e.g. "cosplay tag \'I love Spacecats\'"),\n'
+					+ ' "cosplay as [name]" (copy an online player\'s outfit, e.g. "cosplay as Sasuke.Uchiha"),\n'
+					+ ' "cosplay undress" (revert to your original look),\n'
+					+ ' "cosplay mount [id]" (change your mount to id, e.g. "cosplay mount 261"),\n'
+					+ ' "cosplay dismount" (dismount and revert to your original mount)'
 				)
-				break
 		}
 	})
 }
