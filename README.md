@@ -60,6 +60,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.10
+* [*] Fixed Marrow Brooch returning to default look
 ### 2.2.9
 * [*] Improved dyergb function
 ### 2.2.8

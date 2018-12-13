@@ -176,7 +176,7 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_GET_USER_LIST', /*mod.majorPatchVersion > 76 ? 15:*/14, event => {
+	mod.hook('S_GET_USER_LIST', 15, event => {
 		for(let character in event.characters) {
 			let charpreset = presets[event.characters[character].name]
 
@@ -187,7 +187,7 @@ module.exports = function Cosplayer(mod) {
 		return true
 	})
 
-	mod.hook('S_USER_EXTERNAL_CHANGE', mod.majorPatchVersion > 76 ? 7:6, event => {
+	mod.hook('S_USER_EXTERNAL_CHANGE', 7, event => {
 		if(mod.game.me.is(event.gameId)) {
 			userDefaultAppearance = Object.assign({}, event)
 
@@ -256,8 +256,8 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_UNICAST_TRANSFORM_DATA',  mod.majorPatchVersion > 76 ? 5:4, event => { // Reapply look after Marrow Brooch / Clone Jutsu
-		if(mod.game.me.is(event.gameId) && event.unk2 == false) setTimeout(reapplyPreset, 100)
+	mod.hook('S_UNICAST_TRANSFORM_DATA', 5, event => { // Reapply look after Marrow Brooch / Clone Jutsu
+		if(mod.game.me.is(event.gameId) && event.isAppear == false) setTimeout(reapplyPreset, 100)
 	})
 
 	mod.hook('S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST', 1, event => {
@@ -419,7 +419,7 @@ module.exports = function Cosplayer(mod) {
 	}
 
 	function changeAppearance() {
-		mod.toClient('S_USER_EXTERNAL_CHANGE',  mod.majorPatchVersion > 76 ? 7:6, external)
+		mod.toClient('S_USER_EXTERNAL_CHANGE', 7, external)
 		if(mynametag && (mynametag.length > 0)) changeNametag(mynametag)
 	}
 
