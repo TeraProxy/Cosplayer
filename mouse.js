@@ -12,19 +12,13 @@ catch {
 }
 
 switch(process.versions.modules) {
-	if(process.versions.electron) { 
-		case("64"): // Electron 4
-		Mouse = require('./mouse/electron64.node').Mouse
+
+	case("67"): // Node.js 11
+		Mouse = require('./mouse/67.node').Mouse
 		break;
-	}
-	else {
-		case("67"): // Node.js 11
-			Mouse = require('./mouse/67.node').Mouse
-			break;
-		case("64"): // Node.js 10
-			Mouse = require('./mouse/64.node').Mouse
-			break;
-	}
+	case("64"): // Node.js 10
+		Mouse = require('./mouse/64.node').Mouse
+		break;
 
 	default: // When proxy already works with a newer version of Node.js and I was too lazy to update
 		console.error('\x1b[31m' + 'ERROR ' + '\x1b[0m' +

@@ -68,13 +68,13 @@
 			"region": "tw",
 			"hash": "ecf9777405d8b4e18e8c4cfb9d2e7c900219ab0577c17749e75c05fff19030d2"
 		},
-		"mouse.js": "699aad91d93c7ca044f3fdf859a87a80714014a0ddbf912b556577d49ec6fbfb",
+		"mouse.js": "6b1a16553fe7e3fac11bf3df89722f72761149e248f04fe5b5f06e33eac38acc",
 		"mouse/64.node": "835cf41596d004ba063fcf811e84a2663899c8c58b2e911ec54b3b989d585979",
 		"mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
 		"mouse/electron64.node": "f45d55dea556489d4326b446c88e094573560a9bddaf511c9956e965d9226190",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+			"hash": "4f57e60594f0ec56e10dc867a501eb03e35faf0d6641879f3639078fc69cb498"
 		}
 	},
 	"defs": {
