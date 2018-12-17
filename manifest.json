@@ -33,7 +33,7 @@
 		},
 		"items/items.tw.json": {
 			"region": "tw",
-			"hash": "ff9d8d6fcec9a4162530b257a5032386feef1edb87f1821028a28e8daff890db"
+			"hash": "5c908d72e586214d4569f36e7f4c9e56e8a325fab35efb09960a7b1c1fe39472"
 		},
 		"module.json": "ab1eb4eb396c6bf7ffeb5540e8d8bb963ed40384d35925f64d78b4b6a41c4e6c",
 		"mounts/mounts.eu.json": {
@@ -66,7 +66,7 @@
 		},
 		"mounts/mounts.tw.json": {
 			"region": "tw",
-			"hash": "ecf9777405d8b4e18e8c4cfb9d2e7c900219ab0577c17749e75c05fff19030d2"
+			"hash": "d566e56cf573ecaec7f2d529e42ee2b2087bea0e35893d38ebe28d740f3277e8"
 		},
 		"mouse.js": "49b9b07be4380bb1736e06bded6487f2a913e62016436fc337713e41701a541c",
 		"mouse/64.node": "835cf41596d004ba063fcf811e84a2663899c8c58b2e911ec54b3b989d585979",

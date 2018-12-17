@@ -1,603 +1,610 @@
 {
 	"20": {
 		"id": "20",
-		"name": "技能教本：褐色軍馬 I",
-		"toolTip": "使用此教本時，即可學習移動速度240的褐色軍馬召喚技能。",
+		"name": "Riding Skill: Bay Gelding",
+		"toolTip": "Use this manual to learn how to summon a Brown Horse with a Movement Speed of 240.",
 		"skill": 111111,
 		"vehicleId": "1"
 	},
 	"21": {
 		"id": "21",
-		"name": "技能教本：褐色軍馬 II",
-		"toolTip": "使用此教本時，即可學習移動速度270的褐色軍馬召喚技能。",
+		"name": "Riding Skill: Fast Bay Gelding",
+		"toolTip": "Use this manual to learn how to summon a Brown Horse with a Movement Speed of 270.",
 		"skill": 111112,
 		"vehicleId": "2"
 	},
 	"41": {
 		"id": "41",
-		"name": "技能教本：白色軍馬",
-		"toolTip": "使用此教本時，即可學習召喚移動速度280的白色軍馬召喚技能。搭乘時在每秒中會恢復0.5%的HP,MP。",
+		"name": "Riding Skill: Fast White Stallion",
+		"toolTip": "Use this manual to learn how to summon a fast white stallion with a Movement Speed of 270.",
 		"skill": 111114,
 		"vehicleId": "3"
 	},
 	"161": {
 		"id": "161",
-		"name": "[角色歸屬]技能教本：灰光軍馬 I",
-		"toolTip": "使用此教本時，即可學習移動速度240的灰光軍馬召喚技能。",
+		"name": "Personal Riding Skill: Arcadian Dapple",
+		"toolTip": "Use this manual to learn how to summon an Arcadian Dapple with a Movement Speed of 240.",
 		"skill": 111115,
 		"vehicleId": "5"
 	},
 	"162": {
 		"id": "162",
-		"name": "[角色歸屬]技能教本：黃色軍馬 I",
-		"toolTip": "使用此教本時，即可學習移動速度255的黃色軍馬召喚技能。",
+		"name": "Personal Riding Skill: Chestnut Gelding",
+		"toolTip": "Use this manual to learn how to summon a Yellow Horse with a Movement Speed of 240.",
 		"skill": 111116,
 		"vehicleId": "6"
 	},
 	"163": {
 		"id": "163",
-		"name": "[角色歸屬]技能教本：灰色軍馬 I",
-		"toolTip": "使用此教本時，即可學習移動速度240的灰色軍馬召喚技能。",
+		"name": "Personal Riding Skill: Velikan Gray",
+		"toolTip": "Use this manual to learn how to summon a Gray Horse with a Movement Speed of 240.",
 		"skill": 111117,
 		"vehicleId": "7"
 	},
 	"164": {
 		"id": "164",
-		"name": "[角色歸屬]技能教本：赤色斑點軍馬 I",
-		"toolTip": "使用此教本時，即可學習移動速度250的赤色斑點軍馬召喚技能。",
+		"name": "Personal Riding Skill: Pinto",
+		"toolTip": "Use this manual to learn how to summon a Pinto with a Movement Speed of 240.",
 		"skill": 111118,
 		"vehicleId": "8"
 	},
 	"165": {
 		"id": "165",
-		"name": "[角色歸屬]技能教本：青色斑點軍馬 I",
-		"toolTip": "使用此教本時，即可學習移動速度250的青色斑點軍馬召喚技能。",
+		"name": "Personal Riding Skill: Blue Roan",
+		"toolTip": "Use this manual to learn how to summon a Blue Roan with a Movement Speed of 240.",
 		"skill": 111119,
 		"vehicleId": "9"
 	},
 	"304": {
 		"id": "304",
-		"name": "技能教本：漆黑軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度290的漆黑軍馬召喚技能。",
+		"name": "Riding Skill: Battle Charger",
+		"toolTip": "Use this manual to learn how to summon a battle charger mount with a Movement Speed of 290.",
 		"skill": 111120,
 		"vehicleId": "10"
 	},
 	"306": {
 		"id": "306",
-		"name": "技能教本：灰光軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度240的灰光軍馬召喚技能。",
+		"name": "Riding Skill: Fast Arcadian Dapple",
+		"toolTip": "Use this manual to learn how to summon a fast Arcadian Dapple with a Movement Speed of 280.",
 		"skill": 111121,
 		"vehicleId": "51"
 	},
 	"307": {
 		"id": "307",
-		"name": "技能教本：赤色斑點軍馬 I",
-		"toolTip": "使用此教本時，即可學習移動速度250的赤色斑點軍馬召喚技能。",
+		"name": "Riding Skill: Fast Pinto",
+		"toolTip": "Use this manual to learn how to summon a fast Pinto with a Movement Speed of 270.",
 		"skill": 111122,
 		"vehicleId": "81"
 	},
 	"316": {
 		"id": "316",
-		"name": "技能教本：地獄火軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度280的地獄火軍馬召喚技能。",
+		"name": "Riding Skill: Night Mare",
+		"toolTip": "Use this manual to learn how to summon a Night Mare with a Movement Speed of 280.",
 		"skill": 111123,
 		"vehicleId": "12"
 	},
 	"336": {
 		"id": "336",
-		"name": "技能教本：灰色軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度240的灰色軍馬召喚技能。",
+		"name": "Riding Skill: Fast Velikan Gray",
+		"toolTip": "Use this manual to learn how to summon a Gray Horse with a Movement Speed of 270.",
 		"skill": 111190,
 		"vehicleId": "71"
 	},
 	"351": {
 		"id": "351",
-		"name": "技能教本：新兵軍馬 II",
-		"toolTip": "為了支援一般新兵而支付的技能教本。使用此教本時，即可學習移動速度270的青色斑點軍馬召喚技能。",
+		"name": "Riding Skill: Quick-Start Charger",
+		"toolTip": "Use this manual to learn how to summon a warhorse with 270 Movement Speed.",
 		"skill": 111125,
 		"vehicleId": "13"
 	},
 	"378": {
 		"id": "378",
-		"name": "技能教本：黑色軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度275的黑色軍馬召喚技能。",
+		"name": "Riding Skill: Shadow Steed",
+		"toolTip": "Use this manual to learn how to summon a Shadow Steed with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111191,
 		"vehicleId": "14"
 	},
 	"379": {
 		"id": "379",
-		"name": "技能教本：黃金馬",
-		"toolTip": "使用此教本時，即可學習移動速度260的黃金馬召喚技能。",
+		"name": "Riding Skill: Electrum Wind",
+		"toolTip": "Use this manual to learn how to summon a horse with a Movement Speed of 280.",
 		"skill": 111192,
 		"vehicleId": "15"
 	},
 	"380": {
 		"id": "380",
-		"name": "技能教本：古代戰鬥軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度280的古代戰鬥軍馬召喚技能。騎乘時每秒恢復0.5%的HP。",
+		"name": "Riding Skill: Nexus Warhorse",
+		"toolTip": "Use this manual to learn how to summon an Agnitor warhorse with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111193,
 		"vehicleId": "16"
 	},
 	"381": {
 		"id": "381",
-		"name": "技能教本：肯陶洛斯",
-		"toolTip": "使用此教本時，即可學習移動速度280的肯陶洛斯召喚技能。搭乘時會在每秒中恢復0.5%的HP。",
+		"name": "Riding Skill: Razormane",
+		"toolTip": "Use this manual to learn how to summon Razormane with a Movement Speed of 280.",
 		"skill": 111194,
 		"vehicleId": "17"
 	},
 	"382": {
 		"id": "382",
-		"name": "技能教本：斑馬",
-		"toolTip": "使用此教本時，即可學習移動速度280的斑馬召喚技能。",
+		"name": "Riding Skill: Aeolian Zebra",
+		"toolTip": "Use this manual to learn how to summon a zebra with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111195,
 		"vehicleId": "18"
 	},
 	"383": {
 		"id": "383",
-		"name": "技能教本：死亡軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度280的死亡軍馬召喚技能。",
+		"name": "Riding Skill: Death Charger",
+		"toolTip": "This manual enables a nexus champion to summon a Death Charger with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111196,
 		"vehicleId": "19"
 	},
 	"384": {
 		"id": "384",
-		"name": "技能教本：瑪帝亞斯",
-		"toolTip": "使用此教本時，即可學習移動速度280的瑪帝亞斯召喚技能。騎乘時每秒恢復0.5%的HP跟MP。",
+		"name": "Riding Skill: Jeweled Lion",
+		"toolTip": "Use this manual to learn how to summon a lion with a Movement Speed of 280.",
 		"skill": 111197,
 		"vehicleId": "20"
 	},
 	"385": {
 		"id": "385",
-		"name": "技能教本：愛莉兒",
-		"toolTip": "使用此教本時，即可學習移動速度280的愛莉兒召喚技能。騎乘時每秒恢復0.5%的HP跟MP。",
+		"name": "Riding Skill: Tawny Huntress",
+		"toolTip": "Use this manual to learn how to summon a lioness with a Movement Speed of 280.",
 		"skill": 111198,
 		"vehicleId": "21"
 	},
 	"406": {
 		"id": "406",
-		"name": "技能教本：黑豹",
-		"toolTip": "使用此教本時，即可學習移動速度275的黑豹召喚技能。",
+		"name": "Riding Skill: Black Leopard",
+		"toolTip": "Use this manual to learn how to summon a black leopard with a Movement Speed of 280. This mount is a legacy of a time before TERA: Rising.",
 		"skill": 111199,
 		"vehicleId": "22"
 	},
 	"412": {
 		"id": "412",
-		"name": "技能教本：白色軍馬",
-		"toolTip": "使用此教本時，即可學習召喚移動速度280的白色軍馬召喚技能。搭乘時在每秒中會恢復0.5%的HP,MP。",
+		"name": "Riding Skill: White Stallion",
+		"toolTip": "Use this manual to learn how to summon a white stallion with a Movement Speed of 255.",
 		"skill": 111126,
 		"vehicleId": "23"
 	},
 	"413": {
 		"id": "413",
-		"name": "技能教本：灰光軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度255的灰光軍馬召喚技能。",
+		"name": "Riding Skill: Arcadian Dapple",
+		"toolTip": "Use this manual to learn how to summon an Arcadian Dapple with a Movement Speed of 255.",
 		"skill": 111127,
 		"vehicleId": "24"
 	},
 	"414": {
 		"id": "414",
-		"name": "技能教本：青色斑點軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度250的青色斑點軍馬召喚技能。",
+		"name": "Riding Skill: Blue Roan",
+		"toolTip": "Use this manual to learn how to summon a Blue Roan with a Movement Speed of 255.",
 		"skill": 111128,
 		"vehicleId": "25"
 	},
 	"415": {
 		"id": "415",
-		"name": "技能教本：灰色軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度255的灰色軍馬召喚技能。",
+		"name": "Riding Skill: Velikan Gray",
+		"toolTip": "Use this manual to learn how to summon a Velikan Gray with a Movement Speed of 255.",
 		"skill": 111129,
 		"vehicleId": "26"
 	},
 	"416": {
 		"id": "416",
-		"name": "技能教本：赤色斑點軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度250的赤色斑點軍馬召喚技能。",
+		"name": "Riding Skill: Pinto",
+		"toolTip": "Use this manual to learn how to summon a Pinto with a Movement Speed of 255.",
 		"skill": 111130,
 		"vehicleId": "27"
 	},
 	"417": {
 		"id": "417",
-		"name": "技能教本：黃色軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度255的黃色軍馬召喚技能。",
+		"name": "Riding Skill: Chestnut Gelding",
+		"toolTip": "Use this manual to learn how to summon a Chestnut Gelding with a Movement Speed of 255.",
 		"skill": 111131,
 		"vehicleId": "28"
 	},
 	"418": {
 		"id": "418",
-		"name": "技能教本：白色獅王",
-		"toolTip": "使用此教本時，即可學習移動速度290的白色獅王召喚技能。騎乘時每秒恢0.5的HP, MP,健康值。",
+		"name": "Riding Skill: Regal Frostlion",
+		"toolTip": "Use this manual to learn how to summon a Regal Frostlion with a Movement Speed of 280.",
 		"skill": 111132,
 		"vehicleId": "29"
 	},
 	"450": {
 		"id": "450",
-		"name": "技能教本：酷寒冰凍軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度280的酷寒冰凍軍馬召喚技能。騎乘時每秒恢復0.5%的HP。",
+		"name": "Riding Skill: Sleipnir",
+		"toolTip": "Use this manual to learn how to summon Sleipnir, the celestial warhorse with a Movement Speed of 280.",
 		"skill": 111133,
 		"vehicleId": "30"
 	},
 	"451": {
 		"id": "451",
-		"name": "技能教本：巴哈勒之獅",
-		"toolTip": "使用此教本時，即可學習移動速度280的巴哈勒之獅召喚技能。",
+		"name": "Riding Skill: Smolder",
+		"toolTip": "Use this manual to learn how to summon Smolder, the black lion with a Movement Speed of 280.",
 		"skill": 111135,
 		"vehicleId": "32"
 	},
 	"452": {
 		"id": "452",
-		"name": "技能教本：邪靈骷髏馬",
-		"toolTip": "使用此教本時，即可學習移動速度280的邪靈骷髏馬召喚技能。",
+		"name": "Riding Skill: Boneshaker",
+		"toolTip": "Use this manual to learn how to summon Boneshaker, a skeletal warhorse with a Movement Speed of 280.",
 		"skill": 111136,
 		"vehicleId": "37"
 	},
 	"453": {
 		"id": "453",
-		"name": "技能教本：綠巨人浩克 H ",
-		"toolTip": "使用此教本時，即可學習移動速度280的綠巨人浩克 H 召喚技能。<br>騎乘時每秒恢復0.5%的MP。",
+		"name": "Riding Skill: Munchhausen",
+		"toolTip": "Use this manual to learn how to summon Munchhausen, the mendacious traveler with a Movement Speed of 280 that replenishes 0.5% of your max MP every second.",
 		"skill": 111137,
-		"vehicleId": "34"
+		"vehicleId": "341"
 	},
 	"454": {
 		"id": "454",
-		"name": "技能教本：紅巨人恰吉 H ",
-		"toolTip": "使用此教本時，即可學習移動速度280的綠巨人浩克 H 召喚技能。<br>騎乘時每秒恢復0.5%的HP。",
+		"name": "Riding Skill: Gourmando",
+		"toolTip": "Use this manual to learn how to summon Gourmando, the infernal glutton with a Movement Speed of 280 that recovers 0.5% of your max HP every second.",
 		"skill": 111138,
-		"vehicleId": "35"
+		"vehicleId": "351"
 	},
 	"455": {
 		"id": "455",
-		"name": "技能教本：訓練過的閃亮烏龜王",
-		"toolTip": "使用此教本時，即可學習移動速度280的訓練過的閃亮烏龜王召喚技能。",
+		"name": "Riding Skill: Sheldon",
+		"toolTip": "Use this manual to learn how to summon Sheldon, a giant kamara after which the Unified Theory Institute's bots were modeled, with a Movement Speed of 280.",
 		"skill": 111139,
 		"vehicleId": "33"
 	},
 	"456": {
 		"id": "456",
-		"name": "技能教本：阿卡莎的幻影",
-		"toolTip": "使用此教本時，即可學習移動速度280的阿卡莎的幻影召喚技能。",
+		"name": "Riding Skill: EX-TRM",
+		"toolTip": "Use this manual to learn how to summon EX-TRM, Unified Theory Institute's prototype construct mount, with a Movement Speed of 280.",
 		"skill": 111151,
 		"vehicleId": "31"
 	},
 	"457": {
 		"id": "457",
-		"name": "技能教本：聯盟獅子",
-		"toolTip": "使用此教本時，即可學習移動速度280的聯盟獅子召喚技能。",
+		"name": "Riding Skill: Regulus",
+		"toolTip": "Use this manual to learn how to summon Regulus with a Movement Speed of 280.",
 		"skill": 11117100,
 		"vehicleId": "36"
 	},
 	"481": {
 		"id": "481",
-		"name": "技能教本：聖潔獨角獸",
-		"toolTip": "使用此教本時，即可學習移動速度280的聖潔獨角獸召喚技能。",
+		"name": "Riding Skill: Summon Rainbow",
+		"toolTip": "As pure and beautiful as rain on a sunny day. Learn how to summon Rainbow the unicorn with a Movement Speed of 280.",
 		"skill": 111141,
 		"vehicleId": "41"
 	},
 	"482": {
 		"id": "482",
-		"name": "技能教本：阿勒坤戰鬥軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度280的阿勒坤戰鬥軍馬召喚技能。",
+		"name": "Riding Skill: Summon Terminus",
+		"toolTip": "Trophy for champions. Use this manual to learn how to summon Terminus, an argon hybrid horse, with a Movement Speed of 280.",
 		"skill": 111142,
 		"vehicleId": "42"
 	},
 	"650": {
 		"id": "650",
-		"name": "技能教本：束縛的地獄火軍馬",
-		"toolTip": "使用此教本時，即可學習移動速度270的束縛的地獄火軍馬召喚技能。<BR>該坐騎只能使用7天。",
+		"name": "A Week of Night Mares",
+		"toolTip": "Use this book to learn how to summon Night Mare for 7 days in real time.",
 		"skill": 111202,
 		"vehicleId": "80"
 	},
 	"5175": {
 		"id": "5175",
-		"name": "技能教本：戰場黑馬",
-		"toolTip": "使用此教本時，即可學習移動速度275的戰場黑馬召喚技能。",
+		"name": "Riding Skill: Black Pearl",
+		"toolTip": "Use this manual to learn how to summon Black Pearl, the pirate horse with a Movement Speed of 275.",
 		"skill": 116001,
 		"vehicleId": "140"
 	},
 	"9307": {
 		"id": "9307",
-		"name": "技能教本: 戰鬥黑馬召喚",
-		"toolTip": "使用教本，就能學習限於公會戰才能召喚的移動速度270黑馬的技能。",
+		"name": "Riding Skill: Topthorn",
+		"toolTip": "Use this manual to learn how to summon a black war horse with a Movement Speed of 270, which can be ridden in Civil Unrest zones.",
 		"skill": 15210001,
 		"vehicleId": "15201"
 	},
 	"9308": {
 		"id": "9308",
-		"name": "技能教本: 戰鬥獅子召喚",
-		"toolTip": "於公會戰獲得NO.1的公會獲得的技能教本。使用教本能學習召喚移動速度280獅子的技能。戰鬥獅子能在包含公會戰的所有地區騎乘。 ",
+		"name": "Riding Skill: Tanner",
+		"toolTip": "Awarded to members of a Civil Unrest winning guild. Use this manual to learn how to summon a battle lion with a Movement Speed of 280, which can be ridden in normal and Civil Unrest zones.",
 		"skill": 15210002,
 		"vehicleId": "15202"
 	},
 	"45478": {
 		"id": "45478",
-		"name": "技能教本: 鋼鐵飛龍",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的鋼鐵龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。\n固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Iron Dragon",
+		"toolTip": "Use this manual to learn how to summon an iron dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Iron Dragon is the last mount you used.",
 		"skill": 12200001,
 		"vehicleId": "232"
 	},
 	"45479": {
 		"id": "45479",
-		"name": "技能教本: 緋紅飛龍",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的的紅龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。\n固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Crimson Dragon",
+		"toolTip": "Use this manual to learn how to summon a red dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Crimson Dragon is the last mount you used.",
 		"skill": 12200002,
 		"vehicleId": "233"
 	},
 	"70050": {
 		"id": "70050",
-		"name": "太陽慶典魔毯",
-		"toolTip": "使用此教本時，即可學習移動速度280的太陽慶典魔毯召喚技能。",
+		"name": "Festive Carpet",
+		"toolTip": "Use the Manual to learn how to summon a Festive Carpet with Movement Speed of 280.",
 		"skill": 1111513,
 		"vehicleId": "48"
 	},
 	"71001": {
 		"id": "71001",
-		"name": "技能教本：被解放的佩格蕯斯召喚 (30天)",
-		"toolTip": "[[營運移轉特別禮物]] <BR><BR> 在可飛行區域召喚被解放的佩格蕯斯。<br>佩格薩斯的飛行速度為270、移動速度為280。",
+		"name": "Flying Skill: Skydancer",
+		"toolTip": "Summon a horse you can fly in free-flight zones.",
 		"skill": 17000001,
 		"vehicleId": "204"
 	},
 	"71002": {
 		"id": "71002",
-		"name": "技能教本：褐色飛行軍馬",
-		"toolTip": "在可飛行區域召喚褐色飛行軍馬。<br>褐色飛行軍馬飛行速度為270、移動速度為270。",
+		"name": "Flying Skill: Tulpar",
+		"toolTip": "Summon a horse you can fly in free-flight zones.",
 		"skill": 117003,
 		"vehicleId": "206"
 	},
 	"81204": {
 		"id": "81204",
-		"name": "技能教本：青綠麒麟",
-		"toolTip": "使用此教本時，即可學習移動速度270的業火麒麟召喚技能。",
+		"name": "Riding Skill: Jade",
+		"toolTip": "Use this manual to learn how to summon Jade, an oriental dragon with a Movement Speed of 270.",
 		"skill": 1111573,
 		"vehicleId": "158"
 	},
 	"90098": {
 		"id": "90098",
-		"name": "技能教本：召喚紅爪哈米勒",
-		"toolTip": "使用此教本時，即可學習移動速度280紅爪哈米勒召喚技能。",
+		"name": "Riding Skill: Carmine",
+		"toolTip": "Use this manual to learn how to summon a blood-red dracoraptor with a Movement Speed of 280.",
 		"skill": 1111521,
 		"vehicleId": "60"
 	},
 	"90099": {
 		"id": "90099",
-		"name": "技能教本：召喚哈米勒之幻影",
-		"toolTip": "使用此教本時，即可學習移動速度275的巴哈勒之獅召喚技能。",
+		"name": "Riding Skill: Carmine",
+		"toolTip": "Use this manual to learn how to summon a temporary blood-red dracoraptor with a Movement Speed of 275.",
 		"skill": 1111522,
 		"vehicleId": "55"
 	},
 	"90100": {
 		"id": "90100",
-		"name": "技能教本：召喚卡米勒之閃電",
-		"toolTip": "使用此教本時，即可學習移動速度275卡米勒之閃電召喚技能。",
+		"name": "Riding Skill: Sparky",
+		"toolTip": "Use this manual to learn how to summon a dracoraptor with a Movement Speed of 275.",
 		"skill": 1111523,
 		"vehicleId": "53"
 	},
 	"98601": {
 		"id": "98601",
-		"name": "技能教本：傳情特派鳥飛行座騎(黃)",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的傳情特派鳥飛行座騎(黃)召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，在騎乘座騎時，可以學習提供隨機增益效果的[隨心所欲的禮物]技能。傳情特派鳥飛行座騎(黃)被動技幸運的羽毛不會和其它傳說級「領悟」的被動技重疊，最後騎乘的座騎的被動技會活性化。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Combat Canary",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200121,
 		"vehicleId": "272"
 	},
 	"98602": {
 		"id": "98602",
-		"name": "技能教本：[稀有]傳情特派鳥飛行座騎(黃)",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的傳情特派鳥飛行座騎(黃)召喚技能，騎乘時，每秒恢復2%的HP、MP。另外，在騎乘座騎時，可以學習提供隨機增益效果的[隨心所欲的禮物]技能。傳情特派鳥飛行座騎(黃)被動技幸運翅膀不會和其它傳說級「領悟」的被動技重疊，最後騎乘的座騎的被動技會活性化。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Battle Canary",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200122,
 		"vehicleId": "270"
 	},
 	"98603": {
 		"id": "98603",
-		"name": "技能教本：傳情特派鳥飛行座騎(黃)[非戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的傳情特派鳥飛行座騎(黃)召喚技能，騎乘時，每秒恢復1%的HP、MP。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Yellow Songbird",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200125,
 		"vehicleId": "275"
 	},
 	"98604": {
 		"id": "98604",
-		"name": "技能教本：[稀有]傳情特派鳥飛行座騎(黃)[非戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的傳情特派鳥飛行座騎(黃)召喚技能，騎乘時，每秒恢復2%的HP、MP。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Swift Canary",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200126,
 		"vehicleId": "274"
 	},
 	"98609": {
 		"id": "98609",
-		"name": "技能教本：傳情特派鳥飛行座騎(黃)(3天)",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的傳情特派鳥飛行座騎(黃)召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，在騎乘座騎時，可以學習提供隨機增益效果的[隨心所欲的禮物]技能。傳情特派鳥飛行座騎(黃)被動技幸運的羽毛不會和其它傳說級「領悟」的被動技重疊，最後騎乘的座騎的被動技會活性化。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Combat Canary (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200123,
 		"vehicleId": "273"
 	},
 	"98610": {
 		"id": "98610",
-		"name": "技能教本：[稀有]傳情特派鳥飛行座騎(黃)(3天)",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的傳情特派鳥飛行座騎(黃)召喚技能，騎乘時，每秒恢復2%的HP、MP。另外，在騎乘座騎時，可以學習提供隨機增益效果的[隨心所欲的禮物]技能。傳情特派鳥飛行座騎(黃)被動技幸運翅膀不會和其它傳說級「領悟」的被動技重疊，最後騎乘的座騎的被動技會活性化。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Battle Canary (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200124,
 		"vehicleId": "271"
 	},
 	"98625": {
 		"id": "98625",
-		"name": "技能教本：真愛特派鳥飛行座騎(藍)",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的真愛特派鳥飛行座騎(藍)召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，在騎乘座騎時，可以學習提供隨機增益效果的[隨心所欲的禮物]技能。真愛特派鳥飛行座騎(藍)被動技幸運的羽毛不會和其它傳說級「領悟」的被動技重疊，最後騎乘的座騎的被動技會活性化。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Combat Thrush",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200129,
 		"vehicleId": "264"
 	},
 	"98626": {
 		"id": "98626",
-		"name": "技能教本：[稀有]真愛特派鳥飛行座騎(藍)",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的真愛特派鳥飛行座騎(藍)召喚技能，騎乘時，每秒恢復2%的HP、MP。另外，在騎乘座騎時，可以學習提供隨機增益效果的[隨心所欲的禮物]技能。真愛特派鳥飛行座騎(藍)被動技幸運翅膀不會和其它傳說級「領悟」的被動技重疊，最後騎乘的座騎的被動技會活性化。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Battle Thrush",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200130,
 		"vehicleId": "266"
 	},
 	"98627": {
 		"id": "98627",
-		"name": "技能教本：真愛特派鳥飛行座騎(藍)[非戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的真愛特派鳥飛行座騎(藍)召喚技能，騎乘時，每秒恢復1%的HP、MP。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Blue Songbird",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200133,
 		"vehicleId": "269"
 	},
 	"98628": {
 		"id": "98628",
-		"name": "技能教本：[稀有]真愛特派鳥飛行座騎(藍)[非戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的真愛特派鳥飛行座騎(藍)召喚技能，騎乘時，每秒恢復2%的HP、MP。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Swift Thrush",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200134,
 		"vehicleId": "268"
 	},
 	"98633": {
 		"id": "98633",
-		"name": "技能教本：真愛特派鳥飛行座騎(藍)(3天)",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的真愛特派鳥飛行座騎(藍)召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，在騎乘座騎時，可以學習提供隨機增益效果的[隨心所欲的禮物]技能。真愛特派鳥飛行座騎(藍)被動技幸運的羽毛不會和其它傳說級「領悟」的被動技重疊，最後騎乘的座騎的被動技會活性化。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Combat Thrush (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200131,
 		"vehicleId": "265"
 	},
 	"98634": {
 		"id": "98634",
-		"name": "技能教本：[稀有]真愛特派鳥飛行座騎(藍)(3天)",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的真愛特派鳥飛行座騎(藍)召喚技能，騎乘時，每秒恢復2%的HP、MP。另外，在騎乘座騎時，可以學習提供隨機增益效果的[隨心所欲的禮物]技能。真愛特派鳥飛行座騎(藍)被動技幸運翅膀不會和其它傳說級「領悟」的被動技重疊，最後騎乘的座騎的被動技會活性化。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Battle Thrush (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200132,
 		"vehicleId": "267"
 	},
 	"99102": {
 		"id": "99102",
-		"name": "[S]技能教本：召喚幽影飛龍",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的魂龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。\n固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Ghost Dragon",
+		"toolTip": "Use this manual to learn how to summon a ghost dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ghost Dragon is the last mount you used.",
 		"skill": 12200003,
 		"vehicleId": "234"
 	},
 	"99103": {
 		"id": "99103",
-		"name": "[S]技能教本：召喚晶鑽飛龍",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的鑽石龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Diamond Dragon",
+		"toolTip": "Use this manual to learn how to summon a diamond dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Diamond Dragon is the last mount you used.",
 		"skill": 12200004,
 		"vehicleId": "235"
 	},
 	"99104": {
 		"id": "99104",
-		"name": "[S][稀有]技能教本：召喚鋼鐵飛龍",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的鋼鐵龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Royal Iron Dragon",
+		"toolTip": "Use this manual to learn how to summon a royal iron dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Iron Dragon is the last mount you used.",
 		"skill": 12200005,
 		"vehicleId": "236"
 	},
 	"99105": {
 		"id": "99105",
-		"name": "[S][稀有]技能教本：召喚緋紅飛龍",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的紅龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Royal Crimson Dragon",
+		"toolTip": "Use this manual to learn how to summon a royal crimson dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Crimson Dragon is the last mount you used.",
 		"skill": 12200006,
 		"vehicleId": "237"
 	},
 	"99106": {
 		"id": "99106",
-		"name": "[S][稀有]技能教本：召喚幽影飛龍",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的魂龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Royal Ghost Dragon",
+		"toolTip": "Use this manual to learn how to summon a royal ghost dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Ghost Dragon is the last mount you used.",
 		"skill": 12200007,
 		"vehicleId": "238"
 	},
 	"99107": {
 		"id": "99107",
-		"name": "[S][稀有]技能教本：召喚晶鑽飛龍",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的鑽石龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Royal Diamond Dragon",
+		"toolTip": "Use this manual to learn how to summon a royal diamond dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Diamond Dragon is the last mount you used.",
 		"skill": 12200008,
 		"vehicleId": "239"
 	},
 	"99283": {
 		"id": "99283",
-		"name": "技能教本: 骨瓷灰龍  [戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的骨瓷灰龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Fang",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Fang is the last mount you used.",
 		"skill": 12200035,
 		"vehicleId": "244"
 	},
 	"99284": {
 		"id": "99284",
-		"name": "技能教本: 深淵黑龍 [戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的深淵黑龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Murk",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Murk is the last mount you used.",
 		"skill": 12200043,
 		"vehicleId": "245"
 	},
 	"99285": {
 		"id": "99285",
-		"name": "技能教本: 皇家金龍 [戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的皇家金龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Ignite",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ignite is the last mount you used.",
 		"skill": 12200051,
 		"vehicleId": "246"
 	},
 	"99286": {
 		"id": "99286",
-		"name": "技能教本: 青焰銀龍 [戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的青焰銀龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Brumal",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Brumal is the last mount you used.",
 		"skill": 12200059,
 		"vehicleId": "247"
 	},
 	"99287": {
 		"id": "99287",
-		"name": "技能教本: 赤焰火龍  [戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的赤焰火龍召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的龍之主人被動技能。固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Fume",
+		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Fume is the last mount you used.",
 		"skill": 12200067,
 		"vehicleId": "248"
 	},
 	"99288": {
 		"id": "99288",
-		"name": " [稀有] 技能教本: 骨瓷灰龍[戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的骨瓷灰龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Bonefury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Bonefury is the last mount you used.",
 		"skill": 12200036,
 		"vehicleId": "249"
 	},
 	"99289": {
 		"id": "99289",
-		"name": " [稀有] 技能教本: 深淵黑龍[戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的深淵黑龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Nightfury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Nightfury is the last mount you used.",
 		"skill": 12200044,
 		"vehicleId": "250"
 	},
 	"99290": {
 		"id": "99290",
-		"name": " [稀有] 技能教本: 皇家金龍 [戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的皇家金龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Ultrafury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Ultrafury is the last mount you used.",
 		"skill": 12200052,
 		"vehicleId": "251"
 	},
 	"99291": {
 		"id": "99291",
-		"name": " [稀有] 技能教本: 青焰銀龍 [戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的青焰銀龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Astrafury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Astrafury is the last mount you used.",
 		"skill": 12200060,
 		"vehicleId": "252"
 	},
 	"99292": {
 		"id": "99292",
-		"name": " [稀有] 技能教本: 赤焰火龍[戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的赤焰火龍召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Ashfury",
+		"toolTip": "Use this manual to learn how to summon a royal undead dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Draconis Rex, which grants a chance to double your Crit Power against monsters, when you are not mounted. Draconis Rex does not stack with passive skills gained from other mounts, and only grants a bonus if Ashfury is the last mount you used.",
 		"skill": 12200068,
 		"vehicleId": "253"
 	},
 	"99531": {
 		"id": "99531",
-		"name": "技能教本：不死鳥Blue",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的不死鳥召喚技能，騎乘時，每秒恢復2%的HP、MP並且散發周邊隊友坐騎移動速度增加10的光環。另外，可以學習在爆擊攻擊時，提升爆擊威力的真龍的主人被動技能。固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Azure Phoenix",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura I activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200075,
 		"vehicleId": "258"
 	},
 	"99532": {
 		"id": "99532",
-		"name": "技能教本：不死鳥Blue[稀有] ",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的不死鳥召喚技能，騎乘時，每秒恢復2%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的爆焰氣息以及可從死亡中復活之不死鳥的化身被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Urvog",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200076,
 		"vehicleId": "260"
 	},
 	"99555": {
 		"id": "99555",
-		"name": "技能教本：不死鳥Red",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度: 290, 移動速度: 290)的不死鳥召喚技能，騎乘時，每秒恢復1%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的火焰氣息以及可從死亡中復活之不死鳥的化身被動技能。固有被動技和其他稀有級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Blazing Phoenix",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura I activates a 1-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200083,
 		"vehicleId": "257"
 	},
 	"99556": {
 		"id": "99556",
-		"name": "技能教本：不死鳥Red[稀有] ",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度: 290, 移動速度: 290)的不死鳥召喚技能，騎乘時，每秒恢復2%的HP、MP。另外，可以學習在爆擊攻擊時，提升爆擊威力的爆焰氣息以及可從死亡中復活之不死鳥的化身被動技能。固有被動技和其他傳說級的「領悟」座騎被動技不可重覆，可開啟最後所騎乘的座騎被動技。<br><br><font color = '#c21919'>不可交換的道具。",
+		"name": "Flying Skill: Pteryx",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200084,
 		"vehicleId": "259"
 	},
+	"99971": {
+		"id": "99971",
+		"name": "Flying Skill: Free Flight",
+		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
+		"skill": 60340286,
+		"vehicleId": "261"
+	},
 	"99975": {
 		"id": "99975",
-		"name": "技能教本: 漆黑的佩格薩斯",
-		"toolTip": "在允許飛行地區召喚漆黑的佩格薩斯。<br>漆黑的佩格薩斯飛行速度270，地面移動速度280。",
+		"name": "Flying Skill: Black Pegasus",
+		"toolTip": "Use this manual to learn how to summon Black Pegasus, a winged mount with a Flight Speed of 270 and Movement Speed of 280.",
 		"skill": 117004,
 		"vehicleId": "205"
 	},
@@ -621,20 +628,6 @@
 		"toolTip": "",
 		"skill": 111147,
 		"vehicleId": "180"
-	},
-	"100724": {
-		"id": "100724",
-		"name": "",
-		"toolTip": "",
-		"skill": 111153,
-		"vehicleId": "341"
-	},
-	"100725": {
-		"id": "100725",
-		"name": "",
-		"toolTip": "",
-		"skill": 111154,
-		"vehicleId": "351"
 	},
 	"100763": {
 		"id": "100763",
@@ -820,8 +813,8 @@
 	},
 	"100974": {
 		"id": "100974",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Ookami",
+		"toolTip": "Use this manual to learn how to summon the Ookami with a Movement Speed of 280.",
 		"skill": 1701270,
 		"vehicleId": "93"
 	},
@@ -905,21 +898,21 @@
 	"101151": {
 		"id": "101151",
 		"name": "",
-		"toolTip": "",
+		"toolTip": "Use this manual to learn how to summon a Legendary Jitterbug with a Movement Speed of 280.",
 		"skill": 13000010,
 		"vehicleId": "172"
 	},
 	"101152": {
 		"id": "101152",
 		"name": "",
-		"toolTip": "",
+		"toolTip": "Use this manual to learn how to summon a Legendary Jitterbug with a Movement Speed of 280.",
 		"skill": 13000011,
 		"vehicleId": "173"
 	},
 	"101153": {
 		"id": "101153",
 		"name": "",
-		"toolTip": "",
+		"toolTip": "Use this manual to learn how to summon a Legendary Jitterbug with a Movement Speed of 280.",
 		"skill": 13000012,
 		"vehicleId": "174"
 	},
@@ -1352,50 +1345,50 @@
 	},
 	"137010": {
 		"id": "137010",
-		"name": "技能教本：黑豹",
-		"toolTip": "使用此教本時，即可學習移動速度275的黑豹召喚技能。",
+		"name": "Riding Skill: Black Leopard",
+		"toolTip": "Use this manual to learn how to summon a black leopard with a movement speed of 275.",
 		"skill": 111148,
 		"vehicleId": "220"
 	},
 	"137042": {
 		"id": "137042",
-		"name": "技能教本：新粉紅鴨",
-		"toolTip": "目前不使用的道具",
+		"name": "Riding Skill: Duck (Punk) (New)",
+		"toolTip": "Currently not used",
 		"skill": 1111520,
 		"vehicleId": "54"
 	},
 	"137074": {
 		"id": "137074",
-		"name": "技能教本：世界盃巨人韓國 老虎 Original",
-		"toolTip": "使用此教本時，即可學習移動速度280的世界盃巨人韓國 老虎 Original召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 1111547,
 		"vehicleId": "72"
 	},
 	"137075": {
 		"id": "137075",
-		"name": "技能教本：世界盃巨人韓國 白虎 Original",
-		"toolTip": "使用此教本即可學習移動速度280的世界盃巨人韓國白虎Original召喚技能。騎乘時，每秒恢復0.5%的HP、MP。",
+		"name": "",
+		"toolTip": "",
 		"skill": 1111548,
 		"vehicleId": "73"
 	},
 	"137076": {
 		"id": "137076",
-		"name": "技能教本：世界盃巨人韓國 老虎",
-		"toolTip": "使用此教本時，即可學習移動速度280的世界盃巨人韓國 老虎召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 1111549,
 		"vehicleId": "78"
 	},
 	"137077": {
 		"id": "137077",
-		"name": "技能教本：世界盃巨人韓國 白虎",
-		"toolTip": "使用此教本即可學習移動速度280的世界盃巨人韓國白虎Original召喚技能。騎乘時，每秒恢復0.5%的HP、MP。",
+		"name": "",
+		"toolTip": "",
 		"skill": 1111550,
 		"vehicleId": "79"
 	},
 	"137078": {
 		"id": "137078",
-		"name": "[活動] 技能教本：馴服的阿勒堡雷亞黑馬",
-		"toolTip": "使用此教本時，即可學習移動速度260的馴服的阿勒堡雷亞黑馬召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 1111551,
 		"vehicleId": "82"
 	},
@@ -1471,99 +1464,99 @@
 	},
 	"147022": {
 		"id": "147022",
-		"name": "技能教本：金剛黃 (稀有)",
-		"toolTip": "使用此教本即可學習移動速度285的金剛黃。騎乘時，每秒恢復1%的HP、MP。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000007,
 		"vehicleId": "167"
 	},
 	"147030": {
 		"id": "147030",
-		"name": "(活動) 技能教本：銀色業火麒麟 (30天)",
-		"toolTip": "使用此教本即可學習移動速度280的銀色麒麟召喚技能。 該道具為30天期間制道具。騎乘時，每秒恢復0.5%的HP、MP。",
+		"name": "[Event] Riding Skill: Silver Giraffe(30days)",
+		"toolTip": "Use this manual to learn how to summon a Silver Giraffe with a movement speed of 280 that restores 0.5% HP and MP every second.<br>Item expires in 30 days.",
 		"skill": 12000015,
 		"vehicleId": "160"
 	},
 	"147054": {
 		"id": "147054",
-		"name": "技能教本：練習卡丁車 (原版)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的練習卡丁車 (原版)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000039,
 		"vehicleId": "191"
 	},
 	"147055": {
 		"id": "147055",
-		"name": "技能教本：練習卡丁車 (紅)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的練習卡丁車 (紅)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000040,
 		"vehicleId": "192"
 	},
 	"147056": {
 		"id": "147056",
-		"name": "技能教本：練習卡丁車 (綠)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的練習卡丁車 (綠)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000041,
 		"vehicleId": "193"
 	},
 	"147057": {
 		"id": "147057",
-		"name": "技能教本：練習卡丁車 (黃)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的練習卡丁車 (黃)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000042,
 		"vehicleId": "194"
 	},
 	"147058": {
 		"id": "147058",
-		"name": "技能教本：魯魯 (原版)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的魯魯 (原版)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000043,
 		"vehicleId": "199"
 	},
 	"147059": {
 		"id": "147059",
-		"name": "技能教本：魯魯 (粉紅)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的魯魯 (粉紅)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000044,
 		"vehicleId": "201"
 	},
 	"147060": {
 		"id": "147060",
-		"name": "技能教本：魯魯 (黃)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的魯魯 (黃)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000045,
 		"vehicleId": "202"
 	},
 	"147061": {
 		"id": "147061",
-		"name": "技能教本：魯魯 (薄荷綠)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的魯魯 (薄荷綠)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000046,
 		"vehicleId": "203"
 	},
 	"147062": {
 		"id": "147062",
-		"name": "技能教本：拯救 (原版)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的 拯救 (原版)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000047,
 		"vehicleId": "195"
 	},
 	"147063": {
 		"id": "147063",
-		"name": "技能教本：拯救 (紅)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的 拯救 (紅)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000048,
 		"vehicleId": "196"
 	},
 	"147064": {
 		"id": "147064",
-		"name": "技能教本：拯救 (黑)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的 拯救 (黑)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000049,
 		"vehicleId": "197"
 	},
 	"147065": {
 		"id": "147065",
-		"name": "技能教本：拯救 (紫)",
-		"toolTip": "使用此教本時，即可學習移動速度 280的 拯救 (紫)召喚技能。",
+		"name": "",
+		"toolTip": "",
 		"skill": 12000050,
 		"vehicleId": "198"
 	},
@@ -1576,15 +1569,29 @@
 	},
 	"150910": {
 		"id": "150910",
-		"name": "",
-		"toolTip": "",
+		"name": "Mount: Lucky Pig",
+		"toolTip": "Use this manual to learn how to summon a Lucky Pig with a Movement Speed of 280.",
 		"skill": 2222705,
 		"vehicleId": "581"
 	},
+	"151924": {
+		"id": "151924",
+		"name": "Riding Skill: Mythical Gourmando",
+		"toolTip": "Use this manual to learn how to summon the Mythical Gourmando with a Movement Speed of 280 that replenishes 0.5% of your max MP every second.",
+		"skill": 14100074,
+		"vehicleId": "35"
+	},
+	"151930": {
+		"id": "151930",
+		"name": "Riding Skill: Fabled Munchhausen",
+		"toolTip": "Use this manual to learn how to summon the Fabled Munchhausen with a Movement Speed of 280 that recovers 0.5% of your max HP every second.",
+		"skill": 14100076,
+		"vehicleId": "34"
+	},
 	"151984": {
 		"id": "151984",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Supercharged Police Car",
+		"toolTip": "Use this manual to learn how to summon a Supercharged Police Car with a Movement Speed of 280 that restores 1% of your max HP and MP every second.",
 		"skill": 14100106,
 		"vehicleId": "168"
 	},
@@ -1686,157 +1693,162 @@
 		"skill": 14100630,
 		"vehicleId": "1193"
 	},
+	"155714": {
+		"id": "155714",
+		"skill": 14100637,
+		"vehicleId": "582"
+	},
 	"181120": {
 		"id": "181120",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Nexus Warhorse",
+		"toolTip": "Use this manual to learn how to summon a Nexus warhorse with a Movement Speed of 275. You can obtain this mount from the federation bill store and ride like a real nexus champion.",
 		"skill": 2222560,
 		"vehicleId": "2216"
 	},
 	"181121": {
 		"id": "181121",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Aeolian Zebra",
+		"toolTip": "Use this manual to learn how to summon a zebra with a Movement Speed of 275. You can obtain this mount from the federation bill store.",
 		"skill": 2222561,
 		"vehicleId": "2218"
 	},
 	"181122": {
 		"id": "181122",
-		"name": "",
-		"toolTip": "",
+		"name": "Riding Skill: Death Charger",
+		"toolTip": "Use this manual to learn how to a death charger with a Movement Speed of 275. You can obtain this mount from the federation bill store and ride like a real nexus champion.",
 		"skill": 2222562,
 		"vehicleId": "2219"
 	},
 	"201531": {
 		"id": "201531",
-		"name": "技能教本：巨象",
-		"toolTip": "使用此教本即可學習移動速度: 290的巨象座騎召喚技能。",
+		"name": "Riding Skill: Elephant",
+		"toolTip": "Use this manual to learn how to summon an elephant ground mount with a movement speed of 290.",
 		"skill": 12200103,
 		"vehicleId": "263"
 	},
 	"202104": {
 		"id": "202104",
-		"name": "[稀有]技能教本:蒼藍阿姆勒塔特",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的暗龍主人被動技能。固有被動技和其他傳說級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Gloomscale",
+		"toolTip": "Use this manual to learn how to summon Gloomscale, a dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Penumbra Rex</font>, which provides a chance to double your Crit Power. While mounted, you may use the skill <font color = '#F9B600'>Draconic Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Draconic Roar</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200140,
 		"vehicleId": "277"
 	},
 	"202105": {
 		"id": "202105",
-		"name": "[稀有]技能教本:蒼藍阿姆勒塔特[非戰鬥] ",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Gloomhide",
+		"toolTip": "Use this manual to learn how to summon Gloomhide, a drake mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.",
 		"skill": 12200142,
 		"vehicleId": "276"
 	},
 	"202108": {
 		"id": "202108",
-		"name": "[稀有]技能教本:蒼藍阿姆勒塔特[3天]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的暗龍主人被動技能。固有被動技和其他傳說級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Gloomscale",
+		"toolTip": "Use this manual to learn how to summon Gloomscale, a dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Penumbra Rex</font>, which provides a chance to double your Crit Power. While mounted, you may use the skill <font color = '#F9B600'>Draconic Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Draconic Roar</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200141,
 		"vehicleId": "278"
 	},
 	"202116": {
 		"id": "202116",
-		"name": "技能教本:朱紅阿姆勒塔特",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的黑龍主人被動技能。固有被動技和其他稀有級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Duskwing",
+		"toolTip": "Use this manual to learn how to summon Duskwing, a dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Tenebris Rex</font>, which provides a chance to increase your Crit Power by a factor of 1.5. While mounted, you may use the skill <font color = '#F9B600'>Dark Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Dark Roar</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200144,
 		"vehicleId": "280"
 	},
 	"202117": {
 		"id": "202117",
-		"name": "技能教本:朱紅阿姆勒塔特[非戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Duskflight",
+		"toolTip": "Use this manual to learn how to summon Duskflight, a drake mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.",
 		"skill": 12200146,
 		"vehicleId": "279"
 	},
 	"202120": {
 		"id": "202120",
-		"name": "技能教本:朱紅阿姆勒塔特[3天]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的黑龍主人被動技能。固有被動技和其他稀有級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Duskwing",
+		"toolTip": "Use this manual to learn how to summon Duskwing, a dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Tenebris Rex</font>, which provides a chance to increase your Crit Power by a factor of 1.5. While mounted, you may use the skill <font color = '#F9B600'>Dark Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Dark Roar</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200145,
 		"vehicleId": "281"
 	},
 	"202128": {
 		"id": "202128",
-		"name": "[稀有]技能教本: 暗黑阿姆勒塔特",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的暗龍主人被動技能。固有被動技和其他傳說級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Stormscale",
+		"toolTip": "Use this manual to learn how to summon Stormscale, a dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Penumbra Rex</font>, which grants a chance to double your Crit Power. While mounted, you may use the skill <font color = '#F9B600'>Draconic Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Draconic Roar</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200148,
 		"vehicleId": "283"
 	},
 	"202129": {
 		"id": "202129",
-		"name": "[稀有]技能教本: 暗黑阿姆勒塔特[非戰鬥] ",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Stormhide",
+		"toolTip": "Use this manual to learn how to summon Stormhide, a drake mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.",
 		"skill": 12200150,
 		"vehicleId": "282"
 	},
 	"202132": {
 		"id": "202132",
-		"name": "[稀有]技能教本: 暗黑阿姆勒塔特[3天]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的暗龍主人被動技能。固有被動技和其他傳說級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Stormscale",
+		"toolTip": "Use this manual to learn how to summon Stormscale, a dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Penumbra Rex</font>, which grants a chance to double your Crit Power. While mounted, you may use the skill <font color = '#F9B600'>Draconic Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Draconic Roar</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200149,
 		"vehicleId": "284"
 	},
 	"202320": {
 		"id": "202320",
-		"name": "技能教本:蒼藍阿姆勒塔特 ",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的黑龍主人被動技能。固有被動技和其他稀有級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Gloomwing",
+		"toolTip": "Use this manual to learn how to summon Gloomwing, a dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Tenebris Rex</font>, which provides a chance to increase your Crit Power by a factor of 1.5. While mounted, you may use the skill <font color = '#F9B600'>Dark Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Dark Roar</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200152,
 		"vehicleId": "286"
 	},
 	"202321": {
 		"id": "202321",
-		"name": "技能教本:蒼藍阿姆勒塔特 [非戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Gloomflight",
+		"toolTip": "Use this manual to learn how to summon Gloomflight, a drake mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.",
 		"skill": 12200154,
 		"vehicleId": "285"
 	},
 	"202324": {
 		"id": "202324",
-		"name": "技能教本:蒼藍阿姆勒塔特 [3天]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的黑龍主人被動技能。固有被動技和其他稀有級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Gloomwing",
+		"toolTip": "Use this manual to learn how to summon Gloomwing, a dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Tenebris Rex</font>, which provides a chance to increase your Crit Power by a factor of 1.5. While mounted, you may use the skill <font color = '#F9B600'>Dark Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Dark Roar</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200153,
 		"vehicleId": "287"
 	},
 	"202332": {
 		"id": "202332",
-		"name": "[稀有]技能教本: 朱紅阿姆勒塔特 ",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的暗龍主人被動技能。固有被動技和其他傳說級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Duskscale",
+		"toolTip": "Use this manual to learn how to summon Duskscale, a dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Penumbra Rex</font>, which provides a chance to double your Crit Power. While mounted, you may use the skill <font color = '#F9B600'>Draconic Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Draconic Roar</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200156,
 		"vehicleId": "292"
 	},
 	"202333": {
 		"id": "202333",
-		"name": "[稀有]技能教本: 朱紅阿姆勒塔特[非戰鬥] ",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Duskhide",
+		"toolTip": "Use this manual to learn how to summon Duskhide, a drake mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.",
 		"skill": 12200158,
 		"vehicleId": "291"
 	},
 	"202336": {
 		"id": "202336",
-		"name": "[稀有]技能教本: 朱紅阿姆勒塔特 [3天]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 157(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體2%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的暗龍主人被動技能。固有被動技和其他傳說級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Duskscale",
+		"toolTip": "Use this manual to learn how to summon Duskscale, a dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Penumbra Rex</font>, which grants a chance to double your Crit Power. While mounted, you may use the skill <font color = '#F9B600'>Draconic Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Draconic Roar</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200157,
 		"vehicleId": "293"
 	},
 	"202344": {
 		"id": "202344",
-		"name": "技能教本: 暗黑阿姆勒塔特",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的黑龍主人被動技能。固有被動技和其他稀有級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Stormwing",
+		"toolTip": "Use this manual to learn how to summon Stormwing, a dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Tenebris Rex</font>, which provides a chance to increase your Crit Power by a factor of 1.5. While mounted, you may use the skill <font color = '#F9B600'>Dark Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Dark Roar</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200160,
 		"vehicleId": "289"
 	},
 	"202345": {
 		"id": "202345",
-		"name": "技能教本: 暗黑阿姆勒塔特[非戰鬥]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Stormflight",
+		"toolTip": "Use this manual to learn how to summon Stormflight, a dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.",
 		"skill": 12200162,
 		"vehicleId": "288"
 	},
 	"202348": {
 		"id": "202348",
-		"name": "技能教本: 暗黑阿姆勒塔特[3天]",
-		"toolTip": "使用此教本即可學習綜合飛行性能 136(飛行速度:290，移動速度: 290)的暗黑龍召喚技能，騎乘時，每秒恢復整體1%的HP、MP。新增爆擊攻擊時，爆擊威力提升，且打擊時可學習讓目標追加受到傷害的黑龍主人被動技能。固有被動技和其他稀有級[靈物]坐騎不可重複，可開啟最後所騎乘的坐騎被動技。<br><br><font color = '#c21919'>此道具不可交易。$BR$BR全身散發出冷酷的氣息，讓人一看就覺得是個生活環境在嚴峻冰冷地區的傳說之龍。",
+		"name": "Flying Skill: Stormwing",
+		"toolTip": "Use this manual to learn how to summon Stormwing, a dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill <font color = '#F9B600'>Tenebris Rex</font>, which provides a chance to increase your Crit Power by a factor of 1.5. While mounted, you may use the skill <font color = '#F9B600'>Dark Roar</font>, which increases the damage you deal to monsters for a short time after you dismount. Using <font color = '#F9B600'>Dark Roar</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200161,
 		"vehicleId": "290"
 	},
@@ -1961,72 +1973,63 @@
 	},
 	"221222": {
 		"id": "221222",
-		"name": "技能教本: 銀色業火麒麟",
-		"toolTip": "使用此教本即可學習移動速度285的銀色業火麒麟召喚技能。<br>騎乘時，每秒恢復1%的HP、MP。",
+		"name": "",
+		"toolTip": "",
 		"skill": 15300023,
 		"vehicleId": "1600"
 	},
 	"232018": {
 		"id": "232018",
-		"name": "스킬교본: 메카닉 A",
-		"toolTip": "[[서비스 이관 특별 선물]] <BR><BR> 비행 가능 지역에서 날 수 있는 해방된 페가수스를 소환합니다.<br>페가수스의 비행 속도는 270이며, 지상에서의 이동속도는 280입니다.",
+		"name": "인술사 프리미엄 글러브",
 		"skill": 12200033,
 		"vehicleId": "240"
 	},
 	"232019": {
 		"id": "232019",
-		"name": "스킬교본: 메카닉 B",
-		"toolTip": "[[서비스 이관 특별 선물]] <BR><BR> 비행 가능 지역에서 날 수 있는 해방된 페가수스를 소환합니다.<br>페가수스의 비행 속도는 270이며, 지상에서의 이동속도는 280입니다.",
+		"name": "인술사 프리미엄 슈즈",
 		"skill": 12200034,
 		"vehicleId": "241"
 	},
 	"254960": {
 		"id": "254960",
-		"name": "技能教本：粉焰狼神",
-		"toolTip": "使用此教本時，即可學習移動速度280的青焰狼神召喚技能。",
+		"name": "Riding Skill: Lady",
+		"toolTip": "Use this manual to learn how to summon a spirit wolf with a movement speed of 280.",
 		"skill": 23000141,
 		"vehicleId": "254"
 	},
 	"255328": {
 		"id": "255328",
-		"name": "技能教本: 閃亮兔兔飛行座騎 (淺藍)",
-		"toolTip": "使用此教本時即可學習召喚移動速度290的 閃亮兔兔飛行座騎 (淺藍) 。",
+		"name": "Flying Skill: Flopsy",
+		"toolTip": "Use this manual to learn how to summon Flopsy, a flying bunny mount with a flight and movement speed of 290.",
 		"skill": 23000153,
 		"vehicleId": "255"
 	},
 	"255372": {
 		"id": "255372",
-		"name": "技能教本: 閃亮兔兔飛行座騎 (橘紅)",
-		"toolTip": "使用此教本時即可學習召喚移動速度290的 閃亮兔兔飛行座騎 (橘紅)。",
+		"name": "Flying Skill: Mopsy",
+		"toolTip": "Use this manual to learn how to summon Mopsy, a flying bunny mount with a flight and movement speed of 290.",
 		"skill": 23000165,
 		"vehicleId": "256"
 	},
 	"256448": {
 		"id": "256448",
-		"name": "技能教本： 黑焰飛行狼神",
-		"toolTip": "使用此教本時，即可學習移動速度290的 黑焰飛行狼神召喚技能。",
+		"name": "Flying Skill: Midnight",
+		"toolTip": "Use this manual to learn how to summon Midnight, a flying wolf mount with a flight and movement speed of 290.",
 		"skill": 23000177,
 		"vehicleId": "17600"
 	},
 	"256492": {
 		"id": "256492",
-		"name": "技能教本： 幽影焰飛行狼神",
-		"toolTip": "使用此教本時，即可學習移動速度290的 幽影焰飛行狼神召喚技能。",
+		"name": "Flying Skill: Hertz",
+		"toolTip": "Use this manual to learn how to summon Hertz, a flying wolf mount with a flight and movement speed of 290.",
 		"skill": 23000189,
 		"vehicleId": "11930"
 	},
 	"256536": {
 		"id": "256536",
-		"name": "技能教本： 粉焰飛行狼神",
-		"toolTip": "使用此教本時，即可學習移動速度290的 粉焰飛行狼神召喚技能。",
+		"name": "Flying Skill: Pink",
+		"toolTip": "Use this manual to learn how to summon Pink, a flying wolf mount with a flight and movement speed of 290.",
 		"skill": 23000201,
 		"vehicleId": "2540"
-	},
-	"99971": {
-		"id": "99971",
-		"name": "Flying Skill: Free Flight",
-		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
-		"skill": 60340286,
-		"vehicleId": "261"
 	}
 }
