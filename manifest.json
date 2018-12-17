@@ -35,7 +35,7 @@
 			"region": "tw",
 			"hash": "ff9d8d6fcec9a4162530b257a5032386feef1edb87f1821028a28e8daff890db"
 		},
-		"module.json": "c2c5304eb50f59d21a45f6a0a74742f1503edee3d9701403b05d17bdef60ddf3",
+		"module.json": "ab1eb4eb396c6bf7ffeb5540e8d8bb963ed40384d35925f64d78b4b6a41c4e6c",
 		"mounts/mounts.eu.json": {
 			"region": "eu",
 			"hash": "e5369f8657f91aaa679ab177e16d9ac2b9947d0080d11d363f4c491d3e1364ab"
@@ -74,7 +74,7 @@
 		"mouse/electron64.node": "f45d55dea556489d4326b446c88e094573560a9bddaf511c9956e965d9226190",
 		"presets.json": {
 			"overwrite": false,
-			"hash": "4f57e60594f0ec56e10dc867a501eb03e35faf0d6641879f3639078fc69cb498"
+			"hash": "8d7678360fed92c836da69e0156b0f4213fd9cb96a01477b3ad0cde6c26e8fad"
 		}
 	},
 	"defs": {

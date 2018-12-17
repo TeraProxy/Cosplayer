@@ -6,7 +6,8 @@
     "version": "2.2.10",
     "donationUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ",
     "options": {
-        "niceName": "Cosplay"
+        "niceName": "Cosplay",
+        "guiName": "Cosplayer"
     },
     "servers": ["https://raw.githubusercontent.com/TeraProxy/Cosplayer/master/"],
     "supportUrl": "https://github.com/TeraProxy/Cosplayer/issues",
