@@ -13,7 +13,7 @@ If you enjoy my work and wish to support future development, feel free to drop m
 ![Screenshot](https://i.imgur.com/m8X358f.jpg)
 
 # Cosplayer
-A tera-proxy module able to change your client-side appearance.  
+A tera-proxy module that changes your client-side appearance. Free costumes, mounts, weapon skins and much more!.  
 Changes to your character are saved on your hard drive and reloaded on next login.  
 
 ## Usage  
@@ -60,6 +60,10 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.11
+* [*] Attempted fix of a rare problem with improper application of changes when leaving the Dressing Room
+* [*] Updated S_USER_PAPERDOLL_INFO hook to version 7
+* [~] Using raw hooks where it's possible
 ### 2.2.10
 * [*] Fixed Marrow Brooch returning to default look
 ### 2.2.9

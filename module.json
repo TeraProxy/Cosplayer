@@ -2,8 +2,8 @@
     "disableAutoUpdate": false,
     "name": "Cosplayer",
     "author": "TeraProxy",
-    "description": "A tera-proxy module able to change your client-side appearance.",
-    "version": "2.2.10",
+    "description": "Changes your client-side appearance. Free costumes, mounts, weapon skins and much more!",
+    "version": "2.2.11",
     "donationUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A3KBZUCSEQ5RJ",
     "options": {
         "niceName": "Cosplay",

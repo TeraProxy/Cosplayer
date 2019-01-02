@@ -13,17 +13,14 @@ const path = require('path'),
 		"styleHeadScale"
 	]
 
-let items = null,
-	mounts = null
-
 module.exports = function Cosplayer(mod) {
 
-	items = require('./items/items.' + mod.region + '.json'),
-	mounts = require('./mounts/mounts.' + mod.region + '.json')
+	mod.game.initialize("contract")
+
+	let items = require('./items/items.' + mod.region),
+		mounts = require('./mounts/mounts.' + mod.region)
 
 	const weapons = Object.keys(items.categories.style.weapon)
-
-	mod.game.initialize("contract")
 
 	let job = -1,
 		external = null,
@@ -46,7 +43,7 @@ module.exports = function Cosplayer(mod) {
 		mouse.destroy()
 	}
 
-	mouse.on('right-down', () => { 
+	mouse.on('right-down', () => {
 		if(hoveredItem > -1) equipped(hoveredItem)
 	})
 
@@ -54,18 +51,19 @@ module.exports = function Cosplayer(mod) {
 	// ### Save & Load ### //
 	// ################### //
 
-	let presets = {}, 
+	let presets = {},
 		presetTimeout = null,
 		presetLock = false
 
 	try { presets = require('./presets') }
-	catch(e) { 
-		presets = {} 
+	catch(e) {
+		presets = {}
 		presetSave()
 	}
 
 	function presetUpdate(setpreset) {
 		if(setpreset) mypreset = presets[mod.game.me.name] = Object.assign({}, external)
+
 		if(mypreset) {
 			mypreset.nametag = presets[mod.game.me.name].nametag = mynametag
 			mypreset.mount = presets[mod.game.me.name].mount = mymount
@@ -74,16 +72,20 @@ module.exports = function Cosplayer(mod) {
 		clearTimeout(presetTimeout)
 		presetTimeout = setTimeout(presetSave, 1000)
 	}
-	
+
 	function presetSave() {
 		if(presetLock) {
 			presetUpdate(false)
 			return
 		}
+
 		presetLock = true
-		fs.writeFile(path.join(__dirname, 'presets.json'), JSON.stringify(presets, (key, value) => typeof value === 'bigint' ? value.toString() : value, 4), err => {
-			presetLock = false
-		})
+
+		fs.writeFile(
+			path.join(__dirname, 'presets.json'),
+			JSON.stringify(presets, (key, value) => typeof value === 'bigint' ? value.toString() : value, 4),
+			err => { presetLock = false }
+		)
 	}
 
 	// ############# //
@@ -112,6 +114,7 @@ module.exports = function Cosplayer(mod) {
 		// Generate our Dressing Room
 		const templateId = mod.game.me.templateId,
 			race = Math.floor((templateId - 10101) / 100)
+
 		job = (templateId - 10101) % 100
 
 		dressingRoom = []
@@ -160,17 +163,18 @@ module.exports = function Cosplayer(mod) {
 		if(how == "cancel" && inDressup) {
 			hoveredItem = -1
 			inDressup = false
-			process.nextTick(() => { changeAppearance() })
 
+			changeAppearance()
 			presetUpdate(true)
 		}
 	})
 
-	mod.hook('C_CANCEL_CONTRACT', 1, event => {
+	mod.hook('C_CANCEL_CONTRACT', 'raw', () => {
 		if(inDye) {
 			inDye = false
 
 			external.gameId = mod.game.me.gameId
+
 			changeAppearance()
 			presetUpdate(true)
 		}
@@ -180,7 +184,7 @@ module.exports = function Cosplayer(mod) {
 		for(let character in event.characters) {
 			let charpreset = presets[event.characters[character].name]
 
-			if(charpreset && charpreset.gameId != 0) 
+			if(charpreset && charpreset.gameId != 0)
 				for(let slot of SLOTS)
 					event.characters[character][slot] = charpreset[slot]
 		}
@@ -213,15 +217,15 @@ module.exports = function Cosplayer(mod) {
 				external = Object.assign({}, event)
 				presets[mod.game.me.name] = Object.assign({}, external)
 				presets[mod.game.me.name].gameId = 0
+
 				presetUpdate(false)
 			}
 		}
 	})
 
-	mod.hook('C_ITEM_COLORING_SET_COLOR', 1, event => {
-		let color = Number('0x' + event.alpha.toString(16) + event.red.toString(16) + event.green.toString(16) + event.blue.toString(16))
+	mod.hook('C_ITEM_COLORING_SET_COLOR', 2, event => {
 		inDye = true
-		external.styleBodyDye = color
+		external.styleBodyDye = event.color
 
 		presetUpdate(true)
 	})
@@ -240,12 +244,12 @@ module.exports = function Cosplayer(mod) {
 	mod.hook('C_REQUEST_NONDB_ITEM_INFO', 2, event => {
 		if(inDressup) {
 			hoveredItem = event.item
-			
+
 			mod.toClient('S_REPLY_NONDB_ITEM_INFO', 1, {
 				item: hoveredItem,
-				unk: true,
-				unk1: false,
-				unk2: 0,
+				unk: mounts[hoveredItem] ? 0:1, // 0 for mounts, 1 for other stuff
+				unk1: items.categories.gear['underwear'].includes(hoveredItem) ? 53:0, // 53 for innerwear, 0 for other stuff
+				unk2: items.categories.gear['underwear'].includes(hoveredItem) ? 1:0, // 1 for innerwear, 0 for other stuff
 				unk3: 0,
 				unk4: 0,
 				unk5: 0,
@@ -257,19 +261,21 @@ module.exports = function Cosplayer(mod) {
 	})
 
 	mod.hook('S_UNICAST_TRANSFORM_DATA', 5, event => { // Reapply look after Marrow Brooch / Clone Jutsu
-		if(mod.game.me.is(event.gameId) && event.isAppear == false) setTimeout(reapplyPreset, 100)
+		if(mod.game.me.is(event.gameId) && event.isAppear == false)
+			setTimeout(reapplyPreset, 100)
 	})
 
-	mod.hook('S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST', 1, event => {
+	mod.hook('S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST', 'raw', () => {
 		return false // block this so the server doesn't overwrite our fake item list
 	})
 
-	mod.hook('S_USER_PAPERDOLL_INFO', 5, event => {
+	mod.hook('S_USER_PAPERDOLL_INFO', 7, event => {
 		if(gettingAppearance) {
 			for(let slot of SLOTS)
 				if(event[slot]) equipped(event[slot])
 
 			changeAppearance()
+			presetUpdate(true)
 
 			return false
 		}
@@ -295,14 +301,14 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_PREVIEW_ITEM', 1, () => { // Fix losing custom outfit when previewing an item
+	mod.hook('S_PREVIEW_ITEM', 'raw', () => { // Fix losing custom outfit when previewing an item
 		mod.hookOnce('C_PLAYER_LOCATION', 'raw', () => {
 			reapplyPreset()
 		})
 	})
 
 	if(hatrestyle) {
-		mod.hook('C_REQUEST_ACCESSORY_COST_INFO', 1, () => { // When wearing a custom outfit, allow free hat restyling
+		mod.hook('C_REQUEST_ACCESSORY_COST_INFO', 'raw', () => { // When wearing a custom outfit, allow free hat restyling
 			if(mypreset && mypreset.gameId != 0) {
 				mod.toClient('S_RESPONSE_ACCESSORY_COST_INFO', 1, {
 					response: 1,
@@ -413,8 +419,14 @@ module.exports = function Cosplayer(mod) {
 	}
 
 	function changeNametag(newnametag) {
-		mod.toClient('S_ITEM_CUSTOM_STRING', 2, {gameId: mod.game.me.gameId, customStrings: [{dbid: external.styleBody, string: newnametag}]})
+		mod.toClient('S_ITEM_CUSTOM_STRING', 2, {
+			gameId: mod.game.me.gameId,
+			customStrings: [
+				{ dbid: external.styleBody, string: newnametag }
+			]
+		})
 		mynametag = (newnametag == mod.game.me.name) ? "" : newnametag
+
 		presetUpdate(true)
 	}
 
@@ -425,7 +437,7 @@ module.exports = function Cosplayer(mod) {
 
 	function convertList(list) {
 		let convertedList = []
-		for (let item of list) {
+		for(let item of list) {
 			convertedList.push({
 				type: 0,
 				id: item,
@@ -452,7 +464,7 @@ module.exports = function Cosplayer(mod) {
 			success: true
 		})
 		mod.toClient('S_ITEM_TRANSFORM_DATA', 1, {
-			gameId: game.me.gameId,
+			gameId: mod.game.me.gameId,
 			item: mypreset.styleHead,
 			scale: event.scale,
 			rotation: event.rotation,
@@ -464,6 +476,7 @@ module.exports = function Cosplayer(mod) {
 		external.styleHeadRotation = event.rotation
 		external.styleHeadTranslation = event.translation
 		external.styleHeadTranslationDebug = event.translationDebug
+
 		presetUpdate(true)
 	}
 
@@ -481,6 +494,7 @@ module.exports = function Cosplayer(mod) {
 					presetUpdate(true)
 				}
 				break
+
 			case "costume":
 				if(value) {
 					external.styleBody = Number(value)
@@ -489,6 +503,7 @@ module.exports = function Cosplayer(mod) {
 					presetUpdate(true)
 				}
 				break
+
 			case "back":
 				if(value) {
 					external.styleBack = Number(value)
@@ -497,6 +512,7 @@ module.exports = function Cosplayer(mod) {
 					presetUpdate(true)
 				}
 				break
+
 			case "face":
 				if(value) {
 					external.styleFace = Number(value)
@@ -505,6 +521,7 @@ module.exports = function Cosplayer(mod) {
 					presetUpdate(true)
 				}
 				break
+
 			case "head":
 				if(value) {
 					external.styleHead = Number(value)
@@ -513,6 +530,7 @@ module.exports = function Cosplayer(mod) {
 					presetUpdate(true)
 				}
 				break
+
 			case "underwear":
 				if(value) {
 					external.underwear = Number(value)
@@ -521,6 +539,7 @@ module.exports = function Cosplayer(mod) {
 					presetUpdate(true)
 				}
 				break
+
 			case "footprints":
 				if(value) {
 					external.styleFootprint = Number(value)
@@ -529,9 +548,11 @@ module.exports = function Cosplayer(mod) {
 					presetUpdate(true)
 				}
 				break
+
 			case "dye":
 				changeColor(external.styleBody)
 				break
+
 			case "dyergb":
 				if(value && rgb) {
 					let index = ["costume","underwear","chest","gloves","boots"].indexOf(value),
@@ -555,9 +576,11 @@ module.exports = function Cosplayer(mod) {
 					}
 				}
 				break
+
 			case "pantsu":
 				changePantsu()
 				break
+
 			case "enchant":
 				if(value) {
 					external.weaponEnchant = Number(value)
@@ -566,18 +589,22 @@ module.exports = function Cosplayer(mod) {
 					presetUpdate(true)
 				}
 				break
+
 			case "tag":
 				if(value) changeNametag(value)
 				break
+
 			case "as":
 				if(value) cosplayAs(value)
 				break
+
 			case "undress":
 				external = Object.assign({}, userDefaultAppearance)
 				changeAppearance()
 				external.gameId = 0
 				presetUpdate(true)
 				break
+
 			case "mount":
 				if(value) {
 					if(vehicles.includes(value)) {
@@ -586,11 +613,13 @@ module.exports = function Cosplayer(mod) {
 					}
 				}
 				break
+
 			case "dismount":
 				mod.toServer('C_UNMOUNT_VEHICLE', 1, {})
 				mymount = 0
 				presetUpdate(true)
 				break
+
 			default:
 				mod.command.message('Commands:\n' 
 					+ ' "cosplay weapon [id]" (change your weapon skin to id, e.g. "cosplay weapon 99272"),\n'
