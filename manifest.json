@@ -1,8 +1,8 @@
 {
     "files": {
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-        "README.md": "b39524a32d4377f36393a641d6b4f0f43be88b9fa71bb42e23a344e4d0201f8b",
-        "index.js": "40b46c9faaf3c64eeca31404bb6ca8508f46c4513dc647a4fd955faec5477301",
+        "README.md": "da819919c95ae9f90a40de454ba197442ac7a7625e204c1f412b940023b86053",
+        "index.js": "ebfac6c884d869cc3243c70e25c29931408d8c6e70dd39301ee4d98fc2e2ce1a",
         "items/items.eu.json": {
             "region": "eu",
             "hash": "e5ecda4d249577b917ba679fe1e579f1c2c2de445d2599b37c92cabf0f85d663"
@@ -35,7 +35,7 @@
             "region": "tw",
             "hash": "5c908d72e586214d4569f36e7f4c9e56e8a325fab35efb09960a7b1c1fe39472"
         },
-        "module.json": "6a56af4115e0746ec0292443506b1d5bf7fe55447c788a465a97bc1adabd0654",
+        "module.json": "7ffdbc004df5946f186d72b8363f2fec300934c6470bc7f588d1a7463011886d",
         "mounts/mounts.eu.json": {
             "region": "eu",
             "hash": "e5369f8657f91aaa679ab177e16d9ac2b9947d0080d11d363f4c491d3e1364ab"
@@ -74,7 +74,7 @@
         "mouse/electron64.node": "f45d55dea556489d4326b446c88e094573560a9bddaf511c9956e965d9226190",
         "presets.json": {
             "overwrite": false,
-            "hash": "fb5789f0bf60fda5ce6d0e7eeb8f9d426514c4e815957f831d6b00e50861bf1d"
+            "hash": "0fbbbed563316287237ad4d750bbba672c5dd9c39fe9c212fa358c670024ec34"
         }
     },
     "defs": {

@@ -60,8 +60,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
-### 2.2.12
-* [*] Fixed a bug that made you switch back to original weapon skin after the Marrow Brooch effect
+### 2.2.13
+* [*] Fixed a bug that made you switch back to your original weapon skin during transformation effects
 ### 2.2.11
 * [*] Attempted fix of a rare problem with improper application of changes when leaving the Dressing Room
 * [*] Updated S_USER_PAPERDOLL_INFO hook to version 7
