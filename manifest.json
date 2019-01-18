@@ -1,8 +1,8 @@
 {
     "files": {
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-        "README.md": "84a349b5ec68451b03c5ff3f1412094f3c6b7eb0d6363c4636338386690bab16",
-        "index.js": "2f5f208dfd1a9816aca275cde6bc7b44c2a7f52713d331ef70a8cede285c1ef3",
+        "README.md": "b39524a32d4377f36393a641d6b4f0f43be88b9fa71bb42e23a344e4d0201f8b",
+        "index.js": "40b46c9faaf3c64eeca31404bb6ca8508f46c4513dc647a4fd955faec5477301",
         "items/items.eu.json": {
             "region": "eu",
             "hash": "e5ecda4d249577b917ba679fe1e579f1c2c2de445d2599b37c92cabf0f85d663"
@@ -17,7 +17,7 @@
         },
         "items/items.na.json": {
             "region": "na",
-            "hash": "5c908d72e586214d4569f36e7f4c9e56e8a325fab35efb09960a7b1c1fe39472"
+            "hash": "e3ea3ae29b22d5240194024e85ec4d5adffaaf51772089dbce548f1d32246ea5"
         },
         "items/items.ru.json": {
             "region": "ru",
@@ -35,7 +35,7 @@
             "region": "tw",
             "hash": "5c908d72e586214d4569f36e7f4c9e56e8a325fab35efb09960a7b1c1fe39472"
         },
-        "module.json": "f76a368d81642b46dcce42904f57210efc11795432831c7d3c58a5c9445ed4e5",
+        "module.json": "6a56af4115e0746ec0292443506b1d5bf7fe55447c788a465a97bc1adabd0654",
         "mounts/mounts.eu.json": {
             "region": "eu",
             "hash": "e5369f8657f91aaa679ab177e16d9ac2b9947d0080d11d363f4c491d3e1364ab"
@@ -50,7 +50,7 @@
         },
         "mounts/mounts.na.json": {
             "region": "na",
-            "hash": "6ade6531d10633f4c78b0e5cda730682d915ac7df84bc3011bce89589f28e230"
+            "hash": "d566e56cf573ecaec7f2d529e42ee2b2087bea0e35893d38ebe28d740f3277e8"
         },
         "mounts/mounts.ru.json": {
             "region": "ru",
@@ -74,7 +74,7 @@
         "mouse/electron64.node": "f45d55dea556489d4326b446c88e094573560a9bddaf511c9956e965d9226190",
         "presets.json": {
             "overwrite": false,
-            "hash": "d316f15256a439915bab6a26be7a9796932b0fc2154e0575299968469901c7a8"
+            "hash": "fb5789f0bf60fda5ce6d0e7eeb8f9d426514c4e815957f831d6b00e50861bf1d"
         }
     },
     "defs": {

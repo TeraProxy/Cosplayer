@@ -260,8 +260,8 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_UNICAST_TRANSFORM_DATA', 5, event => { // Reapply look after Marrow Brooch / Clone Jutsu
-		if(mod.game.me.is(event.gameId) && event.isAppear == false)
+	mod.hook('S_UNICAST_TRANSFORM_DATA', 5, event => { // Reapply look after transforming back
+		if(mod.game.me.playerId == event.playerId && mod.game.me.serverId == event.serverId && event.type == 0)
 			setTimeout(reapplyPreset, 100)
 	})
 
