@@ -123,7 +123,7 @@
 		"name": "스킬교본: 훈련된 백색 전투마 소환",
 		"toolTip": "교본을 사용하여 이동 속도 280의 훈련된 백색 전투마를 소환하는 스킬을 배울 수 있다.",
 		"skill": 111194,
-		"vehicleId": "17"
+		"vehicleId": "1700"
 	},
 	"382": {
 		"id": "382",
@@ -454,6 +454,13 @@
 		"skill": 12200132,
 		"vehicleId": "267"
 	},
+	"99003": {
+		"id": "99003",
+		"name": "스킬교본: 숲지기 쿠마스 소환",
+		"toolTip": "교본을 사용하여 이동 속도 280의 숲지기 쿠마스를 소환하는 스킬을 배울 수 있습니다.",
+		"skill": 12200164,
+		"vehicleId": "294"
+	},
 	"99102": {
 		"id": "99102",
 		"name": "스킬교본: 유령 드래곤 소환",
@@ -594,6 +601,13 @@
 		"skill": 12200084,
 		"vehicleId": "259"
 	},
+	"99971": {
+		"id": "99971",
+		"name": "Flying Skill: Free Flight",
+		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
+		"skill": 60340286,
+		"vehicleId": "261"
+	},
 	"99975": {
 		"id": "99975",
 		"name": "스킬교본: 칠흑의 페가수스 소환",
@@ -614,6 +628,13 @@
 		"toolTip": "교본을 사용하여 이동 속도 275의 카마로스를 소환하는 스킬을 배울 수 있다.",
 		"skill": 111152,
 		"vehicleId": "330"
+	},
+	"100722": {
+		"id": "100722",
+		"name": "스킬교본: 백색 전투마 소환",
+		"toolTip": "교본을 사용하여 이동 속도 280의 백색 전투마를 소환하는 스킬을 배울 수 있다.",
+		"skill": 111149,
+		"vehicleId": "17"
 	},
 	"100723": {
 		"id": "100723",
@@ -1217,13 +1238,6 @@
 		"skill": 13000059,
 		"vehicleId": "231"
 	},
-	"109948": {
-		"id": "109948",
-		"name": "스킬 교본: 질풍의 훈련된 백색 전투마 소환",
-		"toolTip": "이동 속도 300의 질풍의 훈련된 백색 전투마를 소환 가능한 스킬을 획득 가능.",
-		"skill": 13600238,
-		"vehicleId": "1700"
-	},
 	"110083": {
 		"id": "110083",
 		"name": "스킬교본: 스노우볼 쿠마스 소환",
@@ -1693,6 +1707,13 @@
 		"skill": 14100637,
 		"vehicleId": "582"
 	},
+	"155726": {
+		"id": "155726",
+		"name": "이동수단 오오카미 핑크 280 !",
+		"toolTip": "창고저장True/길드창고저장False/파괴True/판매False/거래True/영구제/카테고리:0/귀속없음/영구제스킬/탈것이상상태:3000003/",
+		"skill": 14100638,
+		"vehicleId": "254"
+	},
 	"181120": {
 		"id": "181120",
 		"name": "스킬교본: 고대의 전투 군마 소환",
@@ -1987,13 +2008,6 @@
 		"skill": 12200034,
 		"vehicleId": "241"
 	},
-	"254960": {
-		"id": "254960",
-		"name": "이동수단 오오카미 핑크 280 !",
-		"toolTip": "창고저장True/길드창고저장False/파괴True/판매False/거래False/영구제/카테고리:0/귀속없음/영구제스킬/탈것이상상태:0/",
-		"skill": 23000141,
-		"vehicleId": "254"
-	},
 	"255328": {
 		"id": "255328",
 		"name": "스킬교본: 달토끼[블루] 소환",
@@ -2028,12 +2042,5 @@
 		"toolTip": "교본을 사용하여 종합 비행 성능 136(비행속도: 290, 지상 이동속도: 290)의 분홍 갈기의 늑대를 소환하는 스킬을 배울 수 있습니다.",
 		"skill": 23000201,
 		"vehicleId": "2540"
-	},
-	"99971": {
-		"id": "99971",
-		"name": "Flying Skill: Free Flight",
-		"toolTip": "Use this manual to learn how to fly with a suitable costume such as the IM39 Prototype with a flying speed of 290. You must have the right costume equipped in order to use this skill.",
-		"skill": 60340286,
-		"vehicleId": "261"
 	}
 }

@@ -264,7 +264,7 @@ module.exports = function Cosplayer(mod) {
 		if(mod.game.me.playerId == event.playerId && mod.game.me.serverId == event.serverId) {
 			if(event.type == 0) setTimeout(reapplyPreset, 100) // Reapply look after transforming back
 
-			if(event.type == 1) { // Keep custom weapon when transforming
+			if(mypreset && event.type == 1) { // Keep custom weapon when transforming
 				event.weaponEnchant = mypreset.weaponEnchant
 				event.styleWeapon = mypreset.styleWeapon
 				return true
