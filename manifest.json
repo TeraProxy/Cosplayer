@@ -5,7 +5,7 @@
         "index.js": "eb4ff960d0a97d4975f4e9505478ad815e75d54e52c54fea4f3cbb03219962a8",
         "items/items.eu.json": {
             "region": "eu",
-            "hash": "e5ecda4d249577b917ba679fe1e579f1c2c2de445d2599b37c92cabf0f85d663"
+            "hash": "aadd6d68cdc442581bf1e17198fb65cb1ffa5537e37949e409e1f1d12728745e"
         },
         "items/items.jp.json": {
             "region": "jp",
@@ -13,23 +13,23 @@
         },
         "items/items.kr.json": {
             "region": "kr",
-            "hash": "ab7500ad75ee95aaf43ca0d257684024b8ce7ea23b10ac41f713baad74cadc4c"
+            "hash": "d0f3e8ba85acbe6f5eb48210ee884ecf2ab65773495d8b4df081001a94890de6"
         },
         "items/items.na.json": {
             "region": "na",
-            "hash": "e3ea3ae29b22d5240194024e85ec4d5adffaaf51772089dbce548f1d32246ea5"
+            "hash": "2b7748191824d4f92b6b1f39bc98b7731ec75d63f652aaa8e2e0b61c33f2556c"
         },
         "items/items.ru.json": {
             "region": "ru",
-            "hash": "4ddf840caca9f4dccd7a0025c974c914e5c7a0fa152d1d3f85def75f94e167d7"
+            "hash": "b1eaa4ff425235595c9a5da72d3b01378ffe13725ae0e3fc6dced9c727f37cee"
         },
         "items/items.se.json": {
             "region": "se",
-            "hash": "b76b2d8c1c489cb78477a14b211f2cc02020435bc094013112a912515002c6d8"
+            "hash": "f1f9e245ce70ddf4e1d837527bf50f17d31937f4f9c5785c87eeaf7a803e7d45"
         },
         "items/items.th.json": {
             "region": "th",
-            "hash": "fc9cb5ac4db5272e325a823a182869c7cca80dd466ad2ac718b621bad87d688e"
+            "hash": "6d7e54877f806817d10e24348607f456131e34fa7c6c8eac9700e0113989e79b"
         },
         "items/items.tw.json": {
             "region": "tw",
@@ -46,11 +46,11 @@
         },
         "mounts/mounts.kr.json": {
             "region": "kr",
-            "hash": "f4c245bae24d055644854dc6af551e59d8a09c2e97f1750220373d8dc6b4895d"
+            "hash": "db7b07c275227b91c3a793512e2fcfef7e21ad854dda491108fd7d7380166fde"
         },
         "mounts/mounts.na.json": {
             "region": "na",
-            "hash": "d566e56cf573ecaec7f2d529e42ee2b2087bea0e35893d38ebe28d740f3277e8"
+            "hash": "2ed8ad91e8f5f2c4413c27f2fba7558edc09c937ec90e878505d2ef4872bbfa9"
         },
         "mounts/mounts.ru.json": {
             "region": "ru",
@@ -58,11 +58,11 @@
         },
         "mounts/mounts.se.json": {
             "region": "se",
-            "hash": "bb7dbc2da4543761400fcb430d0e1eb99faaef9a36146b27291afc85d4089f36"
+            "hash": "43fe588ec6874580b2f874df4ee79b464a1a9993a36ac2801bc353391db870c4"
         },
         "mounts/mounts.th.json": {
             "region": "th",
-            "hash": "ad8b65d03efe08b1f82304e98309319cc4e54f56bd06f80e0e9a977e239f0b53"
+            "hash": "0a3d9aa7a288f30f956e01c33dc2b1428667af903ff1166723218c377adbbdc8"
         },
         "mounts/mounts.tw.json": {
             "region": "tw",

@@ -2031,5 +2031,19 @@
 		"toolTip": "Use this manual to learn how to summon Pink, a flying wolf mount with a flight and movement speed of 290.",
 		"skill": 23000201,
 		"vehicleId": "2540"
+	},
+	"260720": {
+		"id": "260720",
+		"name": "Flying Skill: Spellrider",
+		"toolTip": "Use this manual to learn how to summon a Spellrider with a Flight and Movement Speed of 290.",
+		"skill": 23000213,
+		"vehicleId": "295"
+	},
+	"260764": {
+		"id": "260764",
+		"name": "Flying Skill: Spellracer",
+		"toolTip": "Use this manual to learn how to summon a Spellracer with a Flight and Movement Speed of 290.",
+		"skill": 23000240,
+		"vehicleId": "296"
 	}
 }
