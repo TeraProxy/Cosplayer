@@ -9,7 +9,7 @@
         },
         "items/items.jp.json": {
             "region": "jp",
-            "hash": "3f0af8e7485e4394154fa266700c25039dec2d2cf63547f741652108e6e73582"
+            "hash": "b608e675d2321455105e75b22fe0650bbd1cec5794a5110cc926c52e1f92ff95"
         },
         "items/items.kr.json": {
             "region": "kr",
@@ -42,7 +42,7 @@
         },
         "mounts/mounts.jp.json": {
             "region": "jp",
-            "hash": "79fe666b3e81c5d38d9aed7ce1fdf1552cfac78d6cc1f1af9fb16ca37b66f3dc"
+            "hash": "432407cf746f4fb0d9e31f16f952fc1467042d8cc3c4ea73d3a8f3c70be81d05"
         },
         "mounts/mounts.kr.json": {
             "region": "kr",
