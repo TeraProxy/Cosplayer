@@ -22,7 +22,7 @@ Changes to your character are saved on your hard drive and reloaded on next logi
 3) Right click  
 That's it! Or use one of the many commands below.  
 
-:heavy_exclamation_mark: Careful with mounts: Only use ground mounts for custom ground mounts and flying mounts for custom flying mounts or you might be unable to dismount (you can easily fix this by using the "cosplay dismount" command though) :heavy_exclamation_mark:  
+:heavy_exclamation_mark: Careful with mounts: Only use ground mounts for custom ground mounts and flying mounts for custom flying mounts. Otherwise you might run into issues like being unable to fly or dismount (you can easily fix this by using the "cosplay dismount" command though) :heavy_exclamation_mark:  
 
 While in game, open a proxy chat session by typing "/proxy" or "/8" in chat and hitting the space bar.  
 This serves as the script's command interface.  

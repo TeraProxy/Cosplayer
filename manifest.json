@@ -1,7 +1,7 @@
 {
     "files": {
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-        "README.md": "da819919c95ae9f90a40de454ba197442ac7a7625e204c1f412b940023b86053",
+        "README.md": "8d2dd0f8c5eca2f48bf53a06c49776a22ef10ef829648126ecf1ed1321a33123",
         "index.js": "eb4ff960d0a97d4975f4e9505478ad815e75d54e52c54fea4f3cbb03219962a8",
         "items/items.eu.json": {
             "region": "eu",
@@ -74,7 +74,7 @@
         "mouse/electron64.node": "f45d55dea556489d4326b446c88e094573560a9bddaf511c9956e965d9226190",
         "presets.json": {
             "overwrite": false,
-            "hash": "adf1e910ae8d4926ca6efb34a4a25f7cef68ad9b6c256faddbf0f716aa2cb918"
+            "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
         }
     },
     "defs": {
