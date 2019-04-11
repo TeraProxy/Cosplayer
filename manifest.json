@@ -3,71 +3,23 @@
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
         "README.md": "8d2dd0f8c5eca2f48bf53a06c49776a22ef10ef829648126ecf1ed1321a33123",
         "index.js": "eb4ff960d0a97d4975f4e9505478ad815e75d54e52c54fea4f3cbb03219962a8",
-        "items/items.eu.json": {
-            "region": "eu",
-            "hash": "aadd6d68cdc442581bf1e17198fb65cb1ffa5537e37949e409e1f1d12728745e"
-        },
-        "items/items.jp.json": {
-            "region": "jp",
-            "hash": "b608e675d2321455105e75b22fe0650bbd1cec5794a5110cc926c52e1f92ff95"
-        },
-        "items/items.kr.json": {
-            "region": "kr",
-            "hash": "d0f3e8ba85acbe6f5eb48210ee884ecf2ab65773495d8b4df081001a94890de6"
-        },
-        "items/items.na.json": {
-            "region": "na",
-            "hash": "2b7748191824d4f92b6b1f39bc98b7731ec75d63f652aaa8e2e0b61c33f2556c"
-        },
-        "items/items.ru.json": {
-            "region": "ru",
-            "hash": "b1eaa4ff425235595c9a5da72d3b01378ffe13725ae0e3fc6dced9c727f37cee"
-        },
-        "items/items.se.json": {
-            "region": "se",
-            "hash": "f1f9e245ce70ddf4e1d837527bf50f17d31937f4f9c5785c87eeaf7a803e7d45"
-        },
-        "items/items.th.json": {
-            "region": "th",
-            "hash": "6d7e54877f806817d10e24348607f456131e34fa7c6c8eac9700e0113989e79b"
-        },
-        "items/items.tw.json": {
-            "region": "tw",
-            "hash": "d1b4fe5b6769a73ea2185c31d397e89df59f0f760103b1a33d3e2b0ac2ddfd68"
-        },
+        "items/items.eu.json": "aadd6d68cdc442581bf1e17198fb65cb1ffa5537e37949e409e1f1d12728745e",
+        "items/items.jp.json": "6bdd19ffcbcefcc238b967ac462db336ce325eefbe2e50e52194e9953b307a95",
+        "items/items.kr.json": "ec2942149cdb5b5c8caf4dc838e6d8dd2ce1bb39e17395df0de48a5b1cf851c5",
+        "items/items.na.json": "8e7b454d87427d7899026af33af27e29c1c45d63a90c2800e98241d09a6ec7e3",
+        "items/items.ru.json": "955b72f759374dfab300ab9d11d0f7048173c03e656965b1557b6cf6f669c6c3",
+        "items/items.se.json": "f1f9e245ce70ddf4e1d837527bf50f17d31937f4f9c5785c87eeaf7a803e7d45",
+        "items/items.th.json": "6d7e54877f806817d10e24348607f456131e34fa7c6c8eac9700e0113989e79b",
+        "items/items.tw.json": "4a377d16fb13dac9c6b47963ebeac38f7fd27500a760103ddd701b8179805670",
         "module.json": "7ffdbc004df5946f186d72b8363f2fec300934c6470bc7f588d1a7463011886d",
-        "mounts/mounts.eu.json": {
-            "region": "eu",
-            "hash": "e5369f8657f91aaa679ab177e16d9ac2b9947d0080d11d363f4c491d3e1364ab"
-        },
-        "mounts/mounts.jp.json": {
-            "region": "jp",
-            "hash": "432407cf746f4fb0d9e31f16f952fc1467042d8cc3c4ea73d3a8f3c70be81d05"
-        },
-        "mounts/mounts.kr.json": {
-            "region": "kr",
-            "hash": "db7b07c275227b91c3a793512e2fcfef7e21ad854dda491108fd7d7380166fde"
-        },
-        "mounts/mounts.na.json": {
-            "region": "na",
-            "hash": "2ed8ad91e8f5f2c4413c27f2fba7558edc09c937ec90e878505d2ef4872bbfa9"
-        },
-        "mounts/mounts.ru.json": {
-            "region": "ru",
-            "hash": "002a6ff15f1457a6d3b6b79bacf48aaa15f8bb3ad1a1f047c88d0a468aca1846"
-        },
-        "mounts/mounts.se.json": {
-            "region": "se",
-            "hash": "43fe588ec6874580b2f874df4ee79b464a1a9993a36ac2801bc353391db870c4"
-        },
-        "mounts/mounts.th.json": {
-            "region": "th",
-            "hash": "0a3d9aa7a288f30f956e01c33dc2b1428667af903ff1166723218c377adbbdc8"
-        },
-        "mounts/mounts.tw.json": {
-            "region": "tw",
-            "hash": "f3cddeb53eac9dccc29c4dfd150a9e43d8bd619ff4b272d373f8ac30767ed9bb"
-        },
+        "mounts/mounts.eu.json": "e5369f8657f91aaa679ab177e16d9ac2b9947d0080d11d363f4c491d3e1364ab",
+        "mounts/mounts.jp.json": "eb668cc4cf2ad0c46196b54f514a868c44a1efb94f7a3735bd80699cfb42dbf9",
+        "mounts/mounts.kr.json": "583b44cd5b98c13807e692a1609adbafbd79e9f562594da5b9eb06fef8233e67",
+        "mounts/mounts.na.json": "448ef0a07b0bf7601f767270186520f0e31cbd8365a162a5e0814b2400c76469",
+        "mounts/mounts.ru.json": "8709cc99a20cfe18ae670819201b865982abfc9a3f21f207240051d03af463d6",
+        "mounts/mounts.se.json": "43fe588ec6874580b2f874df4ee79b464a1a9993a36ac2801bc353391db870c4",
+        "mounts/mounts.th.json": "0a3d9aa7a288f30f956e01c33dc2b1428667af903ff1166723218c377adbbdc8",
+        "mounts/mounts.tw.json": "6d70241abe0348218668023267b6a18ca48ea13bea5c7072a5eda7091bb6f001",
         "mouse.js": "49b9b07be4380bb1736e06bded6487f2a913e62016436fc337713e41701a541c",
         "mouse/64.node": "835cf41596d004ba063fcf811e84a2663899c8c58b2e911ec54b3b989d585979",
         "mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",

@@ -123,7 +123,7 @@
 		"name": "Riding Skill: Razormane",
 		"toolTip": "Use this manual to learn how to summon Razormane with a Movement Speed of 280.",
 		"skill": 111194,
-		"vehicleId": "17"
+		"vehicleId": "1700"
 	},
 	"382": {
 		"id": "382",
@@ -373,86 +373,93 @@
 	"98601": {
 		"id": "98601",
 		"name": "Flying Skill: Combat Canary",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200121,
 		"vehicleId": "272"
 	},
 	"98602": {
 		"id": "98602",
 		"name": "Flying Skill: Battle Canary",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200122,
 		"vehicleId": "270"
 	},
 	"98603": {
 		"id": "98603",
 		"name": "Flying Skill: Yellow Songbird",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).",
 		"skill": 12200125,
 		"vehicleId": "275"
 	},
 	"98604": {
 		"id": "98604",
 		"name": "Flying Skill: Swift Canary",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).",
 		"skill": 12200126,
 		"vehicleId": "274"
 	},
 	"98609": {
 		"id": "98609",
 		"name": "Flying Skill: Combat Canary (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Canary grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200123,
 		"vehicleId": "273"
 	},
 	"98610": {
 		"id": "98610",
 		"name": "Flying Skill: Battle Canary (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a yellow songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Canary grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Canary you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200124,
 		"vehicleId": "271"
 	},
 	"98625": {
 		"id": "98625",
 		"name": "Flying Skill: Combat Thrush",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200129,
 		"vehicleId": "264"
 	},
 	"98626": {
 		"id": "98626",
 		"name": "Flying Skill: Battle Thrush",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200130,
 		"vehicleId": "266"
 	},
 	"98627": {
 		"id": "98627",
 		"name": "Flying Skill: Blue Songbird",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).",
 		"skill": 12200133,
 		"vehicleId": "269"
 	},
 	"98628": {
 		"id": "98628",
 		"name": "Flying Skill: Swift Thrush",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Grants the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills).",
 		"skill": 12200134,
 		"vehicleId": "268"
 	},
 	"98633": {
 		"id": "98633",
 		"name": "Flying Skill: Combat Thrush (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Combat Thrush grants the passive skill <font color = '#F9B600'>Lucky Feather</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Combat Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain I</font> (grants a random consumable effect every 24 hours). Using <font color = '#F9B600'>Songbird's Refrain I</font> starts a 24-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200131,
 		"vehicleId": "265"
 	},
 	"98634": {
 		"id": "98634",
 		"name": "Flying Skill: Battle Thrush (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a blue songbird mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Songbird's Refrain II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Songbird's Refrain II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.",
 		"skill": 12200132,
 		"vehicleId": "267"
+	},
+	"99003": {
+		"id": "99003",
+		"name": "Riding Skill: Forest Keeper Kumas",
+		"toolTip": "Use this manual to learn how to summon a Forest Keeper Kumas with a Movement Speed of 280.",
+		"skill": 12200164,
+		"vehicleId": "294"
 	},
 	"99102": {
 		"id": "99102",
@@ -569,28 +576,28 @@
 	"99531": {
 		"id": "99531",
 		"name": "Flying Skill: Azure Phoenix",
-		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura I activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura I activates a 24-hour cooldown which may prevent you from using other mount skills.",
 		"skill": 12200075,
 		"vehicleId": "258"
 	},
 	"99532": {
 		"id": "99532",
 		"name": "Flying Skill: Urvog",
-		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.",
 		"skill": 12200076,
 		"vehicleId": "260"
 	},
 	"99555": {
 		"id": "99555",
 		"name": "Flying Skill: Blazing Phoenix",
-		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura I activates a 1-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura I (increased Crit Power) and Phoenix Aura I (free resurrection every 24 hours), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura I activates a 1-hour cooldown which may prevent you from using other mount skills.",
 		"skill": 12200083,
 		"vehicleId": "257"
 	},
 	"99556": {
 		"id": "99556",
 		"name": "Flying Skill: Pteryx",
-		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.",
 		"skill": 12200084,
 		"vehicleId": "259"
 	},
@@ -621,6 +628,13 @@
 		"toolTip": "",
 		"skill": 111152,
 		"vehicleId": "330"
+	},
+	"100722": {
+		"id": "100722",
+		"name": "",
+		"toolTip": "",
+		"skill": 111149,
+		"vehicleId": "17"
 	},
 	"100723": {
 		"id": "100723",
@@ -1210,13 +1224,6 @@
 		"skill": 13000059,
 		"vehicleId": "231"
 	},
-	"109948": {
-		"id": "109948",
-		"name": "",
-		"toolTip": "",
-		"skill": 13600238,
-		"vehicleId": "1700"
-	},
 	"110083": {
 		"id": "110083",
 		"name": "",
@@ -1693,10 +1700,12 @@
 		"skill": 14100630,
 		"vehicleId": "1193"
 	},
-	"155714": {
-		"id": "155714",
-		"skill": 14100637,
-		"vehicleId": "582"
+	"155726": {
+		"id": "155726",
+		"name": "",
+		"toolTip": "",
+		"skill": 14100638,
+		"vehicleId": "254"
 	},
 	"181120": {
 		"id": "181120",
@@ -1852,6 +1861,90 @@
 		"skill": 12200161,
 		"vehicleId": "290"
 	},
+	"202604": {
+		"id": "202604",
+		"name": "Flying Skill: Crimson Kirin",
+		"toolTip": "Use this manual to learn how to summon a Crimson Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness I</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness I</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"skill": 12200166,
+		"vehicleId": "297"
+	},
+	"202605": {
+		"id": "202605",
+		"name": "Flying Skill: Vermilion Kirin",
+		"toolTip": "Use this manual to learn how to summon a Vermilion Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness II</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness II</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"skill": 12200167,
+		"vehicleId": "299"
+	},
+	"202606": {
+		"id": "202606",
+		"name": "Flying Skill: Red Kirin",
+		"toolTip": "Use this manual to learn how to summon a Red Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.",
+		"skill": 12200170,
+		"vehicleId": "302"
+	},
+	"202607": {
+		"id": "202607",
+		"name": "Flying Skill: Scarlet Kirin",
+		"toolTip": "Use this manual to learn how to summon a Scarlet Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.",
+		"skill": 12200171,
+		"vehicleId": "301"
+	},
+	"202612": {
+		"id": "202612",
+		"name": "Flying Skill: Crimson Kirin (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Crimson Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness I</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness I</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"skill": 12200168,
+		"vehicleId": "298"
+	},
+	"202613": {
+		"id": "202613",
+		"name": "Flying Skill: Vermilion Kirin (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Vermilion Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness II</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness II</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"skill": 12200169,
+		"vehicleId": "300"
+	},
+	"202628": {
+		"id": "202628",
+		"name": "Flying Skill: Cerulean Kirin",
+		"toolTip": "Use this manual to learn how to summon a Cerulean Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness I</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness I</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"skill": 12200174,
+		"vehicleId": "305"
+	},
+	"202629": {
+		"id": "202629",
+		"name": "Flying Skill: Azure Kirin",
+		"toolTip": "Use this manual to learn how to summon an Azure Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness II</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness II</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"skill": 12200175,
+		"vehicleId": "303"
+	},
+	"202630": {
+		"id": "202630",
+		"name": "Flying Skill: Blue Kirin",
+		"toolTip": "Use this manual to learn how to summon a Blue Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.",
+		"skill": 12200178,
+		"vehicleId": "308"
+	},
+	"202631": {
+		"id": "202631",
+		"name": "Flying Skill: Cyan Kirin",
+		"toolTip": "Use this manual to learn how to summon a Cyan Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.",
+		"skill": 12200179,
+		"vehicleId": "307"
+	},
+	"202636": {
+		"id": "202636",
+		"name": "Flying Skill: Cerulean Kirin (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Cerulean Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness I</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness I</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"skill": 12200176,
+		"vehicleId": "306"
+	},
+	"202637": {
+		"id": "202637",
+		"name": "Flying Skill: Azure Kirin (3 Days)",
+		"toolTip": "Use this manual to learn how to summon an Azure Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness II</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness II</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"skill": 12200177,
+		"vehicleId": "304"
+	},
 	"214185": {
 		"id": "214185",
 		"name": "",
@@ -1989,13 +2082,6 @@
 		"name": "인술사 프리미엄 슈즈",
 		"skill": 12200034,
 		"vehicleId": "241"
-	},
-	"254960": {
-		"id": "254960",
-		"name": "Riding Skill: Lady",
-		"toolTip": "Use this manual to learn how to summon a spirit wolf with a movement speed of 280.",
-		"skill": 23000141,
-		"vehicleId": "254"
 	},
 	"255328": {
 		"id": "255328",

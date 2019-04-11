@@ -329,7 +329,7 @@
 			"icon": "Icon_Equipments/PC_Event_45_F_B_Tex",
 			"rarity": 3,
 			"name": "Disciplinary Signature Innerwear",
-			"tooltip": "Black inner armor focused on attack.",
+			"tooltip": "White inner armor focused on attack.",
 			"races": false,
 			"classes": false,
 			"dyeable": false,
@@ -3174,7 +3174,10 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightoath Twin Swords",
+				"Battered Oath Twin Swords"
+			]
 		},
 		"10754": {
 			"id": 10754,
@@ -7818,7 +7821,10 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightoath Greatsword",
+				"Battered Oath Greatsword"
+			]
 		},
 		"12292": {
 			"id": 12292,
@@ -7874,7 +7880,10 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightoath Staff",
+				"Battered Oath Staff"
+			]
 		},
 		"12296": {
 			"id": 12296,
@@ -24233,7 +24242,8 @@
 			"nameable": false,
 			"aliases": [
 				"Legate's Hauberk of Victory",
-				"Legate's Hauberk of Dedication"
+				"Legate's Hauberk of Dedication",
+				"Blighted Hauberk"
 			]
 		},
 		"17542": {
@@ -31028,7 +31038,10 @@
 				11
 			],
 			"dyeable": true,
-			"nameable": false
+			"nameable": false,
+			"aliases": [
+				"Blighted Robe"
+			]
 		},
 		"18970": {
 			"id": 18970,
@@ -39368,6 +39381,7 @@
 				"Keen Onset Mask",
 				"Bitter Onset Mask",
 				"Energetic Onset Mask",
+				"Onset Mask",
 				"Chroas's Mask"
 			]
 		},
@@ -39385,7 +39399,8 @@
 				"Powerful Infinity Mask",
 				"Keen Infinity Mask",
 				"Bitter Infinity Mask",
-				"Energetic Infinity Mask"
+				"Energetic Infinity Mask",
+				"Infinity Mask"
 			]
 		},
 		"48058": {
@@ -41538,7 +41553,10 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightoath Runeglaive",
+				"Battered Oath Runeglaive"
+			]
 		},
 		"59605": {
 			"id": 59605,
@@ -42174,57 +42192,6 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"70129": {
-			"id": 70129,
-			"icon": "Icon_Equipments/heavychest_gold_Tex",
-			"rarity": 3,
-			"name": "24-Karat Hauberk Template",
-			"tooltip": "Give your armor the rich look of luxurious gold. Impossible to dye.",
-			"races": false,
-			"classes": [
-				1,
-				3,
-				9,
-				10
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"70130": {
-			"id": 70130,
-			"icon": "Icon_Equipments/heavygauntlet_gold_Tex",
-			"rarity": 3,
-			"name": "24-Karat Gauntlets Template",
-			"tooltip": "Give your armor the rich look of luxurious gold. Impossible to dye.",
-			"races": false,
-			"classes": [
-				1,
-				3,
-				9,
-				10
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"70131": {
-			"id": 70131,
-			"icon": "Icon_Equipments/heavyboots_gold_Tex",
-			"rarity": 3,
-			"name": "24-Karat Greaves Template",
-			"tooltip": "Give your armor the rich look of luxurious gold. Impossible to dye.",
-			"races": false,
-			"classes": [
-				1,
-				3,
-				9,
-				10
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
 		"70132": {
 			"id": 70132,
 			"icon": "Icon_Equipments/lightchest_gold_Tex",
@@ -42276,57 +42243,6 @@
 			],
 			"dyeable": false,
 			"nameable": false
-		},
-		"70135": {
-			"id": 70135,
-			"icon": "Icon_Equipments/robechest_gold_Tex",
-			"rarity": 3,
-			"name": "24-Karat Robe Template",
-			"tooltip": "Give your armor the rich look of luxurious gold. Impossible to dye.",
-			"races": false,
-			"classes": [
-				4,
-				6,
-				7,
-				11
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"70136": {
-			"id": 70136,
-			"icon": "Icon_Equipments/robeglove_gold_Tex",
-			"rarity": 3,
-			"name": "24-Karat Sleeves Template",
-			"tooltip": "Give your armor the rich look of luxurious gold. Impossible to dye.",
-			"races": false,
-			"classes": [
-				4,
-				6,
-				7,
-				11
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"70137": {
-			"id": 70137,
-			"icon": "Icon_Equipments/robeboots_gold_Tex",
-			"rarity": 3,
-			"name": "24-Karat Shoes Template",
-			"tooltip": "Give your armor the rich look of luxurious gold. Impossible to dye.",
-			"races": false,
-			"classes": [
-				4,
-				6,
-				7,
-				11
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
 		},
 		"71129": {
 			"id": 71129,
@@ -45012,7 +44928,9 @@
 				"Fists of Rebirth",
 				"Lifeline Powerfists",
 				"Santia's Powerfists Template",
-				"Quandary Bazaar Powerfists Template"
+				"Quandary Bazaar Powerfists Template",
+				"Blightoath Powerfists",
+				"Battered Oath Powerfists"
 			]
 		},
 		"72278": {
@@ -46518,7 +46436,10 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightoath Arcannon",
+				"Battered Oath Arcannon"
+			]
 		},
 		"88074": {
 			"id": 88074,
@@ -48839,7 +48760,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Twin Swords"
+			]
 		},
 		"88340": {
 			"id": 88340,
@@ -48853,7 +48776,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Lance"
+			]
 		},
 		"88341": {
 			"id": 88341,
@@ -48867,7 +48792,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Greatsword"
+			]
 		},
 		"88342": {
 			"id": 88342,
@@ -48881,7 +48808,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Axe"
+			]
 		},
 		"88343": {
 			"id": 88343,
@@ -48895,7 +48824,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Disc"
+			]
 		},
 		"88344": {
 			"id": 88344,
@@ -48909,7 +48840,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Bow"
+			]
 		},
 		"88345": {
 			"id": 88345,
@@ -48923,7 +48856,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Staff"
+			]
 		},
 		"88346": {
 			"id": 88346,
@@ -48937,7 +48872,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Scepter"
+			]
 		},
 		"88347": {
 			"id": 88347,
@@ -48952,7 +48889,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Tyrankles"
+				"Tyrankles",
+				"Blighted Scythes"
 			]
 		},
 		"88348": {
@@ -48968,6 +48906,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Blighted Arcannon",
 				"Regent's Arcannon"
 			]
 		},
@@ -49006,6 +48945,7 @@
 				"Runechased Powerfists",
 				"Royal Garden Powerfists",
 				"Mournfists",
+				"Blighted Powerfists",
 				"Noctenite Powerfists"
 			]
 		},
@@ -49022,6 +48962,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Blighted Shuriken",
 				"North Star",
 				"Noctenite Shuriken"
 			]
@@ -49039,7 +48980,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Pyroclasia"
+				"Pyroclasia",
+				"Blighted Runeglaive"
 			]
 		},
 		"88352": {
@@ -49242,7 +49184,8 @@
 			"aliases": [
 				"Legate's Gauntlets of Glory",
 				"Legate's Gauntlets of Victory",
-				"Legate's Gauntlets of Dedication"
+				"Legate's Gauntlets of Dedication",
+				"Blighted Gauntlets"
 			]
 		},
 		"88366": {
@@ -49261,7 +49204,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Gloves"
+			]
 		},
 		"88367": {
 			"id": 88367,
@@ -49279,7 +49224,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Fusing Fingers"
+				"Fusing Fingers",
+				"Blighted Sleeves"
 			]
 		},
 		"88368": {
@@ -49300,7 +49246,8 @@
 			"aliases": [
 				"Legate's Greaves of Glory",
 				"Legate's Greaves of Victory",
-				"Legate's Greaves of Dedication"
+				"Legate's Greaves of Dedication",
+				"Blighted Greaves"
 			]
 		},
 		"88369": {
@@ -49319,7 +49266,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blighted Boots"
+			]
 		},
 		"88370": {
 			"id": 88370,
@@ -49337,7 +49286,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Conjunct Sandals"
+				"Conjunct Sandals",
+				"Blighted Shoes"
 			]
 		},
 		"88372": {
@@ -49352,7 +49302,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Twin Swords"
+			]
 		},
 		"88373": {
 			"id": 88373,
@@ -49366,7 +49318,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Lance"
+			]
 		},
 		"88374": {
 			"id": 88374,
@@ -49380,7 +49334,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Greatsword"
+			]
 		},
 		"88375": {
 			"id": 88375,
@@ -49394,7 +49350,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Axe"
+			]
 		},
 		"88376": {
 			"id": 88376,
@@ -49408,7 +49366,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Disc"
+			]
 		},
 		"88377": {
 			"id": 88377,
@@ -49422,7 +49382,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Bow"
+			]
 		},
 		"88378": {
 			"id": 88378,
@@ -49436,7 +49398,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Staff"
+			]
 		},
 		"88379": {
 			"id": 88379,
@@ -49450,7 +49414,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Scepter"
+			]
 		},
 		"88380": {
 			"id": 88380,
@@ -49465,6 +49431,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Blightrage Scythes",
 				"Red Fang Scythes"
 			]
 		},
@@ -49505,7 +49472,8 @@
 				"Echolo Cannon",
 				"Brigadier's Arcannon of Glory",
 				"Brigadier's Arcannon of Victory",
-				"Brigadier's Arcannon of Dedication"
+				"Brigadier's Arcannon of Dedication",
+				"Blightrage Arcannon"
 			]
 		},
 		"88382": {
@@ -49526,7 +49494,8 @@
 				"Love Taps",
 				"Primus's Powerfists of Victory",
 				"Primus's Powerfists of Dedication",
-				"Shacklefists"
+				"Shacklefists",
+				"Blightrage Powerfists"
 			]
 		},
 		"88383": {
@@ -49598,6 +49567,7 @@
 				"Garnerbud",
 				"Santia's Shuriken Template",
 				"Quandary Bazaar Shuriken Template",
+				"Blightrage Shuriken",
 				"Star of Fury"
 			]
 		},
@@ -49614,7 +49584,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Auldspear"
+				"Auldspear",
+				"Blightrage Runeglaive"
 			]
 		},
 		"88385": {
@@ -49814,7 +49785,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Gauntlets"
+			]
 		},
 		"88399": {
 			"id": 88399,
@@ -49832,7 +49805,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Gloves"
+			]
 		},
 		"88400": {
 			"id": 88400,
@@ -49853,7 +49828,8 @@
 				"Bloodwar Fingers",
 				"Bloomdans Fingers",
 				"Trick Sleeves",
-				"Killian's Bindings"
+				"Killian's Bindings",
+				"Blightrage Sleeves"
 			]
 		},
 		"88401": {
@@ -49871,7 +49847,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Greaves"
+			]
 		},
 		"88402": {
 			"id": 88402,
@@ -49889,7 +49867,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Blightrage Boots"
+			]
 		},
 		"88403": {
 			"id": 88403,
@@ -49909,7 +49889,8 @@
 			"aliases": [
 				"Rebel Steps",
 				"Tickletoes",
-				"Killian's Slippers"
+				"Killian's Slippers",
+				"Blightrage Shoes"
 			]
 		},
 		"88448": {
@@ -50036,90 +50017,6 @@
 			],
 			"dyeable": false,
 			"nameable": false
-		},
-		"88640": {
-			"id": 88640,
-			"icon": "Icon_Equipments/NewEquip_Lance02_Tex",
-			"rarity": 3,
-			"name": "Heroic Oath Lance",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				1
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"Shield of the Savior"
-			]
-		},
-		"88642": {
-			"id": 88642,
-			"icon": "Icon_Equipments/NewEquip_Axe02_Tex",
-			"rarity": 3,
-			"name": "Heroic Oath Axe",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				3
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"Sorrowmark"
-			]
-		},
-		"88643": {
-			"id": 88643,
-			"icon": "Icon_Equipments/NewEquip_Circle02_Tex",
-			"rarity": 3,
-			"name": "Heroic Oath Disc",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				4
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"Snowdrift Round",
-				"Disc of Dark Wings",
-				"Frigid Frostring",
-				"Attuned Frigid Frostring"
-			]
-		},
-		"88644": {
-			"id": 88644,
-			"icon": "Icon_Equipments/NewEquip_Bow02_Tex",
-			"rarity": 3,
-			"name": "Heroic Oath Bow",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				5
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"Braveheart Bow"
-			]
-		},
-		"88646": {
-			"id": 88646,
-			"icon": "Icon_Equipments/NewEquip_Rod02_Tex",
-			"rarity": 3,
-			"name": "Heroic Oath Scepter",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				7
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"Little Stick",
-				"Rattlespine"
-			]
 		},
 		"88652": {
 			"id": 88652,
@@ -50303,30 +50200,179 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"88666": {
-			"id": 88666,
-			"icon": "Icon_Equipments/NewEquip_L_Hand02_Tex",
+		"88919": {
+			"id": 88919,
+			"icon": "Icon_Equipments/lance15_E_Tex",
 			"rarity": 3,
-			"name": "Heroic Oath Workgloves",
-			"tooltip": "",
+			"name": "Blightoath Lance",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
 			"races": false,
 			"classes": [
-				0,
-				2,
-				5,
-				12,
-				8
+				1
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Battered Oath Lance"
+			]
 		},
-		"88669": {
-			"id": 88669,
-			"icon": "Icon_Equipments/NewEquip_L_Shoes02_Tex",
+		"88921": {
+			"id": 88921,
+			"icon": "Icon_Equipments/axe15_C_Tex",
 			"rarity": 3,
-			"name": "Heroic Oath Boots",
-			"tooltip": "",
+			"name": "Blightoath Axe",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				3
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Axe"
+			]
+		},
+		"88922": {
+			"id": 88922,
+			"icon": "Icon_Equipments/disc15_B_Tex",
+			"rarity": 3,
+			"name": "Blightoath Disc",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				4
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Disc"
+			]
+		},
+		"88923": {
+			"id": 88923,
+			"icon": "Icon_Equipments/bow15_E_Tex",
+			"rarity": 3,
+			"name": "Blightoath Bow",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				5
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Bow"
+			]
+		},
+		"88925": {
+			"id": 88925,
+			"icon": "Icon_Equipments/rod15_D_Tex",
+			"rarity": 3,
+			"name": "Blightoath Scepter",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				7
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Scepter"
+			]
+		},
+		"88929": {
+			"id": 88929,
+			"icon": "Icon_Equipments/Shuriken05_Tex",
+			"rarity": 3,
+			"name": "Blightoath Shuriken",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				11
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Shuriken",
+				"Star of Glory"
+			]
+		},
+		"88932": {
+			"id": 88932,
+			"icon": "Icon_Equipments/lightchest17_D_Tex",
+			"rarity": 1,
+			"name": "Blighted Cuirass",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				0,
+				2,
+				5,
+				12,
+				8
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"88940": {
+			"id": 88940,
+			"icon": "Icon_Equipments/heavychest14_D_Tex",
+			"rarity": 2,
+			"name": "Blightrage Hauberk",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				1,
+				3,
+				9,
+				10
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"88941": {
+			"id": 88941,
+			"icon": "Icon_Equipments/lightchest14_Tex",
+			"rarity": 2,
+			"name": "Blightrage Cuirass",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				0,
+				2,
+				5,
+				12,
+				8
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"88949": {
+			"id": 88949,
+			"icon": "Icon_Equipments/heavychest_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Hauberk",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				1,
+				3,
+				9,
+				10
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Hauberk",
+				"24-Karat Hauberk Template"
+			]
+		},
+		"88950": {
+			"id": 88950,
+			"icon": "Icon_Equipments/lightchest_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Cuirass",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
 			"races": false,
 			"classes": [
 				0,
@@ -50337,26 +50383,161 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Battered Oath Cuirass"
+			]
+		},
+		"88951": {
+			"id": 88951,
+			"icon": "Icon_Equipments/robechest_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Robe",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				4,
+				6,
+				7,
+				11
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Robe",
+				"24-Karat Robe Template"
+			]
+		},
+		"88952": {
+			"id": 88952,
+			"icon": "Icon_Equipments/Heavygauntlet_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Gauntlets",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				1,
+				3,
+				9,
+				10
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Gauntlets",
+				"24-Karat Gauntlets Template"
+			]
+		},
+		"88953": {
+			"id": 88953,
+			"icon": "Icon_Equipments/lightgauntlet_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Gloves",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				0,
+				2,
+				5,
+				12,
+				8
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Gloves"
+			]
+		},
+		"88954": {
+			"id": 88954,
+			"icon": "Icon_Equipments/robeglove_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Sleeves",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				4,
+				6,
+				7,
+				11
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Sleeves",
+				"24-Karat Sleeves Template"
+			]
+		},
+		"88955": {
+			"id": 88955,
+			"icon": "Icon_Equipments/Heavyboots_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Greaves",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				1,
+				3,
+				9,
+				10
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Greaves",
+				"24-Karat Greaves Template"
+			]
+		},
+		"88956": {
+			"id": 88956,
+			"icon": "Icon_Equipments/lightboots_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Boots",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				0,
+				2,
+				5,
+				12,
+				8
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Boots"
+			]
+		},
+		"88957": {
+			"id": 88957,
+			"icon": "Icon_Equipments/robeboots_gold_Tex",
+			"rarity": 3,
+			"name": "Blightoath Shoes",
+			"tooltip": "This weapon is not suited for combat with all the rust.<BR>Use as an infusion material.",
+			"races": false,
+			"classes": [
+				4,
+				6,
+				7,
+				11
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Battered Oath Shoes",
+				"24-Karat Shoes Template"
+			]
 		},
 		"89145": {
 			"id": 89145,
 			"icon": "Icon_Equipments/Acc_395_Tex",
 			"rarity": 3,
-			"name": "[#89145]",
-			"tooltip": "",
+			"name": "Shamrock Headband",
+			"tooltip": "May your blessings outnumber the shamrocks that grow, and trouble avoid you wherever you go!",
 			"races": false,
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#89146]",
-				"[#89154]",
-				"[#89153]",
-				"[#89155]",
-				"[#89156]",
-				"[#214628]"
-			]
+			"aliases": []
 		},
 		"90012": {
 			"id": 90012,
@@ -54708,6 +54889,8 @@
 			"nameable": false,
 			"aliases": [
 				"Clasher's Claws",
+				"Blightoath Scythes",
+				"Battered Oath Scythes",
 				"Trustworthy Phoenix Scythes"
 			]
 		},
@@ -55236,7 +55419,8 @@
 			"nameable": false,
 			"aliases": [
 				"Twisting Robes",
-				"Killian's Tunic"
+				"Killian's Tunic",
+				"Blightrage Robe"
 			]
 		},
 		"96726": {
@@ -57216,7 +57400,7 @@
 			"icon": "Icon_Equipments/UnderWear00_M_Tex",
 			"rarity": 0,
 			"name": "Chroas's Innerwear",
-			"tooltip": "Gear that Chroas used in his youth. The gear seems to be as good as new.",
+			"tooltip": "Gear Chroas used in his youth. The gear seems to be as good as new.",
 			"races": false,
 			"classes": false,
 			"dyeable": false,
@@ -57851,9 +58035,7 @@
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"Footsteps: Ricochet Racer"
-			]
+			"aliases": []
 		},
 		"99519": {
 			"id": 99519,
@@ -57865,9 +58047,7 @@
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"Footsteps: Hard Charger"
-			]
+			"aliases": []
 		},
 		"99579": {
 			"id": 99579,
@@ -66472,6 +66652,210 @@
 			"nameable": false,
 			"aliases": [
 				"Baraka Glowing Skeleton Costume"
+			]
+		},
+		"155682": {
+			"id": 155682,
+			"icon": "Icon_Equipments/Acc_525_Tex",
+			"rarity": 1,
+			"name": "Black General's Beret",
+			"tooltip": "Fall in!",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"HYDRATH-Black Beret"
+			]
+		},
+		"155683": {
+			"id": 155683,
+			"icon": "Icon_Equipments/Acc_526_Tex",
+			"rarity": 1,
+			"name": "Black General's Coat",
+			"tooltip": "Fall in!",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"HYDRATH-Black Coat"
+			]
+		},
+		"155684": {
+			"id": 155684,
+			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Human Male)",
+			"tooltip": "Fall in!",
+			"races": [
+				0
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Human Male Dyeable HYDRATH Uniform"
+			]
+		},
+		"155685": {
+			"id": 155685,
+			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Human Female)",
+			"tooltip": "Fall in!",
+			"races": [
+				1
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Human Female Dyeable HYDRATH Uniform"
+			]
+		},
+		"155686": {
+			"id": 155686,
+			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (High Elf Male)",
+			"tooltip": "Fall in!",
+			"races": [
+				2
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"High Elf Male Dyeable HYDRATH Uniform"
+			]
+		},
+		"155687": {
+			"id": 155687,
+			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (High Elf Female)",
+			"tooltip": "Fall in!",
+			"races": [
+				3
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"High Elf Female Dyeable HYDRATH Uniform"
+			]
+		},
+		"155688": {
+			"id": 155688,
+			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Amani Male)",
+			"tooltip": "Fall in!",
+			"races": [
+				4
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Amani Male Dyeable HYDRATH Uniform"
+			]
+		},
+		"155689": {
+			"id": 155689,
+			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Amani Female)",
+			"tooltip": "Fall in!",
+			"races": [
+				5
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Amani Female Dyeable HYDRATH Uniform"
+			]
+		},
+		"155690": {
+			"id": 155690,
+			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Castanic Male)",
+			"tooltip": "Fall in!",
+			"races": [
+				6
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Castanic Male Dyeable HYDRATH Uniform"
+			]
+		},
+		"155691": {
+			"id": 155691,
+			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Castanic Female)",
+			"tooltip": "Fall in!",
+			"races": [
+				7
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Castanic Female Dyeable HYDRATH Uniform"
+			]
+		},
+		"155692": {
+			"id": 155692,
+			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Popori)",
+			"tooltip": "Fall in!",
+			"races": [
+				8
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Popori Dyeable HYDRATH Uniform"
+			]
+		},
+		"155693": {
+			"id": 155693,
+			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Elin)",
+			"tooltip": "Fall in!",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Elin Dyeable HYDRATH Uniform"
+			]
+		},
+		"155694": {
+			"id": 155694,
+			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
+			"rarity": 3,
+			"name": "Dyeable General's Dress Uniform (Baraka)",
+			"tooltip": "Fall in!",
+			"races": [
+				10
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": [
+				"Baraka Dyeable HYDRATH Uniform"
 			]
 		},
 		"160729": {
@@ -85435,20 +85819,6 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"185262": {
-			"id": 185262,
-			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
-			"rarity": 3,
-			"name": "Human Male Dyeable HYDRATH Uniform",
-			"tooltip": "\"We are born selfish and greedy...and then society forces us to pretend otherwise.\"",
-			"races": [
-				0
-			],
-			"classes": false,
-			"dyeable": true,
-			"nameable": false,
-			"aliases": []
-		},
 		"185265": {
 			"id": 185265,
 			"icon": "Icon_Equipments/PC_Event_41_F_Tex",
@@ -85460,20 +85830,6 @@
 			],
 			"classes": false,
 			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"185268": {
-			"id": 185268,
-			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
-			"rarity": 3,
-			"name": "Human Female Dyeable HYDRATH Uniform",
-			"tooltip": "\"Superiority is not something ready-made. It comes from your own conquests.\"",
-			"races": [
-				1
-			],
-			"classes": false,
-			"dyeable": true,
 			"nameable": false,
 			"aliases": []
 		},
@@ -85491,20 +85847,6 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"185274": {
-			"id": 185274,
-			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
-			"rarity": 3,
-			"name": "High Elf Male Dyeable HYDRATH Uniform",
-			"tooltip": "\"We can never achieve evil in the outer world until we foster evil within ourselves.\"",
-			"races": [
-				2
-			],
-			"classes": false,
-			"dyeable": true,
-			"nameable": false,
-			"aliases": []
-		},
 		"185277": {
 			"id": 185277,
 			"icon": "Icon_Equipments/PC_Event_41_F_Tex",
@@ -85516,20 +85858,6 @@
 			],
 			"classes": false,
 			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"185280": {
-			"id": 185280,
-			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
-			"rarity": 3,
-			"name": "High Elf Female Dyeable HYDRATH Uniform",
-			"tooltip": "\"If you love people, you'll have no time to judge them.\"",
-			"races": [
-				3
-			],
-			"classes": false,
-			"dyeable": true,
 			"nameable": false,
 			"aliases": []
 		},
@@ -85547,20 +85875,6 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"185286": {
-			"id": 185286,
-			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
-			"rarity": 3,
-			"name": "Amani Male Dyeable HYDRATH Uniform",
-			"tooltip": "\"First they fear you, then they fight you, then they bow to you, and then you win.\"",
-			"races": [
-				4
-			],
-			"classes": false,
-			"dyeable": true,
-			"nameable": false,
-			"aliases": []
-		},
 		"185289": {
 			"id": 185289,
 			"icon": "Icon_Equipments/PC_Event_41_F_Tex",
@@ -85572,20 +85886,6 @@
 			],
 			"classes": false,
 			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"185292": {
-			"id": 185292,
-			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
-			"rarity": 3,
-			"name": "Amani Female Dyeable HYDRATH Uniform",
-			"tooltip": "\"If you set out to be feared, you should be prepared to never compromise, so that you can achieve everything.\"",
-			"races": [
-				5
-			],
-			"classes": false,
-			"dyeable": true,
 			"nameable": false,
 			"aliases": []
 		},
@@ -85603,20 +85903,6 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"185298": {
-			"id": 185298,
-			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
-			"rarity": 3,
-			"name": "Castanic Male Dyeable HYDRATH Uniform",
-			"tooltip": "\"An eye for an eye makes the world see things your way.\"",
-			"races": [
-				6
-			],
-			"classes": false,
-			"dyeable": true,
-			"nameable": false,
-			"aliases": []
-		},
 		"185301": {
 			"id": 185301,
 			"icon": "Icon_Equipments/PC_Event_41_F_Tex",
@@ -85628,20 +85914,6 @@
 			],
 			"classes": false,
 			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"185304": {
-			"id": 185304,
-			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
-			"rarity": 3,
-			"name": "Castanic Female Dyeable HYDRATH Uniform",
-			"tooltip": "\"Leadership at one time meant compromise; but today it means power.\"",
-			"races": [
-				7
-			],
-			"classes": false,
-			"dyeable": true,
 			"nameable": false,
 			"aliases": []
 		},
@@ -85659,20 +85931,6 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"185310": {
-			"id": 185310,
-			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
-			"rarity": 3,
-			"name": "Popori Dyeable HYDRATH Uniform",
-			"tooltip": "\"Suffering is the best form of violence.\"",
-			"races": [
-				8
-			],
-			"classes": false,
-			"dyeable": true,
-			"nameable": false,
-			"aliases": []
-		},
 		"185313": {
 			"id": 185313,
 			"icon": "Icon_Equipments/PC_Event_41_F_Tex",
@@ -85684,20 +85942,6 @@
 			],
 			"classes": false,
 			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"185316": {
-			"id": 185316,
-			"icon": "Icon_Equipments/PC_Event_41_F_Dye_Tex",
-			"rarity": 3,
-			"name": "Elin Dyeable HYDRATH Uniform",
-			"tooltip": "\"In a gentle way, you can destroy the world.\"",
-			"races": [
-				9
-			],
-			"classes": false,
-			"dyeable": true,
 			"nameable": false,
 			"aliases": []
 		},
@@ -85715,38 +85959,12 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"185322": {
-			"id": 185322,
-			"icon": "Icon_Equipments/PC_Event_41_M_Dye_Tex",
-			"rarity": 3,
-			"name": "Baraka Dyeable HYDRATH Uniform",
-			"tooltip": "\"Morality is contraband in the pursuit of power.\"",
-			"races": [
-				10
-			],
-			"classes": false,
-			"dyeable": true,
-			"nameable": false,
-			"aliases": []
-		},
 		"185325": {
 			"id": 185325,
 			"icon": "Icon_Equipments/Acc_443_Tex",
 			"rarity": 3,
 			"name": "HYDRATH-Blue Coat",
 			"tooltip": "In the hierarchy of the secret organization, HYDRATH-Blue agents are tasked with spreading misery.",
-			"races": false,
-			"classes": false,
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"185328": {
-			"id": 185328,
-			"icon": "Icon_Equipments/Acc_526_Tex",
-			"rarity": 3,
-			"name": "HYDRATH-Black Coat",
-			"tooltip": "In the hierarchy of the secret organization, HYDRATH-Black agents are tasked with instilling fear.",
 			"races": false,
 			"classes": false,
 			"dyeable": false,
@@ -85795,18 +86013,6 @@
 			"rarity": 3,
 			"name": "HYDRATH-Red Beret",
 			"tooltip": "HYDRATH-Red's elite strike team wear these berets to mark them as the organization's most unpredictable rage-monsters.",
-			"races": false,
-			"classes": false,
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"185343": {
-			"id": 185343,
-			"icon": "Icon_Equipments/Acc_525_Tex",
-			"rarity": 3,
-			"name": "HYDRATH-Black Beret",
-			"tooltip": "HYDRATH-Black's Terror Commissars wear these berets to mark them as the organization's most tyrannical officers.",
 			"races": false,
 			"classes": false,
 			"dyeable": false,
@@ -88885,20 +89091,6 @@
 			"rarity": 3,
 			"name": "Midnight Star",
 			"tooltip": "A weapon skin for a ninja's shuriken, forged in the dead of night.",
-			"races": false,
-			"classes": [
-				11
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"186378": {
-			"id": 186378,
-			"icon": "Icon_Equipments/Shuriken05_Tex",
-			"rarity": 3,
-			"name": "Star of Glory",
-			"tooltip": "A weapon skin for a ninja's shuriken, forged on the eve of battle and tempered with honor.",
 			"races": false,
 			"classes": [
 				11
@@ -92601,6 +92793,136 @@
 			"nameable": false,
 			"aliases": []
 		},
+		"203837": {
+			"id": 203837,
+			"icon": "Icon_Equipments/Event_Wit_Gauntlet_01_Tex",
+			"rarity": 3,
+			"name": "Kaiju Face",
+			"tooltip": "Why punch and kick when you can punch and bite?",
+			"races": false,
+			"classes": [
+				10
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203849": {
+			"id": 203849,
+			"icon": "Icon_Equipments/Event_Wit_Blaster_01_Tex",
+			"rarity": 3,
+			"name": "Clean Sweep",
+			"tooltip": "Not the motor head they were expecting.",
+			"races": false,
+			"classes": [
+				9
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203861": {
+			"id": 203861,
+			"icon": "Icon_Equipments/Event_Wit_Glaive_01_Tex",
+			"rarity": 3,
+			"name": "Duck! Or Else",
+			"tooltip": "A savage and fowl weapon.",
+			"races": false,
+			"classes": [
+				12
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203873": {
+			"id": 203873,
+			"icon": "Icon_Equipments/Event_Wit_Chain_01_Tex",
+			"rarity": 3,
+			"name": "Prawn Stars",
+			"tooltip": "Learn to enjoy the shrimple things.",
+			"races": false,
+			"classes": [
+				8
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203885": {
+			"id": 203885,
+			"icon": "Icon_Equipments/Event_Wit_Shuriken_01_Tex",
+			"rarity": 3,
+			"name": "Prop Master",
+			"tooltip": "When your medium is the enemy, get the proper propeller to move through it smoothly.",
+			"races": false,
+			"classes": [
+				11
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203897": {
+			"id": 203897,
+			"icon": "Icon_Items/FootPrint_CherryBlossom_A_Tex",
+			"rarity": 3,
+			"name": "Footsteps: Sakura Blossoms",
+			"tooltip": "Pretty pink piles.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203909": {
+			"id": 203909,
+			"icon": "Icon_Items/FootPrint_CherryBlossom_B_Tex",
+			"rarity": 3,
+			"name": "Footsteps: Sakura Tree",
+			"tooltip": "Blooms that may erupt into full trees.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203921": {
+			"id": 203921,
+			"icon": "Icon_Items/FootPrint_EasterDay_Mix_Tex",
+			"rarity": 3,
+			"name": "Footsteps: Spring Combo",
+			"tooltip": "For a real hoppy shellebration.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203933": {
+			"id": 203933,
+			"icon": "Icon_Items/FootPrint_EasterDay_Rabbit_Tex",
+			"rarity": 3,
+			"name": "Footsteps: Bunny Tracks",
+			"tooltip": "Time to hop, hop, hop.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"203945": {
+			"id": 203945,
+			"icon": "Icon_Items/FootPrint_EasterDay_Eggs_Tex",
+			"rarity": 3,
+			"name": "Footsteps: Eggselence",
+			"tooltip": "Eggs mark the spot!",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
 		"204000": {
 			"id": 204000,
 			"icon": "Icon_Equipments/Acc_643_Tex",
@@ -92648,6 +92970,544 @@
 			"dyeable": false,
 			"nameable": false
 		},
+		"205144": {
+			"id": 205144,
+			"icon": "Icon_Equipments/PC_Event_72_M_A_Tex",
+			"rarity": 3,
+			"name": "[#205144]",
+			"tooltip": "",
+			"races": [
+				0
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205145]",
+				"[#205153]",
+				"[#205152]",
+				"[#205154]",
+				"[#205155]"
+			]
+		},
+		"205156": {
+			"id": 205156,
+			"icon": "Icon_Equipments/PC_Event_72_M_B_Tex",
+			"rarity": 3,
+			"name": "[#205156]",
+			"tooltip": "",
+			"races": [
+				0
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205157]",
+				"[#205165]",
+				"[#205164]",
+				"[#205166]",
+				"[#205167]"
+			]
+		},
+		"205168": {
+			"id": 205168,
+			"icon": "Icon_Equipments/PC_Event_72_F_A_Tex",
+			"rarity": 3,
+			"name": "[#205168]",
+			"tooltip": "",
+			"races": [
+				1
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205169]",
+				"[#205177]",
+				"[#205176]",
+				"[#205178]",
+				"[#205179]"
+			]
+		},
+		"205180": {
+			"id": 205180,
+			"icon": "Icon_Equipments/PC_Event_72_F_B_Tex",
+			"rarity": 3,
+			"name": "[#205180]",
+			"tooltip": "",
+			"races": [
+				1
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205181]",
+				"[#205189]",
+				"[#205188]",
+				"[#205190]",
+				"[#205191]"
+			]
+		},
+		"205192": {
+			"id": 205192,
+			"icon": "Icon_Equipments/PC_Event_72_M_A_Tex",
+			"rarity": 3,
+			"name": "[#205192]",
+			"tooltip": "",
+			"races": [
+				2
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205193]",
+				"[#205201]",
+				"[#205200]",
+				"[#205202]",
+				"[#205203]"
+			]
+		},
+		"205204": {
+			"id": 205204,
+			"icon": "Icon_Equipments/PC_Event_72_M_B_Tex",
+			"rarity": 3,
+			"name": "[#205204]",
+			"tooltip": "",
+			"races": [
+				2
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205205]",
+				"[#205213]",
+				"[#205212]",
+				"[#205214]",
+				"[#205215]"
+			]
+		},
+		"205216": {
+			"id": 205216,
+			"icon": "Icon_Equipments/PC_Event_72_F_A_Tex",
+			"rarity": 3,
+			"name": "[#205216]",
+			"tooltip": "",
+			"races": [
+				3
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205217]",
+				"[#205225]",
+				"[#205224]",
+				"[#205226]",
+				"[#205227]"
+			]
+		},
+		"205228": {
+			"id": 205228,
+			"icon": "Icon_Equipments/PC_Event_72_F_B_Tex",
+			"rarity": 3,
+			"name": "[#205228]",
+			"tooltip": "",
+			"races": [
+				3
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205229]",
+				"[#205237]",
+				"[#205236]",
+				"[#205238]",
+				"[#205239]"
+			]
+		},
+		"205240": {
+			"id": 205240,
+			"icon": "Icon_Equipments/PC_Event_72_M_A_Tex",
+			"rarity": 3,
+			"name": "[#205240]",
+			"tooltip": "",
+			"races": [
+				4
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205241]",
+				"[#205249]",
+				"[#205248]",
+				"[#205250]",
+				"[#205251]"
+			]
+		},
+		"205252": {
+			"id": 205252,
+			"icon": "Icon_Equipments/PC_Event_72_M_B_Tex",
+			"rarity": 3,
+			"name": "[#205252]",
+			"tooltip": "",
+			"races": [
+				4
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205253]",
+				"[#205261]",
+				"[#205260]",
+				"[#205262]",
+				"[#205263]"
+			]
+		},
+		"205264": {
+			"id": 205264,
+			"icon": "Icon_Equipments/PC_Event_72_F_A_Tex",
+			"rarity": 3,
+			"name": "[#205264]",
+			"tooltip": "",
+			"races": [
+				5
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205265]",
+				"[#205273]",
+				"[#205272]",
+				"[#205274]",
+				"[#205275]"
+			]
+		},
+		"205276": {
+			"id": 205276,
+			"icon": "Icon_Equipments/PC_Event_72_F_B_Tex",
+			"rarity": 3,
+			"name": "[#205276]",
+			"tooltip": "",
+			"races": [
+				5
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205277]",
+				"[#205285]",
+				"[#205284]",
+				"[#205286]",
+				"[#205287]"
+			]
+		},
+		"205288": {
+			"id": 205288,
+			"icon": "Icon_Equipments/PC_Event_72_M_A_Tex",
+			"rarity": 3,
+			"name": "[#205288]",
+			"tooltip": "",
+			"races": [
+				6
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205289]",
+				"[#205297]",
+				"[#205296]",
+				"[#205298]",
+				"[#205299]"
+			]
+		},
+		"205300": {
+			"id": 205300,
+			"icon": "Icon_Equipments/PC_Event_72_M_B_Tex",
+			"rarity": 3,
+			"name": "[#205300]",
+			"tooltip": "",
+			"races": [
+				6
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205301]",
+				"[#205309]",
+				"[#205308]",
+				"[#205310]",
+				"[#205311]"
+			]
+		},
+		"205312": {
+			"id": 205312,
+			"icon": "Icon_Equipments/PC_Event_72_F_A_Tex",
+			"rarity": 3,
+			"name": "[#205312]",
+			"tooltip": "",
+			"races": [
+				7
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205313]",
+				"[#205321]",
+				"[#205320]",
+				"[#205322]",
+				"[#205323]"
+			]
+		},
+		"205324": {
+			"id": 205324,
+			"icon": "Icon_Equipments/PC_Event_72_F_B_Tex",
+			"rarity": 3,
+			"name": "[#205324]",
+			"tooltip": "",
+			"races": [
+				7
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205325]",
+				"[#205333]",
+				"[#205332]",
+				"[#205334]",
+				"[#205335]"
+			]
+		},
+		"205336": {
+			"id": 205336,
+			"icon": "Icon_Equipments/PC_Event_72_M_A_Tex",
+			"rarity": 3,
+			"name": "[#205336]",
+			"tooltip": "",
+			"races": [
+				8
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205337]",
+				"[#205345]",
+				"[#205344]",
+				"[#205346]",
+				"[#205347]"
+			]
+		},
+		"205348": {
+			"id": 205348,
+			"icon": "Icon_Equipments/PC_Event_72_M_B_Tex",
+			"rarity": 3,
+			"name": "[#205348]",
+			"tooltip": "",
+			"races": [
+				8
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205349]",
+				"[#205357]",
+				"[#205356]",
+				"[#205358]",
+				"[#205359]"
+			]
+		},
+		"205360": {
+			"id": 205360,
+			"icon": "Icon_Equipments/PC_Event_72_F_A_Tex",
+			"rarity": 3,
+			"name": "[#205360]",
+			"tooltip": "",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205361]",
+				"[#205369]",
+				"[#205368]",
+				"[#205370]",
+				"[#205371]"
+			]
+		},
+		"205372": {
+			"id": 205372,
+			"icon": "Icon_Equipments/PC_Event_72_F_B_Tex",
+			"rarity": 3,
+			"name": "[#205372]",
+			"tooltip": "",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205373]",
+				"[#205381]",
+				"[#205380]",
+				"[#205382]",
+				"[#205383]"
+			]
+		},
+		"205384": {
+			"id": 205384,
+			"icon": "Icon_Equipments/PC_Event_72_M_A_Tex",
+			"rarity": 3,
+			"name": "[#205384]",
+			"tooltip": "",
+			"races": [
+				10
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205385]",
+				"[#205393]",
+				"[#205392]",
+				"[#205394]",
+				"[#205395]"
+			]
+		},
+		"205396": {
+			"id": 205396,
+			"icon": "Icon_Equipments/PC_Event_72_M_B_Tex",
+			"rarity": 3,
+			"name": "[#205396]",
+			"tooltip": "",
+			"races": [
+				10
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205397]",
+				"[#205405]",
+				"[#205404]",
+				"[#205406]",
+				"[#205407]"
+			]
+		},
+		"205408": {
+			"id": 205408,
+			"icon": "Icon_Equipments/Acc_681_Tex",
+			"rarity": 3,
+			"name": "[#205408]",
+			"tooltip": "",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205409]",
+				"[#205417]",
+				"[#205416]",
+				"[#205418]",
+				"[#205419]"
+			]
+		},
+		"205420": {
+			"id": 205420,
+			"icon": "Icon_Equipments/Acc_683_Tex",
+			"rarity": 3,
+			"name": "[#205420]",
+			"tooltip": "",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"[#205421]",
+				"[#205429]",
+				"[#205428]",
+				"[#205430]",
+				"[#205431]"
+			]
+		},
+		"205432": {
+			"id": 205432,
+			"icon": "Icon_Equipments/Acc_676_Tex",
+			"rarity": 3,
+			"name": "Boo Bunny Critter Cap",
+			"tooltip": "Quilted kawaii cap to cute up your style.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"205444": {
+			"id": 205444,
+			"icon": "Icon_Equipments/Acc_678_Tex",
+			"rarity": 3,
+			"name": "Sneaky Weasel Critter Cap",
+			"tooltip": "Sneak them a waggle instead of a wink.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"205456": {
+			"id": 205456,
+			"icon": "Icon_Equipments/Acc_679_Tex",
+			"rarity": 3,
+			"name": "Love Bunny Critter Cap",
+			"tooltip": "Every bunny loves some bunny.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"205468": {
+			"id": 205468,
+			"icon": "Icon_Equipments/Acc_680_Tex",
+			"rarity": 3,
+			"name": "Panda Pal Critter Cap",
+			"tooltip": "Express yourself in black and white.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"205480": {
+			"id": 205480,
+			"icon": "Icon_Equipments/Acc_682_Tex",
+			"rarity": 3,
+			"name": "Fizzy Water Gun",
+			"tooltip": "Puts out fires and starts wars.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
 		"206101": {
 			"id": 206101,
 			"icon": "Icon_Equipments/Acc_275_Tex",
@@ -92668,6 +93528,346 @@
 				"Angler's Whiskers IX",
 				"Angler's Whiskers I"
 			]
+		},
+		"207174": {
+			"id": 207174,
+			"icon": "Icon_Items/FootPrint_Bullet_Tex",
+			"rarity": 3,
+			"name": "Footsteps: Ricochet Racer",
+			"tooltip": "The trick is to be just a little bit faster than the bullets.$BR$BR©2019 PUBG CORPORATION. ALL RIGHTS RESERVED.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"207186": {
+			"id": 207186,
+			"icon": "Icon_Items/FootPrint_Redzone_Tex",
+			"rarity": 3,
+			"name": "Footsteps: Hard Charger",
+			"tooltip": "Real hard chargers don't let a little thing like mortar fire slow 'em down!$BR$BR©2019 PUBG CORPORATION. ALL RIGHTS RESERVED.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"209800": {
+			"id": 209800,
+			"icon": "Icon_Equipments/Dual20C_Tex",
+			"rarity": 3,
+			"name": "TEST — Twin Swords Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				0
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209801": {
+			"id": 209801,
+			"icon": "Icon_Equipments/Lance15C_Tex",
+			"rarity": 3,
+			"name": "TEST — Lance Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				1
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209802": {
+			"id": 209802,
+			"icon": "Icon_Equipments/TwoHand15C_Tex",
+			"rarity": 3,
+			"name": "TEST — Greatsword Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				2
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209803": {
+			"id": 209803,
+			"icon": "Icon_Equipments/Axe15C_Tex",
+			"rarity": 3,
+			"name": "TEST — Axe Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				3
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209804": {
+			"id": 209804,
+			"icon": "Icon_Equipments/Circle15C_Tex",
+			"rarity": 3,
+			"name": "TEST — Disc Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				4
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209805": {
+			"id": 209805,
+			"icon": "Icon_Equipments/Bow15C_Tex",
+			"rarity": 3,
+			"name": "TEST — Bow Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				5
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209806": {
+			"id": 209806,
+			"icon": "Icon_Equipments/Staff15C_Tex",
+			"rarity": 3,
+			"name": "TEST — Staff Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				6
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209807": {
+			"id": 209807,
+			"icon": "Icon_Equipments/Rod15C_Tex",
+			"rarity": 3,
+			"name": "TEST — Scepter Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				7
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209808": {
+			"id": 209808,
+			"icon": "Icon_Equipments/Chain28C_Tex",
+			"rarity": 3,
+			"name": "TEST — Scythes Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				8
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209809": {
+			"id": 209809,
+			"icon": "Icon_Equipments/Blaster29C_Tex",
+			"rarity": 3,
+			"name": "TEST — Arcannon Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				9
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209810": {
+			"id": 209810,
+			"icon": "Icon_Equipments/Gauntlet03C_Tex",
+			"rarity": 3,
+			"name": "TEST — Powerfists Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				10
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209811": {
+			"id": 209811,
+			"icon": "Icon_Equipments/Shuriken05C_Tex",
+			"rarity": 3,
+			"name": "TEST — Shuriken Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				11
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209812": {
+			"id": 209812,
+			"icon": "Icon_Equipments/Glaive01C_Tex",
+			"rarity": 3,
+			"name": "TEST — Runeglaive Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				12
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209813": {
+			"id": 209813,
+			"icon": "Icon_Equipments/heavychest13_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Hauberk Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				1,
+				3,
+				9,
+				10
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209814": {
+			"id": 209814,
+			"icon": "Icon_Equipments/lightchest17_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Cuirasse Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				0,
+				2,
+				5,
+				12,
+				8
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209815": {
+			"id": 209815,
+			"icon": "Icon_Equipments/robechest17_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Robe Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				4,
+				6,
+				7,
+				11
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209816": {
+			"id": 209816,
+			"icon": "Icon_Equipments/heavygauntlet13_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Gauntlets Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				1,
+				3,
+				9,
+				10
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209817": {
+			"id": 209817,
+			"icon": "Icon_Equipments/lightgauntlet17_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Gloves Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				0,
+				2,
+				5,
+				12,
+				8
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209818": {
+			"id": 209818,
+			"icon": "Icon_Equipments/robeglove17_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Sleeves Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				4,
+				6,
+				7,
+				11
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209819": {
+			"id": 209819,
+			"icon": "Icon_Equipments/heavyboots13_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Greaves Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				1,
+				3,
+				9,
+				10
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209820": {
+			"id": 209820,
+			"icon": "Icon_Equipments/lightboots17_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Boots Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				0,
+				2,
+				5,
+				12,
+				8
+			],
+			"dyeable": false,
+			"nameable": false
+		},
+		"209821": {
+			"id": 209821,
+			"icon": "Icon_Equipments/robeboots17_LEVEL70_Tex",
+			"rarity": 3,
+			"name": "TEST — Shoes Appearance (Dec.)",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				4,
+				6,
+				7,
+				11
+			],
+			"dyeable": false,
+			"nameable": false
 		},
 		"212178": {
 			"id": 212178,
@@ -105704,6 +106904,216 @@
 			"nameable": false,
 			"aliases": []
 		},
+		"261336": {
+			"id": 261336,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareA_Tex",
+			"rarity": 3,
+			"name": "Human Female Blue Wintersilk Dress",
+			"tooltip": "The best way to battle the blues of winter.",
+			"races": [
+				1
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261348": {
+			"id": 261348,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareB_Tex",
+			"rarity": 3,
+			"name": "Human Female Aqua Wintersilk Dress",
+			"tooltip": "Be your own spring and melt their hearts.",
+			"races": [
+				1
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261360": {
+			"id": 261360,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareC_Tex",
+			"rarity": 3,
+			"name": "Human Female Violet Wintersilk Dress",
+			"tooltip": "Vivid, violet, and violent.",
+			"races": [
+				1
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261372": {
+			"id": 261372,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareA_Tex",
+			"rarity": 3,
+			"name": "High Elf Female Blue Wintersilk Dress",
+			"tooltip": "The best way to battle the blues of winter.",
+			"races": [
+				3
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261384": {
+			"id": 261384,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareB_Tex",
+			"rarity": 3,
+			"name": "High Elf Female Aqua Wintersilk Dress",
+			"tooltip": "Be your own spring and melt their hearts.",
+			"races": [
+				3
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261396": {
+			"id": 261396,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareC_Tex",
+			"rarity": 3,
+			"name": "High Elf Female Violet Wintersilk Dress",
+			"tooltip": "Vivid, violet, and violent.",
+			"races": [
+				3
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261408": {
+			"id": 261408,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareA_Tex",
+			"rarity": 3,
+			"name": "Amani Female Blue Wintersilk Dress",
+			"tooltip": "The best way to battle the blues of winter.",
+			"races": [
+				5
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261420": {
+			"id": 261420,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareB_Tex",
+			"rarity": 3,
+			"name": "Amani Female Aqua Wintersilk Dress",
+			"tooltip": "Be your own spring and melt their hearts.",
+			"races": [
+				5
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261432": {
+			"id": 261432,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareC_Tex",
+			"rarity": 3,
+			"name": "Amani Female Violet Wintersilk Dress",
+			"tooltip": "Vivid, violet, and violent.",
+			"races": [
+				5
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261444": {
+			"id": 261444,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareA_Tex",
+			"rarity": 3,
+			"name": "Castanic Female Blue Wintersilk Dress",
+			"tooltip": "The best way to battle the blues of winter.",
+			"races": [
+				7
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261456": {
+			"id": 261456,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareB_Tex",
+			"rarity": 3,
+			"name": "Castanic Female Aqua Wintersilk Dress",
+			"tooltip": "Be your own spring and melt their hearts.",
+			"races": [
+				7
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261468": {
+			"id": 261468,
+			"icon": "Icon_Equipments/PC_Event_36_F_RareC_Tex",
+			"rarity": 3,
+			"name": "Castanic Female Violet Wintersilk Dress",
+			"tooltip": "Vivid, violet, and violent.",
+			"races": [
+				7
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261480": {
+			"id": 261480,
+			"icon": "Icon_Equipments/PC_Event_36_Popori_F_RareA_Tex",
+			"rarity": 3,
+			"name": "Elin Blue Wintersilk Dress",
+			"tooltip": "The best way to battle the blues of winter.",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261492": {
+			"id": 261492,
+			"icon": "Icon_Equipments/PC_Event_36_Popori_F_RareB_Tex",
+			"rarity": 3,
+			"name": "Elin Aqua Wintersilk Dress",
+			"tooltip": "Be your own spring and melt their hearts.",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261504": {
+			"id": 261504,
+			"icon": "Icon_Equipments/PC_Event_36_Popori_F_RareC_Tex",
+			"rarity": 3,
+			"name": "Elin Violet Wintersilk Dress",
+			"tooltip": "Vivid, violet, and violent.",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
 		"261840": {
 			"id": 261840,
 			"icon": "Icon_Equipments/Acc_658_Tex",
@@ -105761,6 +107171,148 @@
 			"races": false,
 			"classes": false,
 			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261900": {
+			"id": 261900,
+			"icon": "Icon_Equipments/Acc_663_Tex",
+			"rarity": 3,
+			"name": "Blue Wintersilk Ribbon",
+			"tooltip": "Defying Gravity. ",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261912": {
+			"id": 261912,
+			"icon": "Icon_Equipments/Acc_664_Tex",
+			"rarity": 3,
+			"name": "Aqua Wintersilk Ribbon",
+			"tooltip": "Defying Gravity. ",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261924": {
+			"id": 261924,
+			"icon": "Icon_Equipments/Acc_665_Tex",
+			"rarity": 3,
+			"name": "Violet Wintersilk Ribbon",
+			"tooltip": "Defying Gravity. ",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261936": {
+			"id": 261936,
+			"icon": "Icon_Equipments/Acc_666_Tex",
+			"rarity": 3,
+			"name": "Blue Wintersilk Mask",
+			"tooltip": "Cold meets covert. ",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261948": {
+			"id": 261948,
+			"icon": "Icon_Equipments/Acc_667_Tex",
+			"rarity": 3,
+			"name": "Green Wintersilk Mask",
+			"tooltip": "Cold meets covert. ",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261960": {
+			"id": 261960,
+			"icon": "Icon_Equipments/Acc_668_Tex",
+			"rarity": 3,
+			"name": "Violet Wintersilk Mask",
+			"tooltip": "Cold meets covert. ",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"261972": {
+			"id": 261972,
+			"icon": "Icon_Equipments/PC_Event_36_F_Rare_Dye_Tex",
+			"rarity": 3,
+			"name": "Human Female Dyeable Wintersilk Dress",
+			"tooltip": "Color your winter to suit your mood.",
+			"races": [
+				1
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": []
+		},
+		"261984": {
+			"id": 261984,
+			"icon": "Icon_Equipments/PC_Event_36_F_Rare_Dye_Tex",
+			"rarity": 3,
+			"name": "High Elf Female Dyeable Wintersilk Dress",
+			"tooltip": "Color your winter to suit your mood.",
+			"races": [
+				3
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": []
+		},
+		"261996": {
+			"id": 261996,
+			"icon": "Icon_Equipments/PC_Event_36_F_Rare_Dye_Tex",
+			"rarity": 3,
+			"name": "Amani Female Dyeable Wintersilk Dress",
+			"tooltip": "Color your winter to suit your mood.",
+			"races": [
+				5
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": []
+		},
+		"262008": {
+			"id": 262008,
+			"icon": "Icon_Equipments/PC_Event_36_F_Rare_Dye_Tex",
+			"rarity": 3,
+			"name": "Castanic Female Dyeable Wintersilk Dress",
+			"tooltip": "Color your winter to suit your mood.",
+			"races": [
+				7
+			],
+			"classes": false,
+			"dyeable": true,
+			"nameable": false,
+			"aliases": []
+		},
+		"262020": {
+			"id": 262020,
+			"icon": "Icon_Equipments/PC_Event_36_Popori_F_Rare_Dye_Tex",
+			"rarity": 3,
+			"name": "Elin Dyeable Wintersilk Dress",
+			"tooltip": "Color your winter to suit your mood.",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": true,
 			"nameable": false,
 			"aliases": []
 		},
@@ -106287,6 +107839,184 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": []
+		},
+		"262524": {
+			"id": 262524,
+			"icon": "Icon_Equipments/PC_Event_23A_M_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Suit (Human Male)",
+			"tooltip": "May your pockets be heavy and your heart be light—and good luck pursue you each morning and night!",
+			"races": [
+				0
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262536": {
+			"id": 262536,
+			"icon": "Icon_Equipments/PC_Event_23A_F_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Dress (Human Female)",
+			"tooltip": "May all of your wishes come true but one—so that you always have something to strive for!",
+			"races": [
+				1
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262548": {
+			"id": 262548,
+			"icon": "Icon_Equipments/PC_Event_23A_M_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Suit (High Elf Male)",
+			"tooltip": "May your pockets be heavy and your heart be light—and good luck pursue you each morning and night!",
+			"races": [
+				2
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262560": {
+			"id": 262560,
+			"icon": "Icon_Equipments/PC_Event_23A_F_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Dress (High Elf Female)",
+			"tooltip": "May all of your wishes come true but one—so that you always have something to strive for!",
+			"races": [
+				3
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262572": {
+			"id": 262572,
+			"icon": "Icon_Equipments/PC_Event_23A_M_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Suit (Amani Male)",
+			"tooltip": "May your pockets be heavy and your heart be light—and good luck pursue you each morning and night!",
+			"races": [
+				4
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262584": {
+			"id": 262584,
+			"icon": "Icon_Equipments/PC_Event_23A_F_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Dress (Amani Female)",
+			"tooltip": "May all of your wishes come true but one—so that you always have something to strive for!",
+			"races": [
+				5
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262596": {
+			"id": 262596,
+			"icon": "Icon_Equipments/PC_Event_23A_M_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Suit (Castanic Male)",
+			"tooltip": "May your pockets be heavy and your heart be light—and good luck pursue you each morning and night!",
+			"races": [
+				6
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262608": {
+			"id": 262608,
+			"icon": "Icon_Equipments/PC_Event_23A_F_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Dress (Castanic Female)",
+			"tooltip": "May all of your wishes come true but one—so that you always have something to strive for!",
+			"races": [
+				7
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262620": {
+			"id": 262620,
+			"icon": "Icon_Equipments/PC_Event_23A_M_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Suit (Popori)",
+			"tooltip": "May your pockets be heavy and your heart be light—and good luck pursue you each morning and night!",
+			"races": [
+				8
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262632": {
+			"id": 262632,
+			"icon": "Icon_Equipments/PC_Event_23A_F_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Dress (Elin)",
+			"tooltip": "May all of your wishes come true but one—so that you always have something to strive for!",
+			"races": [
+				9
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262644": {
+			"id": 262644,
+			"icon": "Icon_Equipments/PC_Event_23A_M_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Suit (Baraka)",
+			"tooltip": "May your pockets be heavy and your heart be light—and good luck pursue you each morning and night!",
+			"races": [
+				10
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262656": {
+			"id": 262656,
+			"icon": "Icon_Equipments/Acc_674_Tex",
+			"rarity": 3,
+			"name": "Leprechaun Hat",
+			"tooltip": "A tip of the hat for the one who smiles all day long—and the one who can smile when everything goes dead wrong!",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"262668": {
+			"id": 262668,
+			"icon": "Icon_Equipments/Acc_675_Tex",
+			"rarity": 3,
+			"name": "Shamrock Cape",
+			"tooltip": "May your blessings outnumber the shamrocks that grow, and trouble avoid you wherever you go!",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
 		}
 	},
 	"categories": {
@@ -106440,7 +108170,8 @@
 					97263,
 					97600,
 					99210,
-					165100
+					165100,
+					209800
 				],
 				"lancer": [
 					319,
@@ -106573,7 +108304,7 @@
 					88307,
 					88340,
 					88373,
-					88640,
+					88919,
 					90124,
 					90202,
 					91018,
@@ -106590,7 +108321,8 @@
 					97264,
 					97601,
 					99211,
-					165101
+					165101,
+					209801
 				],
 				"slayer": [
 					320,
@@ -106740,7 +108472,8 @@
 					97265,
 					97602,
 					99212,
-					165102
+					165102,
+					209802
 				],
 				"berserker": [
 					321,
@@ -106873,7 +108606,7 @@
 					88309,
 					88342,
 					88375,
-					88642,
+					88921,
 					90126,
 					90204,
 					91020,
@@ -106891,7 +108624,8 @@
 					97603,
 					99213,
 					165103,
-					202100
+					202100,
+					209803
 				],
 				"sorcerer": [
 					322,
@@ -107024,7 +108758,7 @@
 					88310,
 					88343,
 					88376,
-					88643,
+					88922,
 					90127,
 					90205,
 					91021,
@@ -107041,7 +108775,8 @@
 					97267,
 					97604,
 					99214,
-					165104
+					165104,
+					209804
 				],
 				"archer": [
 					323,
@@ -107174,7 +108909,7 @@
 					88311,
 					88344,
 					88377,
-					88644,
+					88923,
 					90128,
 					90206,
 					91022,
@@ -107191,7 +108926,8 @@
 					97268,
 					97605,
 					99215,
-					165105
+					165105,
+					209805
 				],
 				"priest": [
 					324,
@@ -107341,7 +109077,8 @@
 					97269,
 					97606,
 					99216,
-					165106
+					165106,
+					209806
 				],
 				"mystic": [
 					325,
@@ -107474,7 +109211,7 @@
 					88313,
 					88346,
 					88379,
-					88646,
+					88925,
 					90130,
 					90208,
 					91024,
@@ -107491,7 +109228,8 @@
 					97270,
 					97607,
 					99217,
-					165107
+					165107,
+					209807
 				],
 				"reaper": [
 					19296,
@@ -107503,7 +109241,8 @@
 					90209,
 					96683,
 					96762,
-					97608
+					97608,
+					209808
 				],
 				"gunner": [
 					47081,
@@ -107524,7 +109263,8 @@
 					96735,
 					96763,
 					97272,
-					97609
+					97609,
+					209809
 				],
 				"brawler": [
 					47011,
@@ -107540,7 +109280,8 @@
 					88382,
 					90211,
 					97273,
-					97610
+					97610,
+					209810
 				],
 				"ninja": [
 					58068,
@@ -107556,7 +109297,9 @@
 					88317,
 					88350,
 					88383,
-					90212
+					88929,
+					90212,
+					209811
 				],
 				"valkyrie": [
 					59147,
@@ -107583,7 +109326,8 @@
 					88318,
 					88351,
 					88384,
-					90213
+					90213,
+					209812
 				]
 			},
 			"plate": {
@@ -107728,7 +109472,6 @@
 					47087,
 					55557,
 					55577,
-					70129,
 					71272,
 					71312,
 					71313,
@@ -107790,6 +109533,8 @@
 					88653,
 					88654,
 					88655,
+					88940,
+					88949,
 					90131,
 					90214,
 					95081,
@@ -107822,7 +109567,8 @@
 					99224,
 					99225,
 					163020,
-					163029
+					163029,
+					209813
 				],
 				"hand": [
 					13343,
@@ -107943,7 +109689,6 @@
 					31081,
 					47051,
 					47096,
-					70130,
 					71273,
 					71314,
 					71361,
@@ -107959,6 +109704,7 @@
 					88332,
 					88365,
 					88398,
+					88952,
 					90132,
 					90217,
 					95082,
@@ -107977,7 +109723,8 @@
 					97624,
 					99234,
 					163021,
-					163030
+					163030,
+					209816
 				],
 				"feet": [
 					13344,
@@ -108098,7 +109845,6 @@
 					31082,
 					47061,
 					47100,
-					70131,
 					71275,
 					71316,
 					71362,
@@ -108114,6 +109860,7 @@
 					88335,
 					88368,
 					88401,
+					88955,
 					90133,
 					90220,
 					95083,
@@ -108128,7 +109875,8 @@
 					97627,
 					99237,
 					163022,
-					163031
+					163031,
+					209819
 				]
 			},
 			"leather": {
@@ -108403,6 +110151,9 @@
 					88658,
 					88659,
 					88660,
+					88932,
+					88941,
+					88950,
 					90012,
 					90134,
 					90215,
@@ -108451,6 +110202,7 @@
 					139274,
 					163023,
 					163032,
+					209814,
 					221600
 				],
 				"hand": [
@@ -108667,7 +110419,7 @@
 					88366,
 					88399,
 					88460,
-					88666,
+					88953,
 					90013,
 					90135,
 					90218,
@@ -108696,6 +110448,7 @@
 					136211,
 					163024,
 					163033,
+					209817,
 					221601,
 					221996
 				],
@@ -108915,7 +110668,7 @@
 					88369,
 					88402,
 					88463,
-					88669,
+					88956,
 					90014,
 					90136,
 					90221,
@@ -108941,6 +110694,7 @@
 					136216,
 					163025,
 					163034,
+					209820,
 					221603,
 					222000
 				]
@@ -109092,7 +110846,6 @@
 					58640,
 					58641,
 					58644,
-					70135,
 					71280,
 					71323,
 					71324,
@@ -109150,6 +110903,7 @@
 					88662,
 					88663,
 					88664,
+					88951,
 					90137,
 					90216,
 					95087,
@@ -109181,7 +110935,8 @@
 					110015,
 					110070,
 					163026,
-					163035
+					163035,
+					209815
 				],
 				"hand": [
 					4616,
@@ -109302,7 +111057,6 @@
 					47054,
 					47098,
 					47099,
-					70136,
 					71281,
 					71326,
 					71367,
@@ -109318,6 +111072,7 @@
 					88334,
 					88367,
 					88400,
+					88954,
 					90138,
 					90219,
 					91856,
@@ -109335,6 +111090,7 @@
 					110016,
 					163027,
 					163036,
+					209818,
 					221605
 				],
 				"feet": [
@@ -109454,7 +111210,6 @@
 					30918,
 					31088,
 					47102,
-					70137,
 					71283,
 					71328,
 					71369,
@@ -109470,6 +111225,7 @@
 					88337,
 					88370,
 					88403,
+					88957,
 					90139,
 					90222,
 					95089,
@@ -109485,6 +111241,7 @@
 					110017,
 					163028,
 					163037,
+					209821,
 					221607
 				]
 			},
@@ -110060,6 +111817,7 @@
 					201346,
 					203649,
 					203805,
+					203873,
 					250420,
 					251032,
 					251176,
@@ -110100,6 +111858,7 @@
 					186819,
 					203625,
 					203781,
+					203849,
 					250408,
 					251020,
 					251164,
@@ -110142,6 +111901,7 @@
 					201471,
 					203613,
 					203769,
+					203837,
 					250396,
 					251008,
 					251152,
@@ -110176,9 +111936,9 @@
 					185757,
 					185951,
 					186368,
-					186378,
 					203661,
 					203817,
+					203885,
 					250432,
 					251044,
 					251188,
@@ -110216,6 +111976,7 @@
 					155435,
 					203637,
 					203793,
+					203861,
 					253132,
 					253288,
 					253504,
@@ -110657,6 +112418,17 @@
 				155515,
 				155516,
 				155517,
+				155684,
+				155685,
+				155686,
+				155687,
+				155688,
+				155689,
+				155690,
+				155691,
+				155692,
+				155693,
+				155694,
 				160729,
 				160739,
 				160759,
@@ -111547,27 +113319,16 @@
 				185093,
 				185096,
 				185259,
-				185262,
 				185265,
-				185268,
 				185271,
-				185274,
 				185277,
-				185280,
 				185283,
-				185286,
 				185289,
-				185292,
 				185295,
-				185298,
 				185301,
-				185304,
 				185307,
-				185310,
 				185313,
-				185316,
 				185319,
-				185322,
 				185346,
 				185349,
 				185352,
@@ -111843,6 +113604,28 @@
 				203457,
 				203469,
 				203481,
+				205144,
+				205156,
+				205168,
+				205180,
+				205192,
+				205204,
+				205216,
+				205228,
+				205240,
+				205252,
+				205264,
+				205276,
+				205288,
+				205300,
+				205312,
+				205324,
+				205336,
+				205348,
+				205360,
+				205372,
+				205384,
+				205396,
 				212178,
 				212179,
 				212182,
@@ -112414,6 +114197,26 @@
 				261300,
 				261312,
 				261324,
+				261336,
+				261348,
+				261360,
+				261372,
+				261384,
+				261396,
+				261408,
+				261420,
+				261432,
+				261444,
+				261456,
+				261468,
+				261480,
+				261492,
+				261504,
+				261972,
+				261984,
+				261996,
+				262008,
+				262020,
 				262068,
 				262080,
 				262092,
@@ -112446,7 +114249,18 @@
 				262416,
 				262428,
 				262440,
-				262452
+				262452,
+				262524,
+				262536,
+				262548,
+				262560,
+				262572,
+				262584,
+				262596,
+				262608,
+				262620,
+				262632,
+				262644
 			],
 			"styleFace": [
 				60505,
@@ -112539,7 +114353,10 @@
 				256892,
 				257660,
 				257672,
-				261888
+				261888,
+				261936,
+				261948,
+				261960
 			],
 			"styleHead": [
 				424,
@@ -112706,6 +114523,7 @@
 				155504,
 				155505,
 				155506,
+				155682,
 				164082,
 				164083,
 				164084,
@@ -112903,7 +114721,6 @@
 				185334,
 				185337,
 				185340,
-				185343,
 				185421,
 				185424,
 				185430,
@@ -112932,6 +114749,12 @@
 				203505,
 				204023,
 				204035,
+				205408,
+				205420,
+				205432,
+				205444,
+				205456,
+				205468,
 				213357,
 				213359,
 				213361,
@@ -113006,7 +114829,8 @@
 				261864,
 				262464,
 				262488,
-				262500
+				262500,
+				262656
 			],
 			"styleBack": [
 				98402,
@@ -113038,6 +114862,7 @@
 				141452,
 				142358,
 				142359,
+				155683,
 				169165,
 				169171,
 				169174,
@@ -113090,7 +114915,6 @@
 				184462,
 				184913,
 				185325,
-				185328,
 				185331,
 				185427,
 				185436,
@@ -113105,6 +114929,7 @@
 				201921,
 				204000,
 				204049,
+				205480,
 				220357,
 				250288,
 				252900,
@@ -113131,8 +114956,12 @@
 				260648,
 				261840,
 				261876,
+				261900,
+				261912,
+				261924,
 				262476,
-				262512
+				262512,
+				262668
 			],
 			"styleFootprint": [
 				99507,
@@ -113169,7 +114998,14 @@
 				202556,
 				202568,
 				202580,
-				202592
+				202592,
+				203897,
+				203909,
+				203921,
+				203933,
+				203945,
+				207174,
+				207186
 			]
 		}
 	},
@@ -113958,7 +115794,7 @@
 		"10462": 88247,
 		"10463": 88248,
 		"10464": 88249,
-		"10472": 88646,
+		"10472": 88925,
 		"10473": 88372,
 		"10474": 88373,
 		"10475": 88374,
@@ -113991,7 +115827,7 @@
 		"10509": 10469,
 		"10510": 10470,
 		"10511": 10471,
-		"10512": 88646,
+		"10512": 88925,
 		"10513": 88372,
 		"10514": 88373,
 		"10515": 88374,
@@ -114152,8 +115988,8 @@
 		"10750": 12222,
 		"10751": 12223,
 		"10752": 12224,
-		"10772": 88642,
-		"10789": 88643,
+		"10772": 88921,
+		"10789": 88922,
 		"10793": 88242,
 		"10794": 88243,
 		"10795": 88244,
@@ -114162,8 +115998,8 @@
 		"10798": 88247,
 		"10799": 88248,
 		"10800": 88249,
-		"10802": 88640,
-		"10806": 88644,
+		"10802": 88919,
+		"10806": 88923,
 		"10809": 91097,
 		"10810": 91098,
 		"10811": 91099,
@@ -114600,7 +116436,7 @@
 		"11290": 10786,
 		"11291": 10787,
 		"11292": 10788,
-		"11293": 88643,
+		"11293": 88922,
 		"11294": 10790,
 		"11295": 10791,
 		"11296": 10792,
@@ -114624,7 +116460,7 @@
 		"11330": 10786,
 		"11331": 10787,
 		"11332": 10788,
-		"11333": 88643,
+		"11333": 88922,
 		"11334": 10790,
 		"11335": 10791,
 		"11336": 10792,
@@ -115632,7 +117468,7 @@
 		"12594": 10786,
 		"12595": 10787,
 		"12596": 10788,
-		"12597": 88643,
+		"12597": 88922,
 		"12598": 10790,
 		"12599": 10791,
 		"12600": 10792,
@@ -120806,7 +122642,7 @@
 		"32003": 13216,
 		"32004": 13217,
 		"32005": 13218,
-		"32006": 88644,
+		"32006": 88923,
 		"32007": 13220,
 		"32008": 13221,
 		"32009": 181635,
@@ -120859,7 +122695,7 @@
 		"32059": 13216,
 		"32060": 13217,
 		"32061": 13218,
-		"32062": 88644,
+		"32062": 88923,
 		"32063": 13220,
 		"32064": 13221,
 		"32065": 18438,
@@ -123818,12 +125654,18 @@
 		"70126": 19314,
 		"70127": 19315,
 		"70128": 19316,
+		"70129": 88949,
+		"70130": 88952,
+		"70131": 88955,
+		"70135": 88951,
+		"70136": 88954,
+		"70137": 88957,
 		"70142": 19308,
 		"70143": 90012,
 		"70144": 19314,
-		"70145": 70129,
+		"70145": 88949,
 		"70146": 70132,
-		"70147": 70135,
+		"70147": 88951,
 		"71100": 99210,
 		"71101": 99211,
 		"71102": 99212,
@@ -125336,29 +127178,36 @@
 		"88637": 48057,
 		"88638": 48057,
 		"88639": 10753,
+		"88640": 88919,
 		"88641": 12291,
+		"88642": 88921,
+		"88643": 88922,
+		"88644": 88923,
 		"88645": 12295,
+		"88646": 88925,
 		"88647": 96683,
 		"88648": 88072,
 		"88649": 72275,
-		"88650": 186378,
+		"88650": 88929,
 		"88651": 59603,
-		"88665": 70130,
-		"88667": 70136,
-		"88668": 70131,
-		"88670": 70137,
+		"88665": 88952,
+		"88666": 88953,
+		"88667": 88954,
+		"88668": 88955,
+		"88669": 88956,
+		"88670": 88957,
 		"88671": 10753,
-		"88672": 88640,
+		"88672": 88919,
 		"88673": 12291,
-		"88674": 88642,
-		"88675": 88643,
-		"88676": 88644,
+		"88674": 88921,
+		"88675": 88922,
+		"88676": 88923,
 		"88677": 12295,
-		"88678": 88646,
+		"88678": 88925,
 		"88679": 96683,
 		"88680": 88072,
 		"88681": 72275,
-		"88682": 186378,
+		"88682": 88929,
 		"88683": 59603,
 		"88684": 88652,
 		"88685": 88653,
@@ -125373,28 +127222,103 @@
 		"88694": 88662,
 		"88695": 88663,
 		"88696": 88664,
-		"88697": 70130,
-		"88698": 88666,
-		"88699": 70136,
-		"88712": 70131,
-		"88713": 88669,
-		"88714": 70137,
+		"88697": 88952,
+		"88698": 88953,
+		"88699": 88954,
+		"88712": 88955,
+		"88713": 88956,
+		"88714": 88957,
+		"88716": 48056,
+		"88717": 48056,
+		"88718": 48057,
+		"88719": 48058,
+		"88720": 48058,
 		"88735": 48056,
 		"88736": 48056,
 		"88784": 48058,
 		"88785": 48058,
 		"88786": 48058,
 		"88787": 48058,
-		"88843": 70130,
-		"88844": 88666,
-		"88845": 70136,
-		"88846": 70131,
-		"88847": 88669,
-		"88848": 70137,
+		"88843": 88952,
+		"88844": 88953,
+		"88845": 88954,
+		"88846": 88955,
+		"88847": 88956,
+		"88848": 88957,
 		"88849": 48058,
 		"88850": 48058,
 		"88851": 48058,
 		"88852": 48058,
+		"88892": 88339,
+		"88893": 88340,
+		"88894": 88341,
+		"88895": 88342,
+		"88896": 88343,
+		"88897": 88344,
+		"88898": 88345,
+		"88899": 88346,
+		"88900": 88347,
+		"88901": 88348,
+		"88902": 88349,
+		"88903": 88350,
+		"88904": 88351,
+		"88905": 88372,
+		"88906": 88373,
+		"88907": 88374,
+		"88908": 88375,
+		"88909": 88376,
+		"88910": 88377,
+		"88911": 88378,
+		"88912": 88379,
+		"88913": 88380,
+		"88914": 88381,
+		"88915": 88382,
+		"88916": 88383,
+		"88917": 88384,
+		"88918": 10753,
+		"88920": 12291,
+		"88924": 12295,
+		"88926": 96683,
+		"88927": 88072,
+		"88928": 72275,
+		"88930": 59603,
+		"88931": 17539,
+		"88933": 18967,
+		"88934": 88365,
+		"88935": 88366,
+		"88936": 88367,
+		"88937": 88368,
+		"88938": 88369,
+		"88939": 88370,
+		"88942": 96721,
+		"88943": 88398,
+		"88944": 88399,
+		"88945": 88400,
+		"88946": 88401,
+		"88947": 88402,
+		"88948": 88403,
+		"88958": 10753,
+		"88959": 88919,
+		"88960": 12291,
+		"88961": 88921,
+		"88962": 88922,
+		"88963": 88923,
+		"88964": 12295,
+		"88965": 88925,
+		"88966": 96683,
+		"88967": 88072,
+		"88968": 72275,
+		"88969": 88929,
+		"88970": 59603,
+		"88971": 88949,
+		"88972": 88950,
+		"88973": 88951,
+		"88974": 88952,
+		"88975": 88953,
+		"88976": 88954,
+		"88977": 88955,
+		"88978": 88956,
+		"88979": 88957,
 		"89146": 89145,
 		"89147": 89145,
 		"89148": 89145,
@@ -127117,7 +129041,7 @@
 		"101049": 19308,
 		"101050": 110078,
 		"101051": 163026,
-		"101052": 70129,
+		"101052": 88949,
 		"101053": 110081,
 		"101054": 163035,
 		"101055": 19046,
@@ -127279,9 +129203,9 @@
 		"110023": 60547,
 		"110024": 60552,
 		"110025": 60557,
-		"110026": 70129,
-		"110027": 70130,
-		"110028": 70131,
+		"110026": 88949,
+		"110027": 88952,
+		"110028": 88955,
 		"110029": 163032,
 		"110030": 163033,
 		"110031": 163034,
@@ -127325,7 +129249,7 @@
 		"110069": 139274,
 		"110077": 19308,
 		"110079": 163026,
-		"110080": 70129,
+		"110080": 88949,
 		"110082": 163035,
 		"110094": 180426,
 		"110095": 131524,
@@ -129824,34 +131748,34 @@
 		"117088": 185436,
 		"117089": 185439,
 		"117107": 185259,
-		"117108": 185262,
+		"117108": 155684,
 		"117109": 185265,
-		"117110": 185268,
+		"117110": 155685,
 		"117111": 185271,
-		"117112": 185274,
+		"117112": 155686,
 		"117113": 185277,
-		"117114": 185280,
+		"117114": 155687,
 		"117115": 185283,
-		"117116": 185286,
+		"117116": 155688,
 		"117117": 185289,
-		"117118": 185292,
+		"117118": 155689,
 		"117119": 185295,
-		"117120": 185298,
+		"117120": 155690,
 		"117121": 185301,
-		"117122": 185304,
+		"117122": 155691,
 		"117123": 185307,
-		"117124": 185310,
+		"117124": 155692,
 		"117125": 185313,
-		"117126": 185316,
+		"117126": 155693,
 		"117127": 185319,
-		"117128": 185322,
+		"117128": 155694,
 		"117129": 185325,
-		"117130": 185328,
+		"117130": 155683,
 		"117131": 185331,
 		"117132": 185334,
 		"117133": 185337,
 		"117134": 185340,
-		"117135": 185343,
+		"117135": 155682,
 		"117136": 185471,
 		"117137": 185474,
 		"117138": 185477,
@@ -129972,6 +131896,7 @@
 		"117480": 152036,
 		"117481": 152042,
 		"117482": 152048,
+		"117658": 99579,
 		"120001": 150003,
 		"120002": 164078,
 		"120003": 164079,
@@ -132462,34 +134387,34 @@
 		"141576": 185951,
 		"141577": 185953,
 		"141578": 185259,
-		"141579": 185262,
+		"141579": 155684,
 		"141580": 185265,
-		"141581": 185268,
+		"141581": 155685,
 		"141582": 185271,
-		"141583": 185274,
+		"141583": 155686,
 		"141584": 185277,
-		"141585": 185280,
+		"141585": 155687,
 		"141586": 185283,
-		"141587": 185286,
+		"141587": 155688,
 		"141588": 185289,
-		"141589": 185292,
+		"141589": 155689,
 		"141590": 185295,
-		"141591": 185298,
+		"141591": 155690,
 		"141592": 185301,
-		"141593": 185304,
+		"141593": 155691,
 		"141594": 185307,
-		"141595": 185310,
+		"141595": 155692,
 		"141596": 185313,
-		"141597": 185316,
+		"141597": 155693,
 		"141598": 185319,
-		"141599": 185322,
+		"141599": 155694,
 		"141600": 185325,
-		"141601": 185328,
+		"141601": 155683,
 		"141602": 185331,
 		"141603": 185334,
 		"141604": 185337,
 		"141605": 185340,
-		"141606": 185343,
+		"141606": 155682,
 		"141607": 185471,
 		"141608": 185474,
 		"141609": 185477,
@@ -133142,7 +135067,7 @@
 		"142261": 131257,
 		"142262": 131265,
 		"142263": 131273,
-		"142264": 185328,
+		"142264": 155683,
 		"142265": 164069,
 		"142270": 181255,
 		"142271": 184256,
@@ -133618,12 +135543,12 @@
 		"143034": 184601,
 		"143035": 184604,
 		"143036": 185325,
-		"143037": 185328,
+		"143037": 155683,
 		"143038": 185331,
 		"143039": 185334,
 		"143040": 185337,
 		"143041": 185340,
-		"143042": 185343,
+		"143042": 155682,
 		"143106": 48056,
 		"143107": 48056,
 		"143108": 48056,
@@ -133671,6 +135596,107 @@
 		"143154": 88350,
 		"143155": 59436,
 		"143159": 181231,
+		"143288": 88339,
+		"143289": 88340,
+		"143290": 88341,
+		"143291": 88342,
+		"143292": 88343,
+		"143293": 88344,
+		"143294": 88345,
+		"143295": 88346,
+		"143296": 88347,
+		"143297": 88348,
+		"143298": 88349,
+		"143299": 88350,
+		"143300": 88351,
+		"143301": 88352,
+		"143302": 88353,
+		"143303": 88354,
+		"143304": 88355,
+		"143305": 88356,
+		"143306": 88357,
+		"143307": 88358,
+		"143308": 88359,
+		"143309": 88360,
+		"143310": 88361,
+		"143311": 88362,
+		"143312": 88363,
+		"143313": 88364,
+		"143314": 88365,
+		"143315": 88366,
+		"143316": 88367,
+		"143317": 88368,
+		"143318": 88369,
+		"143319": 88370,
+		"143327": 90201,
+		"143328": 90202,
+		"143329": 90203,
+		"143330": 90204,
+		"143331": 90205,
+		"143332": 90206,
+		"143333": 90207,
+		"143334": 90208,
+		"143335": 90209,
+		"143336": 90210,
+		"143337": 90211,
+		"143338": 90212,
+		"143339": 90213,
+		"143340": 90214,
+		"143341": 90215,
+		"143342": 90216,
+		"143343": 90217,
+		"143344": 90218,
+		"143345": 90219,
+		"143346": 90220,
+		"143347": 90221,
+		"143348": 90222,
+		"143349": 90201,
+		"143350": 90202,
+		"143351": 90203,
+		"143352": 90204,
+		"143353": 90205,
+		"143354": 90206,
+		"143355": 90207,
+		"143356": 90208,
+		"143357": 90209,
+		"143358": 90210,
+		"143359": 90211,
+		"143360": 90212,
+		"143361": 90213,
+		"143362": 90214,
+		"143363": 90215,
+		"143364": 90216,
+		"143365": 90217,
+		"143366": 90218,
+		"143367": 90219,
+		"143368": 90220,
+		"143369": 90221,
+		"143370": 90222,
+		"143371": 90201,
+		"143372": 90202,
+		"143373": 90203,
+		"143374": 90204,
+		"143375": 90205,
+		"143376": 90206,
+		"143377": 90207,
+		"143378": 90208,
+		"143379": 90209,
+		"143380": 90210,
+		"143381": 90211,
+		"143382": 90212,
+		"143383": 90213,
+		"143384": 90214,
+		"143385": 90215,
+		"143386": 90216,
+		"143387": 90217,
+		"143388": 90218,
+		"143389": 90219,
+		"143390": 90220,
+		"143391": 90221,
+		"143392": 90222,
+		"143421": 130001,
+		"143422": 130002,
+		"143423": 130006,
 		"146000": 95500,
 		"146001": 95501,
 		"146002": 95502,
@@ -133911,9 +135937,9 @@
 		"149109": 19308,
 		"149110": 90012,
 		"149111": 19314,
-		"149112": 70129,
+		"149112": 88949,
 		"149113": 70132,
-		"149114": 70135,
+		"149114": 88951,
 		"149115": 19046,
 		"149116": 201307,
 		"149117": 19052,
@@ -136633,75 +138659,75 @@
 		"153515": 185259,
 		"153516": 185259,
 		"153517": 185259,
-		"153518": 185262,
-		"153519": 185262,
-		"153520": 185262,
+		"153518": 155684,
+		"153519": 155684,
+		"153520": 155684,
 		"153521": 185265,
 		"153522": 185265,
 		"153523": 185265,
-		"153524": 185268,
-		"153525": 185268,
-		"153526": 185268,
+		"153524": 155685,
+		"153525": 155685,
+		"153526": 155685,
 		"153527": 185271,
 		"153528": 185271,
 		"153529": 185271,
-		"153530": 185274,
-		"153531": 185274,
-		"153532": 185274,
+		"153530": 155686,
+		"153531": 155686,
+		"153532": 155686,
 		"153533": 185277,
 		"153534": 185277,
 		"153535": 185277,
-		"153536": 185280,
-		"153537": 185280,
-		"153538": 185280,
+		"153536": 155687,
+		"153537": 155687,
+		"153538": 155687,
 		"153539": 185283,
 		"153540": 185283,
 		"153541": 185283,
-		"153542": 185286,
-		"153543": 185286,
-		"153544": 185286,
+		"153542": 155688,
+		"153543": 155688,
+		"153544": 155688,
 		"153545": 185289,
 		"153546": 185289,
 		"153547": 185289,
-		"153548": 185292,
-		"153549": 185292,
-		"153550": 185292,
+		"153548": 155689,
+		"153549": 155689,
+		"153550": 155689,
 		"153551": 185295,
 		"153552": 185295,
 		"153553": 185295,
-		"153554": 185298,
-		"153555": 185298,
-		"153556": 185298,
+		"153554": 155690,
+		"153555": 155690,
+		"153556": 155690,
 		"153557": 185301,
 		"153558": 185301,
 		"153559": 185301,
-		"153560": 185304,
-		"153561": 185304,
-		"153562": 185304,
+		"153560": 155691,
+		"153561": 155691,
+		"153562": 155691,
 		"153563": 185307,
 		"153564": 185307,
 		"153565": 185307,
-		"153566": 185310,
-		"153567": 185310,
-		"153568": 185310,
+		"153566": 155692,
+		"153567": 155692,
+		"153568": 155692,
 		"153569": 185313,
 		"153570": 185313,
 		"153571": 185313,
-		"153572": 185316,
-		"153573": 185316,
-		"153574": 185316,
+		"153572": 155693,
+		"153573": 155693,
+		"153574": 155693,
 		"153575": 185319,
 		"153576": 185319,
 		"153577": 185319,
-		"153578": 185322,
-		"153579": 185322,
-		"153580": 185322,
+		"153578": 155694,
+		"153579": 155694,
+		"153580": 155694,
 		"153581": 185325,
 		"153582": 185325,
 		"153583": 185325,
-		"153584": 185328,
-		"153585": 185328,
-		"153586": 185328,
+		"153584": 155683,
+		"153585": 155683,
+		"153586": 155683,
 		"153587": 185331,
 		"153588": 185331,
 		"153589": 185331,
@@ -136714,9 +138740,9 @@
 		"153596": 185340,
 		"153597": 185340,
 		"153598": 185340,
-		"153599": 185343,
-		"153600": 185343,
-		"153601": 185343,
+		"153599": 155682,
+		"153600": 155682,
+		"153601": 155682,
 		"153608": 185471,
 		"153609": 185471,
 		"153610": 185471,
@@ -137215,8 +139241,8 @@
 		"154214": 58068,
 		"154215": 88317,
 		"154216": 88317,
-		"154217": 186378,
-		"154218": 186378,
+		"154217": 88929,
+		"154218": 88929,
 		"154219": 88253,
 		"154220": 88253,
 		"154221": 88383,
@@ -137799,19 +139825,6 @@
 		"155481": 180752,
 		"155553": 184950,
 		"155554": 184953,
-		"155682": 185343,
-		"155683": 185328,
-		"155684": 185262,
-		"155685": 185268,
-		"155686": 185274,
-		"155687": 185280,
-		"155688": 185286,
-		"155689": 185292,
-		"155690": 185298,
-		"155691": 185304,
-		"155692": 185310,
-		"155693": 185316,
-		"155694": 185322,
 		"160000": 100046,
 		"160004": 100046,
 		"160005": 100046,
@@ -144465,52 +146478,64 @@
 		"185149": 185135,
 		"185260": 185259,
 		"185261": 185259,
-		"185263": 185262,
-		"185264": 185262,
+		"185262": 155684,
+		"185263": 155684,
+		"185264": 155684,
 		"185266": 185265,
 		"185267": 185265,
-		"185269": 185268,
-		"185270": 185268,
+		"185268": 155685,
+		"185269": 155685,
+		"185270": 155685,
 		"185272": 185271,
 		"185273": 185271,
-		"185275": 185274,
-		"185276": 185274,
+		"185274": 155686,
+		"185275": 155686,
+		"185276": 155686,
 		"185278": 185277,
 		"185279": 185277,
-		"185281": 185280,
-		"185282": 185280,
+		"185280": 155687,
+		"185281": 155687,
+		"185282": 155687,
 		"185284": 185283,
 		"185285": 185283,
-		"185287": 185286,
-		"185288": 185286,
+		"185286": 155688,
+		"185287": 155688,
+		"185288": 155688,
 		"185290": 185289,
 		"185291": 185289,
-		"185293": 185292,
-		"185294": 185292,
+		"185292": 155689,
+		"185293": 155689,
+		"185294": 155689,
 		"185296": 185295,
 		"185297": 185295,
-		"185299": 185298,
-		"185300": 185298,
+		"185298": 155690,
+		"185299": 155690,
+		"185300": 155690,
 		"185302": 185301,
 		"185303": 185301,
-		"185305": 185304,
-		"185306": 185304,
+		"185304": 155691,
+		"185305": 155691,
+		"185306": 155691,
 		"185308": 185307,
 		"185309": 185307,
-		"185311": 185310,
-		"185312": 185310,
+		"185310": 155692,
+		"185311": 155692,
+		"185312": 155692,
 		"185314": 185313,
 		"185315": 185313,
-		"185317": 185316,
-		"185318": 185316,
+		"185316": 155693,
+		"185317": 155693,
+		"185318": 155693,
 		"185320": 185319,
 		"185321": 185319,
-		"185323": 185322,
-		"185324": 185322,
+		"185322": 155694,
+		"185323": 155694,
+		"185324": 155694,
 		"185326": 185325,
 		"185327": 185325,
-		"185329": 185328,
-		"185330": 185328,
+		"185328": 155683,
+		"185329": 155683,
+		"185330": 155683,
 		"185332": 185331,
 		"185333": 185331,
 		"185335": 185334,
@@ -144519,8 +146544,9 @@
 		"185339": 185337,
 		"185341": 185340,
 		"185342": 185340,
-		"185344": 185343,
-		"185345": 185343,
+		"185343": 155682,
+		"185344": 155682,
+		"185345": 155682,
 		"185347": 185346,
 		"185348": 185346,
 		"185350": 185349,
@@ -145016,7 +147042,8 @@
 		"186374": 58068,
 		"186375": 88317,
 		"186376": 88317,
-		"186377": 186378,
+		"186377": 88929,
+		"186378": 88929,
 		"186379": 88253,
 		"186380": 88253,
 		"186381": 88383,
@@ -147423,6 +149450,116 @@
 		"203826": 203817,
 		"203827": 203817,
 		"203828": 203817,
+		"203838": 203837,
+		"203839": 203837,
+		"203840": 203837,
+		"203841": 203837,
+		"203842": 203837,
+		"203843": 203837,
+		"203844": 203837,
+		"203845": 203837,
+		"203846": 203837,
+		"203847": 203837,
+		"203848": 203837,
+		"203850": 203849,
+		"203851": 203849,
+		"203852": 203849,
+		"203853": 203849,
+		"203854": 203849,
+		"203855": 203849,
+		"203856": 203849,
+		"203857": 203849,
+		"203858": 203849,
+		"203859": 203849,
+		"203860": 203849,
+		"203862": 203861,
+		"203863": 203861,
+		"203864": 203861,
+		"203865": 203861,
+		"203866": 203861,
+		"203867": 203861,
+		"203868": 203861,
+		"203869": 203861,
+		"203870": 203861,
+		"203871": 203861,
+		"203872": 203861,
+		"203874": 203873,
+		"203875": 203873,
+		"203876": 203873,
+		"203877": 203873,
+		"203878": 203873,
+		"203879": 203873,
+		"203880": 203873,
+		"203881": 203873,
+		"203882": 203873,
+		"203883": 203873,
+		"203884": 203873,
+		"203886": 203885,
+		"203887": 203885,
+		"203888": 203885,
+		"203889": 203885,
+		"203890": 203885,
+		"203891": 203885,
+		"203892": 203885,
+		"203893": 203885,
+		"203894": 203885,
+		"203895": 203885,
+		"203896": 203885,
+		"203898": 203897,
+		"203899": 203897,
+		"203900": 203897,
+		"203901": 203897,
+		"203902": 203897,
+		"203903": 203897,
+		"203904": 203897,
+		"203905": 203897,
+		"203906": 203897,
+		"203907": 203897,
+		"203908": 203897,
+		"203910": 203909,
+		"203911": 203909,
+		"203912": 203909,
+		"203913": 203909,
+		"203914": 203909,
+		"203915": 203909,
+		"203916": 203909,
+		"203917": 203909,
+		"203918": 203909,
+		"203919": 203909,
+		"203920": 203909,
+		"203922": 203921,
+		"203923": 203921,
+		"203924": 203921,
+		"203925": 203921,
+		"203926": 203921,
+		"203927": 203921,
+		"203928": 203921,
+		"203929": 203921,
+		"203930": 203921,
+		"203931": 203921,
+		"203932": 203921,
+		"203934": 203933,
+		"203935": 203933,
+		"203936": 203933,
+		"203937": 203933,
+		"203938": 203933,
+		"203939": 203933,
+		"203940": 203933,
+		"203941": 203933,
+		"203942": 203933,
+		"203943": 203933,
+		"203944": 203933,
+		"203946": 203945,
+		"203947": 203945,
+		"203948": 203945,
+		"203949": 203945,
+		"203950": 203945,
+		"203951": 203945,
+		"203952": 203945,
+		"203953": 203945,
+		"203954": 203945,
+		"203955": 203945,
+		"203956": 203945,
 		"204017": 136017,
 		"204018": 136017,
 		"204019": 136017,
@@ -147451,6 +149588,325 @@
 		"204045": 204035,
 		"204046": 204035,
 		"204048": 204000,
+		"205145": 205144,
+		"205146": 205144,
+		"205147": 205144,
+		"205148": 205144,
+		"205149": 205144,
+		"205150": 205144,
+		"205151": 205144,
+		"205152": 205144,
+		"205153": 205144,
+		"205154": 205144,
+		"205155": 205144,
+		"205157": 205156,
+		"205158": 205156,
+		"205159": 205156,
+		"205160": 205156,
+		"205161": 205156,
+		"205162": 205156,
+		"205163": 205156,
+		"205164": 205156,
+		"205165": 205156,
+		"205166": 205156,
+		"205167": 205156,
+		"205169": 205168,
+		"205170": 205168,
+		"205171": 205168,
+		"205172": 205168,
+		"205173": 205168,
+		"205174": 205168,
+		"205175": 205168,
+		"205176": 205168,
+		"205177": 205168,
+		"205178": 205168,
+		"205179": 205168,
+		"205181": 205180,
+		"205182": 205180,
+		"205183": 205180,
+		"205184": 205180,
+		"205185": 205180,
+		"205186": 205180,
+		"205187": 205180,
+		"205188": 205180,
+		"205189": 205180,
+		"205190": 205180,
+		"205191": 205180,
+		"205193": 205192,
+		"205194": 205192,
+		"205195": 205192,
+		"205196": 205192,
+		"205197": 205192,
+		"205198": 205192,
+		"205199": 205192,
+		"205200": 205192,
+		"205201": 205192,
+		"205202": 205192,
+		"205203": 205192,
+		"205205": 205204,
+		"205206": 205204,
+		"205207": 205204,
+		"205208": 205204,
+		"205209": 205204,
+		"205210": 205204,
+		"205211": 205204,
+		"205212": 205204,
+		"205213": 205204,
+		"205214": 205204,
+		"205215": 205204,
+		"205217": 205216,
+		"205218": 205216,
+		"205219": 205216,
+		"205220": 205216,
+		"205221": 205216,
+		"205222": 205216,
+		"205223": 205216,
+		"205224": 205216,
+		"205225": 205216,
+		"205226": 205216,
+		"205227": 205216,
+		"205229": 205228,
+		"205230": 205228,
+		"205231": 205228,
+		"205232": 205228,
+		"205233": 205228,
+		"205234": 205228,
+		"205235": 205228,
+		"205236": 205228,
+		"205237": 205228,
+		"205238": 205228,
+		"205239": 205228,
+		"205241": 205240,
+		"205242": 205240,
+		"205243": 205240,
+		"205244": 205240,
+		"205245": 205240,
+		"205246": 205240,
+		"205247": 205240,
+		"205248": 205240,
+		"205249": 205240,
+		"205250": 205240,
+		"205251": 205240,
+		"205253": 205252,
+		"205254": 205252,
+		"205255": 205252,
+		"205256": 205252,
+		"205257": 205252,
+		"205258": 205252,
+		"205259": 205252,
+		"205260": 205252,
+		"205261": 205252,
+		"205262": 205252,
+		"205263": 205252,
+		"205265": 205264,
+		"205266": 205264,
+		"205267": 205264,
+		"205268": 205264,
+		"205269": 205264,
+		"205270": 205264,
+		"205271": 205264,
+		"205272": 205264,
+		"205273": 205264,
+		"205274": 205264,
+		"205275": 205264,
+		"205277": 205276,
+		"205278": 205276,
+		"205279": 205276,
+		"205280": 205276,
+		"205281": 205276,
+		"205282": 205276,
+		"205283": 205276,
+		"205284": 205276,
+		"205285": 205276,
+		"205286": 205276,
+		"205287": 205276,
+		"205289": 205288,
+		"205290": 205288,
+		"205291": 205288,
+		"205292": 205288,
+		"205293": 205288,
+		"205294": 205288,
+		"205295": 205288,
+		"205296": 205288,
+		"205297": 205288,
+		"205298": 205288,
+		"205299": 205288,
+		"205301": 205300,
+		"205302": 205300,
+		"205303": 205300,
+		"205304": 205300,
+		"205305": 205300,
+		"205306": 205300,
+		"205307": 205300,
+		"205308": 205300,
+		"205309": 205300,
+		"205310": 205300,
+		"205311": 205300,
+		"205313": 205312,
+		"205314": 205312,
+		"205315": 205312,
+		"205316": 205312,
+		"205317": 205312,
+		"205318": 205312,
+		"205319": 205312,
+		"205320": 205312,
+		"205321": 205312,
+		"205322": 205312,
+		"205323": 205312,
+		"205325": 205324,
+		"205326": 205324,
+		"205327": 205324,
+		"205328": 205324,
+		"205329": 205324,
+		"205330": 205324,
+		"205331": 205324,
+		"205332": 205324,
+		"205333": 205324,
+		"205334": 205324,
+		"205335": 205324,
+		"205337": 205336,
+		"205338": 205336,
+		"205339": 205336,
+		"205340": 205336,
+		"205341": 205336,
+		"205342": 205336,
+		"205343": 205336,
+		"205344": 205336,
+		"205345": 205336,
+		"205346": 205336,
+		"205347": 205336,
+		"205349": 205348,
+		"205350": 205348,
+		"205351": 205348,
+		"205352": 205348,
+		"205353": 205348,
+		"205354": 205348,
+		"205355": 205348,
+		"205356": 205348,
+		"205357": 205348,
+		"205358": 205348,
+		"205359": 205348,
+		"205361": 205360,
+		"205362": 205360,
+		"205363": 205360,
+		"205364": 205360,
+		"205365": 205360,
+		"205366": 205360,
+		"205367": 205360,
+		"205368": 205360,
+		"205369": 205360,
+		"205370": 205360,
+		"205371": 205360,
+		"205373": 205372,
+		"205374": 205372,
+		"205375": 205372,
+		"205376": 205372,
+		"205377": 205372,
+		"205378": 205372,
+		"205379": 205372,
+		"205380": 205372,
+		"205381": 205372,
+		"205382": 205372,
+		"205383": 205372,
+		"205385": 205384,
+		"205386": 205384,
+		"205387": 205384,
+		"205388": 205384,
+		"205389": 205384,
+		"205390": 205384,
+		"205391": 205384,
+		"205392": 205384,
+		"205393": 205384,
+		"205394": 205384,
+		"205395": 205384,
+		"205397": 205396,
+		"205398": 205396,
+		"205399": 205396,
+		"205400": 205396,
+		"205401": 205396,
+		"205402": 205396,
+		"205403": 205396,
+		"205404": 205396,
+		"205405": 205396,
+		"205406": 205396,
+		"205407": 205396,
+		"205409": 205408,
+		"205410": 205408,
+		"205411": 205408,
+		"205412": 205408,
+		"205413": 205408,
+		"205414": 205408,
+		"205415": 205408,
+		"205416": 205408,
+		"205417": 205408,
+		"205418": 205408,
+		"205419": 205408,
+		"205421": 205420,
+		"205422": 205420,
+		"205423": 205420,
+		"205424": 205420,
+		"205425": 205420,
+		"205426": 205420,
+		"205427": 205420,
+		"205428": 205420,
+		"205429": 205420,
+		"205430": 205420,
+		"205431": 205420,
+		"205433": 205432,
+		"205434": 205432,
+		"205435": 205432,
+		"205436": 205432,
+		"205437": 205432,
+		"205438": 205432,
+		"205439": 205432,
+		"205440": 205432,
+		"205441": 205432,
+		"205442": 205432,
+		"205443": 205432,
+		"205445": 205444,
+		"205446": 205444,
+		"205447": 205444,
+		"205448": 205444,
+		"205449": 205444,
+		"205450": 205444,
+		"205451": 205444,
+		"205452": 205444,
+		"205453": 205444,
+		"205454": 205444,
+		"205455": 205444,
+		"205457": 205456,
+		"205458": 205456,
+		"205459": 205456,
+		"205460": 205456,
+		"205461": 205456,
+		"205462": 205456,
+		"205463": 205456,
+		"205464": 205456,
+		"205465": 205456,
+		"205466": 205456,
+		"205467": 205456,
+		"205469": 205468,
+		"205470": 205468,
+		"205471": 205468,
+		"205472": 205468,
+		"205473": 205468,
+		"205474": 205468,
+		"205475": 205468,
+		"205476": 205468,
+		"205477": 205468,
+		"205478": 205468,
+		"205479": 205468,
+		"205481": 205480,
+		"205482": 205480,
+		"205483": 205480,
+		"205484": 205480,
+		"205485": 205480,
+		"205486": 205480,
+		"205487": 205480,
+		"205488": 205480,
+		"205489": 205480,
+		"205490": 205480,
+		"205491": 205480,
 		"206100": 206101,
 		"206102": 206101,
 		"206103": 206101,
@@ -147460,30 +149916,28 @@
 		"206107": 206101,
 		"206108": 206101,
 		"206109": 206101,
-		"207174": 99507,
-		"207175": 99507,
-		"207176": 99507,
-		"207177": 99507,
-		"207178": 99507,
-		"207179": 99507,
-		"207180": 99507,
-		"207181": 99507,
-		"207182": 99507,
-		"207183": 99507,
-		"207184": 99507,
-		"207185": 99507,
-		"207186": 99519,
-		"207187": 99519,
-		"207188": 99519,
-		"207189": 99519,
-		"207190": 99519,
-		"207191": 99519,
-		"207192": 99519,
-		"207193": 99519,
-		"207194": 99519,
-		"207195": 99519,
-		"207196": 99519,
-		"207197": 99519,
+		"207175": 207174,
+		"207176": 207174,
+		"207177": 207174,
+		"207178": 207174,
+		"207179": 207174,
+		"207180": 207174,
+		"207181": 207174,
+		"207182": 207174,
+		"207183": 207174,
+		"207184": 207174,
+		"207185": 207174,
+		"207187": 207186,
+		"207188": 207186,
+		"207189": 207186,
+		"207190": 207186,
+		"207191": 207186,
+		"207192": 207186,
+		"207193": 207186,
+		"207194": 207186,
+		"207195": 207186,
+		"207196": 207186,
+		"207197": 207186,
 		"210004": 50000,
 		"210005": 50000,
 		"210006": 50001,
@@ -149154,8 +151608,8 @@
 		"211830": 163023,
 		"211831": 163026,
 		"211832": 163026,
-		"211833": 70129,
-		"211834": 70129,
+		"211833": 88949,
+		"211834": 88949,
 		"211835": 163032,
 		"211836": 163032,
 		"211837": 163035,
@@ -151427,52 +153881,52 @@
 		"215466": 185123,
 		"215468": 185259,
 		"215469": 185259,
-		"215470": 185262,
-		"215471": 185262,
+		"215470": 155684,
+		"215471": 155684,
 		"215472": 185265,
 		"215473": 185265,
-		"215474": 185268,
-		"215475": 185268,
+		"215474": 155685,
+		"215475": 155685,
 		"215476": 185271,
 		"215477": 185271,
-		"215478": 185274,
-		"215479": 185274,
+		"215478": 155686,
+		"215479": 155686,
 		"215480": 185277,
 		"215481": 185277,
-		"215482": 185280,
-		"215483": 185280,
+		"215482": 155687,
+		"215483": 155687,
 		"215484": 185283,
 		"215485": 185283,
-		"215486": 185286,
-		"215487": 185286,
+		"215486": 155688,
+		"215487": 155688,
 		"215488": 185289,
 		"215489": 185289,
-		"215490": 185292,
-		"215491": 185292,
+		"215490": 155689,
+		"215491": 155689,
 		"215492": 185295,
 		"215493": 185295,
-		"215494": 185298,
-		"215495": 185298,
+		"215494": 155690,
+		"215495": 155690,
 		"215496": 185301,
 		"215497": 185301,
-		"215498": 185304,
-		"215499": 185304,
+		"215498": 155691,
+		"215499": 155691,
 		"215500": 185307,
 		"215501": 185307,
-		"215502": 185310,
-		"215503": 185310,
+		"215502": 155692,
+		"215503": 155692,
 		"215504": 185313,
 		"215505": 185313,
-		"215506": 185316,
-		"215507": 185316,
+		"215506": 155693,
+		"215507": 155693,
 		"215508": 185319,
 		"215509": 185319,
-		"215510": 185322,
-		"215511": 185322,
+		"215510": 155694,
+		"215511": 155694,
 		"215512": 185325,
 		"215513": 185325,
-		"215514": 185328,
-		"215515": 185328,
+		"215514": 155683,
+		"215515": 155683,
 		"215516": 185331,
 		"215517": 185331,
 		"215518": 185334,
@@ -151481,8 +153935,8 @@
 		"215521": 185337,
 		"215522": 185340,
 		"215523": 185340,
-		"215524": 185343,
-		"215525": 185343,
+		"215524": 155682,
+		"215525": 155682,
 		"215526": 185471,
 		"215527": 185471,
 		"215528": 185474,
@@ -151883,8 +154337,8 @@
 		"216286": 58068,
 		"216287": 88317,
 		"216288": 88317,
-		"216289": 186378,
-		"216290": 186378,
+		"216289": 88929,
+		"216290": 88929,
 		"216291": 88253,
 		"216292": 88253,
 		"216293": 88383,
@@ -152572,7 +155026,7 @@
 		"220572": 131030,
 		"220574": 110078,
 		"220575": 163026,
-		"220603": 70129,
+		"220603": 88949,
 		"220604": 110081,
 		"220605": 163035,
 		"220608": 183923,
@@ -153213,9 +155667,9 @@
 		"221405": 81218,
 		"221406": 81219,
 		"221411": 186218,
-		"221415": 70129,
+		"221415": 88949,
 		"221416": 110081,
-		"221417": 70135,
+		"221417": 88951,
 		"221420": 141054,
 		"221422": 180205,
 		"221423": 149278,
@@ -153546,34 +156000,34 @@
 		"221878": 185862,
 		"221879": 185865,
 		"221891": 185259,
-		"221892": 185262,
+		"221892": 155684,
 		"221893": 185265,
-		"221894": 185268,
+		"221894": 155685,
 		"221895": 185271,
-		"221896": 185274,
+		"221896": 155686,
 		"221897": 185277,
-		"221898": 185280,
+		"221898": 155687,
 		"221899": 185283,
-		"221900": 185286,
+		"221900": 155688,
 		"221901": 185289,
-		"221902": 185292,
+		"221902": 155689,
 		"221903": 185295,
-		"221904": 185298,
+		"221904": 155690,
 		"221905": 185301,
-		"221906": 185304,
+		"221906": 155691,
 		"221907": 185307,
-		"221908": 185310,
+		"221908": 155692,
 		"221909": 185313,
-		"221910": 185316,
+		"221910": 155693,
 		"221911": 185319,
-		"221912": 185322,
+		"221912": 155694,
 		"221913": 185325,
-		"221914": 185328,
+		"221914": 155683,
 		"221915": 185331,
 		"221916": 185334,
 		"221917": 185337,
 		"221918": 185340,
-		"221919": 185343,
+		"221919": 155682,
 		"221924": 180147,
 		"221925": 180150,
 		"221926": 180072,
@@ -153701,27 +156155,27 @@
 		"222089": 185732,
 		"222090": 185757,
 		"222108": 185259,
-		"222109": 185262,
+		"222109": 155684,
 		"222110": 185265,
-		"222111": 185268,
+		"222111": 155685,
 		"222112": 185271,
-		"222113": 185274,
+		"222113": 155686,
 		"222114": 185277,
-		"222115": 185280,
+		"222115": 155687,
 		"222116": 185283,
-		"222117": 185286,
+		"222117": 155688,
 		"222118": 185289,
-		"222119": 185292,
+		"222119": 155689,
 		"222120": 185295,
-		"222121": 185298,
+		"222121": 155690,
 		"222122": 185301,
-		"222123": 185304,
+		"222123": 155691,
 		"222124": 185307,
-		"222125": 185310,
+		"222125": 155692,
 		"222126": 185313,
-		"222127": 185316,
+		"222127": 155693,
 		"222128": 185319,
-		"222129": 185322,
+		"222129": 155694,
 		"222137": 186203,
 		"222138": 186206,
 		"222139": 186209,
@@ -154279,6 +156733,20 @@
 		"222899": 181362,
 		"222900": 181365,
 		"222901": 131103,
+		"222902": 131243,
+		"222903": 183262,
+		"222904": 50001,
+		"222905": 50002,
+		"222906": 50003,
+		"222907": 50004,
+		"222908": 50001,
+		"222909": 50002,
+		"222910": 50003,
+		"222911": 50004,
+		"222912": 180521,
+		"222913": 180524,
+		"222914": 180527,
+		"222915": 180530,
 		"232001": 131079,
 		"232002": 131079,
 		"232003": 131079,
@@ -164033,6 +166501,171 @@
 		"261333": 261324,
 		"261334": 261324,
 		"261335": 261324,
+		"261337": 261336,
+		"261338": 261336,
+		"261339": 261336,
+		"261340": 261336,
+		"261341": 261336,
+		"261342": 261336,
+		"261343": 261336,
+		"261344": 261336,
+		"261345": 261336,
+		"261346": 261336,
+		"261347": 261336,
+		"261349": 261348,
+		"261350": 261348,
+		"261351": 261348,
+		"261352": 261348,
+		"261353": 261348,
+		"261354": 261348,
+		"261355": 261348,
+		"261356": 261348,
+		"261357": 261348,
+		"261358": 261348,
+		"261359": 261348,
+		"261361": 261360,
+		"261362": 261360,
+		"261363": 261360,
+		"261364": 261360,
+		"261365": 261360,
+		"261366": 261360,
+		"261367": 261360,
+		"261368": 261360,
+		"261369": 261360,
+		"261370": 261360,
+		"261371": 261360,
+		"261373": 261372,
+		"261374": 261372,
+		"261375": 261372,
+		"261376": 261372,
+		"261377": 261372,
+		"261378": 261372,
+		"261379": 261372,
+		"261380": 261372,
+		"261381": 261372,
+		"261382": 261372,
+		"261383": 261372,
+		"261385": 261384,
+		"261386": 261384,
+		"261387": 261384,
+		"261388": 261384,
+		"261389": 261384,
+		"261390": 261384,
+		"261391": 261384,
+		"261392": 261384,
+		"261393": 261384,
+		"261394": 261384,
+		"261395": 261384,
+		"261397": 261396,
+		"261398": 261396,
+		"261399": 261396,
+		"261400": 261396,
+		"261401": 261396,
+		"261402": 261396,
+		"261403": 261396,
+		"261404": 261396,
+		"261405": 261396,
+		"261406": 261396,
+		"261407": 261396,
+		"261409": 261408,
+		"261410": 261408,
+		"261411": 261408,
+		"261412": 261408,
+		"261413": 261408,
+		"261414": 261408,
+		"261415": 261408,
+		"261416": 261408,
+		"261417": 261408,
+		"261418": 261408,
+		"261419": 261408,
+		"261421": 261420,
+		"261422": 261420,
+		"261423": 261420,
+		"261424": 261420,
+		"261425": 261420,
+		"261426": 261420,
+		"261427": 261420,
+		"261428": 261420,
+		"261429": 261420,
+		"261430": 261420,
+		"261431": 261420,
+		"261433": 261432,
+		"261434": 261432,
+		"261435": 261432,
+		"261436": 261432,
+		"261437": 261432,
+		"261438": 261432,
+		"261439": 261432,
+		"261440": 261432,
+		"261441": 261432,
+		"261442": 261432,
+		"261443": 261432,
+		"261445": 261444,
+		"261446": 261444,
+		"261447": 261444,
+		"261448": 261444,
+		"261449": 261444,
+		"261450": 261444,
+		"261451": 261444,
+		"261452": 261444,
+		"261453": 261444,
+		"261454": 261444,
+		"261455": 261444,
+		"261457": 261456,
+		"261458": 261456,
+		"261459": 261456,
+		"261460": 261456,
+		"261461": 261456,
+		"261462": 261456,
+		"261463": 261456,
+		"261464": 261456,
+		"261465": 261456,
+		"261466": 261456,
+		"261467": 261456,
+		"261469": 261468,
+		"261470": 261468,
+		"261471": 261468,
+		"261472": 261468,
+		"261473": 261468,
+		"261474": 261468,
+		"261475": 261468,
+		"261476": 261468,
+		"261477": 261468,
+		"261478": 261468,
+		"261479": 261468,
+		"261481": 261480,
+		"261482": 261480,
+		"261483": 261480,
+		"261484": 261480,
+		"261485": 261480,
+		"261486": 261480,
+		"261487": 261480,
+		"261488": 261480,
+		"261489": 261480,
+		"261490": 261480,
+		"261491": 261480,
+		"261493": 261492,
+		"261494": 261492,
+		"261495": 261492,
+		"261496": 261492,
+		"261497": 261492,
+		"261498": 261492,
+		"261499": 261492,
+		"261500": 261492,
+		"261501": 261492,
+		"261502": 261492,
+		"261503": 261492,
+		"261505": 261504,
+		"261506": 261504,
+		"261507": 261504,
+		"261508": 261504,
+		"261509": 261504,
+		"261510": 261504,
+		"261511": 261504,
+		"261512": 261504,
+		"261513": 261504,
+		"261514": 261504,
+		"261515": 261504,
 		"261841": 261840,
 		"261842": 261840,
 		"261843": 261840,
@@ -164088,6 +166721,127 @@
 		"261897": 261888,
 		"261898": 261888,
 		"261899": 261888,
+		"261901": 261900,
+		"261902": 261900,
+		"261903": 261900,
+		"261904": 261900,
+		"261905": 261900,
+		"261906": 261900,
+		"261907": 261900,
+		"261908": 261900,
+		"261909": 261900,
+		"261910": 261900,
+		"261911": 261900,
+		"261913": 261912,
+		"261914": 261912,
+		"261915": 261912,
+		"261916": 261912,
+		"261917": 261912,
+		"261918": 261912,
+		"261919": 261912,
+		"261920": 261912,
+		"261921": 261912,
+		"261922": 261912,
+		"261923": 261912,
+		"261925": 261924,
+		"261926": 261924,
+		"261927": 261924,
+		"261928": 261924,
+		"261929": 261924,
+		"261930": 261924,
+		"261931": 261924,
+		"261932": 261924,
+		"261933": 261924,
+		"261934": 261924,
+		"261935": 261924,
+		"261937": 261936,
+		"261938": 261936,
+		"261939": 261936,
+		"261940": 261936,
+		"261941": 261936,
+		"261942": 261936,
+		"261943": 261936,
+		"261944": 261936,
+		"261945": 261936,
+		"261946": 261936,
+		"261947": 261936,
+		"261949": 261948,
+		"261950": 261948,
+		"261951": 261948,
+		"261952": 261948,
+		"261953": 261948,
+		"261954": 261948,
+		"261955": 261948,
+		"261956": 261948,
+		"261957": 261948,
+		"261958": 261948,
+		"261959": 261948,
+		"261961": 261960,
+		"261962": 261960,
+		"261963": 261960,
+		"261964": 261960,
+		"261965": 261960,
+		"261966": 261960,
+		"261967": 261960,
+		"261968": 261960,
+		"261969": 261960,
+		"261970": 261960,
+		"261971": 261960,
+		"261973": 261972,
+		"261974": 261972,
+		"261975": 261972,
+		"261976": 261972,
+		"261977": 261972,
+		"261978": 261972,
+		"261979": 261972,
+		"261980": 261972,
+		"261981": 261972,
+		"261982": 261972,
+		"261983": 261972,
+		"261985": 261984,
+		"261986": 261984,
+		"261987": 261984,
+		"261988": 261984,
+		"261989": 261984,
+		"261990": 261984,
+		"261991": 261984,
+		"261992": 261984,
+		"261993": 261984,
+		"261994": 261984,
+		"261995": 261984,
+		"261997": 261996,
+		"261998": 261996,
+		"261999": 261996,
+		"262000": 261996,
+		"262001": 261996,
+		"262002": 261996,
+		"262003": 261996,
+		"262004": 261996,
+		"262005": 261996,
+		"262006": 261996,
+		"262007": 261996,
+		"262009": 262008,
+		"262010": 262008,
+		"262011": 262008,
+		"262012": 262008,
+		"262013": 262008,
+		"262014": 262008,
+		"262015": 262008,
+		"262016": 262008,
+		"262017": 262008,
+		"262018": 262008,
+		"262019": 262008,
+		"262021": 262020,
+		"262022": 262020,
+		"262023": 262020,
+		"262024": 262020,
+		"262025": 262020,
+		"262026": 262020,
+		"262027": 262020,
+		"262028": 262020,
+		"262029": 262020,
+		"262030": 262020,
+		"262031": 262020,
 		"262069": 262068,
 		"262070": 262068,
 		"262071": 262068,
@@ -164506,6 +167260,149 @@
 		"262521": 262512,
 		"262522": 262512,
 		"262523": 262512,
+		"262525": 262524,
+		"262526": 262524,
+		"262527": 262524,
+		"262528": 262524,
+		"262529": 262524,
+		"262530": 262524,
+		"262531": 262524,
+		"262532": 262524,
+		"262533": 262524,
+		"262534": 262524,
+		"262535": 262524,
+		"262537": 262536,
+		"262538": 262536,
+		"262539": 262536,
+		"262540": 262536,
+		"262541": 262536,
+		"262542": 262536,
+		"262543": 262536,
+		"262544": 262536,
+		"262545": 262536,
+		"262546": 262536,
+		"262547": 262536,
+		"262549": 262548,
+		"262550": 262548,
+		"262551": 262548,
+		"262552": 262548,
+		"262553": 262548,
+		"262554": 262548,
+		"262555": 262548,
+		"262556": 262548,
+		"262557": 262548,
+		"262558": 262548,
+		"262559": 262548,
+		"262561": 262560,
+		"262562": 262560,
+		"262563": 262560,
+		"262564": 262560,
+		"262565": 262560,
+		"262566": 262560,
+		"262567": 262560,
+		"262568": 262560,
+		"262569": 262560,
+		"262570": 262560,
+		"262571": 262560,
+		"262573": 262572,
+		"262574": 262572,
+		"262575": 262572,
+		"262576": 262572,
+		"262577": 262572,
+		"262578": 262572,
+		"262579": 262572,
+		"262580": 262572,
+		"262581": 262572,
+		"262582": 262572,
+		"262583": 262572,
+		"262585": 262584,
+		"262586": 262584,
+		"262587": 262584,
+		"262588": 262584,
+		"262589": 262584,
+		"262590": 262584,
+		"262591": 262584,
+		"262592": 262584,
+		"262593": 262584,
+		"262594": 262584,
+		"262595": 262584,
+		"262597": 262596,
+		"262598": 262596,
+		"262599": 262596,
+		"262600": 262596,
+		"262601": 262596,
+		"262602": 262596,
+		"262603": 262596,
+		"262604": 262596,
+		"262605": 262596,
+		"262606": 262596,
+		"262607": 262596,
+		"262609": 262608,
+		"262610": 262608,
+		"262611": 262608,
+		"262612": 262608,
+		"262613": 262608,
+		"262614": 262608,
+		"262615": 262608,
+		"262616": 262608,
+		"262617": 262608,
+		"262618": 262608,
+		"262619": 262608,
+		"262621": 262620,
+		"262622": 262620,
+		"262623": 262620,
+		"262624": 262620,
+		"262625": 262620,
+		"262626": 262620,
+		"262627": 262620,
+		"262628": 262620,
+		"262629": 262620,
+		"262630": 262620,
+		"262631": 262620,
+		"262633": 262632,
+		"262634": 262632,
+		"262635": 262632,
+		"262636": 262632,
+		"262637": 262632,
+		"262638": 262632,
+		"262639": 262632,
+		"262640": 262632,
+		"262641": 262632,
+		"262642": 262632,
+		"262643": 262632,
+		"262645": 262644,
+		"262646": 262644,
+		"262647": 262644,
+		"262648": 262644,
+		"262649": 262644,
+		"262650": 262644,
+		"262651": 262644,
+		"262652": 262644,
+		"262653": 262644,
+		"262654": 262644,
+		"262655": 262644,
+		"262657": 262656,
+		"262658": 262656,
+		"262659": 262656,
+		"262660": 262656,
+		"262661": 262656,
+		"262662": 262656,
+		"262663": 262656,
+		"262664": 262656,
+		"262665": 262656,
+		"262666": 262656,
+		"262667": 262656,
+		"262669": 262668,
+		"262670": 262668,
+		"262671": 262668,
+		"262672": 262668,
+		"262673": 262668,
+		"262674": 262668,
+		"262675": 262668,
+		"262676": 262668,
+		"262677": 262668,
+		"262678": 262668,
+		"262679": 262668,
 		"850000": 50000,
 		"850001": 50000,
 		"850002": 50000,
@@ -165190,9 +168087,9 @@
 		"850681": 19308,
 		"850682": 90012,
 		"850683": 19314,
-		"850684": 70129,
+		"850684": 88949,
 		"850685": 70132,
-		"850686": 70135,
+		"850686": 88951,
 		"850687": 130001,
 		"850688": 130002,
 		"850689": 130003,
@@ -167566,34 +170463,34 @@
 		"853057": 185951,
 		"853058": 185953,
 		"853059": 185259,
-		"853060": 185262,
+		"853060": 155684,
 		"853061": 185265,
-		"853062": 185268,
+		"853062": 155685,
 		"853063": 185271,
-		"853064": 185274,
+		"853064": 155686,
 		"853065": 185277,
-		"853066": 185280,
+		"853066": 155687,
 		"853067": 185283,
-		"853068": 185286,
+		"853068": 155688,
 		"853069": 185289,
-		"853070": 185292,
+		"853070": 155689,
 		"853071": 185295,
-		"853072": 185298,
+		"853072": 155690,
 		"853073": 185301,
-		"853074": 185304,
+		"853074": 155691,
 		"853075": 185307,
-		"853076": 185310,
+		"853076": 155692,
 		"853077": 185313,
-		"853078": 185316,
+		"853078": 155693,
 		"853079": 185319,
-		"853080": 185322,
+		"853080": 155694,
 		"853081": 185325,
-		"853082": 185328,
+		"853082": 155683,
 		"853083": 185331,
 		"853084": 185334,
 		"853085": 185337,
 		"853086": 185340,
-		"853087": 185343,
+		"853087": 155682,
 		"853088": 185471,
 		"853089": 185474,
 		"853090": 185477,
@@ -168203,7 +171100,7 @@
 		"853694": 131257,
 		"853695": 131265,
 		"853696": 131273,
-		"853697": 185328,
+		"853697": 155683,
 		"853698": 164069,
 		"853699": 181255,
 		"853700": 184256,
@@ -168378,9 +171275,9 @@
 		"853869": 19308,
 		"853870": 90012,
 		"853871": 19314,
-		"853872": 70129,
+		"853872": 88949,
 		"853873": 70132,
-		"853874": 70135,
+		"853874": 88951,
 		"853875": 19046,
 		"853876": 201307,
 		"853877": 19052,
@@ -170140,17 +173037,17 @@
 		"856229": 185090,
 		"856230": 185093,
 		"856231": 185096,
-		"856232": 185262,
-		"856233": 185268,
-		"856234": 185274,
-		"856235": 185280,
-		"856236": 185286,
-		"856237": 185292,
-		"856238": 185298,
-		"856239": 185304,
-		"856240": 185310,
-		"856241": 185316,
-		"856242": 185322,
+		"856232": 155684,
+		"856233": 155685,
+		"856234": 155686,
+		"856235": 155687,
+		"856236": 155688,
+		"856237": 155689,
+		"856238": 155690,
+		"856239": 155691,
+		"856240": 155692,
+		"856241": 155693,
+		"856242": 155694,
 		"856257": 181005,
 		"856258": 181008,
 		"856259": 181011,
@@ -170179,7 +173076,7 @@
 		"856316": 185307,
 		"856317": 185313,
 		"856318": 185319,
-		"856319": 185328,
+		"856319": 155683,
 		"856320": 185337,
 		"856326": 184256,
 		"856327": 184265,
