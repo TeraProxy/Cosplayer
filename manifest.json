@@ -1,8 +1,8 @@
 {
     "files": {
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-        "README.md": "8d2dd0f8c5eca2f48bf53a06c49776a22ef10ef829648126ecf1ed1321a33123",
-        "index.js": "eb4ff960d0a97d4975f4e9505478ad815e75d54e52c54fea4f3cbb03219962a8",
+        "README.md": "8668b81be71df1739718e780042db263b5b269d9e9f52bf270a2753949ff88b3",
+        "index.js": "d4e78add87d20eadf298563cf9290746a6a6a358c18bb765013d7b9aaa4aab08",
         "items/items.eu.json": "aadd6d68cdc442581bf1e17198fb65cb1ffa5537e37949e409e1f1d12728745e",
         "items/items.jp.json": "6bdd19ffcbcefcc238b967ac462db336ce325eefbe2e50e52194e9953b307a95",
         "items/items.kr.json": "ec2942149cdb5b5c8caf4dc838e6d8dd2ce1bb39e17395df0de48a5b1cf851c5",
@@ -11,7 +11,7 @@
         "items/items.se.json": "f1f9e245ce70ddf4e1d837527bf50f17d31937f4f9c5785c87eeaf7a803e7d45",
         "items/items.th.json": "6d7e54877f806817d10e24348607f456131e34fa7c6c8eac9700e0113989e79b",
         "items/items.tw.json": "4a377d16fb13dac9c6b47963ebeac38f7fd27500a760103ddd701b8179805670",
-        "module.json": "7ffdbc004df5946f186d72b8363f2fec300934c6470bc7f588d1a7463011886d",
+        "module.json": "be7d26fc90bcd85ece3a9b996203c1edd6cfd6d2c130345f823204f7381c0654",
         "mounts/mounts.eu.json": "e5369f8657f91aaa679ab177e16d9ac2b9947d0080d11d363f4c491d3e1364ab",
         "mounts/mounts.jp.json": "eb668cc4cf2ad0c46196b54f514a868c44a1efb94f7a3735bd80699cfb42dbf9",
         "mounts/mounts.kr.json": "583b44cd5b98c13807e692a1609adbafbd79e9f562594da5b9eb06fef8233e67",
@@ -53,7 +53,7 @@
         "S_RESPONSE_ACCESSORY_COST_INFO": 1,
         "S_UNICAST_TRANSFORM_DATA": 5,
         "S_USER_EXTERNAL_CHANGE": 7,
-        "S_USER_PAPERDOLL_INFO": 7,
+        "S_USER_PAPERDOLL_INFO": 8,
         "S_USER_WEAPON_APPEARANCE_CHANGE": 2
     }
 }

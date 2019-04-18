@@ -276,7 +276,7 @@ module.exports = function Cosplayer(mod) {
 		return false // block this so the server doesn't overwrite our fake item list
 	})
 
-	mod.hook('S_USER_PAPERDOLL_INFO', 7, event => {
+	mod.hook('S_USER_PAPERDOLL_INFO', 8, event => {
 		if(gettingAppearance) {
 			for(let slot of SLOTS)
 				if(event[slot]) equipped(event[slot])
