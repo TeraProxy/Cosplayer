@@ -13,6 +13,9 @@ catch {
 
 if(process.versions.electron) {
 	switch(process.versions.modules) {
+		case("70"): // Electron 5
+			Mouse = require('./mouse/electron70.node').Mouse
+			break;
 		case("64"): // Electron 4
 			Mouse = require('./mouse/electron64.node').Mouse
 			break;
@@ -25,6 +28,9 @@ if(process.versions.electron) {
 }
 else {
 	switch(process.versions.modules) {
+		case("72"): // Node.js 12
+			Mouse = require('./mouse/72.node').Mouse
+			break;
 		case("67"): // Node.js 11
 			Mouse = require('./mouse/67.node').Mouse
 			break;
