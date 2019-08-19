@@ -123,7 +123,7 @@
 		"name": "Riding Skill: Razormane",
 		"toolTip": "Use this manual to learn how to summon Razormane with a Movement Speed of 280.",
 		"skill": 111194,
-		"vehicleId": "17"
+		"vehicleId": "1700"
 	},
 	"382": {
 		"id": "382",
@@ -370,6 +370,13 @@
 		"skill": 1111523,
 		"vehicleId": "53"
 	},
+	"92135": {
+		"id": "92135",
+		"name": "[Event] Easter Lily",
+		"toolTip": "Lily was born from Easter Egg.<br>Use skill book to summon Easter Lily <br>Flying ability 136  (Flight speed 290, Movement speed 290)<br>Retore 1% of your max HP and MP.",
+		"skill": 12200137,
+		"vehicleId": "316"
+	},
 	"98601": {
 		"id": "98601",
 		"name": "Flying Skill: Yellow Bird (Special)",
@@ -453,6 +460,13 @@
 		"toolTip": "Use this manual to learn how to summon a Blue Bird with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Battle Thrush grants the passive skill <font color = '#F9B600'>Lucky Wing</font> (increased Crit Power), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). While riding Battle Thrush you may use the active skill <font color = '#F9B600'>Arbitrary Gift II</font> (grants a random consumable effect every hour). Using <font color = '#F9B600'>Arbitrary Gift II</font> starts a 1-hour cooldown which may prevent the use of other mount skills.<br><br><font color = '#c21919'>Non-tradable.",
 		"skill": 12200132,
 		"vehicleId": "267"
+	},
+	"99003": {
+		"id": "99003",
+		"name": "Riding Skill: Forest Keeper Kumas",
+		"toolTip": "Use this manual to learn how to summon a Forest Keeper Kumas with a Movement Speed of 280.",
+		"skill": 12200164,
+		"vehicleId": "294"
 	},
 	"99102": {
 		"id": "99102",
@@ -621,6 +635,13 @@
 		"toolTip": "",
 		"skill": 111152,
 		"vehicleId": "330"
+	},
+	"100722": {
+		"id": "100722",
+		"name": "",
+		"toolTip": "",
+		"skill": 111149,
+		"vehicleId": "17"
 	},
 	"100723": {
 		"id": "100723",
@@ -1224,13 +1245,6 @@
 		"skill": 13000059,
 		"vehicleId": "231"
 	},
-	"109948": {
-		"id": "109948",
-		"name": "",
-		"toolTip": "",
-		"skill": 13600238,
-		"vehicleId": "1700"
-	},
 	"110083": {
 		"id": "110083",
 		"name": "",
@@ -1693,12 +1707,12 @@
 		"skill": 14100630,
 		"vehicleId": "1193"
 	},
-	"155714": {
-		"id": "155714",
-		"name": "Riding Skill: Tawny Huntress - 290 riding speed",
-		"toolTip": "Re-use Existing Tawny Huntress Mount<br>Request version that is faster (290 instead of 280)",
-		"skill": 14100637,
-		"vehicleId": "582"
+	"155726": {
+		"id": "155726",
+		"name": "",
+		"toolTip": "",
+		"skill": 14100638,
+		"vehicleId": "254"
 	},
 	"181120": {
 		"id": "181120",
@@ -1854,6 +1868,90 @@
 		"skill": 12200161,
 		"vehicleId": "290"
 	},
+	"202604": {
+		"id": "202604",
+		"name": "Flying Skill: Red Celestial Beast Special",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Additionally you learn skill <font color = '#f9b600'>[Brightness I]</font>, which grants the buff increasing your Skill Advancement XP gain, when you are mounted. You can granted passive skills <font color = '#f7a001'>Mysterious Aura</font> (+1.5 Crit Power). Only the effects of the last mount you summon apply.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200166,
+		"vehicleId": "297"
+	},
+	"202605": {
+		"id": "202605",
+		"name": "Flying Skill: Rare Red Celestial Beast Special",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Additionally you learn skill <font color = '#f9b600'>[Brightness II]</font>, which grants the buff increasing your Skill Advancement XP gain, when you are mounted. You can granted passive skills <font color = '#f7a001'>Mysterious Aura</font> (Double Crit Power). Only the effects of the last mount you summon apply.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200167,
+		"vehicleId": "299"
+	},
+	"202606": {
+		"id": "202606",
+		"name": "Flying Skill: Red Celestial Beast",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200170,
+		"vehicleId": "302"
+	},
+	"202607": {
+		"id": "202607",
+		"name": "Flying Skill: Rare Red Celestial Beast",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200171,
+		"vehicleId": "301"
+	},
+	"202612": {
+		"id": "202612",
+		"name": "Flying Skill: Red Celestial Beast Special (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Additionally you learn skill <font color = '#f9b600'>[Brightness I]</font>, which grants the buff increasing your Skill Advancement XP gain, when you are mounted. You can granted passive skills <font color = '#f7a001'>Mysterious Aura</font> (+1.5 Crit Power). Only the effects of the last mount you summon apply.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200168,
+		"vehicleId": "298"
+	},
+	"202613": {
+		"id": "202613",
+		"name": "Flying Skill: Rare Red Celestial Beast Special (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Additionally you learn skill <font color = '#f9b600'>[Brightness II]</font>, which grants the buff increasing your Skill Advancement XP gain, when you are mounted. You can granted passive skills <font color = '#f7a001'>Mysterious Aura</font> (Double Crit Power). Only the effects of the last mount you summon apply.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200169,
+		"vehicleId": "300"
+	},
+	"202628": {
+		"id": "202628",
+		"name": "Flying Skill: Blue Celestial Beast Special",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Additionally you learn skill <font color = '#f9b600'>[Brightness I]</font>, which grants the buff increasing your Skill Advancement XP gain, when you are mounted. You can granted passive skills <font color = '#f7a001'>Mysterious Aura</font> (+1.5 Crit Power). Only the effects of the last mount you summon apply.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200174,
+		"vehicleId": "305"
+	},
+	"202629": {
+		"id": "202629",
+		"name": "Flying Skill: Rare Blue Celestial Beast Special",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Additionally you learn skill <font color = '#f9b600'>[Brightness II]</font>, which grants the buff increasing your Skill Advancement XP gain, when you are mounted. You can granted passive skills <font color = '#f7a001'>Mysterious Aura</font> (Double Crit Power). Only the effects of the last mount you summon apply.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200175,
+		"vehicleId": "303"
+	},
+	"202630": {
+		"id": "202630",
+		"name": "Flying Skill: Blue Celestial Beast",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200178,
+		"vehicleId": "308"
+	},
+	"202631": {
+		"id": "202631",
+		"name": "Flying Skill: Rare Blue Celestial Beast",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200179,
+		"vehicleId": "307"
+	},
+	"202636": {
+		"id": "202636",
+		"name": "Flying Skill: Blue Celestial Beast Special (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Additionally you learn skill <font color = '#f9b600'>[Brightness I]</font>, which grants the buff increasing your Skill Advancement XP gain, when you are mounted. You can granted passive skills <font color = '#f7a001'>Mysterious Aura</font> (+1.5 Crit Power). Only the effects of the last mount you summon apply.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200176,
+		"vehicleId": "306"
+	},
+	"202637": {
+		"id": "202637",
+		"name": "Flying Skill: Rare Blue Celestial Beast Special (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Celestial Beast, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Additionally you learn skill <font color = '#f9b600'>[Brightness II]</font>, which grants the buff increasing your Skill Advancement XP gain, when you are mounted. You can granted passive skills <font color = '#f7a001'>Mysterious Aura</font> (Double Crit Power). Only the effects of the last mount you summon apply.<br><br><font color = '#c21919'>Non-tradable.",
+		"skill": 12200177,
+		"vehicleId": "304"
+	},
 	"214185": {
 		"id": "214185",
 		"name": "",
@@ -1994,13 +2092,6 @@
 		"skill": 12200034,
 		"vehicleId": "241"
 	},
-	"254960": {
-		"id": "254960",
-		"name": "Riding Skill: Lady",
-		"toolTip": "Use this manual to learn how to summon Lady, a spirit wolf with a movement speed of 280.",
-		"skill": 23000141,
-		"vehicleId": "254"
-	},
 	"255328": {
 		"id": "255328",
 		"name": "Flying Skill: Moon Rabbit [Blue]",
@@ -2035,5 +2126,75 @@
 		"toolTip": "Use this manual to learn how to summon Pink Mane Wolf with a flight and movement speed of 290.",
 		"skill": 23000201,
 		"vehicleId": "2540"
+	},
+	"260720": {
+		"id": "260720",
+		"name": "Flying Skill: Elemental Racer",
+		"toolTip": "Use this manual to learn how to summon an Arcane Racer with a Flight and Movement Speed of 290.",
+		"skill": 23000213,
+		"vehicleId": "295"
+	},
+	"260764": {
+		"id": "260764",
+		"name": "Flying Skill: Rare Elemental Racer",
+		"toolTip": "Use this manual to learn how to summon a Rare Arcane Racer with a Flight and Movement Speed of 290.",
+		"skill": 23000240,
+		"vehicleId": "296"
+	},
+	"262704": {
+		"id": "262704",
+		"name": "Flying Skill: Rare Red Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Koinobori Red Rare with a Flight and Movement Speed of 290.",
+		"skill": 23000267,
+		"vehicleId": "309"
+	},
+	"262748": {
+		"id": "262748",
+		"name": "Flying Skill: Red Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Koinobori Red with a Flight and Movement Speed of 290.",
+		"skill": 23000279,
+		"vehicleId": "310"
+	},
+	"262792": {
+		"id": "262792",
+		"name": "Flying Skill: Rare Blue Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Koinobori Blue Rare with a Flight and Movement Speed of 290.",
+		"skill": 23000291,
+		"vehicleId": "311"
+	},
+	"262836": {
+		"id": "262836",
+		"name": "Flying Skill: Blue Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Koinobori Blue with a Flight and Movement Speed of 290.",
+		"skill": 23000303,
+		"vehicleId": "312"
+	},
+	"262880": {
+		"id": "262880",
+		"name": "Flying Skill: Rare Black Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Koinobori Black Rare with a Flight and Movement Speed of 290.",
+		"skill": 23000315,
+		"vehicleId": "313"
+	},
+	"262924": {
+		"id": "262924",
+		"name": "Flying Skill: Black Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Koinobori Black with a Flight and Movement Speed of 290.",
+		"skill": 23000327,
+		"vehicleId": "314"
+	},
+	"262968": {
+		"id": "262968",
+		"name": "Flying Skill: Rare Mix Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Koinobori Mix Rare with a Flight and Movement Speed of 290.",
+		"skill": 23000339,
+		"vehicleId": "315"
+	},
+	"263624": {
+		"id": "263624",
+		"name": "Flying Skill: Dragon Boat",
+		"toolTip": "Use this manual to learn how to summon a Dragon Boat with a Flight and Movement Speed of 290.",
+		"skill": 23000351,
+		"vehicleId": "2221"
 	}
 }

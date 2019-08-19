@@ -123,7 +123,7 @@
 		"name": "Riding Skill: Razormane",
 		"toolTip": "Use this manual to learn how to summon Razormane with a Movement Speed of 280.",
 		"skill": 111194,
-		"vehicleId": "17"
+		"vehicleId": "1700"
 	},
 	"382": {
 		"id": "382",
@@ -279,6 +279,13 @@
 		"skill": 111142,
 		"vehicleId": "42"
 	},
+	"489": {
+		"id": "489",
+		"name": "Riding Skill: Sheldon",
+		"toolTip": "Use this manual to learn how to summon Sheldon (the giant kamara after which the Unified Theory Institute's bots were modeled) with a movement speed of 275.",
+		"skill": 111152,
+		"vehicleId": "330"
+	},
 	"650": {
 		"id": "650",
 		"name": "A Week of Night Mares",
@@ -370,6 +377,13 @@
 		"skill": 1111523,
 		"vehicleId": "53"
 	},
+	"92135": {
+		"id": "92135",
+		"name": "[Event] Lilly",
+		"toolTip": "Lilly hatched from an egg.<br>Use this manual to learn how to summon Lilly with a general flight capability of 136 (flying speed: 290; speed, 290). While mounted on Lilly, you will regenerate 1% of your HP and MP per second.<br><br>You have found a very rare egg indeed. Take good care of Lilly! - Bunbunmin",
+		"skill": 12200137,
+		"vehicleId": "316"
+	},
 	"98601": {
 		"id": "98601",
 		"name": "Fortune Skill: Mighty Vakna",
@@ -453,6 +467,27 @@
 		"toolTip": "Use this manual to learn how to summon an Ancient Mighty Somno with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 2% of your max MP and HP every second. Additionally you learn the passive skill Phantasmic Talon and the skill Dreamreader.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>ancient mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font>",
 		"skill": 12200132,
 		"vehicleId": "267"
+	},
+	"99003": {
+		"id": "99003",
+		"name": "Riding Skill: Forest Keeper Kumas",
+		"toolTip": "Use this manual to learn how to summon a Forest Keeper Kumas with a Movement Speed of 280.",
+		"skill": 12200164,
+		"vehicleId": "294"
+	},
+	"99039": {
+		"id": "99039",
+		"name": "Dragon Skill: Mighty Goldseeker",
+		"toolTip": "Use this manual to learn how to summon a Mighty Goldseeker with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 1% of your max MP and HP every second. Additionally you learn the passive skill Ruler of Dragons.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font>",
+		"skill": 12200182,
+		"vehicleId": "318"
+	},
+	"99040": {
+		"id": "99040",
+		"name": "Dragon Skill: Ancient Mighty Goldseeker",
+		"toolTip": "Use this manual to learn how to summon an Ancient Mighty Goldseeker with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 2% of your max MP and HP every second. The dragon is surrounded by an aura that increases the movement speed of nearby group members' mounts by 10. Additionally you learn the passive skill Dragon Master.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>ancient mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font>",
+		"skill": 12200183,
+		"vehicleId": "319"
 	},
 	"99102": {
 		"id": "99102",
@@ -615,12 +650,12 @@
 		"skill": 111150,
 		"vehicleId": "43"
 	},
-	"100716": {
-		"id": "100716",
+	"100722": {
+		"id": "100722",
 		"name": "",
 		"toolTip": "",
-		"skill": 111152,
-		"vehicleId": "330"
+		"skill": 111149,
+		"vehicleId": "17"
 	},
 	"100723": {
 		"id": "100723",
@@ -1210,13 +1245,6 @@
 		"skill": 13000059,
 		"vehicleId": "231"
 	},
-	"109948": {
-		"id": "109948",
-		"name": "",
-		"toolTip": "",
-		"skill": 13600238,
-		"vehicleId": "1700"
-	},
 	"110083": {
 		"id": "110083",
 		"name": "",
@@ -1693,12 +1721,12 @@
 		"skill": 14100630,
 		"vehicleId": "1193"
 	},
-	"155714": {
-		"id": "155714",
-		"name": "Riding Skill: Swift Tawny Huntress",
-		"toolTip": "<font color = '#02a4dc'>[Batu Desert Event Item]</font><br>Use this manual to learn how to summon a lioness with a movement speed of 290.",
-		"skill": 14100637,
-		"vehicleId": "582"
+	"155726": {
+		"id": "155726",
+		"name": "Riding Skill: Legendary Bloom Tail",
+		"toolTip": "Use this manual to learn how to summon a Legendary Bloom Tail with a movement speed of 280 which restores 0.5% of your max HP and MP every second.",
+		"skill": 14100638,
+		"vehicleId": "254"
 	},
 	"181120": {
 		"id": "181120",
@@ -1854,6 +1882,90 @@
 		"skill": 12200161,
 		"vehicleId": "290"
 	},
+	"202604": {
+		"id": "202604",
+		"name": "Illumina Skill: Mighty Dawn Gryphon",
+		"toolTip": "Use this manual to learn how to summon a Mighty Dawn Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 1% of your max MP and HP every second. Additionally you learn the passive skill Prophecy and the skill Illumination.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font><br>You activate the skill by getting on your flying mount and pressing the left mouse button (default).",
+		"skill": 12200166,
+		"vehicleId": "297"
+	},
+	"202605": {
+		"id": "202605",
+		"name": "Illumina Skill: Ancient Mighty Dawn Gryphon",
+		"toolTip": "Use this manual to learn how to summon an Ancient Mighty Dawn Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 2% of your max MP and HP every second. Additionally you learn the passive skill Revelation and the skill Illumination.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>ancient mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font><br>You activate the skill by getting on your flying mount and pressing the left mouse button (default).",
+		"skill": 12200167,
+		"vehicleId": "299"
+	},
+	"202606": {
+		"id": "202606",
+		"name": "Flying Skill: Dawn Gryphon",
+		"toolTip": "Use this manual to learn how to summon a Dawn Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 1% of your max MP and HP every second.",
+		"skill": 12200170,
+		"vehicleId": "302"
+	},
+	"202607": {
+		"id": "202607",
+		"name": "Flying Skill: Ancient Dawn Gryphon",
+		"toolTip": "Use this manual to learn how to summon an Ancient Dawn Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 2% of your max MP and HP every second.",
+		"skill": 12200171,
+		"vehicleId": "301"
+	},
+	"202612": {
+		"id": "202612",
+		"name": "Illumina Skill: Mighty Dawn Gryphon (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Mighty Dawn Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 1% of your max MP and HP every second. Additionally you learn the passive skill Prophecy and the skill Illumination.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font><br>You activate the skill by getting on your flying mount and pressing the left mouse button (default).",
+		"skill": 12200168,
+		"vehicleId": "298"
+	},
+	"202613": {
+		"id": "202613",
+		"name": "Illumina Skill: Ancient Mighty Dawn Gryphon (3 Days)",
+		"toolTip": "Use this manual to learn how to summon an Ancient Mighty Dawn Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 2% of your max MP and HP every second. Additionally you learn the passive skill Revelation and the skill Illumination.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>ancient mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font><br>You activate the skill by getting on your flying mount and pressing the left mouse button (default).",
+		"skill": 12200169,
+		"vehicleId": "300"
+	},
+	"202628": {
+		"id": "202628",
+		"name": "Illumina Skill: Mighty Thunder Gryphon",
+		"toolTip": "Use this manual to learn how to summon a Mighty Thunder Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 1% of your max MP and HP every second. Additionally you learn the passive skill Prophecy and the skill Illumination.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font><br>You activate the skill by getting on your flying mount and pressing the left mouse button (default).",
+		"skill": 12200174,
+		"vehicleId": "305"
+	},
+	"202629": {
+		"id": "202629",
+		"name": "Illumina Skill: Ancient Mighty Thunder Gryphon",
+		"toolTip": "Use this manual to learn how to summon an Ancient Mighty Thunder Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 2% of your max MP and HP every second. Additionally you learn the passive skill Revelation and the skill Illumination.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>ancient mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font><br>You activate the skill by getting on your flying mount and pressing the left mouse button (default).",
+		"skill": 12200175,
+		"vehicleId": "303"
+	},
+	"202630": {
+		"id": "202630",
+		"name": "Flying Skill: Thunder Gryphon",
+		"toolTip": "Use this manual to learn how to summon a Thunder Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 1% of your max MP and HP every second.",
+		"skill": 12200178,
+		"vehicleId": "308"
+	},
+	"202631": {
+		"id": "202631",
+		"name": "Flying Skill: Ancient Thunder Gryphon",
+		"toolTip": "Use this manual to learn how to summon an Ancient Thunder Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 2% of your max MP and HP every second.",
+		"skill": 12200179,
+		"vehicleId": "307"
+	},
+	"202636": {
+		"id": "202636",
+		"name": "Illumina Skill: Mighty Thunder Gryphon (3 Days)",
+		"toolTip": "Use this manual to learn how to summon a Mighty Thunder Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 1% of your max MP and HP every second. Additionally you learn the passive skill Prophecy and the skill Illumination.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font><br>You activate the skill by getting on your flying mount and pressing the left mouse button (default).",
+		"skill": 12200176,
+		"vehicleId": "306"
+	},
+	"202637": {
+		"id": "202637",
+		"name": "Illumina Skill: Ancient Mighty Thunder Gryphon (3 Days)",
+		"toolTip": "Use this manual to learn how to summon an Ancient Mighty Thunder Gryphon with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>. It restores 2% of your max MP and HP every second. Additionally you learn the passive skill Revelation and the skill Illumination.<br><br><font color = '#c21919'>You can only benefit from the skills of one </font><font color = '#f7a001'>ancient mighty</font><font color = '#c21919'> flying mount at any one time. Only the effects of the last mount you summon apply.</font><br>You activate the skill by getting on your flying mount and pressing the left mouse button (default).",
+		"skill": 12200177,
+		"vehicleId": "304"
+	},
 	"214185": {
 		"id": "214185",
 		"name": "",
@@ -1994,13 +2106,6 @@
 		"skill": 12200034,
 		"vehicleId": "241"
 	},
-	"254960": {
-		"id": "254960",
-		"name": "Riding Skill: Bloom Tail",
-		"toolTip": "Use this manual to learn how to summon a Bloom Tail with a movement speed of 280.",
-		"skill": 23000141,
-		"vehicleId": "254"
-	},
 	"255328": {
 		"id": "255328",
 		"name": "Flying Skill: Moonhopper",
@@ -2035,5 +2140,82 @@
 		"toolTip": "Use this manual to learn how to summon a Bloom Tail with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
 		"skill": 23000201,
 		"vehicleId": "2540"
+	},
+	"260720": {
+		"id": "260720",
+		"name": "Flying Skill: Photon Fighter",
+		"toolTip": "Use this manual to learn how to summon a Photon Fighter with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000213,
+		"vehicleId": "295"
+	},
+	"260764": {
+		"id": "260764",
+		"name": "Flying Skill: Guardex Fighter",
+		"toolTip": "Use this manual to learn how to summon a Guardex Fighter with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000240,
+		"vehicleId": "296"
+	},
+	"262704": {
+		"id": "262704",
+		"name": "Flying Skill: Carnelian Koinobori",
+		"toolTip": "Use this manual to learn how to summon a Carnelian Koinobori with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000267,
+		"vehicleId": "309"
+	},
+	"262748": {
+		"id": "262748",
+		"name": "Flying Skill: Carnelian Koi",
+		"toolTip": "Use this mannual to learn how to summon a Carnelian Koi with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000279,
+		"vehicleId": "310"
+	},
+	"262792": {
+		"id": "262792",
+		"name": "Flying Skill: Aquamarine Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Aquamarine Koi with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000291,
+		"vehicleId": "311"
+	},
+	"262836": {
+		"id": "262836",
+		"name": "Flying Skill: Aquamarine Koi",
+		"toolTip": "Use this manual to learn how to summon an Aquamarine Koi with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000303,
+		"vehicleId": "312"
+	},
+	"262880": {
+		"id": "262880",
+		"name": "Flying Skill: Onyx Koinobori",
+		"toolTip": "Use this manual to learn how to summon an Onyx Koinobori with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000315,
+		"vehicleId": "313"
+	},
+	"262924": {
+		"id": "262924",
+		"name": "Flying Skill: Onyx Koi",
+		"toolTip": "Use this manual to learn how to summon an Onyx Koi with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000327,
+		"vehicleId": "314"
+	},
+	"262968": {
+		"id": "262968",
+		"name": "Flying Skill: Koinobori School",
+		"toolTip": "Use this manual to learn how to summon a colorful Koinobori School with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000339,
+		"vehicleId": "315"
+	},
+	"263624": {
+		"id": "263624",
+		"name": "Flying Skill: Cheeks' Dragon Boat",
+		"toolTip": "Use this manual to learn how to summon a Dragon Boat with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.",
+		"skill": 23000351,
+		"vehicleId": "2221"
+	},
+	"264480": {
+		"id": "264480",
+		"name": "Flying Skill: Starhopper",
+		"toolTip": "Use this manual to learn how to summon a Starhopper with a <font color = '#f7a001'>flying speed of 290</font> and a <font color = '#f7a001'>movement speed of 290</font>.<BR><BR>Golden version of the winning design from the TERADEMY Contest 2016 by <font color = '#f7a001'>Miineko</font>.",
+		"skill": 23000375,
+		"vehicleId": "317"
 	}
 }

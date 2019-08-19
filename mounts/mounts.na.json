@@ -370,6 +370,13 @@
 		"skill": 1111523,
 		"vehicleId": "53"
 	},
+	"92135": {
+		"id": "92135",
+		"name": "[Event] Flying Skill: Lily",
+		"toolTip": "Use this manual to learn how to summon Lily, a mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second.",
+		"skill": 12200137,
+		"vehicleId": "316"
+	},
 	"98601": {
 		"id": "98601",
 		"name": "Flying Skill: Combat Canary",
@@ -2131,5 +2138,61 @@
 		"toolTip": "Use this manual to learn how to summon a Spellracer with a Flight and Movement Speed of 290.",
 		"skill": 23000240,
 		"vehicleId": "296"
+	},
+	"262704": {
+		"id": "262704",
+		"name": "Flying Skill: Crimson Koi School",
+		"toolTip": "Use this manual to learn how to summon a Crimson Koi School with a Flight and Movement Speed of 290.",
+		"skill": 23000267,
+		"vehicleId": "309"
+	},
+	"262748": {
+		"id": "262748",
+		"name": "Flying Skill: Crimson Koi",
+		"toolTip": "Use this manual to learn how to summon a Crimson Koi with a Flight and Movement Speed of 290.",
+		"skill": 23000279,
+		"vehicleId": "310"
+	},
+	"262792": {
+		"id": "262792",
+		"name": "Flying Skill: Azure Koi School",
+		"toolTip": "Use this manual to learn how to summon an Azure Koi School with a Flight and Movement Speed of 290.",
+		"skill": 23000291,
+		"vehicleId": "311"
+	},
+	"262836": {
+		"id": "262836",
+		"name": "Flying Skill: Azure Koi",
+		"toolTip": "Use this manual to learn how to summon an Azure Koi with a Flight and Movement Speed of 290.",
+		"skill": 23000303,
+		"vehicleId": "312"
+	},
+	"262880": {
+		"id": "262880",
+		"name": "Flying Skill: Ebon Koi School",
+		"toolTip": "Use this manual to learn how to summon an Ebon Koi School with a Flight and Movement Speed of 290.",
+		"skill": 23000315,
+		"vehicleId": "313"
+	},
+	"262924": {
+		"id": "262924",
+		"name": "Flying Skill: Ebon Koi",
+		"toolTip": "Use this manual to learn how to summon an Ebon Koi with a Flight and Movement Speed of 290.",
+		"skill": 23000327,
+		"vehicleId": "314"
+	},
+	"262968": {
+		"id": "262968",
+		"name": "Flying Skill: Rainbow Koi School",
+		"toolTip": "Use this manual to learn how to summon a Rainbow Koi School with a Flight and Movement Speed of 290.",
+		"skill": 23000339,
+		"vehicleId": "315"
+	},
+	"263624": {
+		"id": "263624",
+		"name": "Flying Skill: Dragon Boat",
+		"toolTip": "Use this manual to learn how to summon a Dragon Boat with a Flight and Movement Speed of 290.",
+		"skill": 23000351,
+		"vehicleId": "2221"
 	}
 }

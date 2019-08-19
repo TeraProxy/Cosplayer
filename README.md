@@ -60,6 +60,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.16
+* [*] Update for patch 85 and below
 ### 2.2.15
 * [+] Added support for Node.JS 12 and Electron 5
 ### 2.2.14
