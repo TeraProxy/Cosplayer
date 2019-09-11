@@ -1,7 +1,7 @@
 {
     "files": {
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-        "README.md": "0b7b13d6ec74601eded084c063e0b62eaf52163dbf8de327a34669f6c4d60123",
+        "README.md": "cf8af52e9b9e5524902d3292c5e6dd4b6ab2a791c8ccf94938712267496e781c",
         "index.js": "8a3a1792baa7ea567e0348e951c25d104db0e7411042bf968a7815be0da5caa4",
         "items/items.eu.json": "ecb3a5af220e6b1162eb4bce1aa3519177582fe253e48f0ff112b16aa4e775fe",
         "items/items.jp.json": "ab2359420fe9f5a1bfbd211c5af2224729140c88e37de50bc90fe8c324499171",
@@ -11,7 +11,7 @@
         "items/items.se.json": "2b5b1f4219c050d485cb33ef7f1a3d354d09eb5159267c0960a85cd1ddb0d278",
         "items/items.th.json": "bf9396b2a04b4fa201f1ef074fedaad02e67b2acc14b8e4945f029ab9e37ec11",
         "items/items.tw.json": "4a377d16fb13dac9c6b47963ebeac38f7fd27500a760103ddd701b8179805670",
-        "module.json": "e59c0610388a801b504cb5114687e6c3cdd88cfbafdc71fdd352dbabbde25d02",
+        "module.json": "411738e170a55143165aea01084d9414bc84f98372104857e2f446cf435654d4",
         "mounts/mounts.eu.json": "ea88b3d0593cc0b6c6de403f74ac767a60a785c6647f5daeaf44dd0072f0c838",
         "mounts/mounts.jp.json": "786060b44e1573e3c19d8bedaaaeaeed5a6e5120f2ad294fbded09d61c6f941b",
         "mounts/mounts.kr.json": "a91434ee19ee105291e6da994e0de24886928dfe9cacc3e67d7a45069a4d2fb2",
@@ -20,12 +20,13 @@
         "mounts/mounts.se.json": "e49219fdeb33966b40b6518a8bcb9b9404fc81a5aff59cdd59e851ca7bf8b6f4",
         "mounts/mounts.th.json": "336b2cafae12639440e5b8e26fd9d800451bbb7d05275341165ad8affe7b2c50",
         "mounts/mounts.tw.json": "6d70241abe0348218668023267b6a18ca48ea13bea5c7072a5eda7091bb6f001",
-        "mouse.js": "16bd1157493c578fb7be7f5cd55555f39408860b2fadd7b6e146ee9500726658",
+        "mouse.js": "7d8b679cb30f45573e157b1bcb4efd557019d65b6474d1b61961af356ec4a6a7",
         "mouse/64.node": "835cf41596d004ba063fcf811e84a2663899c8c58b2e911ec54b3b989d585979",
         "mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
         "mouse/72.node": "ad27cb9e5d0315a91fae25e1eff509cfb6da9ef4890e9eaf33728649dd8acb11",
         "mouse/electron64.node": "f45d55dea556489d4326b446c88e094573560a9bddaf511c9956e965d9226190",
         "mouse/electron70.node": "a5bcde9e69646bffd9d63d9649abc2fdf2d834e3b2fdc7e1a85645014d672bcd",
+        "mouse/electron73.node": "2fb280d9788b4000ae32aa5341aaeb43ac9fba822337b87cf2e3505553f3a6ed",
         "presets.json": {
             "overwrite": false,
             "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
