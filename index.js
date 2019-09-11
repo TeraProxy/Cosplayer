@@ -180,7 +180,7 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_GET_USER_LIST', mod.majorPatchVersion >= 85 ? 16:15, event => {
+	mod.hook('S_GET_USER_LIST', 16, event => {
 		for(let character in event.characters) {
 			let charpreset = presets[event.characters[character].name]
 
@@ -260,7 +260,7 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_UNICAST_TRANSFORM_DATA', 5, event => {
+	mod.hook('S_UNICAST_TRANSFORM_DATA', 6, event => {
 		if(mod.game.me.playerId == event.playerId && mod.game.me.serverId == event.serverId) {
 			if(event.type == 0) setTimeout(reapplyPreset, 100) // Reapply look after transforming back
 
@@ -276,7 +276,7 @@ module.exports = function Cosplayer(mod) {
 		return false // block this so the server doesn't overwrite our fake item list
 	})
 
-	mod.hook('S_USER_PAPERDOLL_INFO', mod.majorPatchVersion >= 85 ? 10:9, event => {
+	mod.hook('S_USER_PAPERDOLL_INFO', 10, event => {
 		if(gettingAppearance) {
 			for(let slot of SLOTS)
 				if(event[slot]) equipped(event[slot])
@@ -462,8 +462,7 @@ module.exports = function Cosplayer(mod) {
 
 	function cosplayAs(playername) {
 		gettingAppearance = true
-		if(mod.majorPatchVersion >= 85) mod.toServer('C_REQUEST_USER_PAPERDOLL_INFO', 2, { unk: 0, name: playername })
-		else mod.toServer('C_REQUEST_USER_PAPERDOLL_INFO', 1, { name: playername })
+		mod.toServer('C_REQUEST_USER_PAPERDOLL_INFO', 2, { unk: 0, name: playername })
 		setTimeout(() => { gettingAppearance = false }, 1000)
 	}
 

@@ -1,8 +1,8 @@
 {
     "files": {
         "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-        "README.md": "61a84441b3094e9d493626b08c8027b18e0b06bed8d21c0d16a6480a53dea67b",
-        "index.js": "b78eb0a991f655dc02daa044568542711d0c39c6dccec68fb3507b29d97c414b",
+        "README.md": "0b7b13d6ec74601eded084c063e0b62eaf52163dbf8de327a34669f6c4d60123",
+        "index.js": "8a3a1792baa7ea567e0348e951c25d104db0e7411042bf968a7815be0da5caa4",
         "items/items.eu.json": "ecb3a5af220e6b1162eb4bce1aa3519177582fe253e48f0ff112b16aa4e775fe",
         "items/items.jp.json": "ab2359420fe9f5a1bfbd211c5af2224729140c88e37de50bc90fe8c324499171",
         "items/items.kr.json": "cf3e153440b1839ff2e50267cf3c30b1f5fdc20a5c577cd8cdb30dd55c5c2f64",
@@ -11,7 +11,7 @@
         "items/items.se.json": "2b5b1f4219c050d485cb33ef7f1a3d354d09eb5159267c0960a85cd1ddb0d278",
         "items/items.th.json": "bf9396b2a04b4fa201f1ef074fedaad02e67b2acc14b8e4945f029ab9e37ec11",
         "items/items.tw.json": "4a377d16fb13dac9c6b47963ebeac38f7fd27500a760103ddd701b8179805670",
-        "module.json": "91c575a782f59ef0fd50360a3ad4dc54d815681dde325105b14305f15a191536",
+        "module.json": "e59c0610388a801b504cb5114687e6c3cdd88cfbafdc71fdd352dbabbde25d02",
         "mounts/mounts.eu.json": "ea88b3d0593cc0b6c6de403f74ac767a60a785c6647f5daeaf44dd0072f0c838",
         "mounts/mounts.jp.json": "786060b44e1573e3c19d8bedaaaeaeed5a6e5120f2ad294fbded09d61c6f941b",
         "mounts/mounts.kr.json": "a91434ee19ee105291e6da994e0de24886928dfe9cacc3e67d7a45069a4d2fb2",
@@ -38,12 +38,12 @@
         "C_PLAYER_LOCATION": "raw",
         "C_REQUEST_ACCESSORY_COST_INFO": "raw",
         "C_REQUEST_NONDB_ITEM_INFO": 2,
-        "C_REQUEST_USER_PAPERDOLL_INFO": [1,2],
+        "C_REQUEST_USER_PAPERDOLL_INFO": 2,
         "C_UNMOUNT_VEHICLE": 1,
         "S_ABNORMALITY_BEGIN": 3,
         "S_ABNORMALITY_END": 1,
         "S_COMMIT_ACCESSORY_TRANSFORM_RESULT": 1,
-        "S_GET_USER_LIST": [15,16],
+        "S_GET_USER_LIST": 16,
         "S_ITEM_COLORING_BAG": 1,
         "S_ITEM_CUSTOM_STRING": 2,
         "S_ITEM_TRANSFORM_DATA": 1,
@@ -53,9 +53,9 @@
         "S_REQUEST_CONTRACT": 1,
         "S_REQUEST_STYLE_SHOP_MARK_PRODUCTLIST": [1,"raw"],
         "S_RESPONSE_ACCESSORY_COST_INFO": 1,
-        "S_UNICAST_TRANSFORM_DATA": 5,
+        "S_UNICAST_TRANSFORM_DATA": 6,
         "S_USER_EXTERNAL_CHANGE": 7,
-        "S_USER_PAPERDOLL_INFO": [9,10],
+        "S_USER_PAPERDOLL_INFO": 10,
         "S_USER_WEAPON_APPEARANCE_CHANGE": 2
     }
 }

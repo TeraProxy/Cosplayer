@@ -60,6 +60,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.17
+* [*] Remove support for patches < 85
 ### 2.2.16
 * [*] Update for patch 85 and below
 ### 2.2.15
