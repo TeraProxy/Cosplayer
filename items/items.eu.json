@@ -7056,7 +7056,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Rock & Knoll"
+				"Rock & Knoll",
+				"[Legacy] Rock & Knoll"
 			]
 		},
 		"12178": {
@@ -7072,7 +7073,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Stalagmite"
+				"Stalagmite",
+				"[Legacy] Stalagmite"
 			]
 		},
 		"12179": {
@@ -7088,7 +7090,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Monument Breaker"
+				"Monument Breaker",
+				"[Legacy] Monument Breaker"
 			]
 		},
 		"12180": {
@@ -7104,7 +7107,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Gargantuaxe"
+				"Gargantuaxe",
+				"[Legacy] Gargantuaxe"
 			]
 		},
 		"12181": {
@@ -7120,7 +7124,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Erupting Ring"
+				"Erupting Ring",
+				"[Legacy] Erupting Ring"
 			]
 		},
 		"12182": {
@@ -7136,7 +7141,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Behemoth Bow"
+				"Behemoth Bow",
+				"[Legacy] Behemoth Bow"
 			]
 		},
 		"12183": {
@@ -7152,7 +7158,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Seismic Staff"
+				"Seismic Staff",
+				"[Legacy] Seismic Staff"
 			]
 		},
 		"12184": {
@@ -7168,7 +7175,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"Petrolith Scepter"
+				"Petrolith Scepter",
+				"[Legacy] Petrolith Scepter"
 			]
 		},
 		"12201": {
@@ -32946,7 +32954,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Felidstick"
+				"[Legacy] Felidstick"
 			]
 		},
 		"19873": {
@@ -32962,7 +32970,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Faespear"
+				"[Legacy] Faespear"
 			]
 		},
 		"19874": {
@@ -32978,6 +32986,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"[Legacy] Rain & Shiner",
 				"Fear & Tremble"
 			]
 		},
@@ -32994,6 +33003,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"[Legacy] Sting Breeze",
 				"Dreadspike"
 			]
 		},
@@ -33010,6 +33020,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"[Legacy] Summer's Slay",
 				"Wraithblade"
 			]
 		},
@@ -33026,6 +33037,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"[Legacy] Budding Boom",
 				"Websplitter"
 			]
 		},
@@ -33042,6 +33054,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"[Legacy] Autumn Bruise",
 				"Fanggyre"
 			]
 		},
@@ -33058,6 +33071,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"[Legacy] Stun Rise",
 				"Piercefang"
 			]
 		},
@@ -33074,6 +33088,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"[Legacy] Burbling Hook",
 				"Chaosbane"
 			]
 		},
@@ -33090,6 +33105,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"[Legacy] Painfall",
 				"Witchbinder"
 			]
 		},
@@ -33106,7 +33122,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Winter's Bite",
+				"[Legacy] Winter's Bite",
 				"Maldustar",
 				"Wanderer's Star",
 				"Onyx Talon"
@@ -33125,7 +33141,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Vernaldance"
+				"[Legacy] Vernaldance"
 			]
 		},
 		"19897": {
@@ -33141,7 +33157,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Hulkglaive"
+				"[Legacy] Hulkglaive"
 			]
 		},
 		"19898": {
@@ -33156,7 +33172,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Ancient & Modern"
+			]
 		},
 		"19899": {
 			"id": 19899,
@@ -33170,7 +33188,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Point in History"
+			]
 		},
 		"19900": {
 			"id": 19900,
@@ -33184,7 +33204,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Primeval Strength"
+			]
 		},
 		"19901": {
 			"id": 19901,
@@ -33198,7 +33220,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Primodiaxe"
+			]
 		},
 		"19902": {
 			"id": 19902,
@@ -33212,7 +33236,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Disc of Magicks"
+			]
 		},
 		"19903": {
 			"id": 19903,
@@ -33226,7 +33252,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Bow of the Dream"
+			]
 		},
 		"19904": {
 			"id": 19904,
@@ -33240,7 +33268,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Divination Staff"
+			]
 		},
 		"19905": {
 			"id": 19905,
@@ -33254,7 +33284,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Mageia Scepter"
+			]
 		},
 		"19921": {
 			"id": 19921,
@@ -33269,7 +33301,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Brashvoulge",
+				"[Legacy] Brashvoulge",
 				"Blightoath Runeglaive",
 				"Battered Oath Runeglaive"
 			]
@@ -33286,7 +33318,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Counter & Attack"
+			]
 		},
 		"19923": {
 			"id": 19923,
@@ -33300,7 +33334,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Retaliation"
+			]
 		},
 		"19924": {
 			"id": 19924,
@@ -33314,7 +33350,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Vengeance"
+			]
 		},
 		"19925": {
 			"id": 19925,
@@ -33328,7 +33366,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Retribution"
+			]
 		},
 		"19926": {
 			"id": 19926,
@@ -33342,7 +33382,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"[Legacy] Reckoning"
+			]
 		},
 		"19927": {
 			"id": 19927,
@@ -33357,7 +33399,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Animus"
+				"[Legacy] Animus",
+				"(Test) [Legacy] Animus"
 			]
 		},
 		"19928": {
@@ -33373,7 +33416,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Comeuppance"
+				"[Legacy] Comeuppance",
+				"(Test) [Legacy] Comeuppance"
 			]
 		},
 		"19929": {
@@ -33389,7 +33433,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Hostility"
+				"[Legacy] Hostility",
+				"(Test) [Legacy] Hostility"
 			]
 		},
 		"19934": {
@@ -33405,7 +33450,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Bitter & Pained"
+				"[Legacy] Bitter & Pained",
+				"(Test) [Legacy] Bitter & Pained"
 			]
 		},
 		"19935": {
@@ -33421,7 +33467,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Rabblerouser"
+				"[Legacy] Rabblerouser",
+				"(Test) [Legacy] Rabblerouser"
 			]
 		},
 		"19936": {
@@ -33437,7 +33484,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Widower"
+				"[Legacy] Widower",
+				"(Test) [Legacy] Widower"
 			]
 		},
 		"19937": {
@@ -33453,7 +33501,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Persuader"
+				"[Legacy] Persuader",
+				"(Test) [Legacy] Persuader"
 			]
 		},
 		"19938": {
@@ -33469,7 +33518,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Smoothtalker"
+				"[Legacy] Smoothtalker",
+				"(Test) [Legacy] Smoothtalker"
 			]
 		},
 		"19939": {
@@ -33485,7 +33535,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Longeye"
+				"[Legacy] Longeye",
+				"(Test) [Legacy] Longeye"
 			]
 		},
 		"19940": {
@@ -33501,7 +33552,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Conspirator"
+				"[Legacy] Conspirator",
+				"(Test) [Legacy] Conspirator"
 			]
 		},
 		"19941": {
@@ -33517,7 +33569,8 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Test) (Old) Trickery"
+				"[Legacy] Trickery",
+				"(Test) [Legacy] Trickery"
 			]
 		},
 		"19945": {
@@ -33533,7 +33586,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Glaive of Suffering"
+				"[Legacy] Glaive of Suffering"
 			]
 		},
 		"19957": {
@@ -33549,7 +33602,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Tidalspear"
+				"[Legacy] Tidalspear"
 			]
 		},
 		"19983": {
@@ -33565,9 +33618,9 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
-				"(Old) Idealever",
+				"[Legacy] Idealever",
 				"Nightfalla",
-				"(Old) Nightfalla"
+				"[Legacy] Nightfalla"
 			]
 		},
 		"28338": {
@@ -39619,7 +39672,7 @@
 			"aliases": [
 				"Draccoil",
 				"Rock Cannon",
-				"(Old) Rock Cannon",
+				"[Legacy] Rock Cannon",
 				"Flawless Hemoblaster",
 				"Hemoblaster",
 				"Expedition Arcannon",
@@ -41619,7 +41672,7 @@
 			"nameable": false,
 			"aliases": [
 				"Nightsaw",
-				"(Old) Nightsaw",
+				"[Legacy] Nightsaw",
 				"Jet Talon"
 			]
 		},
@@ -41638,7 +41691,7 @@
 			"aliases": [
 				"Hemobloom",
 				"Faeriesaw",
-				"(Old) Faeriesaw",
+				"[Legacy] Faeriesaw",
 				"Expedition Shuriken",
 				"Red Star"
 			]
@@ -41660,7 +41713,7 @@
 				"Primus's Shuriken of Victory",
 				"Primus's Shuriken of Dedication",
 				"Dracostar",
-				"(Old) Dracostar",
+				"[Legacy] Dracostar",
 				"Obsidian Talon"
 			]
 		},
@@ -41851,7 +41904,7 @@
 				"Lastglaive",
 				"Ensurance",
 				"Legate's Runeglaive of Glory",
-				"(Temp) (Old) Glaive of Suffering",
+				"(Temp) [Legacy] Glaive of Suffering",
 				"Legate's Runeglaive of Victory",
 				"Legate's Runeglaive of Dedication"
 			]
@@ -44691,7 +44744,7 @@
 				"Obbligate",
 				"Clearshot",
 				"Ichthys Musket",
-				"(Old) Ichthys Musket",
+				"[Legacy] Ichthys Musket",
 				"Acer",
 				"Old Judge",
 				"Buttlegun",
@@ -44721,14 +44774,14 @@
 				"Flawless Mazehammers",
 				"Prefect's Powerfists of Glory",
 				"Wanderfists",
-				"(Old) Wanderfists",
+				"[Legacy] Wanderfists",
 				"Prefect's Powerfists of Victory",
 				"Prefect's Powerfists of Dedication",
 				"Razerfists",
 				"Tribune's Powerfists of Victory",
 				"Tribune's Powerfists of Dedication",
 				"Shadowfists",
-				"(Old) Shadowfists"
+				"[Legacy] Shadowfists"
 			]
 		},
 		"72211": {
@@ -44752,7 +44805,7 @@
 				"Tribune's Shuriken of Victory",
 				"Tribune's Shuriken of Dedication",
 				"Rockstar",
-				"(Old) Rockstar",
+				"[Legacy] Rockstar",
 				"Assassin's Edge"
 			]
 		},
@@ -45129,11 +45182,11 @@
 			"nameable": false,
 			"aliases": [
 				"Gut & Fillet",
-				"(Old) Gut & Fillet",
+				"[Legacy] Gut & Fillet",
 				"Bend & Break",
 				"Ridge & Rift",
 				"Research & Inquiry",
-				"(Old) (Temp) Wit & Wisdom"
+				"[Legacy] (Temp) Wit & Wisdom"
 			]
 		},
 		"72266": {
@@ -45150,11 +45203,11 @@
 			"nameable": false,
 			"aliases": [
 				"Pillar of Devastation",
-				"(Old) Pillar of Devastation",
+				"[Legacy] Pillar of Devastation",
 				"Godfeller",
 				"Cleftwedge",
 				"Tower of Evidence",
-				"(Old) (Temp) Edifilance"
+				"[Legacy] (Temp) Edifilance"
 			]
 		},
 		"72267": {
@@ -45171,11 +45224,11 @@
 			"nameable": false,
 			"aliases": [
 				"Fishsticker",
-				"(Old) Fishsticker",
+				"[Legacy] Fishsticker",
 				"Bloodcore",
 				"Rendfall",
 				"Mindslash",
-				"(Old) (Temp) Teaching Blade"
+				"[Legacy] (Temp) Teaching Blade"
 			]
 		},
 		"72268": {
@@ -45192,11 +45245,11 @@
 			"nameable": false,
 			"aliases": [
 				"Seachopper",
-				"(Old) Seachopper",
+				"[Legacy] Seachopper",
 				"Molten Edge",
 				"Voidcutter",
 				"Secret Carver",
-				"(Old) (Temp) Axe of Knowledge"
+				"[Legacy] (Temp) Axe of Knowledge"
 			]
 		},
 		"72269": {
@@ -45213,11 +45266,11 @@
 			"nameable": false,
 			"aliases": [
 				"Leviathan's Eye",
-				"(Old) Leviathan's Eye",
+				"[Legacy] Leviathan's Eye",
 				"Jaded Eye",
 				"Disc Obscura",
 				"Scholarly Circle",
-				"(Old) (Temp) Prolexia"
+				"[Legacy] (Temp) Prolexia"
 			]
 		},
 		"72270": {
@@ -45234,11 +45287,11 @@
 			"nameable": false,
 			"aliases": [
 				"Furler",
-				"(Old) Furler",
+				"[Legacy] Furler",
 				"Bloodharp",
 				"Boundless Reach",
 				"Reach of Knowledge",
-				"(Old) (Temp) Cognitive Leap"
+				"[Legacy] (Temp) Cognitive Leap"
 			]
 		},
 		"72271": {
@@ -45255,11 +45308,11 @@
 			"nameable": false,
 			"aliases": [
 				"Waterspout",
-				"(Old) Waterspout",
+				"[Legacy] Waterspout",
 				"Shudder",
 				"Fatebender",
 				"Insight",
-				"(Old) (Temp) Memory Aid"
+				"[Legacy] (Temp) Memory Aid"
 			]
 		},
 		"72272": {
@@ -45276,11 +45329,11 @@
 			"nameable": false,
 			"aliases": [
 				"Deep Sea Rod",
-				"(Old) Deep Sea Rod",
+				"[Legacy] Deep Sea Rod",
 				"Nightstorm",
 				"Baton of the Abyss",
 				"Shrewd Judgment",
-				"(Old) (Temp) Discoverod"
+				"[Legacy] (Temp) Discoverod"
 			]
 		},
 		"72274": {
@@ -45349,7 +45402,7 @@
 				"Combat Driller",
 				"Sunfall",
 				"Dismadoom",
-				"(Old) Dismadoom",
+				"[Legacy] Dismadoom",
 				"Moloch Arcannon",
 				"Abnegate Arcannon",
 				"Parade Cannon",
@@ -45395,7 +45448,7 @@
 				"Unsubtle Hands",
 				"Diabolic Powerfists",
 				"Tormentors",
-				"(Old) Tormentors",
+				"[Legacy] Tormentors",
 				"Muses of Bruises",
 				"Terrible Tenders",
 				"Cold Comforters",
@@ -45428,10 +45481,10 @@
 				"Purely Pugilistic Powerfists",
 				"Frighteningly Fast Fists",
 				"Oriyn's Powerfists",
-				"(Old) Oriyn's Powerfists",
+				"[Legacy] Oriyn's Powerfists",
 				"Steadfists",
 				"Persuaders",
-				"(Old) Persuaders",
+				"[Legacy] Persuaders",
 				"Lawbringers",
 				"Castigators",
 				"Swift Resolutions",
@@ -46755,16 +46808,16 @@
 			"nameable": false,
 			"aliases": [
 				"Peacemakers",
-				"(Old) Peacemakers",
+				"[Legacy] Peacemakers",
 				"Tender Mercies",
-				"(Old) Tender Mercies",
+				"[Legacy] Tender Mercies",
 				"Flawless Bloody Knuckles",
 				"Bloody Knuckles",
 				"Glamourfists",
-				"(Old) Glamourfists",
+				"[Legacy] Glamourfists",
 				"Expedition Powerfists",
 				"Scratching Claws",
-				"(Old) Scratching Claws"
+				"[Legacy] Scratching Claws"
 			]
 		},
 		"82567": {
@@ -47739,7 +47792,8 @@
 			"nameable": false,
 			"aliases": [
 				"Cunning & Instinct",
-				"Fire & Passion"
+				"Fire & Passion",
+				"[Legacy] Fire & Passion"
 			]
 		},
 		"88243": {
@@ -47756,7 +47810,8 @@
 			"nameable": false,
 			"aliases": [
 				"Huddle Amasser",
-				"Adrenalance"
+				"Adrenalance",
+				"[Legacy] Adrenalance"
 			]
 		},
 		"88244": {
@@ -47773,7 +47828,8 @@
 			"nameable": false,
 			"aliases": [
 				"Swarmsword",
-				"Outspoken"
+				"Outspoken",
+				"[Legacy] Outspoken"
 			]
 		},
 		"88245": {
@@ -47790,7 +47846,8 @@
 			"nameable": false,
 			"aliases": [
 				"Deathswing",
-				"Abrupt"
+				"Abrupt",
+				"[Legacy] Abrupt"
 			]
 		},
 		"88246": {
@@ -47807,7 +47864,8 @@
 			"nameable": false,
 			"aliases": [
 				"Rally Round",
-				"Frenziedisc"
+				"Frenziedisc",
+				"[Legacy] Frenziedisc"
 			]
 		},
 		"88247": {
@@ -47824,7 +47882,8 @@
 			"nameable": false,
 			"aliases": [
 				"Paradox Bow",
-				"Direct Shot"
+				"Direct Shot",
+				"[Legacy] Direct Shot"
 			]
 		},
 		"88248": {
@@ -47841,7 +47900,8 @@
 			"nameable": false,
 			"aliases": [
 				"Conundrum",
-				"Strident Hook"
+				"Strident Hook",
+				"[Legacy] Strident Hook"
 			]
 		},
 		"88249": {
@@ -47858,7 +47918,8 @@
 			"nameable": false,
 			"aliases": [
 				"Destiny's Balance",
-				"Candid Blast"
+				"Candid Blast",
+				"[Legacy] Candid Blast"
 			]
 		},
 		"88251": {
@@ -47877,7 +47938,7 @@
 				"Fear's Own",
 				"Evermore Rifle",
 				"Angershriek",
-				"(Old) Angershriek",
+				"[Legacy] Angershriek",
 				"Razergun",
 				"Tribune's Arcannon of Victory",
 				"Tribune's Arcannon of Dedication",
@@ -47900,7 +47961,7 @@
 			"nameable": false,
 			"aliases": [
 				"Marscale",
-				"(Old) Marscale",
+				"[Legacy] Marscale",
 				"Saw of Justice",
 				"Parade Fan",
 				"Shan's Barbatus Shuriken",
@@ -47923,7 +47984,7 @@
 				"Brigadier's Shuriken of Dedication",
 				"Dilastar",
 				"Slickslider",
-				"(Old) Slickslider",
+				"[Legacy] Slickslider",
 				"Star of Woe"
 			]
 		},
@@ -48332,7 +48393,7 @@
 				"Ephemereavers",
 				"Flaystyle",
 				"Flarefangs",
-				"(Old) Flarefangs",
+				"[Legacy] Flarefangs",
 				"Purging Scythe",
 				"Laborcuts",
 				"Disection Hooks",
@@ -48367,13 +48428,13 @@
 				"Icesickle",
 				"Razorsickle",
 				"Lesson Rippers",
-				"(Old) Lesson Rippers",
+				"[Legacy] Lesson Rippers",
 				"Bloodhoned Scythes",
 				"Duskhooks",
-				"(Old) Duskhooks",
+				"[Legacy] Duskhooks",
 				"Fishhooks",
-				"(Old) Fishhooks",
-				"(Old) (Temp) Lesson Rippers",
+				"[Legacy] Fishhooks",
+				"[Legacy] (Temp) Lesson Rippers",
 				"Secret Order Scythes",
 				"Golden Fang Scythes"
 			]
@@ -48394,7 +48455,7 @@
 				"Long Nine",
 				"Dagon's Roar",
 				"Equinox Rifle",
-				"(Old) Equinox Rifle",
+				"[Legacy] Equinox Rifle",
 				"Golden Feathered Arcannon"
 			]
 		},
@@ -48430,7 +48491,7 @@
 			"aliases": [
 				"Succorose",
 				"Biggiken",
-				"(Old) Biggiken",
+				"[Legacy] Biggiken",
 				"Iron Star"
 			]
 		},
@@ -48935,7 +48996,7 @@
 				"Endstar",
 				"Onser Fanblade",
 				"Benchtrimmer",
-				"(Test) (Old) Slickslider",
+				"(Test) [Legacy] Slickslider",
 				"Legate's Shuriken of Glory",
 				"Eldritch Luckystar",
 				"Legate's Shuriken of Victory",
@@ -48944,7 +49005,7 @@
 				"Scorching Star",
 				"Prefect's Shuriken of Glory",
 				"Temperbite",
-				"(Old) Temperbite",
+				"[Legacy] Temperbite",
 				"Prefect's Shuriken of Victory",
 				"Prefect's Shuriken of Dedication",
 				"Tormentor's Edge"
@@ -48964,7 +49025,7 @@
 			"nameable": false,
 			"aliases": [
 				"Awreak",
-				"(Old) Awreak"
+				"[Legacy] Awreak"
 			]
 		},
 		"88319": {
@@ -49465,7 +49526,7 @@
 			"aliases": [
 				"Subsumitts",
 				"Venom Fists",
-				"(Old) Venom Fists",
+				"[Legacy] Venom Fists",
 				"Flawless Frozen Mitts",
 				"Flawless Emberfists",
 				"Frozen Mitts",
@@ -49486,7 +49547,7 @@
 				"Runechased Powerfists",
 				"Mournfists",
 				"Royal Garden Powerfists",
-				"(Old) Mournfists",
+				"[Legacy] Mournfists",
 				"Blighted Powerfists",
 				"Noctenite Powerfists"
 			]
@@ -49523,7 +49584,7 @@
 			"nameable": false,
 			"aliases": [
 				"Pyroclasia",
-				"(Old) Pyroclasia",
+				"[Legacy] Pyroclasia",
 				"Blighted Runeglaive"
 			]
 		},
@@ -49846,6 +49907,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Twin Swords",
 				"Blightrage Twin Swords"
 			]
 		},
@@ -49862,6 +49924,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Lance",
 				"Blightrage Lance"
 			]
 		},
@@ -49878,6 +49941,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Greatsword",
 				"Blightrage Greatsword"
 			]
 		},
@@ -49894,6 +49958,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Axe",
 				"Blightrage Axe"
 			]
 		},
@@ -49910,6 +49975,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Disc",
 				"Blightrage Disc"
 			]
 		},
@@ -49926,6 +49992,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Bow",
 				"Blightrage Bow"
 			]
 		},
@@ -49942,6 +50009,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Staff",
 				"Blightrage Staff"
 			]
 		},
@@ -49958,6 +50026,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Scepter",
 				"Blightrage Scepter"
 			]
 		},
@@ -49974,6 +50043,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Scythes",
 				"Blightrage Scythes",
 				"Red Fang Scythes"
 			]
@@ -49991,13 +50061,14 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Arcannon",
 				"Nullgun",
 				"Pinion Arcannon",
 				"Boombreak",
 				"Stovepipe",
-				"(Old) Stovepipe",
+				"[Legacy] Stovepipe",
 				"Eurekannon",
-				"(Old) Eurekannon",
+				"[Legacy] Eurekannon",
 				"Halrath's Wrath",
 				"Vrendet Gun",
 				"Shan's Aknan Arcannon",
@@ -50034,13 +50105,14 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Powerfists",
 				"Hellion Powerfists",
 				"Flawless Love Taps",
 				"Love Taps",
 				"Primus's Powerfists of Victory",
 				"Primus's Powerfists of Dedication",
 				"Shacklefists",
-				"(Old) Shacklefists",
+				"[Legacy] Shacklefists",
 				"Blightrage Powerfists"
 			]
 		},
@@ -50057,12 +50129,13 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Shuriken",
 				"Swirlstar",
 				"[Test] High Shuriken",
 				"Shadestar",
 				"Bloodstar",
 				"Flameslicer",
-				"(Old) Flameslicer",
+				"[Legacy] Flameslicer",
 				"Purging Shuriken",
 				"Soulae Star",
 				"Finiaflore",
@@ -50094,11 +50167,11 @@
 				"Blitzblossom",
 				"Thymal Starblade",
 				"Longblossom",
-				"(Old) Thymal Starblade",
+				"[Legacy] Thymal Starblade",
 				"Bloodhoned Shuriken",
 				"Zetylbriar",
 				"Vesperbloom",
-				"(Old) Vesperbloom",
+				"[Legacy] Vesperbloom",
 				"Irisblossom",
 				"Cardiscalpel",
 				"Coronal Barb",
@@ -50109,7 +50182,7 @@
 				"Seeker's Shuriken",
 				"Chordblum",
 				"Cardialstar",
-				"(Old) (Temp) Thymal Starblade",
+				"[Legacy] (Temp) Thymal Starblade",
 				"Venobloom",
 				"Leilies",
 				"Complestar",
@@ -50134,8 +50207,9 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Moonglaive",
 				"Auldspear",
-				"(Old) Auldspear",
+				"[Legacy] Auldspear",
 				"Blightrage Runeglaive"
 			]
 		},
@@ -50151,7 +50225,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Lancer Hauberk"
+			]
 		},
 		"88386": {
 			"id": 88386,
@@ -50165,7 +50241,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Berserker Hauberk"
+			]
 		},
 		"88387": {
 			"id": 88387,
@@ -50179,7 +50257,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Brawler Hauberk"
+			]
 		},
 		"88388": {
 			"id": 88388,
@@ -50193,7 +50273,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Gunner Hauberk"
+			]
 		},
 		"88389": {
 			"id": 88389,
@@ -50207,7 +50289,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Warrior Cuirass"
+			]
 		},
 		"88390": {
 			"id": 88390,
@@ -50221,7 +50305,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Slayer Cuirass"
+			]
 		},
 		"88391": {
 			"id": 88391,
@@ -50235,7 +50321,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Archer Cuirass"
+			]
 		},
 		"88392": {
 			"id": 88392,
@@ -50249,7 +50337,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Reaper Cuirass"
+			]
 		},
 		"88393": {
 			"id": 88393,
@@ -50263,7 +50353,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Valkyrie Cuirass"
+			]
 		},
 		"88394": {
 			"id": 88394,
@@ -50277,7 +50369,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Sorcerer Robe"
+			]
 		},
 		"88395": {
 			"id": 88395,
@@ -50291,7 +50385,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Mystic Robe"
+			]
 		},
 		"88396": {
 			"id": 88396,
@@ -50305,7 +50401,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic White Robe"
+			]
 		},
 		"88397": {
 			"id": 88397,
@@ -50319,7 +50417,9 @@
 			],
 			"dyeable": false,
 			"nameable": false,
-			"aliases": []
+			"aliases": [
+				"Phantasmic Ninja Robe"
+			]
 		},
 		"88398": {
 			"id": 88398,
@@ -50337,6 +50437,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Gauntlets",
 				"Blightrage Gauntlets"
 			]
 		},
@@ -50357,6 +50458,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Gloves",
 				"Blightrage Gloves"
 			]
 		},
@@ -50376,6 +50478,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Sleeves",
 				"Bloodwar Fingers",
 				"Bloomdans Fingers",
 				"Trick Sleeves",
@@ -50399,6 +50502,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Greaves",
 				"Blightrage Greaves"
 			]
 		},
@@ -50419,6 +50523,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Boots",
 				"Blightrage Boots"
 			]
 		},
@@ -50438,6 +50543,7 @@
 			"dyeable": false,
 			"nameable": false,
 			"aliases": [
+				"Phantasmic Shoes",
 				"Rebel Steps",
 				"Tickletoes",
 				"Killian's Slippers",
@@ -51583,23 +51689,6 @@
 				"Impregnable Lance"
 			]
 		},
-		"90203": {
-			"id": 90203,
-			"icon": "Icon_Equipments/TwoHand23B_Tex",
-			"rarity": 3,
-			"name": "Disciplinary Greatsword",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				2
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"Harmonic Greatsword",
-				"Impregnable Greatsword"
-			]
-		},
 		"90204": {
 			"id": 90204,
 			"icon": "Icon_Equipments/Axe23B_Tex",
@@ -51665,6 +51754,7 @@
 			"nameable": false,
 			"aliases": [
 				"Harmonic Staff",
+				"Rare Staff",
 				"Impregnable Staff"
 			]
 		},
@@ -51951,6 +52041,24 @@
 			"aliases": [
 				"Harmonic Shoes",
 				"Impregnable Shoes"
+			]
+		},
+		"90700": {
+			"id": 90700,
+			"icon": "Icon_Equipments/TwoHand23B_Tex",
+			"rarity": 3,
+			"name": "[Basic] Deals 1,000,000 damage to 68 Akasha when using Measured Slice with a lv. 68 Slayer / @spawnnpc 434 1100 - 1102",
+			"tooltip": "",
+			"races": false,
+			"classes": [
+				2
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Disciplinary Greatsword",
+				"Harmonic Greatsword",
+				"Impregnable Greatsword"
 			]
 		},
 		"91190": {
@@ -53236,7 +53344,7 @@
 				"Epoch & Period",
 				"Odds & Ends",
 				"Sizzle & Sear",
-				"(Old) Sizzle & Sear",
+				"[Legacy] Sizzle & Sear",
 				"Cleanse & Purge",
 				"Poach & Fry",
 				"Scrimp & Scrape",
@@ -53265,9 +53373,9 @@
 				"Warp & Wane",
 				"Arrest & Exile",
 				"Wit & Wisdom",
-				"(Old) Wit & Wisdom",
+				"[Legacy] Wit & Wisdom",
 				"Dusker & Darker",
-				"(Old) Dusker & Darker"
+				"[Legacy] Dusker & Darker"
 			]
 		},
 		"95501": {
@@ -53288,7 +53396,7 @@
 				"Timescrew",
 				"Punctual",
 				"Withering Lance",
-				"(Old) Withering Lance",
+				"[Legacy] Withering Lance",
 				"Purging Lance",
 				"Trackback Beam",
 				"Punchsight",
@@ -53318,9 +53426,9 @@
 				"Breechblock",
 				"Hurdle",
 				"Edifilance",
-				"(Old) Edifilance",
+				"[Legacy] Edifilance",
 				"Nightpiercer",
-				"(Old) Nightpiercer"
+				"[Legacy] Nightpiercer"
 			]
 		},
 		"95502": {
@@ -53341,7 +53449,7 @@
 				"Yestertaker",
 				"Fleshtrimmer",
 				"Smolderslice",
-				"(Old) Smolderslice",
+				"[Legacy] Smolderslice",
 				"Purging Greatsword",
 				"Followknick",
 				"Revelation Blade",
@@ -53371,9 +53479,9 @@
 				"Edge of Tomorrow",
 				"Warvle",
 				"Teaching Blade",
-				"(Old) Teaching Blade",
+				"[Legacy] Teaching Blade",
 				"Twilight's Terror",
-				"(Old) Twilight's Terror"
+				"[Legacy] Twilight's Terror"
 			]
 		},
 		"95503": {
@@ -53394,7 +53502,7 @@
 				"Brumal Axe",
 				"Disorderly Contact",
 				"Cinderhack",
-				"(Old) Cinderhack",
+				"[Legacy] Cinderhack",
 				"Purging Axe",
 				"Radial Saw",
 				"Horizonchopper",
@@ -53424,9 +53532,9 @@
 				"Shutdown",
 				"Startle",
 				"Axe of Knowledge",
-				"(Old) Axe of Knowledge",
+				"[Legacy] Axe of Knowledge",
 				"Evenfeller",
-				"(Old) Evenfeller"
+				"[Legacy] Evenfeller"
 			]
 		},
 		"95504": {
@@ -53447,7 +53555,7 @@
 				"Wheel of Time",
 				"Shinewhirl",
 				"Burning Wheel",
-				"(Old) Burning Wheel",
+				"[Legacy] Burning Wheel",
 				"Purging Disc",
 				"Glimpsic Eye",
 				"Distal Lens",
@@ -53477,9 +53585,9 @@
 				"Opposi",
 				"Encircle",
 				"Prolexia",
-				"(Old) Prolexia",
+				"[Legacy] Prolexia",
 				"Gloaming Eye",
-				"(Old) Gloaming Eye"
+				"[Legacy] Gloaming Eye"
 			]
 		},
 		"95505": {
@@ -53500,7 +53608,7 @@
 				"Pendence Bow",
 				"Justice Fall",
 				"Sunburst",
-				"(Old) Sunburst",
+				"[Legacy] Sunburst",
 				"Purging Bow",
 				"Frisking Bow",
 				"Rangefinder",
@@ -53530,9 +53638,9 @@
 				"Borderspline",
 				"Heckle",
 				"Cognitive Leap",
-				"(Old) Cognitive Leap",
+				"[Legacy] Cognitive Leap",
 				"Darkcrave Bow",
-				"(Old) Darkcrave Bow"
+				"[Legacy] Darkcrave Bow"
 			]
 		},
 		"95506": {
@@ -53553,7 +53661,7 @@
 				"Futurity",
 				"Omnium",
 				"Flamestave",
-				"(Old) Flamestave",
+				"[Legacy] Flamestave",
 				"Purging Staff",
 				"Battue Stick",
 				"Waytender",
@@ -53583,9 +53691,9 @@
 				"Saveshine",
 				"Herbale",
 				"Memory Aid",
-				"(Old) Memory Aid",
+				"[Legacy] Memory Aid",
 				"Dreamthreader",
-				"(Old) Dreamthreader"
+				"[Legacy] Dreamthreader"
 			]
 		},
 		"95507": {
@@ -53606,7 +53714,7 @@
 				"Tick-Tock",
 				"Corpsestir",
 				"Roiling Rodule",
-				"(Old) Roiling Rodule",
+				"[Legacy] Roiling Rodule",
 				"Purging Scepter ",
 				"Downing Rod",
 				"Reavelet",
@@ -53636,9 +53744,9 @@
 				"Dismissal",
 				"Immortal",
 				"Discoverod",
-				"(Old) Discoverod",
+				"[Legacy] Discoverod",
 				"Nightspindle",
-				"(Old) Nightspindle"
+				"[Legacy] Nightspindle"
 			]
 		},
 		"95527": {
@@ -54068,8 +54176,9 @@
 				"Flawless Blood & Gore",
 				"Blood & Gore",
 				"Wings & Teeth",
+				"[Legacy] Wings & Teeth",
 				"Hiss & Cackle",
-				"(Old) Hiss & Cackle"
+				"[Legacy] Hiss & Cackle"
 			]
 		},
 		"96519": {
@@ -54089,8 +54198,9 @@
 				"Flawless Bloodstrike",
 				"Bloodstrike",
 				"Etherelance",
+				"[Legacy] Etherelance",
 				"Catscratch",
-				"(Old) Catscratch"
+				"[Legacy] Catscratch"
 			]
 		},
 		"96520": {
@@ -54110,8 +54220,9 @@
 				"Flawless Cruelblade",
 				"Cruelblade",
 				"Veiled Sword",
+				"[Legacy] Veiled Sword",
 				"Nightblade",
-				"(Old) Nightblade"
+				"[Legacy] Nightblade"
 			]
 		},
 		"96521": {
@@ -54131,8 +54242,9 @@
 				"Flawless Bloodshatter",
 				"Bloodshatter",
 				"Glass Axe",
+				"[Legacy] Glass Axe",
 				"Catterwail",
-				"(Old) Catterwail"
+				"[Legacy] Catterwail"
 			]
 		},
 		"96522": {
@@ -54152,8 +54264,9 @@
 				"Flawless Heartcoil",
 				"Heartcoil",
 				"Faerie Ring",
+				"[Legacy] Faerie Ring",
 				"Cat's Eye",
-				"(Old) Cat's Eye"
+				"[Legacy] Cat's Eye"
 			]
 		},
 		"96523": {
@@ -54173,8 +54286,9 @@
 				"Flawless Airheart",
 				"Airheart",
 				"Enchanted Curve",
+				"[Legacy] Enchanted Curve",
 				"Whisker Bow",
-				"(Old) Whisker Bow"
+				"[Legacy] Whisker Bow"
 			]
 		},
 		"96524": {
@@ -54194,8 +54308,9 @@
 				"Flawless Tuskrender",
 				"Tuskrender",
 				"Sprite Staff",
+				"[Legacy] Sprite Staff",
 				"Gloomtree",
-				"(Old) Gloomtree"
+				"[Legacy] Gloomtree"
 			]
 		},
 		"96525": {
@@ -54215,8 +54330,9 @@
 				"Flawless Bloodhorn",
 				"Bloodhorn",
 				"Fae Stick",
+				"[Legacy] Fae Stick",
 				"Cattail",
-				"(Old) Cattail"
+				"[Legacy] Cattail"
 			]
 		},
 		"96528": {
@@ -55646,7 +55762,7 @@
 			"nameable": false,
 			"aliases": [
 				"Smooth Operator",
-				"(Old) Smooth Operator",
+				"[Legacy] Smooth Operator",
 				"Hex Shooter",
 				"Flawless Pathmaker",
 				"Rapifire Rifle",
@@ -56063,9 +56179,9 @@
 			"aliases": [
 				"Merryfire Rifle",
 				"Pixie Tube",
-				"(Old) Pixie Tube",
+				"[Legacy] Pixie Tube",
 				"Hisser",
-				"(Old) Hisser",
+				"[Legacy] Hisser",
 				"Arcannon of the First Expedition",
 				"Inferno Scout's Arcannon"
 			]
@@ -56417,7 +56533,7 @@
 			"nameable": false,
 			"aliases": [
 				"Dervish Blaster",
-				"(Old) Dervish Blaster",
+				"[Legacy] Dervish Blaster",
 				"Flawless Arcannon of the Covenant",
 				"Arcannon of the Covenant",
 				"Solace Arcannon"
@@ -56893,7 +57009,7 @@
 			"nameable": false,
 			"aliases": [
 				"Arcane Cannon",
-				"(Old) Arcane Cannon",
+				"[Legacy] Arcane Cannon",
 				"Needlifter",
 				"Bloodteller",
 				"Silver Feathered Arcannon"
@@ -62719,34 +62835,6 @@
 				"[#852568]"
 			]
 		},
-		"141052": {
-			"id": 141052,
-			"icon": "Icon_Equipments/Acc_322_Tex",
-			"rarity": 3,
-			"name": "[#141052]",
-			"tooltip": "",
-			"races": false,
-			"classes": false,
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#852569]"
-			]
-		},
-		"141053": {
-			"id": 141053,
-			"icon": "Icon_Equipments/Acc_323_Tex",
-			"rarity": 3,
-			"name": "[#141053]",
-			"tooltip": "",
-			"races": false,
-			"classes": false,
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#852570]"
-			]
-		},
 		"141054": {
 			"id": 141054,
 			"icon": "Icon_Equipments/Acc_324_Tex",
@@ -62971,50 +63059,6 @@
 			"dyeable": true,
 			"nameable": false,
 			"aliases": []
-		},
-		"141461": {
-			"id": 141461,
-			"icon": "Icon_Equipments/PC_Event_33_M_Tex",
-			"rarity": 3,
-			"name": "Party Noblesse Suit [Aman Male]",
-			"tooltip": "Right-click to equip in the [Style Info] > [Armor: Body] slot.<br><br>Boast your integrity with this formal attire.",
-			"races": [
-				4
-			],
-			"classes": false,
-			"dyeable": false,
-			"nameable": false,
-			"aliases": []
-		},
-		"142358": {
-			"id": 142358,
-			"icon": "Icon_Equipments/Acc_326_Tex",
-			"rarity": 3,
-			"name": "[#142358]",
-			"tooltip": "",
-			"races": false,
-			"classes": false,
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#141056]",
-				"[#852573]"
-			]
-		},
-		"142359": {
-			"id": 142359,
-			"icon": "Icon_Equipments/Acc_327_Tex",
-			"rarity": 3,
-			"name": "[#142359]",
-			"tooltip": "",
-			"races": false,
-			"classes": false,
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#141057]",
-				"[#852574]"
-			]
 		},
 		"143010": {
 			"id": 143010,
@@ -90200,266 +90244,6 @@
 			"nameable": false,
 			"aliases": []
 		},
-		"189109": {
-			"id": 189109,
-			"icon": "Icon_Equipments/Event18_Dual_G_Tex",
-			"rarity": 3,
-			"name": "[#189109]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				0
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189110]",
-				"[#189118]",
-				"[#189117]",
-				"[#189119]",
-				"[#189120]"
-			]
-		},
-		"189121": {
-			"id": 189121,
-			"icon": "Icon_Equipments/Event18_Lance_G_Tex",
-			"rarity": 3,
-			"name": "[#189121]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				1
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189122]",
-				"[#189130]",
-				"[#189129]",
-				"[#189131]",
-				"[#189132]"
-			]
-		},
-		"189133": {
-			"id": 189133,
-			"icon": "Icon_Equipments/Event18_Twohand_G_Tex",
-			"rarity": 3,
-			"name": "[#189133]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				2
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189134]",
-				"[#189142]",
-				"[#189141]",
-				"[#189143]",
-				"[#189144]"
-			]
-		},
-		"189145": {
-			"id": 189145,
-			"icon": "Icon_Equipments/Event18_Axe_G_Tex",
-			"rarity": 3,
-			"name": "[#189145]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				3
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189146]",
-				"[#189154]",
-				"[#189153]",
-				"[#189155]",
-				"[#189156]"
-			]
-		},
-		"189157": {
-			"id": 189157,
-			"icon": "Icon_Equipments/Event18_Circle_G_Tex",
-			"rarity": 3,
-			"name": "[#189157]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				4
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189158]",
-				"[#189166]",
-				"[#189165]",
-				"[#189167]",
-				"[#189168]"
-			]
-		},
-		"189169": {
-			"id": 189169,
-			"icon": "Icon_Equipments/Event18_Bow_G_Tex",
-			"rarity": 3,
-			"name": "[#189169]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				5
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189170]",
-				"[#189178]",
-				"[#189177]",
-				"[#189179]",
-				"[#189180]"
-			]
-		},
-		"189181": {
-			"id": 189181,
-			"icon": "Icon_Equipments/Event18_Staff_G_Tex",
-			"rarity": 3,
-			"name": "[#189181]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				6
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189182]",
-				"[#189190]",
-				"[#189189]",
-				"[#189191]",
-				"[#189192]"
-			]
-		},
-		"189193": {
-			"id": 189193,
-			"icon": "Icon_Equipments/Event18_Rod_G_Tex",
-			"rarity": 3,
-			"name": "[#189193]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				7
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189194]",
-				"[#189202]",
-				"[#189201]",
-				"[#189203]",
-				"[#189204]"
-			]
-		},
-		"189205": {
-			"id": 189205,
-			"icon": "Icon_Equipments/Event18_Gauntlet_G_Tex",
-			"rarity": 3,
-			"name": "[#189205]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				10
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189206]",
-				"[#189214]",
-				"[#189213]",
-				"[#189215]",
-				"[#189216]"
-			]
-		},
-		"189217": {
-			"id": 189217,
-			"icon": "Icon_Equipments/Event18_Blaster_G_Tex",
-			"rarity": 3,
-			"name": "[#189217]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				9
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189218]",
-				"[#189226]",
-				"[#189225]",
-				"[#189227]",
-				"[#189228]"
-			]
-		},
-		"189229": {
-			"id": 189229,
-			"icon": "Icon_Equipments/Event18_Glaive_G_Tex",
-			"rarity": 3,
-			"name": "[#189229]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				12
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189230]",
-				"[#189238]",
-				"[#189237]",
-				"[#189239]",
-				"[#189240]"
-			]
-		},
-		"189241": {
-			"id": 189241,
-			"icon": "Icon_Equipments/Event18_Chain_G_Tex",
-			"rarity": 3,
-			"name": "[#189241]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				8
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189242]",
-				"[#189250]",
-				"[#189249]",
-				"[#189251]",
-				"[#189252]"
-			]
-		},
-		"189253": {
-			"id": 189253,
-			"icon": "Icon_Equipments/Event18_Shuriken_G_Tex",
-			"rarity": 3,
-			"name": "[#189253]",
-			"tooltip": "",
-			"races": false,
-			"classes": [
-				11
-			],
-			"dyeable": false,
-			"nameable": false,
-			"aliases": [
-				"[#189254]",
-				"[#189262]",
-				"[#189261]",
-				"[#189263]",
-				"[#189264]"
-			]
-		},
 		"200149": {
 			"id": 200149,
 			"icon": "Icon_Equipments/PC_Event_12_M_Tex",
@@ -92244,6 +92028,188 @@
 			"nameable": false,
 			"aliases": []
 		},
+		"202700": {
+			"id": 202700,
+			"icon": "Icon_Equipments/Event18_Dual_G_Tex",
+			"rarity": 3,
+			"name": "Frenzy & Rage",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				0
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202712": {
+			"id": 202712,
+			"icon": "Icon_Equipments/Event18_Lance_G_Tex",
+			"rarity": 3,
+			"name": "Exothorn",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				1
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202724": {
+			"id": 202724,
+			"icon": "Icon_Equipments/Event18_Twohand_G_Tex",
+			"rarity": 3,
+			"name": "Rukmia's Rancor",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				2
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202736": {
+			"id": 202736,
+			"icon": "Icon_Equipments/Event18_Axe_G_Tex",
+			"rarity": 3,
+			"name": "Killian's Vengeance",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				3
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202748": {
+			"id": 202748,
+			"icon": "Icon_Equipments/Event18_Circle_G_Tex",
+			"rarity": 3,
+			"name": "Kalligar's Eye",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				4
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202760": {
+			"id": 202760,
+			"icon": "Icon_Equipments/Event18_Bow_G_Tex",
+			"rarity": 3,
+			"name": "Blackstorm",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				5
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202772": {
+			"id": 202772,
+			"icon": "Icon_Equipments/Event18_Staff_G_Tex",
+			"rarity": 3,
+			"name": "Exodor's Dominion",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				6
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202784": {
+			"id": 202784,
+			"icon": "Icon_Equipments/Event18_Rod_G_Tex",
+			"rarity": 3,
+			"name": "Violet Splendor",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				7
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202796": {
+			"id": 202796,
+			"icon": "Icon_Equipments/Event18_Gauntlet_G_Tex",
+			"rarity": 3,
+			"name": "Obliterfists",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				10
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202808": {
+			"id": 202808,
+			"icon": "Icon_Equipments/Event18_Blaster_G_Tex",
+			"rarity": 3,
+			"name": "Exodor's Cometfall",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				9
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202820": {
+			"id": 202820,
+			"icon": "Icon_Equipments/Event18_Glaive_G_Tex",
+			"rarity": 3,
+			"name": "Pride of the Damned",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				12
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202832": {
+			"id": 202832,
+			"icon": "Icon_Equipments/Event18_Chain_G_Tex",
+			"rarity": 3,
+			"name": "Darkcore Claws",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				8
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"202844": {
+			"id": 202844,
+			"icon": "Icon_Equipments/Event18_Shuriken_G_Tex",
+			"rarity": 3,
+			"name": "Violaclone",
+			"tooltip": "Right-click to equip in the [Style Info] > [Weapon] slot.<BR><BR>This weapon skin is part of Exodor's gear.<BR>This weapon vibrates with the sinister energy of the Darkcore.",
+			"races": false,
+			"classes": [
+				11
+			],
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
 		"203205": {
 			"id": 203205,
 			"icon": "Icon_Equipments/Acc_653_Tex",
@@ -93166,6 +93132,70 @@
 			"classes": false,
 			"dyeable": false,
 			"nameable": false
+		},
+		"204382": {
+			"id": 204382,
+			"icon": "Icon_Equipments/PC_Event_33_M_Tex",
+			"rarity": 3,
+			"name": "Smart Suit (Amani Male)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.$BR$BRThis formal outfit gives you a touch of elegance.",
+			"races": [
+				4
+			],
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": [
+				"Party Noblesse Suit [Aman Male]"
+			]
+		},
+		"204438": {
+			"id": 204438,
+			"icon": "Icon_Equipments/Acc_322_Tex",
+			"rarity": 3,
+			"name": "Child's Black Sorcerer's Hat",
+			"tooltip": "Right-click to equip in the [Style Info] > [Head] slot.$BR$BRA decorative black sorcerer's hat.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"204439": {
+			"id": 204439,
+			"icon": "Icon_Equipments/Acc_323_Tex",
+			"rarity": 3,
+			"name": "Child's Red Sorcerer's Hat",
+			"tooltip": "Right-click to equip in the [Style Info] > [Head] slot.$BR$BRA decorative red sorcerer's hat.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"204466": {
+			"id": 204466,
+			"icon": "Icon_Equipments/Acc_326_Tex",
+			"rarity": 3,
+			"name": "Black Rabbit Hat",
+			"tooltip": "Right-click to equip in the [Style Info] > [Back] slot.$BR$BRA rabbit being conjured out of a hat? That must be the oldest trick in the book.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"204467": {
+			"id": 204467,
+			"icon": "Icon_Equipments/Acc_327_Tex",
+			"rarity": 3,
+			"name": "Red Rabbit Hat",
+			"tooltip": "Right-click to equip in the [Style Info] > [Back] slot.$BR$BRA rabbit being conjured out of a hat? That must be the oldest trick in the book.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
 		},
 		"205144": {
 			"id": 205144,
@@ -105848,257 +105878,179 @@
 			"id": 260156,
 			"icon": "Icon_Equipments/PC_Event_52_M_F_Tex",
 			"rarity": 3,
-			"name": "[#260156]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Human Male)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				0
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260157]",
-				"[#260165]",
-				"[#260164]",
-				"[#260166]",
-				"[#260167]"
-			]
+			"aliases": []
 		},
 		"260168": {
 			"id": 260168,
 			"icon": "Icon_Equipments/PC_Event_52_F_F_Tex",
 			"rarity": 3,
-			"name": "[#260168]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Human Female)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				1
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260169]",
-				"[#260177]",
-				"[#260176]",
-				"[#260178]",
-				"[#260179]"
-			]
+			"aliases": []
 		},
 		"260180": {
 			"id": 260180,
 			"icon": "Icon_Equipments/PC_Event_52_M_F_Tex",
 			"rarity": 3,
-			"name": "[#260180]",
-			"tooltip": "",
+			"name": "Darkcore Armor (High Elf Male)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				2
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260181]",
-				"[#260189]",
-				"[#260188]",
-				"[#260190]",
-				"[#260191]"
-			]
+			"aliases": []
 		},
 		"260192": {
 			"id": 260192,
 			"icon": "Icon_Equipments/PC_Event_52_F_F_Tex",
 			"rarity": 3,
-			"name": "[#260192]",
-			"tooltip": "",
+			"name": "Darkcore Armor (High Elf Female)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				3
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260193]",
-				"[#260201]",
-				"[#260200]",
-				"[#260202]",
-				"[#260203]"
-			]
+			"aliases": []
 		},
 		"260204": {
 			"id": 260204,
 			"icon": "Icon_Equipments/PC_Event_52_M_F_Tex",
 			"rarity": 3,
-			"name": "[#260204]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Amani Male)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				4
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260205]",
-				"[#260213]",
-				"[#260212]",
-				"[#260214]",
-				"[#260215]"
-			]
+			"aliases": []
 		},
 		"260216": {
 			"id": 260216,
 			"icon": "Icon_Equipments/PC_Event_52_F_F_Tex",
 			"rarity": 3,
-			"name": "[#260216]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Amani Female)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				5
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260217]",
-				"[#260225]",
-				"[#260224]",
-				"[#260226]",
-				"[#260227]"
-			]
+			"aliases": []
 		},
 		"260228": {
 			"id": 260228,
 			"icon": "Icon_Equipments/PC_Event_52_M_F_Tex",
 			"rarity": 3,
-			"name": "[#260228]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Castanic Male)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				6
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260229]",
-				"[#260237]",
-				"[#260236]",
-				"[#260238]",
-				"[#260239]"
-			]
+			"aliases": []
 		},
 		"260240": {
 			"id": 260240,
 			"icon": "Icon_Equipments/PC_Event_52_F_F_Tex",
 			"rarity": 3,
-			"name": "[#260240]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Castanic Female)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				7
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260241]",
-				"[#260249]",
-				"[#260248]",
-				"[#260250]",
-				"[#260251]"
-			]
+			"aliases": []
 		},
 		"260252": {
 			"id": 260252,
 			"icon": "Icon_Equipments/PC_Event_52_M_F_Tex",
 			"rarity": 3,
-			"name": "[#260252]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Popori)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				8
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260253]",
-				"[#260261]",
-				"[#260260]",
-				"[#260262]",
-				"[#260263]"
-			]
+			"aliases": []
 		},
 		"260264": {
 			"id": 260264,
 			"icon": "Icon_Equipments/PC_Event_52_F_F_Tex",
 			"rarity": 3,
-			"name": "[#260264]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Elin)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				9
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260265]",
-				"[#260273]",
-				"[#260272]",
-				"[#260274]",
-				"[#260275]"
-			]
+			"aliases": []
 		},
 		"260276": {
 			"id": 260276,
 			"icon": "Icon_Equipments/PC_Event_52_M_F_Tex",
 			"rarity": 3,
-			"name": "[#260276]",
-			"tooltip": "",
+			"name": "Darkcore Armor (Baraka)",
+			"tooltip": "Right-click to equip in the [Style Info] > [Body] slot.<BR><BR>This armor is part of Exodor's gear.<BR>The plates of this armor glimmers with the portentous energy of the Darkcore.",
 			"races": [
 				10
 			],
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260277]",
-				"[#260285]",
-				"[#260284]",
-				"[#260286]",
-				"[#260287]"
-			]
+			"aliases": []
 		},
 		"260288": {
 			"id": 260288,
 			"icon": "Icon_Equipments/Acc_654_Tex",
 			"rarity": 3,
-			"name": "[#260288]",
-			"tooltip": "",
+			"name": "Damned Fellhorn Helm",
+			"tooltip": "Right-click to equip in the [Style Info] > [Head] slot.<BR><BR>This headgear is part of Exodor's gear.<BR>Sinister creatures lurk in the shadows – and one of them has its sights on your enemies.",
 			"races": false,
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260289]",
-				"[#260297]",
-				"[#260296]",
-				"[#260298]",
-				"[#260299]"
-			]
+			"aliases": []
 		},
 		"260300": {
 			"id": 260300,
 			"icon": "Icon_Equipments/Acc_655_Tex",
 			"rarity": 3,
-			"name": "[#260300]",
-			"tooltip": "",
+			"name": "Galvanized Wings of the Primal Dragon",
+			"tooltip": "Right-click to equip in the [Style Info] > [Back] slot.<BR><BR>This back accessory is part of Exodor's gear.<BR>The powerful wings have been corrupted by Exodor's savage energy.",
 			"races": false,
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#260301]",
-				"[#260309]",
-				"[#260308]",
-				"[#260310]",
-				"[#260311]"
-			]
+			"aliases": []
 		},
 		"260312": {
 			"id": 260312,
@@ -108738,19 +108690,13 @@
 			"id": 262692,
 			"icon": "Icon_Equipments/Acc_677_Tex",
 			"rarity": 3,
-			"name": "[#262692]",
-			"tooltip": "",
+			"name": "Blue Victory Sash",
+			"tooltip": "Right-click to equip in the [Style Info] > [Back] slot.<BR><BR>A scarf embroidered with a golden 1.",
 			"races": false,
 			"classes": false,
 			"dyeable": false,
 			"nameable": false,
-			"aliases": [
-				"[#262693]",
-				"[#262701]",
-				"[#262700]",
-				"[#262702]",
-				"[#262703]"
-			]
+			"aliases": []
 		},
 		"263012": {
 			"id": 263012,
@@ -111328,6 +111274,66 @@
 			"nameable": false,
 			"aliases": []
 		},
+		"265344": {
+			"id": 265344,
+			"icon": "Icon_Equipments/Acc_714_Tex",
+			"rarity": 3,
+			"name": "Chicken Tonight",
+			"tooltip": "Right-click to equip in the [Style Info] > [Head] slot.<br><br>What the chickens is on your head?!",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"265356": {
+			"id": 265356,
+			"icon": "Icon_Equipments/Acc_715_Tex",
+			"rarity": 3,
+			"name": "Charred Chicken",
+			"tooltip": "Right-click to equip in the [Style Info] > [Head] slot.<br><br>What the chickens is on your head?!",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"265368": {
+			"id": 265368,
+			"icon": "Icon_Equipments/Acc_716_Tex",
+			"rarity": 3,
+			"name": "Lumberjack Axe",
+			"tooltip": "Right-click to equip in the [Style Info] > [Back] slot.<BR><BR>Highly effective against trees, not so good against monsters.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"265380": {
+			"id": 265380,
+			"icon": "Icon_Items/FootPrint_maple_A_Tex",
+			"rarity": 3,
+			"name": "Stamp: Windswept Maple Leaves",
+			"tooltip": "Right-click to equip in the [Style Info] > [Footsteps] slot.<BR><BR>Leave a trail of blazing red maple leaves behind you.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
+		"265392": {
+			"id": 265392,
+			"icon": "Icon_Items/FootPrint_maple_B_Tex",
+			"rarity": 3,
+			"name": "Stamp: Autumn Dreams",
+			"tooltip": "Right-click to equip in the [Style Info] > [Footsteps] slot.<BR><BR>Leave a trail of blazing red leaves behind you which occasionally sprout a mighty maple tree.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
 		"265404": {
 			"id": 265404,
 			"icon": "Icon_Equipments/PC_Event_75_M_A_Tex",
@@ -111838,6 +111844,18 @@
 			"nameable": false,
 			"aliases": []
 		},
+		"265848": {
+			"id": 265848,
+			"icon": "Icon_Equipments/Acc_719_Tex",
+			"rarity": 3,
+			"name": "Peacock Mask",
+			"tooltip": "Right-click to equip in the [Style Info] > [Face] slot.<BR><BR>Perfect for the masquerade ball.",
+			"races": false,
+			"classes": false,
+			"dyeable": false,
+			"nameable": false,
+			"aliases": []
+		},
 		"602100": {
 			"id": 602100,
 			"icon": "Icon_Equipments/PC_Event_45_F_A_Tex",
@@ -112334,7 +112352,7 @@
 					88341,
 					88374,
 					90125,
-					90203,
+					90700,
 					95502,
 					96520,
 					96588,
@@ -115200,9 +115218,9 @@
 					185636,
 					185669,
 					185702,
-					189109,
 					200611,
 					201435,
+					202700,
 					203517,
 					203673,
 					250300,
@@ -115266,9 +115284,9 @@
 					185639,
 					185672,
 					185705,
-					189121,
 					200635,
 					201399,
+					202712,
 					203529,
 					203685,
 					250312,
@@ -115332,9 +115350,9 @@
 					185642,
 					185675,
 					185708,
-					189133,
 					200659,
 					201411,
+					202724,
 					203541,
 					203697,
 					250324,
@@ -115398,9 +115416,9 @@
 					185645,
 					185678,
 					185711,
-					189145,
 					200683,
 					201423,
+					202736,
 					203553,
 					203709,
 					250336,
@@ -115464,8 +115482,8 @@
 					185648,
 					185681,
 					185714,
-					189157,
 					200707,
+					202748,
 					203565,
 					203721,
 					250348,
@@ -115529,8 +115547,8 @@
 					185651,
 					185684,
 					185717,
-					189169,
 					200731,
+					202760,
 					203577,
 					203733,
 					250360,
@@ -115594,9 +115612,9 @@
 					185654,
 					185687,
 					185720,
-					189181,
 					200755,
 					201447,
+					202772,
 					203589,
 					203745,
 					250372,
@@ -115661,9 +115679,9 @@
 					185657,
 					185690,
 					185723,
-					189193,
 					200779,
 					201459,
+					202784,
 					203601,
 					203757,
 					250384,
@@ -115713,8 +115731,8 @@
 					185660,
 					185693,
 					185726,
-					189241,
 					201346,
+					202832,
 					203649,
 					203805,
 					203873,
@@ -115758,7 +115776,7 @@
 					185663,
 					185696,
 					185729,
-					189217,
+					202808,
 					203625,
 					203781,
 					203849,
@@ -115803,8 +115821,8 @@
 					185666,
 					185699,
 					185732,
-					189205,
 					201471,
+					202796,
 					203613,
 					203769,
 					203837,
@@ -115845,7 +115863,7 @@
 					185757,
 					185951,
 					186368,
-					189253,
+					202844,
 					203661,
 					203817,
 					203885,
@@ -115886,7 +115904,7 @@
 					155431,
 					155433,
 					155435,
-					189229,
+					202820,
 					203637,
 					203793,
 					203861,
@@ -116141,7 +116159,6 @@
 				132344,
 				132345,
 				141460,
-				141461,
 				143010,
 				149286,
 				150211,
@@ -117520,6 +117537,7 @@
 				203457,
 				203469,
 				203481,
+				204382,
 				205144,
 				205156,
 				205168,
@@ -118488,7 +118506,8 @@
 				261960,
 				263288,
 				264424,
-				264448
+				264448,
+				265848
 			],
 			"styleHead": [
 				424,
@@ -118636,8 +118655,6 @@
 				132202,
 				141050,
 				141051,
-				141052,
-				141053,
 				141054,
 				141055,
 				141374,
@@ -118879,6 +118896,8 @@
 				203505,
 				204023,
 				204035,
+				204438,
+				204439,
 				205408,
 				205420,
 				205432,
@@ -118974,6 +118993,8 @@
 				264536,
 				265320,
 				265332,
+				265344,
+				265356,
 				265800,
 				265812,
 				265824,
@@ -119010,8 +119031,6 @@
 				141450,
 				141451,
 				141452,
-				142358,
-				142359,
 				169165,
 				169171,
 				169174,
@@ -119079,6 +119098,8 @@
 				201921,
 				204000,
 				204049,
+				204466,
+				204467,
 				205480,
 				205636,
 				220357,
@@ -119119,7 +119140,8 @@
 				263036,
 				263312,
 				263612,
-				263824
+				263824,
+				265368
 			],
 			"styleFootprint": [
 				99507,
@@ -119165,7 +119187,9 @@
 				203957,
 				203969,
 				207174,
-				207186
+				207186,
+				265380,
+				265392
 			]
 		}
 	},
@@ -131739,9 +131763,10 @@
 		"90121": 90138,
 		"90122": 90139,
 		"90200": 88339,
+		"90203": 90700,
 		"90301": 90201,
 		"90302": 90202,
-		"90303": 90203,
+		"90303": 90700,
 		"90304": 90204,
 		"90305": 90205,
 		"90306": 90206,
@@ -131763,7 +131788,7 @@
 		"90322": 90222,
 		"90401": 90201,
 		"90402": 90202,
-		"90403": 90203,
+		"90403": 90700,
 		"90404": 90204,
 		"90405": 90205,
 		"90406": 90206,
@@ -131783,6 +131808,7 @@
 		"90420": 90220,
 		"90421": 90221,
 		"90422": 90222,
+		"90717": 90207,
 		"91001": 96518,
 		"91002": 96519,
 		"91003": 96520,
@@ -136020,7 +136046,7 @@
 		"116943": 184535,
 		"116944": 184538,
 		"116945": 141460,
-		"116946": 141461,
+		"116946": 204382,
 		"116947": 184547,
 		"116948": 184550,
 		"116949": 184553,
@@ -136324,6 +136350,86 @@
 		"117702": 255208,
 		"117703": 255232,
 		"117704": 255256,
+		"117764": 186453,
+		"117765": 186459,
+		"117766": 186465,
+		"117767": 186471,
+		"117768": 186477,
+		"117769": 186483,
+		"117770": 186489,
+		"117771": 186495,
+		"117772": 186501,
+		"117773": 186507,
+		"117774": 186519,
+		"117775": 186513,
+		"117776": 183923,
+		"117777": 183926,
+		"117778": 183929,
+		"117779": 183932,
+		"117780": 183935,
+		"117781": 183938,
+		"117782": 183941,
+		"117783": 183944,
+		"117784": 183947,
+		"117785": 183950,
+		"117786": 183953,
+		"117787": 183956,
+		"117788": 183959,
+		"117789": 183962,
+		"117790": 183965,
+		"117791": 183968,
+		"117792": 184520,
+		"117793": 184526,
+		"117794": 184532,
+		"117795": 184538,
+		"117796": 204382,
+		"117797": 184550,
+		"117798": 184556,
+		"117799": 184562,
+		"117800": 184568,
+		"117801": 184574,
+		"117802": 184580,
+		"117803": 184583,
+		"117804": 184841,
+		"117805": 184847,
+		"117806": 184853,
+		"117807": 184859,
+		"117808": 184865,
+		"117809": 184871,
+		"117810": 184877,
+		"117811": 184883,
+		"117812": 184889,
+		"117813": 184895,
+		"117814": 184901,
+		"117815": 185048,
+		"117816": 185060,
+		"117817": 185072,
+		"117818": 185084,
+		"117819": 185096,
+		"117820": 185259,
+		"117821": 185265,
+		"117822": 185271,
+		"117823": 185277,
+		"117824": 185283,
+		"117825": 185289,
+		"117826": 185295,
+		"117827": 185301,
+		"117828": 185307,
+		"117829": 185313,
+		"117830": 185319,
+		"117865": 88372,
+		"117866": 88373,
+		"117867": 88374,
+		"117868": 88375,
+		"117869": 88376,
+		"117870": 88377,
+		"117871": 88378,
+		"117872": 88379,
+		"117873": 88380,
+		"117874": 88381,
+		"117875": 88382,
+		"117876": 88383,
+		"117877": 88384,
 		"120001": 150003,
 		"120002": 164078,
 		"120003": 164079,
@@ -138337,8 +138443,10 @@
 		"141047": 182622,
 		"141048": 182637,
 		"141049": 182652,
-		"141056": 142358,
-		"141057": 142359,
+		"141052": 204438,
+		"141053": 204439,
+		"141056": 204466,
+		"141057": 204467,
 		"141062": 180913,
 		"141063": 182725,
 		"141064": 182728,
@@ -138728,6 +138836,7 @@
 		"141457": 184532,
 		"141458": 184535,
 		"141459": 184538,
+		"141461": 204382,
 		"141462": 184547,
 		"141463": 184550,
 		"141464": 184553,
@@ -139589,6 +139698,8 @@
 		"142335": 185729,
 		"142336": 185732,
 		"142337": 185757,
+		"142358": 204466,
+		"142359": 204467,
 		"142363": 186350,
 		"142364": 186350,
 		"142365": 155049,
@@ -140088,7 +140199,7 @@
 		"143319": 88370,
 		"143327": 90201,
 		"143328": 90202,
-		"143329": 90203,
+		"143329": 90700,
 		"143330": 90204,
 		"143331": 90205,
 		"143332": 90206,
@@ -140110,7 +140221,7 @@
 		"143348": 90222,
 		"143349": 90201,
 		"143350": 90202,
-		"143351": 90203,
+		"143351": 90700,
 		"143352": 90204,
 		"143353": 90205,
 		"143354": 90206,
@@ -140132,7 +140243,7 @@
 		"143370": 90222,
 		"143371": 90201,
 		"143372": 90202,
-		"143373": 90203,
+		"143373": 90700,
 		"143374": 90204,
 		"143375": 90205,
 		"143376": 90206,
@@ -140392,7 +140503,7 @@
 		"149087": 181563,
 		"149088": 131242,
 		"149089": 182137,
-		"149090": 142359,
+		"149090": 204467,
 		"149091": 181928,
 		"149092": 131236,
 		"149093": 180752,
@@ -151577,149 +151688,162 @@
 		"186820": 185699,
 		"186821": 178385,
 		"186823": 180427,
-		"189110": 189109,
-		"189111": 189109,
-		"189112": 189109,
-		"189113": 189109,
-		"189114": 189109,
-		"189115": 189109,
-		"189116": 189109,
-		"189117": 189109,
-		"189118": 189109,
-		"189119": 189109,
-		"189120": 189109,
-		"189122": 189121,
-		"189123": 189121,
-		"189124": 189121,
-		"189125": 189121,
-		"189126": 189121,
-		"189127": 189121,
-		"189128": 189121,
-		"189129": 189121,
-		"189130": 189121,
-		"189131": 189121,
-		"189132": 189121,
-		"189134": 189133,
-		"189135": 189133,
-		"189136": 189133,
-		"189137": 189133,
-		"189138": 189133,
-		"189139": 189133,
-		"189140": 189133,
-		"189141": 189133,
-		"189142": 189133,
-		"189143": 189133,
-		"189144": 189133,
-		"189146": 189145,
-		"189147": 189145,
-		"189148": 189145,
-		"189149": 189145,
-		"189150": 189145,
-		"189151": 189145,
-		"189152": 189145,
-		"189153": 189145,
-		"189154": 189145,
-		"189155": 189145,
-		"189156": 189145,
-		"189158": 189157,
-		"189159": 189157,
-		"189160": 189157,
-		"189161": 189157,
-		"189162": 189157,
-		"189163": 189157,
-		"189164": 189157,
-		"189165": 189157,
-		"189166": 189157,
-		"189167": 189157,
-		"189168": 189157,
-		"189170": 189169,
-		"189171": 189169,
-		"189172": 189169,
-		"189173": 189169,
-		"189174": 189169,
-		"189175": 189169,
-		"189176": 189169,
-		"189177": 189169,
-		"189178": 189169,
-		"189179": 189169,
-		"189180": 189169,
-		"189182": 189181,
-		"189183": 189181,
-		"189184": 189181,
-		"189185": 189181,
-		"189186": 189181,
-		"189187": 189181,
-		"189188": 189181,
-		"189189": 189181,
-		"189190": 189181,
-		"189191": 189181,
-		"189192": 189181,
-		"189194": 189193,
-		"189195": 189193,
-		"189196": 189193,
-		"189197": 189193,
-		"189198": 189193,
-		"189199": 189193,
-		"189200": 189193,
-		"189201": 189193,
-		"189202": 189193,
-		"189203": 189193,
-		"189204": 189193,
-		"189206": 189205,
-		"189207": 189205,
-		"189208": 189205,
-		"189209": 189205,
-		"189210": 189205,
-		"189211": 189205,
-		"189212": 189205,
-		"189213": 189205,
-		"189214": 189205,
-		"189215": 189205,
-		"189216": 189205,
-		"189218": 189217,
-		"189219": 189217,
-		"189220": 189217,
-		"189221": 189217,
-		"189222": 189217,
-		"189223": 189217,
-		"189224": 189217,
-		"189225": 189217,
-		"189226": 189217,
-		"189227": 189217,
-		"189228": 189217,
-		"189230": 189229,
-		"189231": 189229,
-		"189232": 189229,
-		"189233": 189229,
-		"189234": 189229,
-		"189235": 189229,
-		"189236": 189229,
-		"189237": 189229,
-		"189238": 189229,
-		"189239": 189229,
-		"189240": 189229,
-		"189242": 189241,
-		"189243": 189241,
-		"189244": 189241,
-		"189245": 189241,
-		"189246": 189241,
-		"189247": 189241,
-		"189248": 189241,
-		"189249": 189241,
-		"189250": 189241,
-		"189251": 189241,
-		"189252": 189241,
-		"189254": 189253,
-		"189255": 189253,
-		"189256": 189253,
-		"189257": 189253,
-		"189258": 189253,
-		"189259": 189253,
-		"189260": 189253,
-		"189261": 189253,
-		"189262": 189253,
-		"189263": 189253,
-		"189264": 189253,
+		"189109": 202700,
+		"189110": 202700,
+		"189111": 202700,
+		"189112": 202700,
+		"189113": 202700,
+		"189114": 202700,
+		"189115": 202700,
+		"189116": 202700,
+		"189117": 202700,
+		"189118": 202700,
+		"189119": 202700,
+		"189120": 202700,
+		"189121": 202712,
+		"189122": 202712,
+		"189123": 202712,
+		"189124": 202712,
+		"189125": 202712,
+		"189126": 202712,
+		"189127": 202712,
+		"189128": 202712,
+		"189129": 202712,
+		"189130": 202712,
+		"189131": 202712,
+		"189132": 202712,
+		"189133": 202724,
+		"189134": 202724,
+		"189135": 202724,
+		"189136": 202724,
+		"189137": 202724,
+		"189138": 202724,
+		"189139": 202724,
+		"189140": 202724,
+		"189141": 202724,
+		"189142": 202724,
+		"189143": 202724,
+		"189144": 202724,
+		"189145": 202736,
+		"189146": 202736,
+		"189147": 202736,
+		"189148": 202736,
+		"189149": 202736,
+		"189150": 202736,
+		"189151": 202736,
+		"189152": 202736,
+		"189153": 202736,
+		"189154": 202736,
+		"189155": 202736,
+		"189156": 202736,
+		"189157": 202748,
+		"189158": 202748,
+		"189159": 202748,
+		"189160": 202748,
+		"189161": 202748,
+		"189162": 202748,
+		"189163": 202748,
+		"189164": 202748,
+		"189165": 202748,
+		"189166": 202748,
+		"189167": 202748,
+		"189168": 202748,
+		"189169": 202760,
+		"189170": 202760,
+		"189171": 202760,
+		"189172": 202760,
+		"189173": 202760,
+		"189174": 202760,
+		"189175": 202760,
+		"189176": 202760,
+		"189177": 202760,
+		"189178": 202760,
+		"189179": 202760,
+		"189180": 202760,
+		"189181": 202772,
+		"189182": 202772,
+		"189183": 202772,
+		"189184": 202772,
+		"189185": 202772,
+		"189186": 202772,
+		"189187": 202772,
+		"189188": 202772,
+		"189189": 202772,
+		"189190": 202772,
+		"189191": 202772,
+		"189192": 202772,
+		"189193": 202784,
+		"189194": 202784,
+		"189195": 202784,
+		"189196": 202784,
+		"189197": 202784,
+		"189198": 202784,
+		"189199": 202784,
+		"189200": 202784,
+		"189201": 202784,
+		"189202": 202784,
+		"189203": 202784,
+		"189204": 202784,
+		"189205": 202796,
+		"189206": 202796,
+		"189207": 202796,
+		"189208": 202796,
+		"189209": 202796,
+		"189210": 202796,
+		"189211": 202796,
+		"189212": 202796,
+		"189213": 202796,
+		"189214": 202796,
+		"189215": 202796,
+		"189216": 202796,
+		"189217": 202808,
+		"189218": 202808,
+		"189219": 202808,
+		"189220": 202808,
+		"189221": 202808,
+		"189222": 202808,
+		"189223": 202808,
+		"189224": 202808,
+		"189225": 202808,
+		"189226": 202808,
+		"189227": 202808,
+		"189228": 202808,
+		"189229": 202820,
+		"189230": 202820,
+		"189231": 202820,
+		"189232": 202820,
+		"189233": 202820,
+		"189234": 202820,
+		"189235": 202820,
+		"189236": 202820,
+		"189237": 202820,
+		"189238": 202820,
+		"189239": 202820,
+		"189240": 202820,
+		"189241": 202832,
+		"189242": 202832,
+		"189243": 202832,
+		"189244": 202832,
+		"189245": 202832,
+		"189246": 202832,
+		"189247": 202832,
+		"189248": 202832,
+		"189249": 202832,
+		"189250": 202832,
+		"189251": 202832,
+		"189252": 202832,
+		"189253": 202844,
+		"189254": 202844,
+		"189255": 202844,
+		"189256": 202844,
+		"189257": 202844,
+		"189258": 202844,
+		"189259": 202844,
+		"189260": 202844,
+		"189261": 202844,
+		"189262": 202844,
+		"189263": 202844,
+		"189264": 202844,
 		"190000": 186203,
 		"190001": 186206,
 		"190002": 186209,
@@ -153446,6 +153570,149 @@
 		"202601": 202592,
 		"202602": 202592,
 		"202603": 202592,
+		"202701": 202700,
+		"202702": 202700,
+		"202703": 202700,
+		"202704": 202700,
+		"202705": 202700,
+		"202706": 202700,
+		"202707": 202700,
+		"202708": 202700,
+		"202709": 202700,
+		"202710": 202700,
+		"202711": 202700,
+		"202713": 202712,
+		"202714": 202712,
+		"202715": 202712,
+		"202716": 202712,
+		"202717": 202712,
+		"202718": 202712,
+		"202719": 202712,
+		"202720": 202712,
+		"202721": 202712,
+		"202722": 202712,
+		"202723": 202712,
+		"202725": 202724,
+		"202726": 202724,
+		"202727": 202724,
+		"202728": 202724,
+		"202729": 202724,
+		"202730": 202724,
+		"202731": 202724,
+		"202732": 202724,
+		"202733": 202724,
+		"202734": 202724,
+		"202735": 202724,
+		"202737": 202736,
+		"202738": 202736,
+		"202739": 202736,
+		"202740": 202736,
+		"202741": 202736,
+		"202742": 202736,
+		"202743": 202736,
+		"202744": 202736,
+		"202745": 202736,
+		"202746": 202736,
+		"202747": 202736,
+		"202749": 202748,
+		"202750": 202748,
+		"202751": 202748,
+		"202752": 202748,
+		"202753": 202748,
+		"202754": 202748,
+		"202755": 202748,
+		"202756": 202748,
+		"202757": 202748,
+		"202758": 202748,
+		"202759": 202748,
+		"202761": 202760,
+		"202762": 202760,
+		"202763": 202760,
+		"202764": 202760,
+		"202765": 202760,
+		"202766": 202760,
+		"202767": 202760,
+		"202768": 202760,
+		"202769": 202760,
+		"202770": 202760,
+		"202771": 202760,
+		"202773": 202772,
+		"202774": 202772,
+		"202775": 202772,
+		"202776": 202772,
+		"202777": 202772,
+		"202778": 202772,
+		"202779": 202772,
+		"202780": 202772,
+		"202781": 202772,
+		"202782": 202772,
+		"202783": 202772,
+		"202785": 202784,
+		"202786": 202784,
+		"202787": 202784,
+		"202788": 202784,
+		"202789": 202784,
+		"202790": 202784,
+		"202791": 202784,
+		"202792": 202784,
+		"202793": 202784,
+		"202794": 202784,
+		"202795": 202784,
+		"202797": 202796,
+		"202798": 202796,
+		"202799": 202796,
+		"202800": 202796,
+		"202801": 202796,
+		"202802": 202796,
+		"202803": 202796,
+		"202804": 202796,
+		"202805": 202796,
+		"202806": 202796,
+		"202807": 202796,
+		"202809": 202808,
+		"202810": 202808,
+		"202811": 202808,
+		"202812": 202808,
+		"202813": 202808,
+		"202814": 202808,
+		"202815": 202808,
+		"202816": 202808,
+		"202817": 202808,
+		"202818": 202808,
+		"202819": 202808,
+		"202821": 202820,
+		"202822": 202820,
+		"202823": 202820,
+		"202824": 202820,
+		"202825": 202820,
+		"202826": 202820,
+		"202827": 202820,
+		"202828": 202820,
+		"202829": 202820,
+		"202830": 202820,
+		"202831": 202820,
+		"202833": 202832,
+		"202834": 202832,
+		"202835": 202832,
+		"202836": 202832,
+		"202837": 202832,
+		"202838": 202832,
+		"202839": 202832,
+		"202840": 202832,
+		"202841": 202832,
+		"202842": 202832,
+		"202843": 202832,
+		"202845": 202844,
+		"202846": 202844,
+		"202847": 202844,
+		"202848": 202844,
+		"202849": 202844,
+		"202850": 202844,
+		"202851": 202844,
+		"202852": 202844,
+		"202853": 202844,
+		"202854": 202844,
+		"202855": 202844,
 		"203206": 203205,
 		"203207": 203205,
 		"203208": 203205,
@@ -154178,6 +154445,185 @@
 		"204045": 204035,
 		"204046": 204035,
 		"204048": 204000,
+		"204217": 88372,
+		"204218": 88373,
+		"204219": 88374,
+		"204220": 88375,
+		"204221": 88376,
+		"204222": 88377,
+		"204223": 88378,
+		"204224": 88379,
+		"204225": 88380,
+		"204226": 88381,
+		"204227": 88382,
+		"204228": 88383,
+		"204229": 88384,
+		"204230": 88385,
+		"204231": 88386,
+		"204232": 88387,
+		"204233": 88388,
+		"204234": 88389,
+		"204235": 88390,
+		"204236": 88391,
+		"204237": 88392,
+		"204238": 88393,
+		"204239": 88394,
+		"204240": 88395,
+		"204241": 88396,
+		"204242": 88397,
+		"204243": 88398,
+		"204244": 88399,
+		"204245": 88400,
+		"204246": 88401,
+		"204247": 88402,
+		"204248": 88403,
+		"204304": 152098,
+		"204305": 152095,
+		"204306": 152093,
+		"204307": 152091,
+		"204308": 152076,
+		"204309": 152073,
+		"204310": 152086,
+		"204311": 152084,
+		"204312": 152106,
+		"204313": 152103,
+		"204314": 152077,
+		"204316": 155354,
+		"204317": 155349,
+		"204318": 155355,
+		"204319": 155350,
+		"204320": 155356,
+		"204321": 155351,
+		"204322": 155357,
+		"204323": 155352,
+		"204324": 155358,
+		"204325": 155353,
+		"204326": 155359,
+		"204328": 155325,
+		"204329": 155326,
+		"204330": 155327,
+		"204331": 155328,
+		"204332": 155329,
+		"204333": 155330,
+		"204334": 155331,
+		"204335": 155332,
+		"204336": 155333,
+		"204337": 155334,
+		"204338": 155335,
+		"204340": 181374,
+		"204341": 181389,
+		"204342": 181404,
+		"204343": 181419,
+		"204344": 181434,
+		"204345": 181449,
+		"204346": 181464,
+		"204347": 181479,
+		"204348": 181494,
+		"204349": 181509,
+		"204350": 181530,
+		"204352": 185259,
+		"204353": 185265,
+		"204354": 185271,
+		"204355": 185277,
+		"204356": 185283,
+		"204357": 185289,
+		"204358": 185295,
+		"204359": 185301,
+		"204360": 185307,
+		"204361": 185313,
+		"204362": 185319,
+		"204365": 182032,
+		"204366": 182035,
+		"204367": 182038,
+		"204368": 182041,
+		"204369": 182044,
+		"204370": 182047,
+		"204372": 181005,
+		"204373": 181008,
+		"204374": 181011,
+		"204375": 181014,
+		"204376": 181017,
+		"204377": 181020,
+		"204380": 184520,
+		"204381": 184532,
+		"204383": 184556,
+		"204384": 184568,
+		"204385": 184583,
+		"204387": 169437,
+		"204388": 169455,
+		"204389": 169419,
+		"204390": 169473,
+		"204391": 169485,
+		"204393": 181023,
+		"204394": 181026,
+		"204395": 181029,
+		"204396": 181032,
+		"204397": 181035,
+		"204399": 184526,
+		"204400": 184538,
+		"204401": 184550,
+		"204402": 184562,
+		"204403": 184574,
+		"204405": 186203,
+		"204406": 186230,
+		"204407": 186257,
+		"204408": 186284,
+		"204409": 186311,
+		"204413": 183884,
+		"204414": 183887,
+		"204415": 183890,
+		"204416": 180428,
+		"204417": 164090,
+		"204418": 164091,
+		"204419": 180521,
+		"204420": 180524,
+		"204421": 180527,
+		"204422": 180530,
+		"204423": 182308,
+		"204424": 182311,
+		"204425": 182314,
+		"204426": 131216,
+		"204427": 131217,
+		"204428": 152107,
+		"204429": 152108,
+		"204430": 152109,
+		"204431": 152110,
+		"204432": 164083,
+		"204433": 164084,
+		"204434": 50033,
+		"204435": 50042,
+		"204436": 180426,
+		"204437": 131110,
+		"204440": 180509,
+		"204441": 180512,
+		"204442": 180515,
+		"204443": 180518,
+		"204444": 181539,
+		"204445": 181542,
+		"204446": 181548,
+		"204447": 181551,
+		"204448": 180948,
+		"204449": 180951,
+		"204450": 180954,
+		"204451": 180957,
+		"204452": 169171,
+		"204453": 169177,
+		"204454": 183881,
+		"204455": 185331,
+		"204456": 184355,
+		"204457": 184358,
+		"204458": 131234,
+		"204459": 131235,
+		"204460": 131243,
+		"204461": 180075,
+		"204462": 180889,
+		"204463": 180892,
+		"204464": 180895,
+		"204465": 180898,
+		"204468": 141447,
+		"204469": 141448,
+		"204470": 131236,
+		"204471": 131242,
 		"205145": 205144,
 		"205146": 205144,
 		"205147": 205144,
@@ -160513,7 +160959,7 @@
 		"221506": 184535,
 		"221507": 184538,
 		"221508": 141460,
-		"221509": 141461,
+		"221509": 204382,
 		"221510": 184547,
 		"221511": 184550,
 		"221512": 184553,
@@ -174674,6 +175120,61 @@
 		"265341": 265332,
 		"265342": 265332,
 		"265343": 265332,
+		"265345": 265344,
+		"265346": 265344,
+		"265347": 265344,
+		"265348": 265344,
+		"265349": 265344,
+		"265350": 265344,
+		"265351": 265344,
+		"265352": 265344,
+		"265353": 265344,
+		"265354": 265344,
+		"265355": 265344,
+		"265357": 265356,
+		"265358": 265356,
+		"265359": 265356,
+		"265360": 265356,
+		"265361": 265356,
+		"265362": 265356,
+		"265363": 265356,
+		"265364": 265356,
+		"265365": 265356,
+		"265366": 265356,
+		"265367": 265356,
+		"265369": 265368,
+		"265370": 265368,
+		"265371": 265368,
+		"265372": 265368,
+		"265373": 265368,
+		"265374": 265368,
+		"265375": 265368,
+		"265376": 265368,
+		"265377": 265368,
+		"265378": 265368,
+		"265379": 265368,
+		"265381": 265380,
+		"265382": 265380,
+		"265383": 265380,
+		"265384": 265380,
+		"265385": 265380,
+		"265386": 265380,
+		"265387": 265380,
+		"265388": 265380,
+		"265389": 265380,
+		"265390": 265380,
+		"265391": 265380,
+		"265393": 265392,
+		"265394": 265392,
+		"265395": 265392,
+		"265396": 265392,
+		"265397": 265392,
+		"265398": 265392,
+		"265399": 265392,
+		"265400": 265392,
+		"265401": 265392,
+		"265402": 265392,
+		"265403": 265392,
 		"265405": 265404,
 		"265406": 265404,
 		"265407": 265404,
@@ -175081,6 +175582,49 @@
 		"265845": 265836,
 		"265846": 265836,
 		"265847": 265836,
+		"265849": 265848,
+		"265850": 265848,
+		"265851": 265848,
+		"265852": 265848,
+		"265853": 265848,
+		"265854": 265848,
+		"265855": 265848,
+		"265856": 265848,
+		"265857": 265848,
+		"265858": 265848,
+		"265859": 265848,
+		"602110": 88372,
+		"602111": 88373,
+		"602112": 88374,
+		"602113": 88375,
+		"602114": 88376,
+		"602115": 88377,
+		"602116": 88378,
+		"602117": 88379,
+		"602118": 88380,
+		"602119": 88381,
+		"602120": 88382,
+		"602121": 88383,
+		"602122": 88384,
+		"602123": 88385,
+		"602124": 88386,
+		"602125": 88387,
+		"602126": 88388,
+		"602127": 88389,
+		"602128": 88390,
+		"602129": 88391,
+		"602130": 88392,
+		"602131": 88393,
+		"602132": 88394,
+		"602133": 88395,
+		"602134": 88396,
+		"602135": 88397,
+		"602136": 88398,
+		"602137": 88399,
+		"602138": 88400,
+		"602139": 88401,
+		"602140": 88402,
+		"602141": 88403,
 		"602144": 254268,
 		"602145": 180426,
 		"602147": 257504,
@@ -177672,12 +178216,12 @@
 		"852566": 182652,
 		"852567": 141050,
 		"852568": 141051,
-		"852569": 141052,
-		"852570": 141053,
+		"852569": 204438,
+		"852570": 204439,
 		"852571": 141054,
 		"852572": 141055,
-		"852573": 142358,
-		"852574": 142359,
+		"852573": 204466,
+		"852574": 204467,
 		"852575": 141058,
 		"852576": 141059,
 		"852577": 141060,
@@ -178081,7 +178625,7 @@
 		"852975": 184535,
 		"852976": 184538,
 		"852977": 141460,
-		"852978": 141461,
+		"852978": 204382,
 		"852979": 184547,
 		"852980": 184550,
 		"852981": 184553,
@@ -178956,7 +179500,7 @@
 		"853850": 181563,
 		"853851": 131242,
 		"853852": 182137,
-		"853853": 142359,
+		"853853": 204467,
 		"853854": 181928,
 		"853855": 131236,
 		"853856": 180752,
@@ -180702,7 +181246,7 @@
 		"856194": 184352,
 		"856195": 184520,
 		"856196": 184532,
-		"856197": 141461,
+		"856197": 204382,
 		"856198": 184556,
 		"856199": 184568,
 		"856200": 184583,

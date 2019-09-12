@@ -55,6 +55,13 @@
 		"skill": 111119,
 		"vehicleId": "9"
 	},
+	"253": {
+		"id": "253",
+		"name": "Summon: Training Bay Gelding",
+		"toolTip": "Use this manual to learn how to summon a brown horse mount with a Movement Speed of 240.$BR$BR<font color = '#cd5b63'>[TIP]</font>: This skill will be replaced by the <font color = '#66bbff'>Summon: Bay Gelding</font> skill.",
+		"skill": 118000,
+		"vehicleId": "320"
+	},
 	"304": {
 		"id": "304",
 		"name": "Riding Skill: Battle Charger",
@@ -279,6 +286,13 @@
 		"skill": 111142,
 		"vehicleId": "42"
 	},
+	"489": {
+		"id": "489",
+		"name": "Riding Skill: Sheldon",
+		"toolTip": "Use this manual to learn how to summon Sheldon (the giant kamara after which the Unified Theory Institute's bots were modeled) with a movement speed of 275.",
+		"skill": 111152,
+		"vehicleId": "330"
+	},
 	"650": {
 		"id": "650",
 		"name": "A Week of Night Mares",
@@ -468,6 +482,20 @@
 		"skill": 12200164,
 		"vehicleId": "294"
 	},
+	"99039": {
+		"id": "99039",
+		"name": "Flying Skill: Golden Dragon",
+		"toolTip": "Use this manual to summon a golden dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. This passive skill does not stack with passive skills gained from other mounts, and only grants a bonus if Golden Dragon is the last mount you used.<br><br><font color = '#c21919'>Cannot be traded.",
+		"skill": 12200182,
+		"vehicleId": "318"
+	},
+	"99040": {
+		"id": "99040",
+		"name": "Flying Skill: Royal Golden Dragon",
+		"toolTip": "Use this manual to summon a royal golden dragon mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second, and creates an aura which increases ground Movement Speed of nearby party members' mounts by 10. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to double your Crit Power against monsters, when you are not mounted. This passive skill does not stack with passive skills gained from other mounts, and only grants a bonus if Royal Golden Dragon is the last mount you used.<br><br><font color = '#c21919'>Cannot be traded.",
+		"skill": 12200183,
+		"vehicleId": "319"
+	},
 	"99102": {
 		"id": "99102",
 		"name": "Flying Skill: Ghost Dragon",
@@ -527,7 +555,7 @@
 	"99285": {
 		"id": "99285",
 		"name": "Flying Skill: Ignite",
-		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ignite is the last mount you used.",
+		"toolTip": "Use this manual to learn how to summon a golden fiery elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Ignite is the last mount you used.",
 		"skill": 12200051,
 		"vehicleId": "246"
 	},
@@ -541,7 +569,7 @@
 	"99287": {
 		"id": "99287",
 		"name": "Flying Skill: Fume",
-		"toolTip": "Use this manual to learn how to summon an elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Fume is the last mount you used.",
+		"toolTip": "Use this manual to learn how to summon a black fiery elite undead dragon mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the passive skill Dragon Master, which grants a chance to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Dragon Master does not stack with passive skills gained from other mounts, and only grants a bonus if Fume is the last mount you used.",
 		"skill": 12200067,
 		"vehicleId": "248"
 	},
@@ -590,7 +618,7 @@
 	"99532": {
 		"id": "99532",
 		"name": "Flying Skill: Urvog",
-		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 1-hour cooldown which may prevent you from using other mount skills.",
 		"skill": 12200076,
 		"vehicleId": "260"
 	},
@@ -604,7 +632,7 @@
 	"99556": {
 		"id": "99556",
 		"name": "Flying Skill: Pteryx",
-		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 24-hour cooldown which may prevent you from using other mount skills.",
+		"toolTip": "Use this manual to learn how to summon a phoenix mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill grants you the passive skills Blazing Aura II (increased Crit Power) and Phoenix Aura II (free resurrection every hour), and the Majestic effect (cancels the effect of Dragonwing, adds a shared cooldown for certain skills). Using Phoenix Aura II activates a 1-hour cooldown which may prevent you from using other mount skills.",
 		"skill": 12200084,
 		"vehicleId": "259"
 	},
@@ -628,13 +656,6 @@
 		"toolTip": "",
 		"skill": 111150,
 		"vehicleId": "43"
-	},
-	"100716": {
-		"id": "100716",
-		"name": "",
-		"toolTip": "",
-		"skill": 111152,
-		"vehicleId": "330"
 	},
 	"100722": {
 		"id": "100722",
@@ -1871,14 +1892,14 @@
 	"202604": {
 		"id": "202604",
 		"name": "Flying Skill: Crimson Kirin",
-		"toolTip": "Use this manual to learn how to summon a Crimson Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness I</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness I</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"toolTip": "Use this manual to learn how to summon a Crimson Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Mysterious Aura</font>, which grants a chance, after a successful crit against a monster, to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Mysterious Aura</font> starts a cooldown which may prevent the use of other mount abilities.",
 		"skill": 12200166,
 		"vehicleId": "297"
 	},
 	"202605": {
 		"id": "202605",
 		"name": "Flying Skill: Vermilion Kirin",
-		"toolTip": "Use this manual to learn how to summon a Vermilion Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness II</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness II</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"toolTip": "Use this manual to learn how to summon a Vermilion Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Enigmatic Aura</font>, which grants a chance, after a successful crit against a monster, to double your Crit Power against monsters, when you are not mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Enigmatic Aura</font> starts a cooldown which may prevent the use of other mount abilities.",
 		"skill": 12200167,
 		"vehicleId": "299"
 	},
@@ -1899,28 +1920,28 @@
 	"202612": {
 		"id": "202612",
 		"name": "Flying Skill: Crimson Kirin (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a Crimson Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness I</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness I</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"toolTip": "Use this manual to learn how to summon a Crimson Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Mysterious Aura</font>, which grants a chance, after a successful crit against a monster, to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Mysterious Aura</font> starts a cooldown which may prevent the use of other mount abilities.",
 		"skill": 12200168,
 		"vehicleId": "298"
 	},
 	"202613": {
 		"id": "202613",
 		"name": "Flying Skill: Vermilion Kirin (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a Vermilion Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness II</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness II</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"toolTip": "Use this manual to learn how to summon a Vermilion Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Enigmatic Aura</font>, which grants a chance, after a successful crit against a monster, to double your Crit Power against monsters, when you are not mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Enigmatic Aura</font> starts a cooldown which may prevent the use of other mount abilities.",
 		"skill": 12200169,
 		"vehicleId": "300"
 	},
 	"202628": {
 		"id": "202628",
 		"name": "Flying Skill: Cerulean Kirin",
-		"toolTip": "Use this manual to learn how to summon a Cerulean Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness I</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness I</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"toolTip": "Use this manual to learn how to summon a Cerulean Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Mysterious Aura</font>, which grants a chance, after a successful crit against a monster, to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Mysterious Aura</font> starts a cooldown which may prevent the use of other mount abilities.",
 		"skill": 12200174,
 		"vehicleId": "305"
 	},
 	"202629": {
 		"id": "202629",
 		"name": "Flying Skill: Azure Kirin",
-		"toolTip": "Use this manual to learn how to summon an Azure Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness II</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness II</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"toolTip": "Use this manual to learn how to summon an Azure Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Enigmatic Aura</font>, which grants a chance, after a successful crit against a monster, to double your Crit Power against monsters, when you are not mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Enigmatic Aura</font> starts a cooldown which may prevent the use of other mount abilities.",
 		"skill": 12200175,
 		"vehicleId": "303"
 	},
@@ -1941,16 +1962,212 @@
 	"202636": {
 		"id": "202636",
 		"name": "Flying Skill: Cerulean Kirin (3 Days)",
-		"toolTip": "Use this manual to learn how to summon a Cerulean Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness I</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness I</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"toolTip": "Use this manual to learn how to summon a Cerulean Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 1% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Mysterious Aura</font>, which grants a chance, after a successful crit against a monster,  to increase your Crit Power against monsters by a factor of 1.5, when you are not mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Mysterious Aura</font> starts a cooldown which may prevent the use of other mount abilities.",
 		"skill": 12200176,
 		"vehicleId": "306"
 	},
 	"202637": {
 		"id": "202637",
 		"name": "Flying Skill: Azure Kirin (3 Days)",
-		"toolTip": "Use this manual to learn how to summon an Azure Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Brightness II</font>, which grants a buff that increases your Skill Advancement XP gain, while you are mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Brightness II</font> starts a cooldown which may prevent the use of other mount abilities.",
+		"toolTip": "Use this manual to learn how to summon an Azure Kirin, a mythical mount with a Flight and Movement Speed of 290 that restores 2% of your max HP and MP every second. Learning this flying skill also grants you the the passive skill <font color = '#f9b600'>Enigmatic Aura</font>, which grants a chance, after a successful crit against a monster, to double your Crit Power against monsters, when you are not mounted. Passive skills granted by other mounts do not apply while riding a kirin mount, and using <font color = '#F9B600'>Enigmatic Aura</font> starts a cooldown which may prevent the use of other mount abilities.",
 		"skill": 12200177,
 		"vehicleId": "304"
+	},
+	"204075": {
+		"id": "204075",
+		"name": "Riding Skill: Razormane 330",
+		"toolTip": "Use this manual to learn how to summon Razormane, an armored mount with a movement speed of 330.",
+		"skill": 111303,
+		"vehicleId": "400"
+	},
+	"204076": {
+		"id": "204076",
+		"name": "Riding Skill: Electrum Wind 330",
+		"toolTip": "Use this manual to learn how to summon Electrum Wind, an armored mount with a movement speed of 330.",
+		"skill": 111304,
+		"vehicleId": "401"
+	},
+	"204077": {
+		"id": "204077",
+		"name": "Riding Skill: Blitz 330",
+		"toolTip": "Use this manual to learn how to summon a steel wolf mount with a movement speed of 330.",
+		"skill": 111305,
+		"vehicleId": "402"
+	},
+	"204078": {
+		"id": "204078",
+		"name": "Riding Skill: Slash 330",
+		"toolTip": "Use this manual to learn how to summon a deathsteel wolf mount with a movement speed of 330.",
+		"skill": 111306,
+		"vehicleId": "403"
+	},
+	"204079": {
+		"id": "204079",
+		"name": "Riding Skill: Buzzer 330",
+		"toolTip": "Use this manual to learn how to summon a beetle mount with a movement speed of 330.",
+		"skill": 111307,
+		"vehicleId": "404"
+	},
+	"204080": {
+		"id": "204080",
+		"name": "Riding Skill: Tweedle 330",
+		"toolTip": "Use this manual to learn how to summon a beetle mount with a movement speed of 330.",
+		"skill": 111308,
+		"vehicleId": "405"
+	},
+	"204081": {
+		"id": "204081",
+		"name": "Riding Skill: Cutter 330",
+		"toolTip": "Use this manual to learn how to summon a beetle mount with a movement speed of 330.",
+		"skill": 111309,
+		"vehicleId": "406"
+	},
+	"204082": {
+		"id": "204082",
+		"name": "Riding Skill: Waddles 330",
+		"toolTip": "Use this manual to learn how to summon a pig with a movement speed of 330.",
+		"skill": 111310,
+		"vehicleId": "407"
+	},
+	"204083": {
+		"id": "204083",
+		"name": "Riding Skill: Harry Porker 330",
+		"toolTip": "Use this manual to learn how to summon a pig with a movement speed of 330.",
+		"skill": 111311,
+		"vehicleId": "408"
+	},
+	"204084": {
+		"id": "204084",
+		"name": "Riding Skill: Boss 330",
+		"toolTip": "Use this manual to learn how to summon a pig with a movement speed of 330.",
+		"skill": 111312,
+		"vehicleId": "409"
+	},
+	"204085": {
+		"id": "204085",
+		"name": "Riding Skill: Petunia 330",
+		"toolTip": "Use this manual to learn how to summon a pretty-looking pig with a movement speed of 330.",
+		"skill": 111313,
+		"vehicleId": "410"
+	},
+	"204086": {
+		"id": "204086",
+		"name": "Riding Skill: Socko 330",
+		"toolTip": "Use this manual to learn how to summon a sushi-loving tuxedo cat with a movement speed of 330.",
+		"skill": 111314,
+		"vehicleId": "411"
+	},
+	"204087": {
+		"id": "204087",
+		"name": "Riding Skill: Saltyko 330",
+		"toolTip": "Use this manual to learn how to summon a tawny salmon- and sushi-loving cat with a movement speed of 330.",
+		"skill": 111315,
+		"vehicleId": "412"
+	},
+	"204088": {
+		"id": "204088",
+		"name": "Riding Skill: Malkin 330",
+		"toolTip": "Use this manual to learn how to summon a grey tabby salmon- and sushi-loving cat with a movement speed of 330.",
+		"skill": 111316,
+		"vehicleId": "413"
+	},
+	"204089": {
+		"id": "204089",
+		"name": "Riding Skill: Snowdrift 330",
+		"toolTip": "Use this manual to learn how to summon a snow leopard with a Movement Speed of 330.",
+		"skill": 111317,
+		"vehicleId": "414"
+	},
+	"204090": {
+		"id": "204090",
+		"name": "Riding Skill: Tawny Huntress 330",
+		"toolTip": "Use this manual to learn how to summon a lioness with a Movement Speed of 330.",
+		"skill": 111318,
+		"vehicleId": "415"
+	},
+	"204091": {
+		"id": "204091",
+		"name": "Riding Skill: Snow Tiger 330",
+		"toolTip": "Use this manual to learn how to summon a white tiger with Movement Speed of 330.",
+		"skill": 111319,
+		"vehicleId": "416"
+	},
+	"204092": {
+		"id": "204092",
+		"name": "Riding Skill: Bengal Tiger 330",
+		"toolTip": "Use this manual to learn how to summon a fierce tiger with a movement speed of 330.",
+		"skill": 111320,
+		"vehicleId": "417"
+	},
+	"204093": {
+		"id": "204093",
+		"name": "Riding Skill: Ice 330",
+		"toolTip": "Use this manual to learn how to summon a polar bear mount with a Movement Speed of 330.",
+		"skill": 111321,
+		"vehicleId": "418"
+	},
+	"204094": {
+		"id": "204094",
+		"name": "Riding Skill: Grizzle 330",
+		"toolTip": "Use this manual to learn how to summon a brown bear mount with a Movement Speed of 330.",
+		"skill": 111322,
+		"vehicleId": "419"
+	},
+	"204095": {
+		"id": "204095",
+		"name": "Riding Skill: Ni Hao 330",
+		"toolTip": "Use this manual to learn how to summon a panda mount with a Movement Speed of 330.",
+		"skill": 111323,
+		"vehicleId": "420"
+	},
+	"204096": {
+		"id": "204096",
+		"name": "Riding Skill: Classic Charger 330",
+		"toolTip": "Use this manual to learn how to summon a yellow vehicle mount with a Movement Speed of 330.",
+		"skill": 111324,
+		"vehicleId": "421"
+	},
+	"204097": {
+		"id": "204097",
+		"name": "Riding Skill: Classic Racer 330",
+		"toolTip": "Use this manual to learn how to summon a red vehicle mount with a Movement Speed of 330.",
+		"skill": 111325,
+		"vehicleId": "422"
+	},
+	"204098": {
+		"id": "204098",
+		"name": "Riding Skill: Classic Cruiser 330",
+		"toolTip": "Use this manual to learn how to summon a black car mount with a Movement Speed of 330.",
+		"skill": 111326,
+		"vehicleId": "423"
+	},
+	"204300": {
+		"id": "204300",
+		"name": "Riding Skill: Squawk",
+		"toolTip": "Use this manual to learn how to summon Squawk, the struthio with a Movement Speed of 330.",
+		"skill": 111327,
+		"vehicleId": "424"
+	},
+	"204301": {
+		"id": "204301",
+		"name": "Riding Skill: Blaze",
+		"toolTip": "Use this manual to learn how to summon Blaze, the fiery struthio with a Movement Speed of 330.",
+		"skill": 111328,
+		"vehicleId": "425"
+	},
+	"204302": {
+		"id": "204302",
+		"name": "Riding Skill: Quackerjack",
+		"toolTip": "Use this manual to learn how to summon a duck mount with a Movement Speed of 330.",
+		"skill": 111329,
+		"vehicleId": "426"
+	},
+	"204303": {
+		"id": "204303",
+		"name": "Riding Skill: Duckerberg",
+		"toolTip": "Use this manual to learn how to summon a duck mount with a Movement Speed of 330.",
+		"skill": 111330,
+		"vehicleId": "427"
 	},
 	"214185": {
 		"id": "214185",
@@ -2194,5 +2411,12 @@
 		"toolTip": "Use this manual to learn how to summon a Dragon Boat with a Flight and Movement Speed of 290.",
 		"skill": 23000351,
 		"vehicleId": "2221"
+	},
+	"264480": {
+		"id": "264480",
+		"name": "Flying Skill: Gilderoy",
+		"toolTip": "Use this manual to learn how to summon Gilderoy, the Hare with Flair: a golden bunny mount with a Flight and Movement Speed of 290.",
+		"skill": 23000375,
+		"vehicleId": "317"
 	}
 }

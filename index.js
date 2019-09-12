@@ -6,7 +6,7 @@ if(!global.cosplayer_mouse)
 const path = require('path'),
 	fs = require('fs'),
 	Mouse = global.cosplayer_mouse,
-	CONTRACT_DRESSING_ROOM = 76,
+	CONTRACT_DRESSING_ROOM = 77,
 	hatrestyle = false, // enable free hat restyling, needs additional opcodes
 	SLOTS = [
 		"face", "styleHead", "styleFace", "styleBack", "styleWeapon", "weaponEnchant", "styleBody", "styleBodyDye", "styleFootprint", "underwear",
