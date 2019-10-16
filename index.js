@@ -180,7 +180,7 @@ module.exports = function Cosplayer(mod) {
 		}
 	})
 
-	mod.hook('S_GET_USER_LIST', 16, event => {
+	mod.hook('S_GET_USER_LIST', 17, event => {
 		for(let character in event.characters) {
 			let charpreset = presets[event.characters[character].name]
 
@@ -200,14 +200,13 @@ module.exports = function Cosplayer(mod) {
 				presetUpdate(true)
 
 				if(external.showStyle == false) {
-					mod.toClient('S_ABNORMALITY_BEGIN', 3, {
+					mod.toClient('S_ABNORMALITY_BEGIN', 4, {
 						target: mod.game.me.gameId,
 						source: mod.game.me.gameId,
 						id: 7777008, // self-confidence abnormality
 						duration: 864000000, // 10 days
-						unk: 0,
 						stacks: 1,
-						unk2: 0,
+						hitCylinderId: 0,
 						unk3: 0
 					})
 				}
@@ -230,7 +229,7 @@ module.exports = function Cosplayer(mod) {
 		presetUpdate(true)
 	})
 
-	mod.hook('S_ABNORMALITY_BEGIN', 3, event => {
+	mod.hook('S_ABNORMALITY_BEGIN', 4, event => {
 		if(mypreset && mypreset.gameId != 0 && external.showStyle == true && event.id == 7777008) { // self-confidence abnormality
 			setTimeout(() => {
 				mod.toClient('S_ABNORMALITY_END', 1, {
@@ -276,7 +275,7 @@ module.exports = function Cosplayer(mod) {
 		return false // block this so the server doesn't overwrite our fake item list
 	})
 
-	mod.hook('S_USER_PAPERDOLL_INFO', 10, event => {
+	mod.hook('S_USER_PAPERDOLL_INFO', 11, event => {
 		if(gettingAppearance) {
 			for(let slot of SLOTS)
 				if(event[slot]) equipped(event[slot])
@@ -396,14 +395,13 @@ module.exports = function Cosplayer(mod) {
 
 	function changePantsu() {
 		if(external.showStyle == true) {
-			mod.toClient('S_ABNORMALITY_BEGIN', 3, {
+			mod.toClient('S_ABNORMALITY_BEGIN', 4, {
 				target: mod.game.me.gameId,
 				source: mod.game.me.gameId,
 				id: 7777008, // self-confidence abnormality
 				duration: 864000000, // 10 days
-				unk: 0,
 				stacks: 1,
-				unk2: 0,
+				hitCylinderId: 0,
 				unk3: 0
 			})
 		}
@@ -462,7 +460,7 @@ module.exports = function Cosplayer(mod) {
 
 	function cosplayAs(playername) {
 		gettingAppearance = true
-		mod.toServer('C_REQUEST_USER_PAPERDOLL_INFO', 2, { unk: 0, name: playername })
+		mod.toServer('C_REQUEST_USER_PAPERDOLL_INFO', 3, { zoom: false, name: playername })
 		setTimeout(() => { gettingAppearance = false }, 1000)
 	}
 

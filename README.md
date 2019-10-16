@@ -60,6 +60,8 @@ Thanks to Incedius for help with custom mount support -> https://github.com/ince
 ## Changelog
 <details>
 
+### 2.2.20
+* [*] Definition update for patch 86
 ### 2.2.19
 * [*] Fixed Contract Type on patches > 85
 ### 2.2.18
