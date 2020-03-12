@@ -20,13 +20,15 @@
         "mounts/mounts.se.json": "e49219fdeb33966b40b6518a8bcb9b9404fc81a5aff59cdd59e851ca7bf8b6f4",
         "mounts/mounts.th.json": "336b2cafae12639440e5b8e26fd9d800451bbb7d05275341165ad8affe7b2c50",
         "mounts/mounts.tw.json": "55d727e6a2f47e57cd2dcf57a94bf1cdf1e44467bbf1ec684c8472cbc4d1404a",
-        "mouse.js": "7d8b679cb30f45573e157b1bcb4efd557019d65b6474d1b61961af356ec4a6a7",
+        "mouse.js": "c3dcec4e3dedca5a6aff865c85291233196aab7df64817922efaf542e0efba94",
         "mouse/64.node": "835cf41596d004ba063fcf811e84a2663899c8c58b2e911ec54b3b989d585979",
         "mouse/67.node": "04a2aa706447370564a7bb0f3c9c78c6827ecbf3d07ac2c63dad6f9348023fb5",
         "mouse/72.node": "ad27cb9e5d0315a91fae25e1eff509cfb6da9ef4890e9eaf33728649dd8acb11",
+        "mouse/79.node": "5689b343cddcfc67314204367b3a887428738d9c7bccf6e16e645e264f6e26b7",
         "mouse/electron64.node": "f45d55dea556489d4326b446c88e094573560a9bddaf511c9956e965d9226190",
         "mouse/electron70.node": "a5bcde9e69646bffd9d63d9649abc2fdf2d834e3b2fdc7e1a85645014d672bcd",
         "mouse/electron73.node": "5eca61d99781504dcaa89eeac1f086f17b4c2596534bc6201616be32be903aa8",
+        "mouse/electron76.node": "2a5598ecd6629230338ec46e23a870340621f1d23880c38f94dd01b4bd05a91a",
         "presets.json": {
             "overwrite": false,
             "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
