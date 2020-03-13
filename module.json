@@ -9,7 +9,7 @@
         "niceName": "Cosplay",
         "guiName": "Cosplayer"
     },
-    "servers": ["https://raw.githubusercontent.com/TeraProxy/Cosplayer/master/"],
+    "servers": ["https://raw.githubusercontent.com/tera-tools/Cosplayer/master/"],
     "supportUrl": "https://github.com/TeraProxy/Cosplayer/issues",
     "dependencies": {
         "tera-game-state": "https://raw.githubusercontent.com/caali-hackerman/tera-game-state/master/module.json"
